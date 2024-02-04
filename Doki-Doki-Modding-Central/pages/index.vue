@@ -21,7 +21,14 @@
     <div class="featured-releases-container">
       <div class="scroll-arrow left-arrow" @click="scrollLeft" style="z-index: 1">&#9664;</div>
       <div class="featured-releases">
-        <img v-for="(release, index) in featuredReleases" :src="`/assets/mod_prevs/${release}.png`" :alt="release" class="featured-release" :key="index" :style="getReleaseStyle(index)" />
+        <img
+          v-for="(release, index) in featuredReleases"
+          :src="`/assets/mod_prevs/${release}.png`"
+          :alt="release"
+          class="featured-release"
+          :key="index"
+          :style="getReleaseStyle(index)"
+        />
       </div>
       <div class="scroll-arrow right-arrow" @click="scrollRight" style="z-index: 1">&#9654;</div>
     </div>
@@ -122,13 +129,17 @@
         }
       },
 
-    getReleaseStyle(index) {
+      getReleaseStyle(index) {
       const distance = Math.abs(index - this.currentReleaseIndex);
       const scaleFactor = Math.max(1 - distance * 0.2, 0.7); // Adjust the scale factor as needed
+
+      // Apply a black tint to images that are not in focus
+      const tintOpacity = distance > 0 ? 0.5 : 1;
 
       return {
         transform: `scale(${scaleFactor}) rotate(0deg)`,
         transition: 'transform 0.3s ease-in-out',
+        filter: `opacity(${tintOpacity})`, // Apply opacity for tint effect
       };
     },
 
