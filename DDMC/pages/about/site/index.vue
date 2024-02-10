@@ -55,24 +55,24 @@
       <div class="section">
         <strong><u>What We Enforce</u></strong>
         <p>Let's lay out the ground rules:</p>
-        <ul>
+        <ol>
           <li>
-            <strong>1. Archive EVERYTHING</strong>
+            <strong><u>1. Archive EVERYTHING</u></strong>
             <p>Unlike its contemporary, DDMC wishes to offer a platform in which everyone can express themselves and put their hard work out there: past, present, and future. With this, no stone goes unturned. This is a library of all mods and wishes that everyone gets their time to shine, no matter what someone has to say about them. With this too, no one should have to suffer FOMO from the removal of a mod, so mods removed due to controversy should also be posted here. Like stated before, archive EVERYTHING.</p>
             <p><b>1a.</b> Rule 1 being said, all mod creations are accepted and will be published. This includes modifications including copyrighted materials. It should be your responsibility to uphold the copyright law of your respective country, understand the copyright policies of external content sites like Youtube, as well as follow the Team Salvato IP Guidelines (http://teamsalvato.com/ip-guidelines/). We will not enforce action against the individuals violating any of these and are not responsible by proxy for any infringements. It is up to the original holders of respective IPs to reach out to the individuals that used the materials wrongly on a discretionary basis. So if any of this is confusing to a fellow mod creator, simply put, negligence of the law does not make you exempt from it. Make everyone's life easier by taking the proper precautions before publishing new creations.</p>
           </li>
 
           <li>
-            <strong>2. Don't Publish Anything Illegal or Maliciously Offensive (To Your Respective Jurisdiction)</strong>
+            <strong><u>2. Don't Publish Anything Illegal or Maliciously Offensive (To Your Respective Jurisdiction)</u></strong>
             <p>Does this really need explaining?</p>
           </li>
 
           <li>
-            <strong>3. Have Fun</strong>
+            <strong><u>3. Have Fun</u></strong>
             <p>This is a portal for the expansion of a videogame after all. The main focus should always be for your enjoyment. If you wish to post here, know that you are contributing to the greater enjoyment of others and that everyone that comes across your projects and contributions will be grateful for them. It is no one's right to take that away from you.</p>
           </li>
 
-        </ul>
+        </ol>
         <p>If you have any inquiries regarding the rules or content on the site, please feel free to reach out to us so we may address it promptly.</p>
       </div>
 

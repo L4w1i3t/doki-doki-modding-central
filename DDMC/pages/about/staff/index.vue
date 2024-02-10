@@ -36,7 +36,7 @@
             id: 0,
             name: 'L4w1i3t',
             position: 'Site Developer, Founder, Head Admin',
-            bio: 'Intermediate-level programmer and designer with an intended double major in Cognitive Science and Computer Science. I know the languages of RenPy, Python, Java, JavaScript, CSS, HTML, C(++/#), and Assembly. I typically like to create random projects in my free time, ranging from DDLC mods to console hardware modification to YouTube videos to Soulsborne builds, but otherwise I am a bored-most-of-the-time university student.',
+            bio: 'Intermediate-level programmer and designer with an intended double major in Cognitive Science and Computer Science (so, like, CS^2). I know the languages of RenPy, Python, Java, JavaScript, CSS, HTML, C(++/#), and Assembly. I typically like to create random projects in my free time, ranging from DDLC mods to console hardware modification to YouTube videos to Soulsborne builds, but otherwise I am a bored-most-of-the-time university student.',
             image: '/assets/images/lawliet.png',
             youtube: 'https://www.youtube.com/channel/UCj18pgOsq9bXGddHoSdGWDw',
             kofi: 'https://ko-fi.com/l4w1i3t'
