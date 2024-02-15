@@ -1,11 +1,11 @@
 
 <template>
   <div class="buttons-container">
-    <a href="/mods/standard" class="mod-button">
+    <a href="/mods/standard" class="mod-button" @mouseenter="playHoverSound">
       <img src="/assets/gui/penguin.png" alt="Standard Mod" class="button-image" />
       <p class="button-label">Mods for PC (Windows, Mac, Linux)</p>
     </a>
-    <a href="/mods/android" class="mod-button">
+    <a href="/mods/android" class="mod-button" @mouseenter="playHoverSound">
       <img src="/assets/gui/android.png" alt="Android Mod" class="button-image" />
       <p class="button-label">Mods for Android</p>
     </a>
@@ -14,17 +14,9 @@
 
 <script>
   export default {
-
     mounted() {
-      // Get all the redirect buttons
-      const redirectButtons = document.querySelectorAll('.mod-button');
-
-      // Add event listeners for hover on each redirect button
-      redirectButtons.forEach(button => {
-        button.addEventListener('mouseenter', this.playHoverSound);
-      });
+      // No need to add event listeners here since we're using Vue's event handling
     },
-
     methods: {
       playHoverSound(event) {
         // Play the hover sound on button hover

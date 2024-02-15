@@ -88,12 +88,12 @@
     layout: 'default',
 
     data() {
-    return {
-      socialMediaImages: ['discord.png'], // Add more images as needed
-      featuredReleases: ['s', 'm', 'y'], // Add more releases as needed
-      currentReleaseIndex: 1,
-    };
-  },
+      return {
+        socialMediaImages: ['discord.png'], // Add more images as needed
+        featuredReleases: ['s', 'DDTT', 'y'], // Add more releases as needed
+        currentReleaseIndex: 1,
+      };
+    },
 
     mounted() {
       // Get all the redirect buttons
@@ -102,6 +102,13 @@
       // Add event listeners for hover on each redirect button
       redirectButtons.forEach(button => {
         button.addEventListener('mouseenter', this.playHoverSound);
+      });
+    },
+    beforeDestroy() {
+      // Remove event listeners when the component is destroyed
+      const redirectButtons = document.querySelectorAll('.redirect-button');
+      redirectButtons.forEach(button => {
+        button.removeEventListener('mouseenter', this.playHoverSound);
       });
     },
 

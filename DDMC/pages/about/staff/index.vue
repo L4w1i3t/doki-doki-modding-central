@@ -219,5 +219,145 @@
   .iris-section .bio {
     color: rgb(255, 255, 255);
   }
+
+  body {
+    overflow-x: hidden; /* Disable horizontal scrolling */
+  }
+
+  .centered-title {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 5vh;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Initial glow effect */
+    animation: pulse 8s linear infinite; /* Apply pulsing animation */
+  }
+
+  @keyframes pulse {
+    0% {
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Initial glow effect (white) */
+    }
+    20% {
+      text-shadow: 0 0 10px rgba(255, 0, 0, 0.8); /* Red glow effect */
+    }
+    40% {
+      text-shadow: 0 0 10px rgba(0, 255, 0, 0.8); /* Green glow effect */
+    }
+    60% {
+      text-shadow: 0 0 10px rgba(255, 192, 203, 0.8); /* Pink glow effect */
+    }
+    80% {
+      text-shadow: 0 0 10px rgba(148, 0, 211, 0.8); /* Purple glow effect */
+    }
+    100% {
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Return to initial glow effect (white) */
+    }
+  }
+
+  /* Center the headers */
+  .centered {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  /* Additional styling for sections */
+  .content-wrapper {
+    max-width: 1200px; /* Widen the wrapper */
+    margin: 0 auto;
+    padding: 40px; /* Adjusted padding */
+    /*border: 2px solid #ccc;*/
+  }
+
+  .section {
+    margin-bottom: 30px; /* Separate sections better */
+    padding: 20px;
+    border: 10px solid #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+    transform: perspective(1000px) rotateX(3deg); /* Apply perspective and rotation */
+    transition: transform 0.3s ease-in-out;
+    opacity: 0.95;
+    animation: sectionGlow 8s linear infinite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  @keyframes sectionGlow {
+    0% {
+      border-color: rgba(255, 255, 255, 0.8); /* Initial glow effect (white) */
+    }
+    20% {
+      border-color: rgba(255, 128, 128, 0.8); /* Red glow effect */
+    }
+    40% {
+      border-color: rgba(116, 255, 116, 0.8); /* Green glow effect */
+    }
+    60% {
+      border-color: rgba(255, 192, 203, 0.8); /* Pink glow effect */
+    }
+    80% {
+      border-color: rgba(213, 114, 255, 0.8); /* Purple glow effect */
+    }
+    100% {
+      border-color: rgba(255, 255, 255, 0.8); /* Return to initial glow effect (white) */
+    }
+  }
+
+  /* Adjust transform on hover for a dynamic 3D effect */
+  .section:hover {
+    transform: perspective(1000px) rotateX(0deg); /* Reset rotation on hover */
+  }
+
+  .section strong {
+    display: block;
+    font-size: 1.2em; /* Adjust heading size */
+    margin-bottom: 10px; /* Space below headings */
+  }
+
+  .section u {
+    text-decoration: underline;
+  }
+
+  .section i {
+    font-style: italic;
+  }
+
+  .section p {
+    margin-bottom: 15px;
+    line-height: 1.6; /* Improved line spacing for readability */
+  }
+
+  /* Style the ordered list */
+  .content-wrapper ol {
+    padding-left: 20px;
+    margin-bottom: 15px; /* Space below ordered list */
+  }
+
+  .content-wrapper ol li {
+    margin-bottom: 10px;
+  }
+
+  .section centered {
+    font-size: 1.5em;
+  }
+
+  .section centered strong i {
+    text-align: center; /* Center-align the text */
+    margin-top: 0px; /* Add space between the button and text */
+  }
+
+  .section centered strong i p {
+    font-style: italic; /* Apply italic style to the text */
+  }
+
+  /* Media query for smaller screens to make forms stack vertically */
+  @media (max-width: 768px) {
+    .form-wrapper {
+      width: 100%; /* Set full width for smaller screens */
+    }
+  }
+
+  /* Adjust the top margin for the first section to match the added border */
+  .content-wrapper {
+    margin-top: 80px; /* Updated top margin */
+  }
   
 </style>
