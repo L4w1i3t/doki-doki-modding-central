@@ -1,7 +1,7 @@
 
 <template>
     <div class="maintenance-notice">
-      <h1><b>We'll start archiving things on our server once the first site exclusive releases.</b></h1>
+      <h1><b>We'll start archiving things eventually.</b></h1>
       <p>For now, go dumpster dive through archive.org or something.</p>
     </div>
   </template>

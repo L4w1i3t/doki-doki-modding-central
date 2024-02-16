@@ -9,6 +9,13 @@
       <img src="/assets/gui/renpydoc.png" alt="Renpy Documentation" class="button-image" />
       <p class="button-label"></p>
     </div>
+
+    <div class="sprite-container">
+      <img src="/assets/sprites/cutout.png" alt="Character Sprite" class="character-sprite" />
+      <div class="speech-bubble">
+        <p class="speech-text">I'll also have some advanced tutorials here, so stay tuned for that!</p>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -97,4 +104,37 @@ export default {
   .content-wrapper {
     margin-top: 80px; /* Updated top margin */
   }
+
+  .sprite-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    position: relative;
+    margin: auto;
+    text-align: center;
+    height: 100%; /* Ensure the container takes full height */
+    margin-left: 1200px;
+  }
+
+  .character-sprite {
+    width: 500px; /* Adjust width as needed */
+    height: auto;
+  }
+
+  .speech-bubble {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .speech-text {
+    margin: 0;
+    font-size: 16px;
+  }
+
 </style>

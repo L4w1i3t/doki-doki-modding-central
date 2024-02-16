@@ -21,8 +21,8 @@
           <span><a href="/mods">Mods</a></span>
           <ul class="sub-menu">
             <li><a href="/mods/standard">Standard</a></li>
-            <li><a href="/mods/android">Android</a></li>
             <li><a href="/mods/archive">Archive</a></li>
+            <li><a href="/mods/android">Android</a></li>
           </ul>
         </li>
         <li>

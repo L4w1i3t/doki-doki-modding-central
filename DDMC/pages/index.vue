@@ -90,7 +90,7 @@
     data() {
       return {
         socialMediaImages: ['discord.png'], // Add more images as needed
-        featuredReleases: ['s', 'DDTT', 'y'], // Add more releases as needed
+        featuredReleases: ['DDTT', 'releaseyay', 'egodeath'], // Add more releases as needed
         currentReleaseIndex: 1,
       };
     },
@@ -150,6 +150,19 @@
         switch (image) {
           case 'discord.png':
             return 'https://discord.gg/nsXbEsCarF';
+          default:
+            return '#';
+        }
+      },
+
+      getReleaseLink(release) {
+        switch (release) {
+          case 's':
+            return '/mods/standard';
+          case 'DDTT':
+            return '/mods/standard/tripletrouble';
+          case 'y':
+            return '/mods/standard/y';
           default:
             return '#';
         }
