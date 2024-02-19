@@ -149,7 +149,7 @@
       getSocialMediaLink(image) {
         switch (image) {
           case 'discord.png':
-            return 'https://discord.gg/nsXbEsCarF';
+            return 'https://discord.gg/HZKb8EQu9a';
           default:
             return '#';
         }

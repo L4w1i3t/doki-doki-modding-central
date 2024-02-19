@@ -35,7 +35,7 @@
           {
             id: 0,
             name: 'L4w1i3t',
-            position: 'Site Developer, Founder, Head Admin',
+            position: 'Site Developer, Founder, Site Admin',
             bio: 'Intermediate-level programmer and designer with an intended double major in Cognitive Science and Computer Science (so, like, CS^2). I know the languages of RenPy, Python, Java, JavaScript, CSS, HTML, C(++/#), and Assembly. I typically like to create random projects in my free time, ranging from DDLC mods to console hardware modification to YouTube videos to Soulsborne builds, but otherwise I am a bored-most-of-the-time university student.',
             image: '/assets/images/lawliet.png',
             youtube: 'https://www.youtube.com/channel/UCj18pgOsq9bXGddHoSdGWDw',
@@ -44,7 +44,7 @@
           {
             id: 1,
             name: 'Matsuda Akai',
-            position: 'Teacher, Data Manager, Site Manager',
+            position: 'Teacher, Site Manager',
             bio: 'Hi, hi! Matsuda here, entering stage right, ready to spice things up in your life a little! I\'m something of an actor and idol, always trying to make things a little more interesting in my life! I have hobbies like dancing and fitness, but believe it or not, I love me some gaming as well. People may call me overbearing or even somewhat weird, but y\'know what, it\'s hard for most to go full throttle all the time. Vroom vroom, baby!',
             image: '/assets/images/red.png',
             youtube: 'https://www.youtube.com/channel/UCj18pgOsq9bXGddHoSdGWDw'
@@ -52,7 +52,7 @@
           {
             id: 2,
             name: 'Tune Eternal',
-            position: 'Founder, Content Creator',
+            position: 'Founder, Head Discord Admin',
             bio: 'Musician foremost and multimedia artist second. I landed in the DDLC community with commission work for Tropical Rain by PumpkinbrainUS, eventually making ranks with former Team Red Mazda RX-7, making and working on projects such as EGO DEATH, Left Behind, Presents and Poems, SVHS-TAP, Spilt Spaghetti, Sigma Club 2, Triple Trouble, and much more. I have always had the community\'s wellbeing in the forefront of my mind and was kicked out for it. I stand for the equal and moderate treatment of creators and the gifts they wish to present to the world.',
             image: '/assets/images/xavier.png',
             youtube: 'https://www.youtube.com/@tuneeternal',
@@ -69,7 +69,7 @@
           {
             id: 4,
             name: 'Savage Sentral',
-            position: 'Founder, Content Creator',
+            position: 'Founder, Database Manager',
             bio: 'I don\'t care how many people you send my way, Exit Music: Redux is still the worst mod ever made! Now let me goon to Luka Doncic highlights in peace.',
             image: '/assets/images/savage.png',
             youtube: 'https://www.youtube.com/@SavageSentral'
@@ -91,7 +91,8 @@
   .staff {
     text-align: center;
     padding: 20px;
-    color: white
+    color: white;
+    overflow: hidden;
   }
   
   h1 {

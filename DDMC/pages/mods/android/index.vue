@@ -18,11 +18,12 @@
   .maintenance-notice h1 {
     font-size: 24px;
     margin-bottom: 10px;
+    color: white;
   }
   
   .maintenance-notice p {
     font-size: 18px;
-    color: #888;
+    color: #ffffff;
   }
   </style>
   
