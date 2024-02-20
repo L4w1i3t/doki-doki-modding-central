@@ -6,12 +6,11 @@
     </div>
 
     <div class="renpy-button redirect-button" @click="redirectToRenpyDocumentation" @mouseenter="playHoverSound">
-      <img src="/assets/gui/renpydoc.png" alt="Renpy Documentation" class="button-image" />
-      <p class="button-label"></p>
+      <img src="/assets/gui/renpydoc.webp" alt="Renpy Documentation" class="button-image" />
     </div>
 
     <div class="sprite-container">
-      <img src="/assets/sprites/cutout.png" alt="Character Sprite" class="character-sprite" />
+      <img src="/assets/sprites/cutout.webp" alt="Character Sprite" class="character-sprite" />
       <div class="speech-bubble">
         <p class="speech-text">I'll also have some advanced tutorials here, so stay tuned for that!</p>
       </div>
@@ -46,6 +45,7 @@ export default {
     align-items: center;
     margin: 100px auto;
     cursor: pointer;
+    margin-bottom: 0px;
   }
 
   .renpy-button:hover {

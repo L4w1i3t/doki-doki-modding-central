@@ -13,7 +13,7 @@
   
   <style>
   .background-image-container {
-    background-image: url('/assets/gui/bg.png');
+    background-image: url('/assets/gui/bg.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;

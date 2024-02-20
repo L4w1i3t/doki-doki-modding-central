@@ -19,7 +19,7 @@
       <div class="featured-releases">
         <img
           v-for="(release, index) in featuredReleases"
-          :src="`/assets/mod_prevs/${release}.png`"
+          :src="`/assets/mod_prevs/${release}.webp`"
           :alt="release"
           class="featured-release"
           :key="index"
@@ -32,26 +32,26 @@
 
   
   <!-- Redirect Button Section -->
-  <div class="section featured-to-redirect">
-    <div class="centered">
-      <div class="redirect-buttons-container">
-        <div class="redirect-button-wrapper">
-          <a href="/mods" class="redirect-button">
-            <img src="/assets/gui/redirect.png" alt="redirect" class="custom-redirect-button" />
-          </a>
-        </div>
-
-        <div class="redirect-button-wrapper scaled-down-wrapper">
-          <a href="/mods/archive" class="redirect-button scaled-down">
-            <img src="/assets/gui/archive.png" alt="archive" class="custom-redirect-button scaled-down" />
-          </a>
-          <div class="scaled-down-text">
-            <p style="color: white">Or...would you prefer our archive...?</p>
-          </div>
-        </div>
+<div class="section featured-to-redirect">
+  <div class="centered">
+    <div class="redirect-buttons-container">
+      <div class="redirect-button-wrapper">
+        <a href="/mods" class="redirect-button">
+          <img src="/assets/gui/redirect.webp" alt="redirect" class="custom-redirect-button" />
+        </a>
       </div>
     </div>
   </div>
+
+  <!-- Decoration images -->
+  <div class="decoration-images">
+    <img src="/assets/gui/say.png" alt="say" class="decoration-image-say" />
+    <img src="/assets/gui/yurk.png" alt="yurk" class="decoration-image-yurk" />
+    <img src="/assets/gui/mon.png" alt="mon" class="decoration-image-mon" />
+    <img src="/assets/gui/nat.png" alt="nat" class="decoration-image-nat" />
+  </div>
+</div>
+
 
   <!-- Form Submission Section -->
   <div class="section redirect-to-form">
@@ -89,7 +89,7 @@
 
     data() {
       return {
-        socialMediaImages: ['discord.png'], // Add more images as needed
+        socialMediaImages: ['discord.webp'], // Add more images as needed
         featuredReleases: ['DDTT', 'releaseyay', 'egodeath'], // Add more releases as needed
         currentReleaseIndex: 1,
       };
@@ -148,7 +148,7 @@
 
       getSocialMediaLink(image) {
         switch (image) {
-          case 'discord.png':
+          case 'discord.webp':
             return 'https://discord.gg/HZKb8EQu9a';
           default:
             return '#';
@@ -363,12 +363,6 @@
     transform: scale(1.05) rotate(0deg);
   }
 
-  /* New scaled-down button styling */
-  .scaled-down {
-    transform: scale(0.9); /* Scale down the button by 30% */
-    margin-left: 0px; /* Adjust margin between buttons */
-  }
-
   /* Adjust the size of the existing and new buttons */
   .redirect-button img.custom-redirect-button,
   .redirect-button.scaled-down img.custom-redirect-button {
@@ -382,22 +376,41 @@
     justify-content: center; /* Center items horizontally */
   }
 
-  .redirect-button-wrapper {
-    margin-right: 20px; /* Add space between buttons */
-  }
-
   /* Remove margin for the last button to prevent extra space */
   .redirect-button-wrapper:last-child {
     margin-right: 0;
   }
 
-  .scaled-down-text {
-  text-align: center; /* Center-align the text */
-  margin-top: 0px; /* Add space between the button and text */
+  .decoration-images {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    align-items: center;
+    margin-top: 20px;
   }
 
-  .scaled-down-text p {
-  font-style: italic; /* Apply italic style to the text */
+
+  .decoration-image-say {
+    height: auto;
+    margin: 0 10px; /* Adjust the spacing between images */
+    max-width: 100px; /* Set a maximum width to prevent excessive stretching */
+  }
+
+  .decoration-image-yurk {
+    height: auto;
+    margin: 0 10px; /* Adjust the spacing between images */
+    max-width: 100px; /* Set a maximum width to prevent excessive stretching */
+  }
+
+  .decoration-image-nat {
+    height: auto;
+    margin: 0 10px; /* Adjust the spacing between images */
+    max-width: 115px; /* Set a maximum width to prevent excessive stretching */
+  }
+
+  .decoration-image-mon {
+    height: auto;
+    margin: 0 10px; /* Adjust the spacing between images */
+    max-width: 100px; /* Set a maximum width to prevent excessive stretching */
   }
 
   /* Styles for the forms container and form wrappers */

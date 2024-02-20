@@ -14,10 +14,10 @@
           <div v-if="staffMember.name !== 'IrisCandy'">
             <div class="button-group">
               <a :href="staffMember.youtube" target="_blank" rel="noopener noreferrer">
-                <img src="/assets/gui/yt.png" alt="YouTube" class="youtube-button" />
+                <img src="/assets/gui/yt.webp" alt="YouTube" class="youtube-button" />
               </a>
               <a v-if="staffMember.kofi" :href="staffMember.kofi" target="_blank" rel="noopener noreferrer">
-                <img src="/assets/gui/kofi.png" alt="Ko-fi" class="kofi-button" />
+                <img src="/assets/gui/kofi.webp" alt="Ko-fi" class="kofi-button" />
               </a>
             </div>
           </div>
@@ -37,7 +37,7 @@
             name: 'L4w1i3t',
             position: 'Site Developer, Founder, Site Admin',
             bio: 'Intermediate-level programmer and designer with an intended double major in Cognitive Science and Computer Science (so, like, CS^2). I know the languages of RenPy, Python, Java, JavaScript, CSS, HTML, C(++/#), and Assembly. I typically like to create random projects in my free time, ranging from DDLC mods to console hardware modification to YouTube videos to Soulsborne builds, but otherwise I am a bored-most-of-the-time university student.',
-            image: '/assets/images/lawliet.png',
+            image: '/assets/images/lawliet.webp',
             youtube: 'https://www.youtube.com/channel/UCj18pgOsq9bXGddHoSdGWDw',
             kofi: 'https://ko-fi.com/l4w1i3t'
           },
@@ -46,7 +46,7 @@
             name: 'Matsuda Akai',
             position: 'Teacher, Site Manager',
             bio: 'Hi, hi! Matsuda here, entering stage right, ready to spice things up in your life a little! I\'m something of an actor and idol, always trying to make things a little more interesting in my life! I have hobbies like dancing and fitness, but believe it or not, I love me some gaming as well. People may call me overbearing or even somewhat weird, but y\'know what, it\'s hard for most to go full throttle all the time. Vroom vroom, baby!',
-            image: '/assets/images/red.png',
+            image: '/assets/images/red.webp',
             youtube: 'https://www.youtube.com/channel/UCj18pgOsq9bXGddHoSdGWDw'
           },
           {
@@ -54,7 +54,7 @@
             name: 'Tune Eternal',
             position: 'Founder, Head Discord Admin',
             bio: 'Musician foremost and multimedia artist second. I landed in the DDLC community with commission work for Tropical Rain by PumpkinbrainUS, eventually making ranks with former Team Red Mazda RX-7, making and working on projects such as EGO DEATH, Left Behind, Presents and Poems, SVHS-TAP, Spilt Spaghetti, Sigma Club 2, Triple Trouble, and much more. I have always had the community\'s wellbeing in the forefront of my mind and was kicked out for it. I stand for the equal and moderate treatment of creators and the gifts they wish to present to the world.',
-            image: '/assets/images/xavier.png',
+            image: '/assets/images/xavier.webp',
             youtube: 'https://www.youtube.com/@tuneeternal',
             kofi: 'https://ko-fi.com/tuneeternal'
           },
@@ -63,7 +63,7 @@
             name: 'JayQilin',
             position: 'Founder, Content Creator',
             bio: 'What it is, what it do! My name is JayQilin or JQilin on Youtube. I\'ve been a DDLC fan since 2017 and a DDLC content creator since 2020. I\'m a fan of people expressing themselves in new, creative ways and I welcome everyone who wants to put their best foot forward to make incredible content! \n\nTL:DR, I\'m just a guy who\'s a Dokituber for fun. I didn\'t choose the Doki life, the Doki life chose me.',
-            image: '/assets/images/qilin.png',
+            image: '/assets/images/qilin.webp',
             youtube: 'https://www.youtube.com/@officialJQilingaming'
           },
           {
@@ -71,7 +71,7 @@
             name: 'Savage Sentral',
             position: 'Founder, Database Manager',
             bio: 'I don\'t care how many people you send my way, Exit Music: Redux is still the worst mod ever made! Now let me goon to Luka Doncic highlights in peace.',
-            image: '/assets/images/savage.png',
+            image: '/assets/images/savage.webp',
             youtube: 'https://www.youtube.com/@SavageSentral'
           },
           {
@@ -79,7 +79,7 @@
             name: 'IrisCandy',
             position: 'Artist',
             bio: 'My name\'s Iris. Artist for three years and is still going strong. I\'ve been part of the DDLC community for less, and I am considering contributing more to the place, but we\'ll see. Art is a passion, and it is what drives me to keep going, and over time, in many ways, I can see how much I have improved. Consider me next time you have a project!',
-            image: '/assets/images/iris.png'
+            image: '/assets/images/iris.webp'
           },
         ]
       };

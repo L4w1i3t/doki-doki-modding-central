@@ -45,14 +45,8 @@ export default {
       {
         title: "Doki Doki Triple Trouble",
         author: "JayQilin",
-        imageUrl: "/assets/mod_prevs/DDTT.png",
+        imageUrl: "/assets/mod_prevs/DDTT.webp",
         route: "tripletrouble"
-      },
-      {
-        title: "EGO DEATH",
-        author: "Tune Eternal",
-        imageUrl: "/assets/mod_prevs/egodeath.png",
-        route: "egodeath"
       },
       // Add more items here if needed
     ];
@@ -94,8 +88,9 @@ export default {
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   justify-items: center center;
-  margin-top: 200px;
-  margin-bottom: 100px;
+  padding-top: 200px;
+  padding-bottom: 100px;
+  overflow: hidden; /* Hide overflowing text */
 }
 
 .catalog-item {
@@ -125,11 +120,12 @@ export default {
   display: block;
   text-align: center;
   margin-top: 0px; /* Adjust as needed for spacing */
-  font-size: 2em;
+  font-size: 1.4em;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #ffffff; /* Adjust color as needed */
   background-color: black; /* Add black background */
   padding: 5px 10px; /* Add padding to make the text more readable */
+  overflow: hidden; /* Hide overflowing text */
 }
 .label-subtext {
   display: block;
@@ -139,12 +135,15 @@ export default {
   color: #ffffff; /* Adjust color as needed */
   background-color: black; /* Add black background */
   padding: 5px 10px; /* Add padding to make the text more readable */
+  overflow: hidden; /* Hide overflowing text */
+  font-style: italic;
 }
 
 .sort-dropdown {
   position: fixed;
   top: 60px;
   left: 0px;
+  z-index: 9998;
 }
 
 /* Additional styling for the search input */
@@ -153,5 +152,6 @@ export default {
   padding: 5px;
   margin-top: 0px;
   box-sizing: border-box;
+  z-index: 9997;
 }
 </style>

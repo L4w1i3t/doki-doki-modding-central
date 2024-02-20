@@ -4,7 +4,7 @@
   <header class="header">
     <nav>
       <div class="logo-container">
-        <img src="/assets/images/logo.png" alt="Site Logo" class="logomain" />
+        <img src="/assets/images/logo.webp" alt="Site Logo" class="logomain" />
         <p class="header-text">
           DOKI DOKI <br/> MODDING CENTRAL
         </p>
@@ -18,9 +18,9 @@ export default {
   data() {
     return {
       images: [
-        "/assets/images/club.png",
-        "/assets/images/class.png",
-        "/assets/images/corridor.png",
+        "/assets/images/club.webp",
+        "/assets/images/class.webp",
+        "/assets/images/corridor.webp",
       ],
       currentImageIndex: 0,
       interval: null,
@@ -57,7 +57,7 @@ export default {
 
 <style scoped>
   .header {
-    background-image: url('/assets/images/club.png');
+    background-image: url('/assets/images/club.webp');
     background-size: cover;
     color: transparent;
     padding: 0px 0;

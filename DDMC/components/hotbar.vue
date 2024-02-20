@@ -3,7 +3,7 @@
   <div class="hotbar">
     <a href="/">
       <div class="logocorner-container">
-        <img src="/assets/images/logo.png" alt="Logo" class="logocorner">
+        <img src="/assets/images/logo.webp" alt="Logo" class="logocorner">
       </div>
     </a>
     <nav>
