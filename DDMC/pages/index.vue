@@ -4,13 +4,11 @@
     <u>Welcome to Doki Doki Modding Central!</u>
   </div>
   
-  <!-- Abstract -->
   <div class="content-wrapper" style="margin-top: -20px; margin-bottom: -40px; color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 1.5em;">
     <p><i>This is the all-encompassing fan modification emporium for modifying <i>Doki Doki Literature Club!</i> by Team Salvato. This website hopes to facilitate a healthy repository of everything anyone would need from the normal player to the years-long modding veterans. Acting as an archive free of biased control measures, we hope to fulfill a thorough repertoire of all story creations anyone wished to contribute to this franchise.</i></p>
     <p style="color: red;"><i>NOTE: THIS SITE IS STILL IN AN ARCHAIC STATE, AND IT WILL CONTAIN SOME TECHNICAL ISSUES. PLEASE KNOW THAT IT IS CONSTANTLY BEING WORKED ON AND LOOKED AT.</i></p>
   </div>
   
-  <!-- Featured Releases Section -->
   <div class="section abstract-to-featured">
     <div class="section-heading" style="color: white; margin-top: -20px; font-size: 3em;">
       <h2><b><i><u>Check out these headlines!</u></i></b></h2>
@@ -32,29 +30,26 @@
   </div>
 
   
-  <!-- Redirect Button Section -->
-<div class="section featured-to-redirect">
-  <div class="centered">
-    <div class="redirect-buttons-container">
-      <div class="redirect-button-wrapper">
-        <a href="/mods" class="redirect-button">
-          <img src="/assets/gui/redirect.webp" alt="redirect" class="custom-redirect-button" />
-        </a>
+  <div class="section featured-to-redirect">
+    <div class="centered">
+      <div class="redirect-buttons-container">
+        <div class="redirect-button-wrapper">
+          <a href="/mods" class="redirect-button">
+            <img src="/assets/gui/redirect.webp" alt="redirect" class="custom-redirect-button" />
+          </a>
+        </div>
       </div>
+    </div>
+
+    <div class="decoration-images">
+      <img src="/assets/gui/say.png" alt="say" class="decoration-image-say" />
+      <img src="/assets/gui/yurk.png" alt="yurk" class="decoration-image-yurk" />
+      <img src="/assets/gui/mon.png" alt="mon" class="decoration-image-mon" />
+      <img src="/assets/gui/nat.png" alt="nat" class="decoration-image-nat" />
     </div>
   </div>
 
-  <!-- Decoration images -->
-  <div class="decoration-images">
-    <img src="/assets/gui/say.png" alt="say" class="decoration-image-say" />
-    <img src="/assets/gui/yurk.png" alt="yurk" class="decoration-image-yurk" />
-    <img src="/assets/gui/mon.png" alt="mon" class="decoration-image-mon" />
-    <img src="/assets/gui/nat.png" alt="nat" class="decoration-image-nat" />
-  </div>
-</div>
 
-
-  <!-- Form Submission Section -->
   <div class="section redirect-to-form">
     <h2 class="centered" style="font-size: 2em;"><b><i>Want to join the club and post your own content here? You can do so by filling out a submission form here!</i></b></h2>
     
@@ -70,11 +65,8 @@
   </div>
 
   
-  <!-- Social Media Plug Section -->
   <div class="section form-to-social">
     <h2 class="centered" style="font-size: 2em; margin-top: -10px;"><b>Find us on these things!</b></h2>
-    
-    <!-- Display clickable images dynamically -->
     <div class="social-media-images">
       <a v-for="(image, index) in socialMediaImages" :href="getSocialMediaLink(image)" :key="index" target="_blank" rel="noopener noreferrer">
         <img :src="`/assets/gui/${image}`" :alt="image" class="social-media-image" />
@@ -90,23 +82,19 @@
 
     data() {
       return {
-        socialMediaImages: ['discord.webp'], // Add more images as needed
-        featuredReleases: ['DDTT', 'releaseyay', 'egodeath'], // Add more releases as needed
+        socialMediaImages: ['discord.webp'],
+        featuredReleases: ['DDTT', 'releaseyay', 'egodeath'],
         currentReleaseIndex: 1,
       };
     },
 
     mounted() {
-      // Get all the redirect buttons
       const redirectButtons = document.querySelectorAll('.redirect-button');
-
-      // Add event listeners for hover on each redirect button
       redirectButtons.forEach(button => {
         button.addEventListener('mouseenter', this.playHoverSound);
       });
     },
     beforeDestroy() {
-      // Remove event listeners when the component is destroyed
       const redirectButtons = document.querySelectorAll('.redirect-button');
       redirectButtons.forEach(button => {
         button.removeEventListener('mouseenter', this.playHoverSound);
@@ -119,7 +107,6 @@
       if (this.currentReleaseIndex > 0) {
         this.currentReleaseIndex--;
       } else {
-        // Loop back to the last release when reaching the first one
         this.currentReleaseIndex = this.featuredReleases.length - 1;
         }
       },
@@ -128,22 +115,19 @@
         if (this.currentReleaseIndex < this.featuredReleases.length - 1) {
           this.currentReleaseIndex++;
         } else {
-          // Loop back to the first release when reaching the last one
           this.currentReleaseIndex = 0;
         }
       },
 
       getReleaseStyle(index) {
       const distance = Math.abs(index - this.currentReleaseIndex);
-      const scaleFactor = Math.max(1 - distance * 0.2, 0.7); // Adjust the scale factor as needed
-
-      // Apply a black tint to images that are not in focus
+      const scaleFactor = Math.max(1 - distance * 0.2, 0.7);
       const tintOpacity = distance > 0 ? 0.5 : 1;
 
       return {
         transform: `scale(${scaleFactor}) rotate(0deg)`,
         transition: 'transform 0.3s ease-in-out',
-        filter: `opacity(${tintOpacity})`, // Apply opacity for tint effect
+        filter: `opacity(${tintOpacity})`,
       };
     },
 
@@ -169,7 +153,6 @@
         }
       },
       playHoverSound(event) {
-        // Play the hover sound on button hover
         const hoverSound = new Audio('/assets/sfx/hover.wav');
         hoverSound.play();
       }
@@ -180,59 +163,56 @@
 <style>
 
   body {
-    overflow-x: hidden; /* Disable horizontal scrolling */
+    overflow-x: hidden;
   }
 
   .centered-title {
     text-align: center;
     font-size: 3em;
     margin-top: 5vh;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Initial glow effect */
-    animation: pulse 8s linear infinite; /* Apply pulsing animation */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    animation: pulse 8s linear infinite;
   }
 
   @keyframes pulse {
     0% {
-      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Initial glow effect (white) */
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
     }
     20% {
-      text-shadow: 0 0 10px rgba(255, 0, 0, 0.8); /* Red glow effect */
+      text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
     }
     40% {
-      text-shadow: 0 0 10px rgba(0, 255, 0, 0.8); /* Green glow effect */
+      text-shadow: 0 0 10px rgba(0, 255, 0, 0.8);
     }
     60% {
-      text-shadow: 0 0 10px rgba(255, 192, 203, 0.8); /* Pink glow effect */
+      text-shadow: 0 0 10px rgba(255, 192, 203, 0.8);
     }
     80% {
-      text-shadow: 0 0 10px rgba(148, 0, 211, 0.8); /* Purple glow effect */
+      text-shadow: 0 0 10px rgba(148, 0, 211, 0.8);
     }
     100% {
-      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Return to initial glow effect (white) */
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
     }
   }
 
-  /* Center the headers */
   .centered {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
-  /* Additional styling for sections */
   .content-wrapper {
-    max-width: 1200px; /* Widen the wrapper */
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 40px; /* Adjusted padding */
-    /*border: 2px solid #ccc;*/
+    padding: 40px;
   }
 
   .section {
-    margin-bottom: 30px; /* Separate sections better */
+    margin-bottom: 30px;
     padding: 20px;
     border: 10px solid #ffffff;
     border-radius: 5px;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
-    transform: perspective(1000px) rotateX(3deg); /* Apply perspective and rotation */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    transform: perspective(1000px) rotateX(3deg);
     transition: transform 0.3s ease-in-out;
     opacity: 0.95;
     animation: sectionGlow 8s linear infinite;
@@ -241,34 +221,33 @@
 
   @keyframes sectionGlow {
     0% {
-      border-color: rgba(255, 255, 255, 0.8); /* Initial glow effect (white) */
+      border-color: rgba(255, 255, 255, 0.8);
     }
     20% {
-      border-color: rgba(255, 128, 128, 0.8); /* Red glow effect */
+      border-color: rgba(255, 128, 128, 0.8);
     }
     40% {
-      border-color: rgba(116, 255, 116, 0.8); /* Green glow effect */
+      border-color: rgba(116, 255, 116, 0.8);
     }
     60% {
-      border-color: rgba(255, 192, 203, 0.8); /* Pink glow effect */
+      border-color: rgba(255, 192, 203, 0.8);
     }
     80% {
-      border-color: rgba(213, 114, 255, 0.8); /* Purple glow effect */
+      border-color: rgba(213, 114, 255, 0.8);
     }
     100% {
-      border-color: rgba(255, 255, 255, 0.8); /* Return to initial glow effect (white) */
+      border-color: rgba(255, 255, 255, 0.8);
     }
   }
 
-  /* Adjust transform on hover for a dynamic 3D effect */
   .section:hover {
-    transform: perspective(1000px) rotateX(0deg); /* Reset rotation on hover */
+    transform: perspective(1000px) rotateX(0deg);
   }
 
   .section strong {
     display: block;
-    font-size: 1.2em; /* Adjust heading size */
-    margin-bottom: 10px; /* Space below headings */
+    font-size: 1.2em;
+    margin-bottom: 10px;
   }
 
   .section u {
@@ -281,13 +260,12 @@
 
   .section p {
     margin-bottom: 15px;
-    line-height: 1.6; /* Improved line spacing for readability */
+    line-height: 1.6;
   }
 
-  /* Style the ordered list */
   .content-wrapper ol {
     padding-left: 20px;
-    margin-bottom: 15px; /* Space below ordered list */
+    margin-bottom: 15px;
   }
 
   .content-wrapper ol li {
@@ -336,7 +314,7 @@
   }
 
   .featured-release:hover {
-    transform: scale(1.05) rotate(0deg); /* Scale and rotate on hover */
+    transform: scale(1.05) rotate(0deg);
   }
 
   .redirect-button {
@@ -353,38 +331,34 @@
     transition: transform 0.3s ease-in-out;
   }
 
-  /* Re-enable pointer events only for the image inside the redirect button */
   .redirect-button img.custom-redirect-button {
     pointer-events: auto;
   }
 
-  /* Apply hover effect to the image within the redirect button */
   .redirect-button img.custom-redirect-button:hover {
     opacity: 0.8;
     transform: scale(1.05) rotate(0deg);
   }
 
-  /* Adjust the size of the existing and new buttons */
   .redirect-button img.custom-redirect-button,
   .redirect-button.scaled-down img.custom-redirect-button {
-    width: 500px; /* Maintain the width */
-    height: auto; /* Maintain aspect ratio */
-    border: auto; /* Remove border */
+    width: 500px;
+    height: auto;
+    border: auto;
   }
 
   .redirect-buttons-container {
-    display: flex; /* Use flexbox to arrange items horizontally */
-    justify-content: center; /* Center items horizontally */
+    display: flex;
+    justify-content: center;
   }
 
-  /* Remove margin for the last button to prevent extra space */
   .redirect-button-wrapper:last-child {
     margin-right: 0;
   }
 
   .decoration-images {
     display: flex;
-    justify-content: space-around; /* Adjust as needed */
+    justify-content: space-around;
     align-items: center;
     margin-top: 20px;
   }
@@ -392,51 +366,48 @@
 
   .decoration-image-say {
     height: auto;
-    margin: 0 10px; /* Adjust the spacing between images */
-    max-width: 100px; /* Set a maximum width to prevent excessive stretching */
+    margin: 0 10px;
+    max-width: 100px;
   }
 
   .decoration-image-yurk {
     height: auto;
-    margin: 0 10px; /* Adjust the spacing between images */
-    max-width: 100px; /* Set a maximum width to prevent excessive stretching */
+    margin: 0 10px;
+    max-width: 100px;
   }
 
   .decoration-image-nat {
     height: auto;
-    margin: 0 10px; /* Adjust the spacing between images */
-    max-width: 115px; /* Set a maximum width to prevent excessive stretching */
+    margin: 0 10px;
+    max-width: 115px;
   }
 
   .decoration-image-mon {
     height: auto;
-    margin: 0 10px; /* Adjust the spacing between images */
-    max-width: 100px; /* Set a maximum width to prevent excessive stretching */
+    margin: 0 10px;
+    max-width: 100px;
   }
 
-  /* Styles for the forms container and form wrappers */
   .forms-container {
-    display: flex; /* Use flexbox to align forms horizontally */
-    justify-content: space-around; /* Distribute space between forms */
-    flex-wrap: wrap; /* Allow forms to wrap to the next line if needed */
-    margin-top: 20px; /* Adjust spacing between forms and text */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
   }
 
   .form-wrapper {
-    width: calc(50% - 20px); /* Set width for each form wrapper (50% width with margin) */
-    margin-bottom: 20px; /* Adjust spacing between forms vertically */
-    box-sizing: border-box; /* Include padding and border in width calculation */
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+    box-sizing: border-box;
   }
 
-  /* Update iframe width for responsiveness */
   .form-wrapper iframe {
     width: 100%;
   }
 
-  /* Media query for smaller screens to make forms stack vertically */
   @media (max-width: 768px) {
     .form-wrapper {
-      width: 100%; /* Set full width for smaller screens */
+      width: 100%;
     }
   }
 
@@ -448,47 +419,45 @@
   }
 
   .social-media-image {
-    width: 50px; /* Adjust the width as needed */
+    width: 50px;
     height: auto;
-    margin: 0 10px; /* Adjust the spacing between images */
-    cursor: pointer; /* Change cursor to pointer on hover for better UX */
+    margin: 0 10px;
+    cursor: pointer;
     transition: opacity 0.3s ease-in-out;
   }
 
   .social-media-image:hover {
-    opacity: 0.8; /* Add a slight opacity effect on hover */
+    opacity: 0.8;
   }
 
-  /* Additional styling for section separation with black borders */
   .abstract-to-featured {
-    background-color: rgba(255, 100, 100, 0.6); /* Light red */
-    border-top: 50px solid black; /* Add black borders between sections */
-    margin-top: 30px; /* Adjust margin for spacing */
-    padding-top: 30px; /* Adjust padding for spacing */
+    background-color: rgba(255, 100, 100, 0.6);
+    border-top: 50px solid black;
+    margin-top: 30px;
+    padding-top: 30px;
   }
   .featured-to-redirect {
-    background-color: rgba(148, 0, 211, 0.6); /* Violet */
-    border-top: 50px solid black; /* Add black borders between sections */
-    margin-top: 30px; /* Adjust margin for spacing */
-    padding-top: 30px; /* Adjust padding for spacing */
+    background-color: rgba(148, 0, 211, 0.6);
+    border-top: 50px solid black;
+    margin-top: 30px;
+    padding-top: 30px;
   }
   .redirect-to-form {
-    background-color: rgba(0, 201, 87, 0.6); /* Emerald green */
-    border-top: 50px solid black; /* Add black borders between sections */
-    margin-top: 30px; /* Adjust margin for spacing */
-    padding-top: 30px; /* Adjust padding for spacing */
+    background-color: rgba(0, 201, 87, 0.6);
+    border-top: 50px solid black;
+    margin-top: 30px;
+    padding-top: 30px;
   }
   .form-to-social {
-    background-color: rgba(255, 192, 203, 0.6); /* Pink */
-    border-top: 50px solid black; /* Add black borders between sections */
-    margin-top: 30px; /* Adjust margin for spacing */
-    padding-top: 30px; /* Adjust padding for spacing */
+    background-color: rgba(255, 192, 203, 0.6);
+    border-top: 50px solid black;
+    margin-top: 30px;
+    padding-top: 30px;
     
   }
 
-  /* Adjust the top margin for the first section to match the added border */
   .content-wrapper {
-    margin-top: 80px; /* Updated top margin */
+    margin-top: 80px;
   }
 
 </style>

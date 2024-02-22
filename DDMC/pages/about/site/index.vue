@@ -83,60 +83,57 @@
   </template>
 
 <style>
-
   body {
-    overflow-x: hidden; /* Disable horizontal scrolling */
+    overflow-x: hidden;
   }
 
   .centered-title {
     text-align: center;
     font-size: 3em;
     margin-top: 5vh;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Initial glow effect */
-    animation: pulse 8s linear infinite; /* Apply pulsing animation */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    animation: pulse 8s linear infinite;
   }
 
   @keyframes pulse {
     0% {
-      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Initial glow effect (white) */
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
     }
     20% {
-      text-shadow: 0 0 10px rgba(255, 0, 0, 0.8); /* Red glow effect */
+      text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
     }
     40% {
-      text-shadow: 0 0 10px rgba(0, 255, 0, 0.8); /* Green glow effect */
+      text-shadow: 0 0 10px rgba(0, 255, 0, 0.8);
     }
     60% {
-      text-shadow: 0 0 10px rgba(255, 192, 203, 0.8); /* Pink glow effect */
+      text-shadow: 0 0 10px rgba(255, 192, 203, 0.8);
     }
     80% {
-      text-shadow: 0 0 10px rgba(148, 0, 211, 0.8); /* Purple glow effect */
+      text-shadow: 0 0 10px rgba(148, 0, 211, 0.8);
     }
     100% {
-      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Return to initial glow effect (white) */
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
     }
   }
 
-  /* Center the headers */
   .centered {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
-  /* Additional styling for sections */
   .content-wrapper {
-    max-width: 1200px; /* Widen the wrapper */
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 40px; /* Adjusted padding */
+    padding: 40px;
   }
 
   .section {
-    margin-bottom: 30px; /* Separate sections better */
+    margin-bottom: 30px;
     padding: 20px;
     border: 10px solid #ffffff;
     border-radius: 5px;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
-    transform: perspective(1000px) rotateX(3deg); /* Apply perspective and rotation */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    transform: perspective(1000px) rotateX(3deg);
     transition: transform 0.3s ease-in-out;
     opacity: 0.95;
     animation: sectionGlow 8s linear infinite;
@@ -148,34 +145,33 @@
 
   @keyframes sectionGlow {
     0% {
-      border-color: rgba(255, 255, 255, 0.8); /* Initial glow effect (white) */
+      border-color: rgba(255, 255, 255, 0.8);
     }
     20% {
-      border-color: rgba(255, 128, 128, 0.8); /* Red glow effect */
+      border-color: rgba(255, 128, 128, 0.8);
     }
     40% {
-      border-color: rgba(116, 255, 116, 0.8); /* Green glow effect */
+      border-color: rgba(116, 255, 116, 0.8);
     }
     60% {
-      border-color: rgba(255, 192, 203, 0.8); /* Pink glow effect */
+      border-color: rgba(255, 192, 203, 0.8);
     }
     80% {
-      border-color: rgba(213, 114, 255, 0.8); /* Purple glow effect */
+      border-color: rgba(213, 114, 255, 0.8);
     }
     100% {
-      border-color: rgba(255, 255, 255, 0.8); /* Return to initial glow effect (white) */
+      border-color: rgba(255, 255, 255, 0.8);
     }
   }
 
-  /* Adjust transform on hover for a dynamic 3D effect */
   .section:hover {
-    transform: perspective(1000px) rotateX(0deg); /* Reset rotation on hover */
+    transform: perspective(1000px) rotateX(0deg);
   }
 
   .section strong {
     display: block;
-    font-size: 1.2em; /* Adjust heading size */
-    margin-bottom: 10px; /* Space below headings */
+    font-size: 1.2em;
+    margin-bottom: 10px;
   }
 
   .section u {
@@ -188,13 +184,12 @@
 
   .section p {
     margin-bottom: 15px;
-    line-height: 1.6; /* Improved line spacing for readability */
+    line-height: 1.6;
   }
 
-  /* Style the ordered list */
   .content-wrapper ol {
     padding-left: 20px;
-    margin-bottom: 15px; /* Space below ordered list */
+    margin-bottom: 15px;
   }
 
   .content-wrapper ol li {
@@ -206,24 +201,21 @@
   }
 
   .section centered strong i {
-    text-align: center; /* Center-align the text */
-    margin-top: 0px; /* Add space between the button and text */
+    text-align: center;
+    margin-top: 0px;
   }
 
   .section centered strong i p {
-    font-style: italic; /* Apply italic style to the text */
+    font-style: italic;
   }
 
-  /* Media query for smaller screens to make forms stack vertically */
   @media (max-width: 768px) {
     .form-wrapper {
-      width: 100%; /* Set full width for smaller screens */
+      width: 100%;
     }
   }
 
-  /* Adjust the top margin for the first section to match the added border */
   .content-wrapper {
-    margin-top: 80px; /* Updated top margin */
+    margin-top: 80px;
   }
-
 </style>

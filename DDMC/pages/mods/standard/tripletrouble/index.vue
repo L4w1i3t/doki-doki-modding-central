@@ -1,7 +1,8 @@
+
 <template>
   <div class="download-page">
     <div class="thumbnail-container">
-      <img src="/assets/mod_prevs/DDTT.webp" class="stained-glass"alt="Software Thumbnail">
+      <img src="/assets/mod_prevs/DDTT.webp" class="stained-glass" alt="Software Thumbnail">
     </div>
     <div class="title-container">
       <p class="stained-glass">DOKI DOKI TRIPLE TROUBLE</p>
@@ -19,7 +20,7 @@
     <div class="description">
       <p class="stained-glass">Doki Doki Triple Trouble is the first ever 18+ RomCom that centers around everyone's favorite pink-haired heartbreaker: Natsuki! Follow MC's year long escapade to try to be the main man in Natsuki's life as he competes with a different man... and then a different man... and then a different man. An original story jam packed with action, drama, comedy, romance, an incredible original soundtrack, and enough NSFW to make your head spin! A DDLC mod that will make you laugh, cry, question life, and jam out while doing so. Will MC surrender his common sense to get with Natsuki or will he realize that it's not worth the trouble? Find out now in Doki Doki Triple Trouble!</p>
     </div>
-    <h2 style = "text-align: center; margin-top: 20px; font-size: 2em;">DOWNLOAD HERE!</h2>
+    <h2 style="text-align: center; margin-top: 20px; font-size: 2em;">DOWNLOAD HERE!</h2>
     <div class="download-links">
       <div class="stained-glass">
         <h3>Versions</h3>
@@ -29,7 +30,6 @@
             <img src="/assets/gui/dl.webp" alt="Download Icon" style="width: 50px; height: 50px; margin-right: 10px;">
             <a href="https://www.mediafire.com/file/2zm2e3fl3y5d9gw/DDTT-4.2.0-Renpy7Mod.zip/file" target="_blank">Doki Doki Triple Trouble 1.0 - Download (1.83gb)</a>
           </li>
-          <!-- Add more versions as needed -->
         </ul>
       </div>
     </div>
@@ -59,13 +59,13 @@ export default {
   left: 0;
   margin-top: 100px;
   margin-left: 50px;
-  transform: perspective(1000px) rotateX(3deg); /* Apply perspective and rotation */
+  transform: perspective(1000px) rotateX(3deg);
   transition: transform 0.3s ease-in-out;
   background: rgba(0, 0, 0, 0.4);
 }
 
 .thumbnail-container img {
-  width: 720px; /* Adjust the width as needed */
+  width: 720px;
   height: auto;
 }
 
@@ -79,7 +79,7 @@ export default {
   font-size: 5em;
   margin-right: 80px;
   animation: pulse 8s linear infinite;
-  transform: perspective(1000px) rotateX(3deg); /* Apply perspective and rotation */
+  transform: perspective(1000px) rotateX(3deg);
   transition: transform 0.3s ease-in-out;
   background: rgba(0, 0, 0, 0.4);
 }
@@ -91,16 +91,17 @@ export default {
   margin-top: 370px;
   font-size: 2em;
   margin-right: 80px;
-  transform: perspective(1000px) rotateX(3deg); /* Apply perspective and rotation */
+  transform: perspective(1000px) rotateX(3deg);
   transition: transform 0.3s ease-in-out;
   background: rgba(0, 0, 0, 0.4);
   width: 800px;
 }
 
-.author-names{
+.author-names {
   margin-bottom: 10px;
   text-align: center;
 }
+
 .contributors {
   margin-bottom: 10px;
   font-size: 0.45em;
@@ -116,10 +117,10 @@ export default {
   font-style: italic;
   margin-left: 50px;
   margin-right: 50px;
-  transform: perspective(1000px) rotateX(3deg); /* Apply perspective and rotation */
+  transform: perspective(1000px) rotateX(3deg);
   transition: transform 0.3s ease-in-out;
   background: rgba(0, 0, 0, 0.4);
-  border-radius: 15px; /* Adjust the value to control the roundness */
+  border-radius: 15px;
 }
 
 .download-links {
@@ -128,8 +129,8 @@ export default {
   margin-bottom: 20px;
   font-size: 2em;
   background: rgba(0, 0, 0, 0.4);
-  border-radius: 15px; /* Adjust the value to control the roundness */
-  transform: perspective(1000px) rotateX(3deg); /* Apply perspective and rotation */
+  border-radius: 15px;
+  transform: perspective(1000px) rotateX(3deg);
   transition: transform 0.3s ease-in-out;
   width: 60%;
 }
@@ -142,43 +143,40 @@ export default {
 
 .download-links ul li {
   margin-bottom: 10px;
-  display: inline-flex; /* Display list items inline */
-  align-items: center; /* Align items vertically */
+  display: inline-flex;
+  align-items: center;
 }
 
-
 .stained-glass {
-  /* Apply stained glass border effect */
-  border: 5px solid rgba(255, 255, 255, 0.5); /* Add a semi-transparent white border */
-  border-radius: 15px; /* Add some border radius for a rounded effect */
-  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5); /* Add a soft glow effect */
+  border: 5px solid rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
   animation: pulse 8s linear infinite;
 }
 
 .stained-glass img {
-  width: 100%; /* Ensure the image fills the container */
-  height: auto; /* Maintain aspect ratio */
+  width: 100%;
+  height: auto;
 }
 
 @keyframes pulse {
-    0% {
-      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Initial glow effect (white) */
-    }
-    20% {
-      text-shadow: 0 0 10px rgba(255, 0, 0, 0.8); /* Red glow effect */
-    }
-    40% {
-      text-shadow: 0 0 10px rgba(0, 255, 0, 0.8); /* Green glow effect */
-    }
-    60% {
-      text-shadow: 0 0 10px rgba(255, 192, 203, 0.8); /* Pink glow effect */
-    }
-    80% {
-      text-shadow: 0 0 10px rgba(148, 0, 211, 0.8); /* Purple glow effect */
-    }
-    100% {
-      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Return to initial glow effect (white) */
-    }
+  0% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
   }
-  
+  20% {
+    text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+  }
+   40% {
+    text-shadow: 0 0 10px rgba(0, 255, 0, 0.8);
+  }
+  60% {
+    text-shadow: 0 0 10px rgba(255, 192, 203, 0.8);
+  }
+  80% {
+    text-shadow: 0 0 10px rgba(148, 0, 211, 0.8);
+  }
+  100% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  }
+}
 </style>

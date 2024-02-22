@@ -1,5 +1,4 @@
 
-<!-- layouts/default.vue -->
 <template>
   <div class="full-height">
     <transition name="page-dissolve" mode="out-in">

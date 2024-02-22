@@ -364,208 +364,200 @@
 
 <style>
   .characters {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
-  .character {
-    text-align: center;
-    margin-bottom: 50px;
-    flex: 0 0 calc(22% - 20px);
-    max-width: calc(22% - 20px);
-    box-sizing: border-box;
-  }
+.character {
+  text-align: center;
+  margin-bottom: 50px;
+  flex: 0 0 calc(22% - 20px);
+  max-width: calc(22% - 20px);
+  box-sizing: border-box;
+}
 
-  .character-name {
-    margin-top: 0px;
-    font-weight: bold;
-    font-size: 2em; /* Adjusted font size for better spacing */
-    margin-bottom: 20px; /* Adjusted margin-bottom between characters */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: italic;
-    color: white;
-  }
+.character-name {
+  margin-top: 0px;
+  font-weight: bold;
+  font-size: 2em;
+  margin-bottom: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+  color: white;
+}
 
-  .character-image {
-    width: 100%; /* Adjust image size to fill the container */
-    height: 100%; /* Set height to 100% to maintain square aspect ratio */
-    object-fit: cover; /* Crop the image to cover the container */
-    border-radius: 20%; /* Apply border-radius as needed */
-  }
+.character-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20%;
+}
 
-  .ocs-characters,
-  .ocs-characters2,
-  .ocs-characters3 {
-    margin-top: 50px; /* Add margin-top for the entire section */
-  }
+.ocs-characters,
+.ocs-characters2,
+.ocs-characters3 {
+  margin-top: 50px;
+}
 
-  .ocs-character,
-  .ocs-character2,
-  .ocs-character3 {
-    margin-bottom: 100px; /* Increase margin-bottom between rows */
-  }
+.ocs-character,
+.ocs-character2,
+.ocs-character3 {
+  margin-bottom: 100px;
+}
 
-  .search-bar-container {
-    display: flex;
-    justify-content: flex-start; /* Change from flex-end to flex-start */
-    margin-bottom: 20px;
-    margin-top: 60px; /* Add margin-top for spacing */
-    margin-left: 0px; /* Add margin-left for spacing */
-  }
+.search-bar-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  margin-top: 60px;
+  margin-left: 0px;
+}
 
-  .search-bar {
-    width: 200px;
-    padding: 10px;
-    box-sizing: border-box;
-    font-size: 1em;
-    position: fixed;
-  }
+.search-bar {
+  width: 200px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 1em;
+  position: fixed;
+}
 
-  .not-found-message {
-    color: red;
-    text-align: center;
-    margin-top: 20px;
-  }
+.not-found-message {
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}
 
-  body {
-    overflow-x: hidden; /* Disable horizontal scrolling */
-  }
+body {
+  overflow-x: hidden;
+}
 
-  .centered-title {
-    text-align: center;
-    font-size: 3em;
-    margin-top: 5vh;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Initial glow effect */
-    animation: pulse 8s linear infinite; /* Apply pulsing animation */
-  }
+.centered-title {
+  text-align: center;
+  font-size: 3em;
+  margin-top: 5vh;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  animation: pulse 8s linear infinite;
+}
 
-  @keyframes pulse {
-    0% {
-      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Initial glow effect (white) */
-    }
-    20% {
-      text-shadow: 0 0 10px rgba(255, 0, 0, 0.8); /* Red glow effect */
-    }
-    40% {
-      text-shadow: 0 0 10px rgba(0, 255, 0, 0.8); /* Green glow effect */
-    }
-    60% {
-      text-shadow: 0 0 10px rgba(255, 192, 203, 0.8); /* Pink glow effect */
-    }
-    80% {
-      text-shadow: 0 0 10px rgba(148, 0, 211, 0.8); /* Purple glow effect */
-    }
-    100% {
-      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Return to initial glow effect (white) */
-    }
+@keyframes pulse {
+  0% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
   }
-
-  /* Center the headers */
-  .centered {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  20% {
+    text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
   }
-
-  /* Additional styling for sections */
-  .content-wrapper {
-    max-width: 1200px; /* Widen the wrapper */
-    margin: 0 auto;
-    padding: 40px; /* Adjusted padding */
-    /*border: 2px solid #ccc;*/
+  40% {
+    text-shadow: 0 0 10px rgba(0, 255, 0, 0.8);
   }
-
-  .section {
-    margin-bottom: 30px; /* Separate sections better */
-    padding: 20px;
-    border: 10px solid #ffffff;
-    border-radius: 5px;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
-    transform: perspective(1000px) rotateX(3deg); /* Apply perspective and rotation */
-    transition: transform 0.3s ease-in-out;
-    opacity: 0.95;
-    animation: sectionGlow 8s linear infinite;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  60% {
+    text-shadow: 0 0 10px rgba(255, 192, 203, 0.8);
   }
-
-  @keyframes sectionGlow {
-    0% {
-      border-color: rgba(255, 255, 255, 0.8); /* Initial glow effect (white) */
-    }
-    20% {
-      border-color: rgba(255, 128, 128, 0.8); /* Red glow effect */
-    }
-    40% {
-      border-color: rgba(116, 255, 116, 0.8); /* Green glow effect */
-    }
-    60% {
-      border-color: rgba(255, 192, 203, 0.8); /* Pink glow effect */
-    }
-    80% {
-      border-color: rgba(213, 114, 255, 0.8); /* Purple glow effect */
-    }
-    100% {
-      border-color: rgba(255, 255, 255, 0.8); /* Return to initial glow effect (white) */
-    }
+  80% {
+    text-shadow: 0 0 10px rgba(148, 0, 211, 0.8);
   }
-
-  /* Adjust transform on hover for a dynamic 3D effect */
-  .section:hover {
-    transform: perspective(1000px) rotateX(0deg); /* Reset rotation on hover */
+  100% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
   }
+}
 
-  .section strong {
-    display: block;
-    font-size: 1.2em; /* Adjust heading size */
-    margin-bottom: 10px; /* Space below headings */
+.centered {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.content-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.section {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 10px solid #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  transform: perspective(1000px) rotateX(3deg);
+  transition: transform 0.3s ease-in-out;
+  opacity: 0.95;
+  animation: sectionGlow 8s linear infinite;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@keyframes sectionGlow {
+  0% {
+    border-color: rgba(255, 255, 255, 0.8);
   }
-
-  .section u {
-    text-decoration: underline;
+  20% {
+    border-color: rgba(255, 128, 128, 0.8);
   }
-
-  .section i {
-    font-style: italic;
+  40% {
+    border-color: rgba(116, 255, 116, 0.8);
   }
-
-  .section p {
-    margin-bottom: 15px;
-    line-height: 1.6; /* Improved line spacing for readability */
+  60% {
+    border-color: rgba(255, 192, 203, 0.8);
   }
-
-  /* Style the ordered list */
-  .content-wrapper ol {
-    padding-left: 20px;
-    margin-bottom: 15px; /* Space below ordered list */
+  80% {
+    border-color: rgba(213, 114, 255, 0.8);
   }
-
-  .content-wrapper ol li {
-    margin-bottom: 10px;
+  100% {
+    border-color: rgba(255, 255, 255, 0.8);
   }
+}
 
-  .section centered {
-    font-size: 1.5em;
+.section:hover {
+  transform: perspective(1000px) rotateX(0deg);
+}
+
+.section strong {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.section u {
+  text-decoration: underline;
+}
+
+.section i {
+  font-style: italic;
+}
+
+.section p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.content-wrapper ol {
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+.content-wrapper ol li {
+  margin-bottom: 10px;
+}
+
+.section centered {
+  font-size: 1.5em;
+}
+
+.section centered strong i {
+  text-align: center;
+  margin-top: 0px;
+}
+
+.section centered strong i p {
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .form-wrapper {
+    width: 100%;
   }
+}
 
-  .section centered strong i {
-    text-align: center; /* Center-align the text */
-    margin-top: 0px; /* Add space between the button and text */
-  }
-
-  .section centered strong i p {
-    font-style: italic; /* Apply italic style to the text */
-  }
-
-  /* Media query for smaller screens to make forms stack vertically */
-  @media (max-width: 768px) {
-    .form-wrapper {
-      width: 100%; /* Set full width for smaller screens */
-    }
-  }
-
-  /* Adjust the top margin for the first section to match the added border */
-  .content-wrapper {
-    margin-top: 80px; /* Updated top margin */
-  }
-
+.content-wrapper {
+  margin-top: 80px;
+}
 </style>

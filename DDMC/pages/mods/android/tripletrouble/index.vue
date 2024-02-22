@@ -59,13 +59,13 @@ export default {
   left: 0;
   margin-top: 100px;
   margin-left: 50px;
-  transform: perspective(1000px) rotateX(3deg); /* Apply perspective and rotation */
+  transform: perspective(1000px) rotateX(3deg);
   transition: transform 0.3s ease-in-out;
   background: rgba(0, 0, 0, 0.4);
 }
 
 .thumbnail-container img {
-  width: 720px; /* Adjust the width as needed */
+  width: 720px;
   height: auto;
 }
 
@@ -79,7 +79,7 @@ export default {
   font-size: 5em;
   margin-right: 80px;
   animation: pulse 8s linear infinite;
-  transform: perspective(1000px) rotateX(3deg); /* Apply perspective and rotation */
+  transform: perspective(1000px) rotateX(3deg);
   transition: transform 0.3s ease-in-out;
   background: rgba(0, 0, 0, 0.4);
 }
@@ -91,7 +91,7 @@ export default {
   margin-top: 370px;
   font-size: 2em;
   margin-right: 80px;
-  transform: perspective(1000px) rotateX(3deg); /* Apply perspective and rotation */
+  transform: perspective(1000px) rotateX(3deg);
   transition: transform 0.3s ease-in-out;
   background: rgba(0, 0, 0, 0.4);
   width: 800px;
@@ -116,10 +116,10 @@ export default {
   font-style: italic;
   margin-left: 50px;
   margin-right: 50px;
-  transform: perspective(1000px) rotateX(3deg); /* Apply perspective and rotation */
+  transform: perspective(1000px) rotateX(3deg);
   transition: transform 0.3s ease-in-out;
   background: rgba(0, 0, 0, 0.4);
-  border-radius: 15px; /* Adjust the value to control the roundness */
+  border-radius: 15px;
 }
 
 .download-links {
@@ -128,8 +128,8 @@ export default {
   margin-bottom: 20px;
   font-size: 2em;
   background: rgba(0, 0, 0, 0.4);
-  border-radius: 15px; /* Adjust the value to control the roundness */
-  transform: perspective(1000px) rotateX(3deg); /* Apply perspective and rotation */
+  border-radius: 15px;
+  transform: perspective(1000px) rotateX(3deg);
   transition: transform 0.3s ease-in-out;
   width: 60%;
 }
@@ -142,42 +142,41 @@ export default {
 
 .download-links ul li {
   margin-bottom: 10px;
-  display: inline-flex; /* Display list items inline */
-  align-items: center; /* Align items vertically */
+  display: inline-flex;
+  align-items: center;
 }
 
 
 .stained-glass {
-  /* Apply stained glass border effect */
-  border: 5px solid rgba(255, 255, 255, 0.5); /* Add a semi-transparent white border */
-  border-radius: 15px; /* Add some border radius for a rounded effect */
-  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5); /* Add a soft glow effect */
+  border: 5px solid rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
   animation: pulse 8s linear infinite;
 }
 
 .stained-glass img {
-  width: 100%; /* Ensure the image fills the container */
-  height: auto; /* Maintain aspect ratio */
+  width: 100%;
+  height: auto;
 }
 
 @keyframes pulse {
     0% {
-      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Initial glow effect (white) */
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
     }
     20% {
-      text-shadow: 0 0 10px rgba(255, 0, 0, 0.8); /* Red glow effect */
+      text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
     }
     40% {
-      text-shadow: 0 0 10px rgba(0, 255, 0, 0.8); /* Green glow effect */
+      text-shadow: 0 0 10px rgba(0, 255, 0, 0.8);
     }
     60% {
-      text-shadow: 0 0 10px rgba(255, 192, 203, 0.8); /* Pink glow effect */
+      text-shadow: 0 0 10px rgba(255, 192, 203, 0.8);
     }
     80% {
-      text-shadow: 0 0 10px rgba(148, 0, 211, 0.8); /* Purple glow effect */
+      text-shadow: 0 0 10px rgba(148, 0, 211, 0.8);
     }
     100% {
-      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Return to initial glow effect (white) */
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
     }
   }
 </style>

@@ -1,3 +1,4 @@
+
 <template>
   <div class="catalog">
     <div class="sort-dropdown">
@@ -6,9 +7,7 @@
         <option value="default">Default</option>
         <option value="title">Title</option>
         <option value="author">Author</option>
-        <!-- Add more sorting options as needed -->
       </select>
-      <!-- Submenus for Title and Author -->
       <div v-if="sortBy === 'title'">
         <input type="text" v-model="titleSearch" placeholder="Search by title..." @input="filterByTitle">
       </div>
@@ -17,7 +16,7 @@
       </div>
     </div>
     <div v-for="(item, index) in catalogItems" :key="index" class="catalog-item">
-      <nuxt-link :to="'/mods/standard/' + item.route"> <!-- Assuming you have a route property for each item -->
+      <nuxt-link :to="'/mods/standard/' + item.route">
         <div class="stained-glass">
           <img :src="item.imageUrl" alt="Catalog Image">
           <span class="label-text">{{ item.title }}</span>
@@ -32,15 +31,14 @@
 export default {
   data() {
     return {
-      sortBy: 'default', // Default sorting option
-      titleSearch: '', // Search query for title
-      authorSearch: '', // Search query for author
-      originalCatalogItems: [], // Store the original catalog items
-      catalogItems: [] // Displayed catalog items
+      sortBy: 'default',
+      titleSearch: '',
+      authorSearch: '',
+      originalCatalogItems: [],
+      catalogItems: []
     };
   },
   created() {
-    // Populate originalCatalogItems when the component is created
     this.originalCatalogItems = [
       {
         title: "Doki Doki Triple Trouble",
@@ -48,38 +46,30 @@ export default {
         imageUrl: "/assets/mod_prevs/DDTT.webp",
         route: "tripletrouble"
       },
-      // Add more items here if needed
     ];
-    // Set catalogItems initially to display all items
     this.catalogItems = [...this.originalCatalogItems];
   },
   methods: {
     sortCatalog() {
-      // Sorting logic
     },
     filterByTitle() {
       const query = this.titleSearch.toLowerCase();
       if (query === '') {
-        // If the search query is empty, restore original catalog items
         this.catalogItems = [...this.originalCatalogItems];
       } else {
-        // Filter catalog items by title
         this.catalogItems = this.originalCatalogItems.filter(item => item.title.toLowerCase().includes(query));
       }
     },
     filterByAuthor() {
       const query = this.authorSearch.toLowerCase();
       if (query === '') {
-        // If the search query is empty, restore original catalog items
         this.catalogItems = [...this.originalCatalogItems];
       } else {
-        // Filter catalog items by author
         this.catalogItems = this.originalCatalogItems.filter(item => item.author.toLowerCase().includes(query));
       }
     }
   }
 };
-
 </script>
 
 <style scoped>
@@ -90,52 +80,45 @@ export default {
   justify-items: center center;
   padding-top: 200px;
   padding-bottom: 100px;
-  overflow: hidden; /* Hide overflowing text */
+  overflow: hidden;
 }
 
 .catalog-item {
-  display: flex; /* enables flexbox layout */
-  justify-content: center; /* centers the image horizontally */
-  align-items: center; /* centers the image vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transition: transform 0.3s ease-in-out;
 }
 
 .catalog-item:hover {
-  transform: scale(1.05) rotate(0deg); /* Scale and rotate on hover */
+  transform: scale(1.05) rotate(0deg);
 }
 
 .stained-glass {
-  /* Apply stained glass border effect */
-  border: 10px solid rgba(255, 255, 255, 0.5); /* Add a semi-transparent white border */
-  border-radius: 15px; /* Add some border radius for a rounded effect */
-  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5); /* Add a soft glow effect */
+  border: 10px solid rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
 }
 
 .stained-glass img {
-  width: 100%; /* Ensure the image fills the container */
-  height: auto; /* Maintain aspect ratio */
+  width: 100%;
+  height: auto;
 }
 
-.label-text {
-  display: block;
-  text-align: center;
-  margin-top: 0px; /* Adjust as needed for spacing */
-  font-size: 1.4em;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: #ffffff; /* Adjust color as needed */
-  background-color: black; /* Add black background */
-  padding: 5px 10px; /* Add padding to make the text more readable */
-  overflow: hidden; /* Hide overflowing text */
-}
+.label-text,
 .label-subtext {
   display: block;
   text-align: center;
-  margin-top: 0px; /* Adjust as needed for spacing */
+  margin-top: 0px;
+  font-size: 1.4em;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: #ffffff; /* Adjust color as needed */
-  background-color: black; /* Add black background */
-  padding: 5px 10px; /* Add padding to make the text more readable */
-  overflow: hidden; /* Hide overflowing text */
+  color: #ffffff;
+  background-color: black;
+  padding: 5px 10px;
+  overflow: hidden;
+}
+
+.label-subtext {
   font-style: italic;
 }
 
@@ -146,7 +129,6 @@ export default {
   z-index: 9998;
 }
 
-/* Additional styling for the search input */
 .sort-dropdown input[type="text"] {
   width: 100%;
   padding: 5px;

@@ -51,10 +51,7 @@
   export default {
 
     mounted() {
-      // Get all the redirect buttons
       const redirectButtons = document.querySelectorAll('.logocorner');
-
-      // Add event listeners for hover on each redirect button
       redirectButtons.forEach(button => {
         button.addEventListener('mouseenter', this.playHoverSound);
       });
@@ -62,7 +59,6 @@
 
     methods: {
       playHoverSound(event) {
-        // Play the hover sound on button hover
         const hoverSound = new Audio('/assets/sfx/hover.wav');
         hoverSound.play();
       }
@@ -86,7 +82,7 @@
   }
 
   .hotbar nav {
-    flex-grow: 1; /* Allow the nav element to grow and take available space */
+    flex-grow: 1;
     justify-content: center;
     margin-right: 40px;
     text-shadow: 1px 1px 0 black;
@@ -113,7 +109,6 @@
     position: relative;
   }
 
-  /* Style for the animated line */
   .hotbar nav ul li a::after {
     content: '';
     display: block;
@@ -130,13 +125,12 @@
     width: 100%;
   }
 
-  /* Style for the sub-menu */
   .hotbar .sub-menu {
     display: none;
     position: absolute;
     top: 100%;
     left: 0;
-    background: linear-gradient(45deg, #d67ba8, #5ca1cf); /* Pink to Blue gradient */
+    background: linear-gradient(45deg, #d67ba8, #5ca1cf);
     padding: 0px 0;
     width: 200px;
   }
@@ -172,7 +166,6 @@
     transition: transform 0.3s ease-in-out;
   }
 
-  /* Apply hover effect to the image within the redirect button */
   .logocorner:hover {
     opacity: 0.8;
     transform: scale(1.05) rotate(0deg);

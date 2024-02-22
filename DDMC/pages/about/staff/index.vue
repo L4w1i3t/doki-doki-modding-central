@@ -85,9 +85,9 @@
       };
     }
   };
-  </script>
+</script>
   
-  <style scoped>
+<style scoped>
   .staff {
     text-align: center;
     padding: 20px;
@@ -113,21 +113,21 @@
     border: 1px solid #ccc;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow to the white background */
-    transition: transform 0.3s ease; /* Add transition property */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
   }
 
   .staff-member:hover {
-    transform: scale(1.05); /* Enlarge the section on hover */
+    transform: scale(1.05);
   }
 
   .staff-image {
-    width: 300px; /* Half of the original width */
-    height: 300px; /* Half of the original height */
+    width: 300px;
+    height: 300px;
     margin-right: 20px;
-    object-fit: cover; /* Crop the image to cover the defined dimensions */
-    border-radius: 20px; /* Apply rounded corners */
-    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5); /* Yellow glowing border */
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5);
   }
 
   .staff-details {
@@ -157,62 +157,62 @@
 
   .youtube-button {
     width: 50px;
-    height: auto; /* Adjust the height to match the button size */
-    display: inline-flex; /* Ensure proper inline alignment */
-    justify-content: center; /* Center the content horizontally */
-    align-items: center; /* Center the content vertically */
-    background-color: transparent; /* Make the background transparent */
+    height: auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
     border: none;
     margin-top: 10px;
-    cursor: pointer; /* Show cursor on hover to indicate clickability */
+    cursor: pointer;
   }
 
   .kofi-button {
     width: 50px;
-    height: auto; /* Adjust the height to match the button size */
-    display: inline-flex; /* Ensure proper inline alignment */
-    justify-content: center; /* Center the content horizontally */
-    align-items: center; /* Center the content vertically */
-    background-color: transparent; /* Make the background transparent */
+    height: auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
     border: none;
     margin-top: 10px;
     margin-left: 10px;
-    cursor: pointer; /* Show cursor on hover to indicate clickability */
+    cursor: pointer;
   }
 
   .staff-member:nth-child(1) {
-    border: 4px solid rgba(0, 0, 0, 0.4); /* Black border */
-    border-top: 30px solid black; /* Thin black border on top */
-    background: linear-gradient(135deg, rgba(0, 119, 255, 0.4), rgba(255, 165, 0, 0.4)); /* Cerulean blue to orange gradient with transparency */
+    border: 4px solid rgba(0, 0, 0, 0.4);
+    border-top: 30px solid black;
+    background: linear-gradient(135deg, rgba(0, 119, 255, 0.4), rgba(255, 165, 0, 0.4));
   }
 
   .staff-member:nth-child(2) {
-  border: 4px solid rgba(0, 0, 0, 0.4); /* border color */
-  border-top: 30px solid black; /* Thin black border on top */
-  background-color: rgba(34, 139, 34, 0.2); /* Lighter shade of pine green */
-}
+    border: 4px solid rgba(0, 0, 0, 0.4);
+    border-top: 30px solid black;
+    background-color: rgba(34, 139, 34, 0.2);
+  }
 
   .staff-member:nth-child(3) {
-    border: 4px solid rgba(0, 0, 0, 0.4); /* Border color */
-    border-top: 30px solid black; /* Thin black border on top of each staff member's section */
-    background-color: rgba(255, 105, 180, 0.2); /* Lighter shade of the same pink */
+    border: 4px solid rgba(0, 0, 0, 0.4);
+    border-top: 30px solid black;
+    background-color: rgba(255, 105, 180, 0.2);
   }
 
   .staff-member:nth-child(4) {
-    border: 4px solid rgba(0, 0, 0, 0.4); /* border color */
-    border-top: 30px solid black; /* Thin black border on top of each staff member's section */
-    background-color: rgba(0, 119, 255, 0.2); /* Lighter shade of the same green */
+    border: 4px solid rgba(0, 0, 0, 0.4);
+    border-top: 30px solid black;
+    background-color: rgba(0, 119, 255, 0.2);
   }
 
   .staff-member:nth-child(5) {
-    border: 4px solid rgba(0, 0, 0, 0.4); /* Translucent black for IrisCandy */
-    border-top: 30px solid black; /* Thin black border on top of each staff member's section */
+    border: 4px solid rgba(0, 0, 0, 0.4);
+    border-top: 30px solid black;
     background: linear-gradient(270deg, rgba(255, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   }
 
   .staff-member:nth-child(6) {
-    border: 4px solid rgba(0, 0, 0, 0.4); /* Translucent red for Matsuda Akai */
-    border-top: 30px solid black; /* Thin black border on top of each staff member's section */
+    border: 4px solid rgba(0, 0, 0, 0.4);
+    border-top: 30px solid black;
     background: linear-gradient(90deg, rgba(255, 0, 0, 0.4), rgba(73, 219, 255, 0.4));
   }
 
@@ -221,60 +221,53 @@
     color: rgb(255, 255, 255);
   }
 
-  body {
-    overflow-x: hidden; /* Disable horizontal scrolling */
-  }
-
   .centered-title {
     text-align: center;
     font-size: 3em;
     margin-top: 5vh;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Initial glow effect */
-    animation: pulse 8s linear infinite; /* Apply pulsing animation */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    animation: pulse 8s linear infinite;
   }
 
   @keyframes pulse {
     0% {
-      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Initial glow effect (white) */
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
     }
     20% {
-      text-shadow: 0 0 10px rgba(255, 0, 0, 0.8); /* Red glow effect */
+      text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
     }
     40% {
-      text-shadow: 0 0 10px rgba(0, 255, 0, 0.8); /* Green glow effect */
+      text-shadow: 0 0 10px rgba(0, 255, 0, 0.8);
     }
     60% {
-      text-shadow: 0 0 10px rgba(255, 192, 203, 0.8); /* Pink glow effect */
+      text-shadow: 0 0 10px rgba(255, 192, 203, 0.8);
     }
     80% {
-      text-shadow: 0 0 10px rgba(148, 0, 211, 0.8); /* Purple glow effect */
+      text-shadow: 0 0 10px rgba(148, 0, 211, 0.8);
     }
     100% {
-      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Return to initial glow effect (white) */
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
     }
   }
 
-  /* Center the headers */
   .centered {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
-  /* Additional styling for sections */
   .content-wrapper {
-    max-width: 1200px; /* Widen the wrapper */
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 40px; /* Adjusted padding */
-    /*border: 2px solid #ccc;*/
+    padding: 40px;
   }
 
   .section {
-    margin-bottom: 30px; /* Separate sections better */
+    margin-bottom: 30px;
     padding: 20px;
     border: 10px solid #ffffff;
     border-radius: 5px;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
-    transform: perspective(1000px) rotateX(3deg); /* Apply perspective and rotation */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    transform: perspective(1000px) rotateX(3deg);
     transition: transform 0.3s ease-in-out;
     opacity: 0.95;
     animation: sectionGlow 8s linear infinite;
@@ -283,34 +276,33 @@
 
   @keyframes sectionGlow {
     0% {
-      border-color: rgba(255, 255, 255, 0.8); /* Initial glow effect (white) */
+      border-color: rgba(255, 255, 255, 0.8);
     }
     20% {
-      border-color: rgba(255, 128, 128, 0.8); /* Red glow effect */
+      border-color: rgba(255, 128, 128, 0.8);
     }
     40% {
-      border-color: rgba(116, 255, 116, 0.8); /* Green glow effect */
+      border-color: rgba(116, 255, 116, 0.8);
     }
     60% {
-      border-color: rgba(255, 192, 203, 0.8); /* Pink glow effect */
+      border-color: rgba(255, 192, 203, 0.8);
     }
     80% {
-      border-color: rgba(213, 114, 255, 0.8); /* Purple glow effect */
+      border-color: rgba(213, 114, 255, 0.8);
     }
     100% {
-      border-color: rgba(255, 255, 255, 0.8); /* Return to initial glow effect (white) */
+      border-color: rgba(255, 255, 255, 0.8);
     }
   }
 
-  /* Adjust transform on hover for a dynamic 3D effect */
   .section:hover {
-    transform: perspective(1000px) rotateX(0deg); /* Reset rotation on hover */
+    transform: perspective(1000px) rotateX(0deg);
   }
 
   .section strong {
     display: block;
-    font-size: 1.2em; /* Adjust heading size */
-    margin-bottom: 10px; /* Space below headings */
+    font-size: 1.2em;
+    margin-bottom: 10px;
   }
 
   .section u {
@@ -323,13 +315,12 @@
 
   .section p {
     margin-bottom: 15px;
-    line-height: 1.6; /* Improved line spacing for readability */
+    line-height: 1.6;
   }
 
-  /* Style the ordered list */
   .content-wrapper ol {
     padding-left: 20px;
-    margin-bottom: 15px; /* Space below ordered list */
+    margin-bottom: 15px;
   }
 
   .content-wrapper ol li {
@@ -341,24 +332,22 @@
   }
 
   .section centered strong i {
-    text-align: center; /* Center-align the text */
-    margin-top: 0px; /* Add space between the button and text */
+    text-align: center;
+    margin-top: 0px;
   }
 
   .section centered strong i p {
-    font-style: italic; /* Apply italic style to the text */
+    font-style: italic;
   }
 
-  /* Media query for smaller screens to make forms stack vertically */
   @media (max-width: 768px) {
     .form-wrapper {
-      width: 100%; /* Set full width for smaller screens */
+      width: 100%;
     }
   }
 
-  /* Adjust the top margin for the first section to match the added border */
   .content-wrapper {
-    margin-top: 80px; /* Updated top margin */
+    margin-top: 80px;
   }
   
 </style>

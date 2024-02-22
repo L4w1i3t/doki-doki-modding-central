@@ -1,5 +1,4 @@
 
-<!-- components/header.vue -->
 <template>
   <header class="header">
     <nav>
@@ -24,8 +23,8 @@ export default {
       ],
       currentImageIndex: 0,
       interval: null,
-      duration: 5000, // ms
-      preloadedImages: [], // array to store preloaded Image objects
+      duration: 5000,
+      preloadedImages: [],
     };
   },
   methods: {
@@ -63,14 +62,14 @@ export default {
     padding: 0px 0;
     display: flex;
     justify-content: center;
-    align-items: center; /* Center vertically */
+    align-items: center;
     transition: background-image 2s ease-in-out;
   }
 
   .logo-container {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center horizontally */
+    align-items: center;
   }
 
   .logomain {
@@ -91,7 +90,7 @@ export default {
     transform-origin: bottom;
     text-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
     animation: colorCycle 12s infinite;
-    white-space: nowrap; /* Ensures that the text doesn't wrap */
+    white-space: nowrap;
   }
 
   @keyframes colorCycle {
