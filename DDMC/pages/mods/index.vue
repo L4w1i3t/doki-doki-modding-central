@@ -17,7 +17,7 @@
   <div class="container2">
     <div class="standard-container">
       <a href="/mods/archive" class="mod-button-standard" @mouseenter="playHoverSound">
-        <img src="/assets/gui/archive.webp" alt="Standard Mod" class="button-image" />
+        <img src="/assets/gui/modarchive.webp" alt="Standard Mod" class="button-image" />
       </a>
       <p class="button-label">Mod Archive</p>
       </div>

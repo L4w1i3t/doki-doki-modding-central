@@ -17,7 +17,7 @@
       </div>
     </div>
     <div v-for="(item, index) in catalogItems" :key="index" class="catalog-item">
-      <nuxt-link :to="'/mods/standard/' + item.route"> <!-- Assuming you have a route property for each item -->
+      <nuxt-link :to="'/mods/android/' + item.route"> <!-- Assuming you have a route property for each item -->
         <div class="stained-glass">
           <img :src="item.imageUrl" alt="Catalog Image">
           <span class="label-text">{{ item.title }}</span>

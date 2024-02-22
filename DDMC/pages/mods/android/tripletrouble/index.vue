@@ -21,10 +21,17 @@
     </div>
     <h2 style = "text-align: center; margin-top: 20px; font-size: 2em;">DOWNLOAD HERE!</h2>
     <div class="download-links">
-      <ul>
-        <li><a href="#" target="_blank">- Version 1.0</a></li>
-        <!-- Add more versions as needed -->
-      </ul>
+      <div class="stained-glass">
+        <h3>Versions</h3>
+        <hr>
+        <ul>
+          <li>
+            <img src="/assets/gui/dl.webp" alt="Download Icon" style="width: 50px; height: 50px; margin-right: 10px;">
+            <a href="https://www.mediafire.com/file/j91bfro33q9le3t/ddtt.full.release-release.apk/file" target="_blank">Doki Doki Triple Trouble 1.0 - Download (1.61gb)</a>
+          </li>
+          <!-- Add more versions as needed -->
+        </ul>
+      </div>
     </div>
   </div>
 </template>
@@ -120,16 +127,25 @@ export default {
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 2em;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 15px; /* Adjust the value to control the roundness */
+  transform: perspective(1000px) rotateX(3deg); /* Apply perspective and rotation */
+  transition: transform 0.3s ease-in-out;
+  width: 60%;
 }
 
 .download-links ul {
   list-style-type: none;
   padding: 0;
+  margin-top: 10px;
 }
 
 .download-links ul li {
   margin-bottom: 10px;
+  display: inline-flex; /* Display list items inline */
+  align-items: center; /* Align items vertically */
 }
+
 
 .stained-glass {
   /* Apply stained glass border effect */

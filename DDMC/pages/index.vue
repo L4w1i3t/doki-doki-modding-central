@@ -7,6 +7,7 @@
   <!-- Abstract -->
   <div class="content-wrapper" style="margin-top: -20px; margin-bottom: -40px; color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 1.5em;">
     <p><i>This is the all-encompassing fan modification emporium for modifying <i>Doki Doki Literature Club!</i> by Team Salvato. This website hopes to facilitate a healthy repository of everything anyone would need from the normal player to the years-long modding veterans. Acting as an archive free of biased control measures, we hope to fulfill a thorough repertoire of all story creations anyone wished to contribute to this franchise.</i></p>
+    <p style="color: red;"><i>NOTE: THIS SITE IS STILL IN AN ARCHAIC STATE, AND IT WILL CONTAIN SOME TECHNICAL ISSUES. PLEASE KNOW THAT IT IS CONSTANTLY BEING WORKED ON AND LOOKED AT.</i></p>
   </div>
   
   <!-- Featured Releases Section -->
