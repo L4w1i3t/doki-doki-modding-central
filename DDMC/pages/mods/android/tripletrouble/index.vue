@@ -27,7 +27,7 @@
         <ul>
           <li>
             <img src="/assets/gui/dl.webp" alt="Download Icon" style="width: 50px; height: 50px; margin-right: 10px;">
-            <a href="https://www.mediafire.com/file/j91bfro33q9le3t/ddtt.full.release-release.apk/file" target="_blank">Doki Doki Triple Trouble 1.0 - Download (1.61gb)</a>
+            <a href="https://www.mediafire.com/file/w2j2y3d1kcib9jy/ddtt.full.release-release.apk/file" target="_blank">Doki Doki Triple Trouble 1.0 - Download (1.61gb)</a>
           </li>
           <!-- Add more versions as needed -->
         </ul>
