@@ -227,7 +227,7 @@
           },
           {
             name: 'Cassie',
-            image: '/assets/images/characters/place.png',
+            image: '/assets/images/characters/cassie.png',
           },
           {
             name: 'Delinquent Girl',
