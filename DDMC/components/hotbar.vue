@@ -26,14 +26,6 @@
           </ul>
         </li>
         <li>
-          <span class="non-clickable">Service</span>
-          <ul class="sub-menu">
-            <li><a href="/service/lost and found">Lost and Found</a></li>
-            <li><a href="/service/bulletin board">Bulletin Board</a></li>
-            <li><a href="/service/complaints department">Complaints Dept.</a></li>
-          </ul>
-        </li>
-        <li>
           <span class="non-clickable">More</span>
           <ul class="sub-menu">
             <li><a href="/more/assets">Assets</a></li>
