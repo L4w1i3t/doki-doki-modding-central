@@ -11,15 +11,13 @@
           <h2>{{ staffMember.name }}</h2>
           <p class="position">{{ staffMember.position }}</p>
           <p class="bio">{{ staffMember.bio }}</p>
-          <div v-if="staffMember.name !== 'IrisCandy'">
-            <div class="button-group">
-              <a :href="staffMember.youtube" target="_blank" rel="noopener noreferrer">
-                <img src="/assets/gui/yt.webp" alt="YouTube" class="youtube-button" />
-              </a>
-              <a v-if="staffMember.kofi" :href="staffMember.kofi" target="_blank" rel="noopener noreferrer">
-                <img src="/assets/gui/kofi.webp" alt="Ko-fi" class="kofi-button" />
-              </a>
-            </div>
+          <div class="button-group">
+            <a v-if="staffMember.youtube" :href="staffMember.youtube" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/gui/yt.webp" alt="YouTube" class="youtube-button" />
+            </a>
+            <a v-if="staffMember.kofi" :href="staffMember.kofi" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/gui/kofi.webp" alt="Ko-fi" class="kofi-button" />
+            </a>
           </div>
         </div>
       </div>
@@ -36,7 +34,7 @@
             id: 0,
             name: 'L4w1i3t',
             position: 'Site Developer, Founder, Site Admin',
-            bio: 'Intermediate-level programmer and designer with an intended double major in Cognitive Science and Computer Science (so, like, CS^2). I know the languages of RenPy, Python, Java, JavaScript, CSS, HTML, C(++/#), and Assembly. I typically like to create random projects in my free time, ranging from DDLC mods to console hardware modification to YouTube videos to Soulsborne builds, but otherwise I am a bored-most-of-the-time university student.',
+            bio: 'Front-end and back-end programmer/designer with an intended double major in Cognitive Science and Computer Science (so, like, CS^2). I know the languages of RenPy, Python, Java, JavaScript, CSS, HTML, C(++/#), and Assembly. I typically like to create random projects in my free time, ranging from DDLC mods to console hardware modification to YouTube videos to Soulsborne builds, but otherwise I am a bored-most-of-the-time university student.',
             image: '/assets/images/lawliet.webp',
             youtube: 'https://www.youtube.com/channel/UCj18pgOsq9bXGddHoSdGWDw',
             kofi: 'https://ko-fi.com/l4w1i3t'
@@ -80,6 +78,22 @@
             position: 'Artist',
             bio: 'My name\'s Iris. Artist for three years and is still going strong. I\'ve been part of the DDLC community for less, and I am considering contributing more to the place, but we\'ll see. Art is a passion, and it is what drives me to keep going, and over time, in many ways, I can see how much I have improved. Consider me next time you have a project!',
             image: '/assets/images/iris.webp'
+          },
+          {
+            id: 6,
+            name: 'Finn TDK',
+            position: 'Reddit Moderator',
+            bio: 'Greetings! My name is Finn the Diamond Knight, but you can call me Finn or Finn TDK for short. Been a DDLC fan since 2018 and a DokiTuber/content creator since 2021 as my newfound appreciation of the series. Poetry, stories, history, you name it! It\'s like an empty page for your imagination to take over and run wild, or a new adventure! I stand by to those whom I\'m loyal with to help out in any way I can for a good cause on equal ground. Most importantly, stay awesome and have fun!',
+            image: '/assets/images/finn.webp',
+            youtube: 'https://www.youtube.com/@OfficialFinnTDK'
+          },
+          {
+            id: 7,
+            name: 'MagmaSlasher',
+            position: 'Web Staff, Quality Assurance',
+            bio: 'The one, the only, MagmaSlasher. Bogeyman to those who shall not be named, but good enough at my job to warrant having around. Member of the late Team Red Mazda RX-7 (STOCK), God rest that team\'s collective soul, and creator of several mods, such as The Deepest Mod Ever, and Sayori Fucks Up, the latter of which you can play here! Proficient in Python, C#, JS, and a whole host of other programming languages that I picked up during my time spent on developing various projects, and I can\'t  wait to use those skills to help out here.',
+            image: '/assets/images/magma.webp',
+            youtube: 'https://www.youtube.com/channel/UChXVIt0z0Mkx7QlA_eQ5FMg'
           },
         ]
       };
@@ -216,9 +230,16 @@
     background: linear-gradient(90deg, rgba(255, 0, 0, 0.4), rgba(73, 219, 255, 0.4));
   }
 
-  .iris-section h2,
-  .iris-section .bio {
-    color: rgb(255, 255, 255);
+  .staff-member:nth-child(7) {
+    border: 4px solid rgba(0, 0, 0, 0.4);
+    border-top: 30px solid black;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(73, 219, 255, 0.4));
+  }
+
+  .staff-member:nth-child(8) {
+    border: 4px solid rgba(0, 0, 0, 0.4);
+    border-top: 30px solid black;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.4));
   }
 
   .centered-title {

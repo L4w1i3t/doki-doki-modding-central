@@ -42,10 +42,10 @@
     </div>
 
     <div class="decoration-images">
-      <img src="/assets/gui/say.png" alt="say" class="decoration-image-say" />
-      <img src="/assets/gui/yurk.png" alt="yurk" class="decoration-image-yurk" />
-      <img src="/assets/gui/mon.png" alt="mon" class="decoration-image-mon" />
-      <img src="/assets/gui/nat.png" alt="nat" class="decoration-image-nat" />
+      <img src="/assets/gui/say.webp" alt="say" class="decoration-image-say" />
+      <img src="/assets/gui/yurk.webp" alt="yurk" class="decoration-image-yurk" />
+      <img src="/assets/gui/mon.webp" alt="mon" class="decoration-image-mon" />
+      <img src="/assets/gui/nat.webp" alt="nat" class="decoration-image-nat" />
     </div>
   </div>
 
@@ -82,7 +82,7 @@
 
     data() {
       return {
-        socialMediaImages: ['discord.webp'],
+        socialMediaImages: ['discord.webp', 'reddit.webp', 'evilreddit.webp'],
         featuredReleases: ['DDTT', 'releaseyay', 'egodeath'],
         currentReleaseIndex: 1,
       };
@@ -135,6 +135,10 @@
         switch (image) {
           case 'discord.webp':
             return 'https://discord.gg/HZKb8EQu9a';
+          case 'reddit.webp':
+            return 'https://www.reddit.com/r/DDMC/'
+          case 'evilreddit.webp':
+            return 'https://www.reddit.com/r/a:t5_1x7m5e/'
           default:
             return '#';
         }
