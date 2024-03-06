@@ -277,12 +277,14 @@
   }
 
   .featured-releases-container {
+    margin: auto;
     position: relative;
-    display: flex;
+    display: block;
     align-items: center;
   }
 
   .featured-releases {
+    margin: auto;
     display: flex;
     overflow: hidden;
   }
