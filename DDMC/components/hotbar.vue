@@ -31,6 +31,7 @@
             <li><a href="/more/assets">Assets</a></li>
             <li><a href="/more/characters">Characters</a></li>
             <li><a href="/more/renpy">RenPy</a></li>
+            <li><a href="/patchnotes">Patch Notes</a></li>
           </ul>
         </li>
       </ul>

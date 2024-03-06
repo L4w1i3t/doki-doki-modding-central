@@ -83,7 +83,7 @@
     data() {
       return {
         socialMediaImages: ['discord.webp', 'reddit.webp', 'evilreddit.webp'],
-        featuredReleases: ['DDTT', 'releaseyay', 'egodeath'],
+        featuredReleases: ['sigmaclub', 'svhsoriginal', 'leftbehind'],
         currentReleaseIndex: 1,
       };
     },
@@ -146,14 +146,7 @@
 
       getReleaseLink(release) {
         switch (release) {
-          case 's':
-            return '/mods/standard';
-          case 'DDTT':
-            return '/mods/standard/tripletrouble';
-          case 'y':
-            return '/mods/standard/y';
-          default:
-            return '#';
+          //outdated
         }
       },
       playHoverSound(event) {
@@ -277,12 +270,14 @@
   }
 
   .featured-releases-container {
+    margin: auto;
     position: relative;
-    display: flex;
+    display: block;
     align-items: center;
   }
 
   .featured-releases {
+    margin: auto;
     display: flex;
     overflow: hidden;
   }
