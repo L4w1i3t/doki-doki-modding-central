@@ -75,6 +75,12 @@ export default {
         imageUrl: "/assets/mod_prevs/svhsoriginal.webp",
         route: "svhs"
       },
+      {
+        title: "You Matter Too (Part 1)",
+        author: "Doki Senate",
+        imageUrl: "/assets/mod_prevs/ymt.webp",
+        route: "youmattertoo"
+      },
     ];
     this.catalogItems = [...this.originalCatalogItems];
   },
