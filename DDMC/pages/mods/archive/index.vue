@@ -59,7 +59,7 @@ export default {
       },
       {
         title: "Sigma Club",
-        author: "Kennedy Productions, Team Red Mazda RX-7 (STOCK)",
+        author: "Kennedy Productions, Team Red Mazda",
         imageUrl: "/assets/mod_prevs/sigmaclub.webp",
         route: "sigmaclub"
       },
@@ -68,6 +68,12 @@ export default {
         author: "Kennedy Productions, Tune Eternal",
         imageUrl: "/assets/mod_prevs/sigmastigma.webp",
         route: "sigmaclub2"
+      },
+      {
+        title: "SVHS-TAP05052022",
+        author: "Team Red Mazda, L4w1i3t",
+        imageUrl: "/assets/mod_prevs/svhsoriginal.webp",
+        route: "svhs"
       },
     ];
     this.catalogItems = [...this.originalCatalogItems];
