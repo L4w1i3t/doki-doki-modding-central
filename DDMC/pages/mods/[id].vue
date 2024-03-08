@@ -41,7 +41,7 @@
 
   <script setup>
   import Data from "./mod-db.json"
-//   console.log(Data)
+    console.log(Data)
   </script>  
 
   <script>

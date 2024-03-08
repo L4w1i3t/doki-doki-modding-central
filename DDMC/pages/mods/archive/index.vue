@@ -2,7 +2,7 @@
   <div class="catalog">
     <div class="sort-dropdown">
       <select v-model="sortBy" @change="sortCatalog">
-        <option value="default">Sort by...</option>
+        <option value="default">Search by...</option>
         <option value="default">Default</option>
         <option value="title">Title</option>
         <option value="author">Author</option>
