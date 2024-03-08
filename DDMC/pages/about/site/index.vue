@@ -1,6 +1,6 @@
 
 <template>
-  <div class="centered-title" style="color: white; font-family: 'Hot Mustard BTN', Courier, monospace; margin-top: 100px;">
+  <div class="centered-title" style="color: white; font-family: 'Hot Mustard BTN Regular', monospace; margin-top: 100px;">
     <h2>About DDMC</h2>
   </div>
     <div class="content-wrapper" style="color: white">
