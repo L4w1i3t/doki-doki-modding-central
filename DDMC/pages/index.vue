@@ -1,6 +1,6 @@
 
 <template>
-  <div class="centered-title" style="color: white; font-family: 'Hot Mustard BTN', Courier, monospace;">
+  <div class="centered-title" style="color: white; font-family: 'Hot Mustard BTN Regular', monospace;">
     <u>Welcome to Doki Doki Modding Central!</u>
   </div>
   
