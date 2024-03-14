@@ -17,6 +17,14 @@
     data() {
       return {
         versions: [
+          {
+            version: 'Alpha 1.0.4',
+            notes: [
+              'Remade the mod download page layout',
+              'Fixed dynamic resolution on mod pages',
+              'Fixed YouTube video embedding'
+            ]
+          },
             {
             version: 'Alpha 1.0.3',
             notes: [

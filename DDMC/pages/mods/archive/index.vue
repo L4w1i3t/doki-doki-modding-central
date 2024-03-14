@@ -81,6 +81,18 @@ export default {
         imageUrl: "/assets/mod_prevs/ymt.webp",
         route: "youmattertoo"
       },
+      {
+        title: "Our Castle Walls",
+        author: "Mr. ZeraTheMant",
+        imageUrl: "/assets/mod_prevs/ocw.webp",
+        route: "ourcastlewalls"
+      },
+      {
+        title: "Our Castle Walls: After Stories",
+        author: "Mr. ZeraTheMant",
+        imageUrl: "/assets/mod_prevs/ocwas.webp",
+        route: "ourcastlewallsafterstory"
+      },
     ];
     this.catalogItems = [...this.originalCatalogItems];
   },

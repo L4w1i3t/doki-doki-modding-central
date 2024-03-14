@@ -84,7 +84,7 @@ export default {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 200px;
-    font-size: 3em;
+    font-size: 3vw;
     font-family: 'Hot Mustard BTN Regular', monospace;
     transform: skewY(-5deg);
     transform-origin: bottom;

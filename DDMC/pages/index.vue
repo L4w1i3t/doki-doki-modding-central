@@ -165,7 +165,7 @@
 
   .centered-title {
     text-align: center;
-    font-size: 3em;
+    font-size: 3vw;
     margin-top: 5vh;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
     animation: pulse 8s linear infinite;
