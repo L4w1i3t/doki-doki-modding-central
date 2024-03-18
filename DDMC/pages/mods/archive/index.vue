@@ -111,6 +111,31 @@ export default {
         imageUrl: "/assets/mod_prevs/salvationremake.webp",
         route: "salvationremake"
       },
+      {
+        title: "Doki Doki The Blue Seas: Demo V2",
+        author: "dewallt101",
+        imageUrl: "/assets/mod_prevs/blueseasdemov2.webp",
+        route: "blueseasdemov2"
+      },
+      {
+        title: "Doki Doki The Blue Seas: Nightmare of the Yandere Doki",
+        author: "dewallt101",
+        imageUrl: "/assets/mod_prevs/nightmareoftheyanderedoki.webp",
+        route: "nightmareoftheyanderedoki"
+      },
+      {
+        title: "Doki Doki The Blue Seas: Thanksgiving Edition",
+        author: "dewallt101",
+        imageUrl: "/assets/mod_prevs/blueseasthanksgiving.webp",
+        route: "blueseasthanksgiving"
+      },
+      {
+        title: "Doki Doki The Blue Seas: Christmas Adventures",
+        author: "dewallt101",
+        imageUrl: "/assets/mod_prevs/blueseaschristmasadventures.webp",
+        route: "blueseaschristmasadventures"
+      },
+
 
 
 
