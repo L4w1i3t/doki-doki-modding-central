@@ -2,7 +2,7 @@
   <div class="catalog">
     <div class="sort-dropdown">
       <select v-model="sortBy" @change="sortCatalog">
-        <option value="default">Sort by...</option>
+        <option value="default">Search by...</option>
         <option value="default">Default</option>
         <option value="title">Title</option>
         <option value="author">Author</option>
@@ -59,7 +59,7 @@ export default {
       },
       {
         title: "Sigma Club",
-        author: "Kennedy Productions, Team Red Mazda RX-7 (STOCK)",
+        author: "Kennedy Productions, Team Red Mazda",
         imageUrl: "/assets/mod_prevs/sigmaclub.webp",
         route: "sigmaclub"
       },
@@ -69,6 +69,77 @@ export default {
         imageUrl: "/assets/mod_prevs/sigmastigma.webp",
         route: "sigmaclub2"
       },
+      {
+        title: "SVHS-TAP05052022",
+        author: "Team Red Mazda, L4w1i3t",
+        imageUrl: "/assets/mod_prevs/svhsoriginal.webp",
+        route: "svhs"
+      },
+      {
+        title: "You Matter Too (Part 1)",
+        author: "Doki Senate",
+        imageUrl: "/assets/mod_prevs/ymt.webp",
+        route: "youmattertoo"
+      },
+      {
+        title: "Our Castle Walls",
+        author: "Mr. ZeraTheMant",
+        imageUrl: "/assets/mod_prevs/ocw.webp",
+        route: "ourcastlewalls"
+      },
+      {
+        title: "Our Castle Walls: After Stories",
+        author: "Mr. ZeraTheMant",
+        imageUrl: "/assets/mod_prevs/ocwas.webp",
+        route: "ourcastlewallsafterstory"
+      },
+      {
+        title: "Sayori Fucks Up",
+        author: "MagmaSlasher",
+        imageUrl: "/assets/mod_prevs/sayorifucksup.webp",
+        route: "sayorifucksup"
+      },
+      {
+        title: "Doki Doki Outcast",
+        author: "Fjord",
+        imageUrl: "/assets/mod_prevs/outcast.webp",
+        route: "outcast"
+      },
+      {
+        title: "Salvation! Remake",
+        author: "12GizGuy6",
+        imageUrl: "/assets/mod_prevs/salvationremake.webp",
+        route: "salvationremake"
+      },
+      {
+        title: "Doki Doki The Blue Seas: Demo V2",
+        author: "dewallt101",
+        imageUrl: "/assets/mod_prevs/blueseasdemov2.webp",
+        route: "blueseasdemov2"
+      },
+      {
+        title: "Doki Doki The Blue Seas: Nightmare of the Yandere Doki",
+        author: "dewallt101",
+        imageUrl: "/assets/mod_prevs/nightmareoftheyanderedoki.webp",
+        route: "nightmareoftheyanderedoki"
+      },
+      {
+        title: "Doki Doki The Blue Seas: Thanksgiving Edition",
+        author: "dewallt101",
+        imageUrl: "/assets/mod_prevs/blueseasthanksgiving.webp",
+        route: "blueseasthanksgiving"
+      },
+      {
+        title: "Doki Doki The Blue Seas: Christmas Adventures",
+        author: "dewallt101",
+        imageUrl: "/assets/mod_prevs/blueseaschristmasadventures.webp",
+        route: "blueseaschristmasadventures"
+      },
+
+
+
+
+
     ];
     this.catalogItems = [...this.originalCatalogItems];
   },

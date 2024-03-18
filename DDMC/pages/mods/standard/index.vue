@@ -3,7 +3,7 @@
   <div class="catalog">
     <div class="sort-dropdown">
       <select v-model="sortBy" @change="sortCatalog">
-        <option value="default">Sort by...</option>
+        <option value="default">Search by...</option>
         <option value="default">Default</option>
         <option value="title">Title</option>
         <option value="author">Author</option>
@@ -45,6 +45,18 @@ export default {
         author: "JayQilin",
         imageUrl: "/assets/mod_prevs/DDTT.webp",
         route: "tripletrouble"
+      },
+      {
+        title: "Sayori Gets a Vape!",
+        author: "Team Artic",
+        imageUrl: "/assets/mod_prevs/sayorigetsavape.webp",
+        route: "sayorigetsavape"
+      },
+      {
+        title: "Exit Spoof",
+        author: "Dyinide",
+        imageUrl: "/assets/mod_prevs/exitspoof.webp",
+        route: "exitspoof"
       },
     ];
     this.catalogItems = [...this.originalCatalogItems];

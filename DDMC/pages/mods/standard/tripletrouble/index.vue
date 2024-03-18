@@ -1,162 +1,152 @@
 
 <template>
-  <div class="download-page">
-    <div class="thumbnail-container">
-      <img src="/assets/mod_prevs/DDTT.webp" class="stained-glass" alt="Software Thumbnail">
+  <div>
+    <div class="preview-image">
+      <img src="/assets/mod_prevs/DDTT.webp" alt="Preview Image">
     </div>
-    <div class="title-container">
-      <p class="stained-glass">DOKI DOKI TRIPLE TROUBLE</p>
-    </div>
-    <div class="author-container">
-      <div class="stained-glass">
-        <div class="author-names">
-          <p>Author(s): JQilin Gaming</p>
-        </div>
-        <div class="contributors">
-          <p>Contributors: JQilin Gaming, Tune Eternal, Amigo, Kennedy Productions, The JQ Crew, StormBlaze, Proxyl_, Polygonsexual</p>
-        </div>
-      </div>
+    <div class="title-box">
+      <h1>{{ title }}</h1>
+      <p style="font-size: 0.5em;">{{ authors }}</p>
+      <p style="font-size: 0.5em;">{{ contributors }}</p>
     </div>
     <div class="description">
-      <p class="stained-glass">Doki Doki Triple Trouble is the first ever 18+ RomCom that centers around everyone's favorite pink-haired heartbreaker: Natsuki! Follow MC's year long escapade to try to be the main man in Natsuki's life as he competes with a different man... and then a different man... and then a different man. An original story jam packed with action, drama, comedy, romance, an incredible original soundtrack, and enough NSFW to make your head spin! A DDLC mod that will make you laugh, cry, question life, and jam out while doing so. Will MC surrender his common sense to get with Natsuki or will he realize that it's not worth the trouble? Find out now in Doki Doki Triple Trouble!</p>
+      <p>{{ description }}</p>
     </div>
-    <h2 style="text-align: center; margin-top: 20px; font-size: 2em;">DOWNLOAD HERE!</h2>
+    <div class="download-container">
+      <img src="/assets/gui/dl.webp" alt="Download Icon">
+      <div class="download-label">Download Here!</div>
+    </div>
     <div class="download-links">
-      <div class="stained-glass">
-        <h3>Versions</h3>
-        <hr>
-        <ul>
-          <li>
-            <img src="/assets/gui/dl.webp" alt="Download Icon" style="width: 50px; height: 50px; margin-right: 10px;">
-            <a href="https://www.mediafire.com/file/2zm2e3fl3y5d9gw/DDTT-4.2.0-Renpy7Mod.zip/file" target="_blank">Doki Doki Triple Trouble 1.0 - Download (1.83gb)</a>
-          </li>
-        </ul>
-      </div>
+      <a v-for="(link, index) in links" :key="index" :href="link.url" target="_blank" download>{{ link.text }}</a>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'DownloadPage'
+  data() {
+    return {
+      title: 'Doki Doki Triple Trouble',
+      authors: 'By JQilin Gaming',
+      contributors: 'Contributors: Tune Eternal, JQ Crew, Storm Blaze, Proxyl_ Polygonsexual',
+      description: 'Doki Doki Triple Trouble is the first ever 18+ RomCom that centers around everyone\'s favorite pink-haired heartbreaker: Natsuki! Follow MC\'s year long escapade to try to be the main man in Natsuki\'s life as he competes with a different man... and then a different man... and then a different man. An original story jam packed with action, drama, comedy, romance, an incredible original soundtrack, and enough NSFW to make your head spin! A DDLC mod that will make you laugh, cry, question life, and jam out while doing so. Will MC surrender his common sense to get with Natsuki or will he realize that it\'s not worth the trouble? Find out now in Doki Doki Triple Trouble!',
+      links: [
+        {
+          text: '1.1',
+          url: 'https://www.mediafire.com/file/2zm2e3fl3y5d9gw/DDTT-4.2.0-Renpy7Mod.zip/file'
+        },
+        {
+          text: 'DEMO',
+          url: 'https://www.mediafire.com/file/tvgsu2msegeu2dq/DDTT-Renpy7Mod.zip/file'
+        },
+      ]
+    }
+  }
 }
 </script>
 
 <style scoped>
-.download-page {
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background: rgba(0, 0, 0, 0.4);
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
-}
-
-.thumbnail-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin-top: 100px;
-  margin-left: 50px;
-  transform: perspective(1000px) rotateX(3deg);
-  transition: transform 0.3s ease-in-out;
-  background: rgba(0, 0, 0, 0.4);
-}
-
-.thumbnail-container img {
-  width: 720px;
+.preview-image {
+  width: 50%;
   height: auto;
+  margin-bottom: 1%;
+  margin-top: 9vh;
+  margin-left: 25%;
+  border: 10px solid rgb(255, 255, 255, 0.5);
+  border-radius: 1.5%;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
 }
 
-.title-container {
-  position: absolute;
-  top: 0;
+.title-box {
   text-align: center;
-  right: 0;
-  width: 800px;
-  margin-top: 100px;
-  font-size: 5em;
-  margin-right: 80px;
-  animation: pulse 8s linear infinite;
-  transform: perspective(1000px) rotateX(3deg);
-  transition: transform 0.3s ease-in-out;
-  background: rgba(0, 0, 0, 0.4);
-}
-
-.author-container {
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin-top: 370px;
-  font-size: 2em;
-  margin-right: 80px;
-  transform: perspective(1000px) rotateX(3deg);
-  transition: transform 0.3s ease-in-out;
-  background: rgba(0, 0, 0, 0.4);
-  width: 800px;
-}
-
-.author-names {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.contributors {
-  margin-bottom: 10px;
-  font-size: 0.45em;
-  text-align: center;
+  margin-bottom: 1%;
+  margin-left: 20%;
+  margin-right: 20%;
+  color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2vw;
+  font-style: italic;
+  border: 10px solid rgb(255, 255, 255, 0.5);
+  border-radius: 25%;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+  background-color: rgb(0, 0, 0, 0.5);
 }
 
 .description {
-  margin-top: 550px;
-  margin-bottom: auto;
   text-align: center;
-  width: 1600px;
-  font-size: 1.8em;
+  margin-bottom: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+  color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2vw;
+  border: 10px solid rgb(255, 255, 255, 0.5);
+  border-radius: 0%;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+.download-label {
+  text-align: center;
+  margin-bottom: 1%;
+  margin-left: 1%;
+  margin-right: 2%;
+  color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2vw;
   font-style: italic;
-  margin-left: 50px;
-  margin-right: 50px;
-  transform: perspective(1000px) rotateX(3deg);
-  transition: transform 0.3s ease-in-out;
-  background: rgba(0, 0, 0, 0.4);
-  border-radius: 15px;
+}
+
+.download-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1%;
+}
+
+.download-container img {
+  width: 4vw; /* Adjust size as needed */
+  height: auto;
 }
 
 .download-links {
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-size: 2em;
-  background: rgba(0, 0, 0, 0.4);
-  border-radius: 15px;
-  transform: perspective(1000px) rotateX(3deg);
-  transition: transform 0.3s ease-in-out;
-  width: 60%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1%;
+  color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+  font-size: 1.5vw;
 }
 
-.download-links ul {
-  list-style-type: none;
-  padding: 0;
-  margin-top: 10px;
-}
-
-.download-links ul li {
-  margin-bottom: 10px;
-  display: inline-flex;
-  align-items: center;
-}
-
-.stained-glass {
-  border: 5px solid rgba(255, 255, 255, 0.5);
-  border-radius: 15px;
+.download-links a {
+  margin: 0 10px;
+  padding: 10px;
+  border: 5px solid #ccc;
+  border-radius: 10px;
+  text-decoration: none;
   box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+  background-color: rgb(0, 0, 0, 0.5);
+  color: #ffffff;
   animation: pulse 8s linear infinite;
 }
 
-.stained-glass img {
+.video {
+  aspect-ratio: 16 / 9;
   width: 100%;
-  height: auto;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 @keyframes pulse {
@@ -166,7 +156,7 @@ export default {
   20% {
     text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
   }
-   40% {
+  40% {
     text-shadow: 0 0 10px rgba(0, 255, 0, 0.8);
   }
   60% {

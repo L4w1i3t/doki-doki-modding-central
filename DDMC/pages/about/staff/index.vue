@@ -1,7 +1,7 @@
 
 <template>
   <div class="centered-title" style="margin-top: 100px;">
-    <h1 style="font-family: 'Hot Mustard BTN', Courier, monospace; color: white; animation: pulse 8s linear infinite">Meet Our Staff!</h1>
+    <h1 style="font-family: 'Hot Mustard BTN Regular', monospace; color: white; animation: pulse 8s linear infinite">Meet Our Staff!</h1>
   </div>
   <div class="staff">
     <div class="staff-list">

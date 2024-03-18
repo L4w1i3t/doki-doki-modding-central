@@ -1,6 +1,6 @@
 
 <template>
-  <div class="centered-title" style="color: white; font-family: 'Hot Mustard BTN', Courier, monospace;">
+  <div class="centered-title" style="color: white; font-family: 'Hot Mustard BTN Regular', monospace;">
     <u>Welcome to Doki Doki Modding Central!</u>
   </div>
   
@@ -83,7 +83,7 @@
     data() {
       return {
         socialMediaImages: ['discord.webp', 'reddit.webp', 'evilreddit.webp'],
-        featuredReleases: ['DDTT', 'releaseyay', 'egodeath'],
+        featuredReleases: ['sigmaclub', 'svhsoriginal', 'leftbehind'],
         currentReleaseIndex: 1,
       };
     },
@@ -146,14 +146,7 @@
 
       getReleaseLink(release) {
         switch (release) {
-          case 's':
-            return '/mods/standard';
-          case 'DDTT':
-            return '/mods/standard/tripletrouble';
-          case 'y':
-            return '/mods/standard/y';
-          default:
-            return '#';
+          //outdated
         }
       },
       playHoverSound(event) {
@@ -172,7 +165,7 @@
 
   .centered-title {
     text-align: center;
-    font-size: 3em;
+    font-size: 3vw;
     margin-top: 5vh;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
     animation: pulse 8s linear infinite;
@@ -277,12 +270,14 @@
   }
 
   .featured-releases-container {
+    margin: auto;
     position: relative;
-    display: flex;
+    display: block;
     align-items: center;
   }
 
   .featured-releases {
+    margin: auto;
     display: flex;
     overflow: hidden;
   }
