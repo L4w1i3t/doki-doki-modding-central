@@ -93,6 +93,28 @@ export default {
         imageUrl: "/assets/mod_prevs/ocwas.webp",
         route: "ourcastlewallsafterstory"
       },
+      {
+        title: "Sayori Fucks Up",
+        author: "MagmaSlasher",
+        imageUrl: "/assets/mod_prevs/sayorifucksup.webp",
+        route: "sayorifucksup"
+      },
+      {
+        title: "Doki Doki Outcast",
+        author: "Fjord",
+        imageUrl: "/assets/mod_prevs/outcast.webp",
+        route: "outcast"
+      },
+      {
+        title: "Salvation! Remake",
+        author: "12GizGuy6",
+        imageUrl: "/assets/mod_prevs/salvationremake.webp",
+        route: "salvationremake"
+      },
+
+
+
+
     ];
     this.catalogItems = [...this.originalCatalogItems];
   },
