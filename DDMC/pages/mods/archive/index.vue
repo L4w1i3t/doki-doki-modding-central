@@ -94,6 +94,12 @@ export default {
         route: "ourcastlewallsafterstory"
       },
       {
+        title: "Zera's Fun Time",
+        author: "Mr. ZeraTheMant",
+        imageUrl: "/assets/mod_prevs/zerasfuntime.webp",
+        route: "zerasfuntime"
+      },
+      {
         title: "Sayori Fucks Up",
         author: "MagmaSlasher",
         imageUrl: "/assets/mod_prevs/sayorifucksup.webp",
@@ -135,8 +141,20 @@ export default {
         imageUrl: "/assets/mod_prevs/blueseaschristmasadventures.webp",
         route: "blueseaschristmasadventures"
       },
-
-
+      {
+        title: "Tropical Rain",
+        author: "PumpkinbrainUS",
+        imageUrl: "/assets/mod_prevs/tropicalrain.webp",
+        route: "tropicalrain1.2"
+      },
+ 
+      {
+        title: "I Need This Mod Like A Hole In The Head",
+        author: "MagmaSlasher",
+        imageUrl: "/assets/mod_prevs/holeinthehead.webp",
+        route: "holeinthehead"
+      },
+ 
 
 
 
