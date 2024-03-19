@@ -29,7 +29,7 @@
         title: 'Doki Doki The Blue Seas: Nightmare of the Yandere Doki',
         authors: 'By dewallt101',
         contributors: 'Contributors: Leviathan Slayer, The Graceful, Prox, Tune Eternal, BlackRabbitArtworks',
-        description: 'A Blue Seas special mini-mod Nightmare of the Yandere Doki. Why have your friends and girlfriend entirely gone off the rails? Will main character be able to survive Halloween, or will he die?" ',
+        description: 'A Blue Seas special mini-mod Nightmare of the Yandere Doki. Why have your friends and girlfriend entirely gone off the rails? Will main character be able to survive Halloween, or will he die?',
         links: [
           {
             text: 'Standard',
