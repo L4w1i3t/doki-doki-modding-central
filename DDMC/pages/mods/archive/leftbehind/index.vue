@@ -28,7 +28,7 @@ export default {
     return {
       title: 'Left Behind',
       authors: 'By Tune Eternal',
-      contributors: 'Contributors:  N/A',
+      contributors: 'Submitted By: Tune Eternal',
       description: 'Dedicated to those that have been with me since the end.',
       links: [
         {

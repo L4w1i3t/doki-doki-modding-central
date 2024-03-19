@@ -27,8 +27,8 @@ export default {
   data() {
     return {
       title: 'Sigma Club',
-      authors: 'By Tune Eternal',
-      contributors: 'Contributors:  Kennedy Productions, Team Red Mazda RX-7 (STOCK)',
+      authors: 'By Kennedy Productions, Team Red Mazda RX-7 (STOCK)',
+      contributors: 'Submitted By: Tune Eternal',
       description: 'Bro. Best mod ever. Bro.',
       links: [
         {

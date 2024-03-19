@@ -26,7 +26,7 @@ export default {
     return {
       title: 'You Matter Too',
       authors: 'By Doki Senate',
-      contributors: 'Contributors: Doki Senate',
+      contributors: 'Submitted By: Doki Senate',
       description: 'The Dokis find out that Jacob has depression and they come up with a plan to help him, but something goes horribly wrong in the process... [Contains copyrighted audio by Yo-Yo Ma;Ennio Morricone, John Williams, London Symphony Orchestra, Nintendo, Alexandre Desplat, Kevin Kiner, Matthew St. Laurent, Nicholas Hooper, North Texas Wind Symphony, Eugene Migliaro Corporon, Sleepy Times, Natural Sound Makers, Nature Recordings (Video was blocked in Russia by Sleepy Times, Natural Sound Makers, Nature Recordings)]',
       links: [
         {

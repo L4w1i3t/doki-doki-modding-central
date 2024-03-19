@@ -27,8 +27,8 @@ export default {
   data() {
     return {
       title: 'SVHS-TAP05052022',
-      authors: 'By L4w1i3t',
-      contributors: 'Contributors:  SomeDudeNamedAyat, silver, Tune Eternal, ZXLTRXNSixBillion',
+      authors: 'By Team Red Mazda RX-7 (STOCK), L4w1i3t',
+      contributors: 'Submitted By: L4w1i3t, Tune Eternal',
       description: 'A mod based off of Alex Kister\'s Mandela Catalog, the concept of alternates has infected the realm of DDLC. This short mod combines non-verbal communication, off-putting conversation, supposedly random interludes, and visuo-auditory ambience to deliver a gripping narrative that make you want more. Can things be concluded swiftly, or is this simply the start to something MUCH greater...?',
       links: [
         {
