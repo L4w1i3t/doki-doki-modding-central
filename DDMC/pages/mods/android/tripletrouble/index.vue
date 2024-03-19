@@ -27,8 +27,8 @@ export default {
   data() {
     return {
       title: 'Doki Doki Triple Trouble',
-      authors: 'By JQilin Gaming',
-      contributors: 'Contributors: Tune Eternal, JQ Crew, Storm Blaze, Proxyl_ Polygonsexual',
+      authors: 'By JQilin Gaming, Tune Eternal',
+      contributors: 'Submitted By: JQilin Gaming',
       description: 'Doki Doki Triple Trouble is the first ever 18+ RomCom that centers around everyone\'s favorite pink-haired heartbreaker: Natsuki! Follow MC\'s year long escapade to try to be the main man in Natsuki\'s life as he competes with a different man... and then a different man... and then a different man. An original story jam packed with action, drama, comedy, romance, an incredible original soundtrack, and enough NSFW to make your head spin! A DDLC mod that will make you laugh, cry, question life, and jam out while doing so. Will MC surrender his common sense to get with Natsuki or will he realize that it\'s not worth the trouble? Find out now in Doki Doki Triple Trouble!',
       links: [
         {

@@ -28,7 +28,7 @@
       return {
         title: 'Our Castle Walls: After Stories',
         authors: 'By Mr. ZeraTheMant',
-        contributors: 'Contributors:  N/A',
+        contributors: 'Submitted By: Tune Eternal, Mr. ZeraTheMant',
         description: 'Our Castle Walls: After Stories is the post-game story sequel to the hit legacy modification, Our Castle Walls by Mr. ZeraTheMant, which follows the life of MC and Yuri after high school with their daughter Ellie in a slice-of-life homestyle daily adventure!',
         links: [
           {

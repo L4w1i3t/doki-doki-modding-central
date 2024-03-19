@@ -27,8 +27,8 @@ export default {
   data() {
     return {
       title: 'Sigma Club 2: Sigma Stigma',
-      authors: 'By Tune Eternal',
-      contributors: 'Contributors:  Kennedy Productions',
+      authors: 'By Kennedy Productions, Tune Eternal',
+      contributors: 'Submitted By: Tune Eternal',
       description: 'Bro, the sequel to the best mod of all time, bro.',
       links: [
         {

@@ -28,7 +28,7 @@ export default {
     return {
       title: 'EGO DEATH',
       authors: 'By Tune Eternal',
-      contributors: 'Contributors: SomeDudeNamedAyat, Xanatos...TAS',
+      contributors: 'Submitted By: Tune Eternal',
       description: 'EGO DEATH is a shortform, poetic, theatrical psychological horror modification. Shall we emerge one last time? [Includes standard edition and open-dyslexic edition, which is easier on the eyes]',
       links: [
         {

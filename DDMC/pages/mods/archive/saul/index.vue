@@ -28,7 +28,7 @@ export default {
     return {
       title: 'Better Call Saul: Defense Attorney in Spilt Spaghetti',
       authors: 'By Tune Eternal',
-      contributors: 'Contributors:  N/A',
+      contributors: 'Submitted By: Tune Eternal',
       description: 'My lawyer has warned me that this mod is a biohazard. Based on true events about the beginnings of Dirttheif Entertainment in the DDLC community. Take it with a grain of salt.',
       links: [
         {

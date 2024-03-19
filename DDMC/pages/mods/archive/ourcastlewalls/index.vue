@@ -28,7 +28,7 @@
       return {
         title: 'Our Castle Walls',
         authors: 'By Mr. ZeraTheMant',
-        contributors: 'Contributors:  N/A',
+        contributors: 'Submitted By: Tune Eternal',
         description: 'A romance modification between an autistic MC and Yuri. Formerly lost to time due to the creator being cancelled over "familial relations." ',
         links: [
           {
