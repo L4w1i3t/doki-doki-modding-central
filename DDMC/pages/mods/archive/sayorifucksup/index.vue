@@ -27,8 +27,8 @@ export default {
   data() {
     return {
       title: 'Sayori Fucks Up',
-      authors: 'By Tune Eternal',
-      contributors: 'Contributors:  Kennedy Productions, Tune Eternal',
+      authors: 'By MagmaSlasher, Silver',
+      contributors: 'Submitted By: MagmaSlasher',
       description: 'Sayori meets The Boys in this action-packed shitpost! Will they escape The Homelander, and get Sayori to safety? Probably not!',
       links: [
         {

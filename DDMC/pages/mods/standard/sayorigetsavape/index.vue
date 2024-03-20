@@ -28,7 +28,7 @@ export default {
     return {
       title: 'Sayori Gets a Vape!',
       authors: 'By Team Artic',
-      contributors: 'Contributors: Frost, Empyre, Kojo, and SpiritHOF',
+      contributors: 'Submitted By: Team Arctic',
       description: 'Sayori ends up getting pressured into vaping.',
       links: [
         {

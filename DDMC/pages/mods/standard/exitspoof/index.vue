@@ -28,7 +28,7 @@ export default {
     return {
       title: 'Exit Spoof',
       authors: 'By Dyinide',
-      contributors: 'Contributors: N/A',
+      contributors: 'Submitted By: Dyinide',
       description: 'I see Exit Music and Exit Music Redux get discussed a lot on r/DDLCMods and in general, and despite all the talk, I have never played either one of these mods. So the only natural thing to do was make a spoof mod of what I think the story basically is. The mod is super short (just like Natsuki), so I hope you enjoy it!',
       links: [
         {

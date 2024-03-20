@@ -28,7 +28,7 @@
       return {
         title: 'Doki Doki The Blue Seas: Christmas Adventures',
         authors: 'By dewallt101',
-        contributors: 'Contributors: The Graceful, Prox, Illustrator, StormBlaze, Fuura',
+        contributors: 'Submitted By: dewallt101',
         description: 'MC celebrates the Christmas Season with his friends and girlfriend Monika.',
         links: [
           {
