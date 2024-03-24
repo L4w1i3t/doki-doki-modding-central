@@ -33,7 +33,7 @@
         links: [
           {
             text: 'Standard',
-            url: 'https://drive.google.com/drive/u/1/folders/1-cbXcnQkRugcB3xUeG7M86HiRBE3LYtz'
+            url: 'https://www.mediafire.com/folder/z4j6t9ontqv8o/Christmas_Adventures'
           },
         ]
       }

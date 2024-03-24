@@ -27,7 +27,7 @@ export default {
   data() {
     return {
       title: 'Sayori Gets a Vape!',
-      authors: 'By Team Artic',
+      authors: 'By Team Arctic',
       contributors: 'Submitted By: Team Arctic',
       description: 'Sayori ends up getting pressured into vaping.',
       links: [

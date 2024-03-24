@@ -33,7 +33,7 @@
         links: [
           {
             text: 'Standard',
-            url: 'https://drive.google.com/drive/u/1/folders/1K7y8xDpMLmLvfnNo33I0-e_6hPiVw0al'
+            url: 'https://www.mediafire.com/folder/ojlojzxedmeny/Thanksgiving_Edition'
           },
         ]
       }
