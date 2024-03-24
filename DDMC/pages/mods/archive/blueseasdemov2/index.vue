@@ -28,12 +28,12 @@
       return {
         title: 'Doki Doki The Blue Seas: Demo V2',
         authors: 'By dewallt101',
-        contributors: 'Contributors:  BoogieManJoe, Tune Eternal, Prox, BlackRabbitArtWorks, StormBlaze,  Fuura, Empyre',
+        contributors: 'Submitted By: dewallt101',
         description: 'Our protagonist is an American student who moved to Japan from his home state of Virgina due to father being appointed commander of the USS Ronald Reagan. After moving from his home he is introduced to Kenji. MC is not your a typical high school otaku-nerd. He has a wise-guy kinda attitude which makes for the best of banter among his friends. It is at this point we meet Sayori, a sweet, bubbly and overly cheerful girl and also Kenjis childhood friend who just so happens to love eating snacks and has a bottomless pit for a stomach. She invites both Kenji and our protagonist to the literature club to see what it is all about.',
         links: [
           {
             text: 'Standard',
-            url: 'https://drive.google.com/drive/u/1/folders/1eVxFfT0UUQVa8-sKByY0ZNGdikYKmF4S'
+            url: 'https://www.mediafire.com/folder/w4c0encelko2s/Demo_V2'
           },
         ]
       }

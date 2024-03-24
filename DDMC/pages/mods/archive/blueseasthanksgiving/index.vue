@@ -28,12 +28,12 @@
       return {
         title: 'Doki Doki The Blue Seas: Thanksgiving Edition',
         authors: 'By dewallt101',
-        contributors: 'Contributors: BoogieManJoe, The Graceful, Prox, StormBlaze, BlackRabbitArtWorks, Empyre',
+        contributors: 'Submitted By: dewallt101',
         description: 'Thanksgiving is coming and MC wants to celebrate with all of his friends. Enjoy the American Thanksgiving with this wholesome mini-mod Doki Doki The Blue Seas: Thanksgiving Edition.',
         links: [
           {
             text: 'Standard',
-            url: 'https://drive.google.com/drive/u/1/folders/1K7y8xDpMLmLvfnNo33I0-e_6hPiVw0al'
+            url: 'https://www.mediafire.com/folder/ojlojzxedmeny/Thanksgiving_Edition'
           },
         ]
       }

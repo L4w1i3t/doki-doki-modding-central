@@ -28,7 +28,7 @@ export default {
     return {
       title: 'Doki Doki Outcast',
       authors: 'By Fjord',
-      contributors: 'Contributors: N/A',
+      contributors: 'Submitted By: Beelzebruv, Codex',
       description: 'Outcast is a yuri based mod with sex and shit',
       links: [
         {

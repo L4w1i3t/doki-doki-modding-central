@@ -28,7 +28,7 @@ export default {
     return {
       title: 'Tropical Rain',
       authors: 'PumpkinbrainUS',
-      contributors: 'Contributors: Tune Eternal',
+      contributors: 'Submitted By: Tune Eternal',
       description: 'Whoopee. You wanted to try and pursue the shy girl, Yuri, but you encountered a road block.',
       links: [
         {

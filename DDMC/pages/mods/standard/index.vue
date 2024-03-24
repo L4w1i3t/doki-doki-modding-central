@@ -48,7 +48,7 @@ export default {
       },
       {
         title: "Sayori Gets a Vape!",
-        author: "Team Artic",
+        author: "Team Arctic",
         imageUrl: "/assets/mod_prevs/sayorigetsavape.webp",
         route: "sayorigetsavape"
       },

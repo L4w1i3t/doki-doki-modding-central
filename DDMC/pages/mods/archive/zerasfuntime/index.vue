@@ -28,7 +28,7 @@ export default {
     return {
       title: 'Zeras Fun Time a.k.a. The Dumb Stupid Mod',
       authors: 'Mr. ZeraTheMant',
-      contributors: 'Contributors: N/A',
+      contributors: 'Submitted By: Tune Eternal, Mr. ZeraTheMant',
       description: 'Zeras Fun Time is a skit-based OCW parody mod with meta humor based around Mr. ZeraTheMant and his friends, mostly for the purposes of entertaining Zera and his friends, and anyone who was a fan of OCW.',
       links: [
         {
