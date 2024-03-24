@@ -33,7 +33,7 @@
         links: [
           {
             text: 'Standard',
-            url: 'https://drive.google.com/drive/folders/1Kq-pkXnpNnCdjMwcEhJKQvKQySx8PXzH'
+            url: 'https://www.mediafire.com/folder/zsjeyre0dii6t/Nightmare_of_the_Yandere_Doki'
           },
         ]
       }

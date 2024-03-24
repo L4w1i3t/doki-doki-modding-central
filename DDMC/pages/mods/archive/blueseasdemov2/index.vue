@@ -33,7 +33,7 @@
         links: [
           {
             text: 'Standard',
-            url: 'https://drive.google.com/drive/u/1/folders/1eVxFfT0UUQVa8-sKByY0ZNGdikYKmF4S'
+            url: 'https://www.mediafire.com/folder/w4c0encelko2s/Demo_V2'
           },
         ]
       }
