@@ -74,17 +74,17 @@ export default {
 
   .logomain {
     max-width: 600px;
-    width: 100%;
+    width: 50vw;
     height: auto;
     padding: 0px;
-    padding-top: 60px;
+    padding-top: 75px;
   }
 
   .header-text {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 200px;
-    font-size: 3vw;
+    font-size: 3em;
     font-family: 'Hot Mustard BTN Regular', monospace;
     transform: skewY(-5deg);
     transform-origin: bottom;

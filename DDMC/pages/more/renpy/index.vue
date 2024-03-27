@@ -43,7 +43,7 @@ export default {
   align-items: center;
   margin: 100px auto;
   cursor: pointer;
-  margin-bottom: 0px;
+  margin-bottom: 5%;
 }
 
 .renpy-button:hover {
@@ -52,17 +52,8 @@ export default {
 }
 
 .button-image {
-  width: 100%;
+  width: 50vh;
   height: auto;
-}
-
-.button-label {
-  margin-top: 10px;
-  text-align: center;
-  font-style: italic;
-  font-size: 2em;
-  color: white;
-  -webkit-text-stroke: 1px black;
 }
 
 body {
@@ -110,11 +101,11 @@ body {
   margin: auto;
   text-align: center;
   height: 100%;
-  margin-left: 1200px;
+  margin-left: 60%;
 }
 
 .character-sprite {
-  width: 500px;
+  width: 50vh;
   height: auto;
 }
 

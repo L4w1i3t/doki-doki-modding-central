@@ -370,5 +370,45 @@
   .content-wrapper {
     margin-top: 80px;
   }
+
+  @media (max-width: 1024px) {
+  .staff-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .staff-member {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .staff-image {
+    width: 200px;
+    height: 200px;
+    margin: 0 0 20px 0;
+  }
+
+  .staff-details {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .staff-image {
+    width: 150px;
+    height: 150px;
+  }
+
+  h1, h2 {
+    font-size: 2rem;
+  }
+
+  .position, .bio {
+    font-size: 0.8rem;
+  }
+
+  .youtube-button, .kofi-button {
+    width: 40px;
+  }
+}
   
 </style>

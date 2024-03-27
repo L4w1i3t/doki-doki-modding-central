@@ -38,37 +38,27 @@ export default {
 </script>
 
 <style>
-.container {
+.container, .container2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 1000px;
+  max-width: 95%;
   margin: 0 auto;
-  margin-top: 200px;
-  padding: 0;
-}
-.container2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 1000px;
-  margin: 0 auto;
-  margin-top: -100px;
+  margin-top: 10vh;
   padding: 0;
 }
 
-.standard-container,
-.android-container {
+.standard-container, .android-container {
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 10px;
+  margin: 0 1%;
 }
 
-.mod-button-standard,
-.mod-button-android {
-  width: 400px;
+.mod-button-standard, .mod-button-android {
+  max-width: 300px; 
+  width: 80%; 
   height: auto;
   text-decoration: none;
   transition: transform 0.3s ease-in-out;
@@ -77,8 +67,7 @@ export default {
   align-items: center;
 }
 
-.mod-button-standard:hover,
-.mod-button-android:hover {
+.mod-button-standard:hover, .mod-button-android:hover {
   opacity: 0.8;
   transform: scale(1.05) rotate(0deg);
 }
@@ -89,14 +78,33 @@ export default {
 }
 
 .button-label {
-  margin-top: 10px;
-  margin-bottom: 150px;
+  margin-top: 1rem; 
+  margin-bottom: 5vh; 
   text-align: center;
   font-style: italic;
-  font-size: 1.8em;
+  font-size: 1.2rem; 
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
   -webkit-text-stroke: 1px black;
   pointer-events: none;
 }
+
+@media (max-width: 768px) {
+  .mod-button-standard, .mod-button-android {
+    width: 90%; 
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .mod-button-standard, .mod-button-android {
+    width: 70%; 
+  }
+}
+
+@media (min-width: 1025px) {
+  .mod-button-standard, .mod-button-android {
+    width: 50%; 
+  }
+}
+
 </style>
