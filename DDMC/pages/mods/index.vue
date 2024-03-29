@@ -38,13 +38,23 @@ export default {
 </script>
 
 <style>
-.container, .container2 {
+.container, {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 95%;
+  max-width: 100%;
   margin: 0 auto;
   margin-top: 10vh;
+  padding: 0;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: 0vh;
   padding: 0;
 }
 
@@ -82,7 +92,7 @@ export default {
   margin-bottom: 5vh; 
   text-align: center;
   font-style: italic;
-  font-size: 1.2rem; 
+  font-size: 2rem; 
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
   -webkit-text-stroke: 1px black;

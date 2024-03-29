@@ -17,6 +17,14 @@ export default {
     return {
       versions: [
         {
+          version: 'Alpha 1.1.0',
+          notes: [
+            'Implemented assets redirect page',
+            'Added redirect buttons for specific assets categories',
+            'Slight UI adjustment'
+          ]
+        },
+        {
           version: 'Alpha 1.0.6',
           notes: [
             'Adjusted mod redirect page',
