@@ -1,9 +1,8 @@
-
 <template>
-  <header class="header">
+  <header class="header" :style="{ backgroundImage: 'url(' + currentImageUrl + ')' }">
     <nav>
       <div class="logo-container">
-        <img src="/assets/images/logo.webp" alt="Site Logo" class="logomain" />
+        <img src="/assets/images/logo.webp" alt="Site Logo" class="logo-main" />
         <p class="header-text">
           DOKI DOKI <br/> MODDING CENTRAL
         </p>
@@ -24,28 +23,21 @@ export default {
       currentImageIndex: 0,
       interval: null,
       duration: 5000,
-      preloadedImages: [],
     };
   },
+  computed: {
+    currentImageUrl() {
+      return this.images[this.currentImageIndex];
+    },
+  },
   methods: {
-    preloadImages() {
-      this.preloadedImages = this.images.map((src) => {
-        const img = new Image();
-        img.src = src;
-        return img;
-      });
-    },
     startImageTransition() {
-      this.interval = setInterval(this.changeBackgroundImage, this.duration);
-    },
-    changeBackgroundImage() {
-      this.currentImageIndex = (this.currentImageIndex + 1) % this.images.length;
-      const imageUrl = `url('${this.images[this.currentImageIndex]}')`;
-      document.querySelector('.header').style.backgroundImage = imageUrl;
+      this.interval = setInterval(() => {
+        this.currentImageIndex = (this.currentImageIndex + 1) % this.images.length;
+      }, this.duration);
     },
   },
   mounted() {
-    this.preloadImages();
     this.startImageTransition();
   },
   beforeDestroy() {
@@ -55,11 +47,19 @@ export default {
 </script>
 
 <style scoped>
+
+@font-face {
+    font-family: 'Hot Mustard BTN Regular';
+    src: url('/assets/fonts/HotMustardBTNRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
   .header {
-    background-image: url('/assets/images/club.webp');
+    width: 100vw;
+    height: 100vh;
     background-size: cover;
-    color: transparent;
-    padding: 0px 0;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,47 +67,20 @@ export default {
   }
 
   .logo-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
   }
 
-  .logomain {
-    max-width: 600px;
-    width: 50vw;
+  .logo-main {
+    max-width: 80%; /* Adjust based on your design needs */
     height: auto;
-    padding: 0px;
-    padding-top: 75px;
+    margin: 0 auto;
   }
 
   .header-text {
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 200px;
     font-size: 3em;
     font-family: 'Hot Mustard BTN Regular', monospace;
-    transform: skewY(-5deg);
-    transform-origin: bottom;
-    text-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
-    animation: colorCycle 12s infinite;
-    white-space: nowrap;
-  }
-
-  @keyframes colorCycle {
-    0% {
-      color: rgb(255, 105, 105);
-    }
-    25% {
-      color: rgb(120, 255, 120);
-    }
-    50% {
-      color: rgb(129, 0, 129);
-    }
-    75% {
-      color: rgb(255, 91, 178);
-    }
-    100% {
-      color: rgb(255, 105, 105);
-    }
+    color: white; /* Adjust text color for visibility */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 20px 0; /* Adjust spacing */
   }
 </style>

@@ -6,7 +6,7 @@
     </div>
 
     <div class="renpy-button redirect-button" @click="redirectToRenpyDocumentation" @mouseenter="playHoverSound">
-      <img src="/assets/gui/renpydoc.webp" alt="Renpy Documentation" class="button-image" />
+      <img src="/assets/gui/renpydoc.webp" alt="Renpy Documentation" class="button-image-renpy" />
     </div>
 
     <div class="sprite-container">
@@ -51,7 +51,7 @@ export default {
   transform: scale(1.05) rotate(0deg);
 }
 
-.button-image {
+.button-image-renpy {
   width: 50vh;
   height: auto;
 }

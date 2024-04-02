@@ -3,13 +3,13 @@
   <div class="container">
     <div class="standard-container">
       <a href="/mods/standard" class="mod-button-standard" @mouseenter="playHoverSound">
-        <img src="/assets/gui/penguin.webp" alt="Standard Mod" class="button-image" />
+        <img src="/assets/gui/penguin.webp" alt="Standard Mod" class="button-image-mods" />
       </a>
-      <p class="button-label">Mods for PC (Windows, Mac, Linux)</p>
+      <p class="button-label">Mods for PC</p>
     </div>
     <div class="android-container">
       <a href="/mods/android" class="mod-button-android" @mouseenter="playHoverSound">
-        <img src="/assets/gui/android.webp" alt="Android Mod" class="button-image" />
+        <img src="/assets/gui/android.webp" alt="Android Mod" class="button-image-mods" />
       </a>
       <p class="button-label">Mods for Android</p>
     </div>
@@ -17,7 +17,7 @@
   <div class="container2">
     <div class="standard-container">
       <a href="/mods/archive" class="mod-button-standard" @mouseenter="playHoverSound">
-        <img src="/assets/gui/modarchive.webp" alt="Standard Mod" class="button-image" />
+        <img src="/assets/gui/modarchive.webp" alt="Standard Mod" class="button-image-mods" />
       </a>
       <p class="button-label">Mod Archive</p>
       </div>
@@ -38,7 +38,7 @@ export default {
 </script>
 
 <style>
-.container, {
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,7 +82,7 @@ export default {
   transform: scale(1.05) rotate(0deg);
 }
 
-.button-image {
+.button-image-mods {
   width: 100%;
   height: auto;
 }

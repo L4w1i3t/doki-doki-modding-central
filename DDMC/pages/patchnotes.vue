@@ -17,6 +17,21 @@ export default {
     return {
       versions: [
         {
+          version: 'Alpha 1.1.2',
+          notes: [
+            'Added hamburger menu on hotbar for mobile devices',
+            'Fixed an issue where Hot Mustard font was not appearing correctly',
+          ]
+        },
+        {
+          version: 'Alpha 1.1.1',
+          notes: [
+            'Made drastic changes to header',
+            'Minor bug fixes',
+            'Moved location of the mod and asset submission forms'
+          ]
+        },
+        {
           version: 'Alpha 1.1.0',
           notes: [
             'Implemented assets redirect page',

@@ -1,4 +1,3 @@
-
 <template>
   <div class="hotbar">
     <a href="/">
@@ -6,7 +5,8 @@
         <img src="/assets/images/logo.webp" alt="Logo" class="logocorner">
       </div>
     </a>
-    <nav>
+    <div class="hamburger" @click="toggleMenu">&#9776;</div>
+    <nav :class="{ 'is-active': menuActive }">
       <ul>
         <li><a href="/">Home</a></li>
         <li>
@@ -25,38 +25,40 @@
             <li><a href="/mods/android">Android</a></li>
           </ul>
         </li>
-        <li>
-          <span class="non-clickable">More</span>
-          <ul class="sub-menu">
-            <li><a href="/more/assets">Assets</a></li>
-            <li><a href="/more/characters">Characters</a></li>
-            <li><a href="/more/renpy">RenPy</a></li>
-            <li><a href="/patchnotes">Patch Notes</a></li>
-          </ul>
-        </li>
+        <li><a href="/more/assets">Assets</a></li>
+        <li><a href="/more/characters">Characters</a></li>
+        <li><a href="/more/renpy">RenPy</a></li>
+        <li><a href="https://forms.gle/joFU8UqMna8WaqJF7" target="_blank">Mod Form</a></li>
+        <li><a href="https://forms.gle/TQe9eUgHQUSMgeJaA" target="_blank">Asset Form</a></li>
+        <li><a href="/patchnotes">Patch Notes</a></li>
       </ul>
     </nav>
   </div>
 </template>
 
 <script>
-
-  export default {
-
-    mounted() {
-      const redirectButtons = document.querySelectorAll('.logocorner');
-      redirectButtons.forEach(button => {
-        button.addEventListener('mouseenter', this.playHoverSound);
-      });
+export default {
+  data() {
+    return {
+      menuActive: false,
+    };
+  },
+  methods: {
+    toggleMenu() {
+      this.menuActive = !this.menuActive;
     },
-
-    methods: {
-      playHoverSound(event) {
-        const hoverSound = new Audio('/assets/sfx/hover.wav');
-        hoverSound.play();
-      }
-    }
-  }
+    playHoverSound(event) {
+      const hoverSound = new Audio('/assets/sfx/hover.wav');
+      hoverSound.play();
+    },
+  },
+  mounted() {
+    const redirectButtons = document.querySelectorAll('.logocorner');
+    redirectButtons.forEach((button) => {
+      button.addEventListener('mouseenter', this.playHoverSound);
+    });
+  },
+};
 </script>
 
 <style scoped>
@@ -72,6 +74,52 @@
     color: white;
     padding: 10px;
     z-index: 999;
+    height: 60px;
+  }
+
+  .hamburger {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    font-size: 28px;
+  }
+
+  @media (max-width: 768px) {
+    .hamburger {
+      display: block;
+    }
+
+    nav {
+      display: none;
+    }
+
+    nav.is-active {
+      display: block;
+    }
+
+    .hotbar {
+      height: auto;
+      padding: 30px;
+    }
+
+    .hotbar nav ul {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .hotbar nav ul li {
+      margin: 5px 0;
+    }
+    .logocorner {
+      display: none;
+    }
+  }
+
+  @media (min-width: 769px) {
+    .hamburger {
+      display: none;
+    }
   }
 
   .hotbar nav {
@@ -168,4 +216,8 @@
     cursor: default;
     color: #ffffff;
   }
+
+  .hide-logo {
+  display: none;
+}
 </style>

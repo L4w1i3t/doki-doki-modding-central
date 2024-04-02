@@ -4,13 +4,13 @@
     <div class="container">
       <div class="standard-container">
         <a href="/more/assets/music" class="mod-button-standard" @mouseenter="playHoverSound">
-          <img src="/assets/gui/musicbutton.webp" alt="Standard Mod" class="button-image" />
+          <img src="/assets/gui/musicbutton.webp" alt="Standard Mod" class="button-image-assets" />
         </a>
         <p class="button-label">Music</p>
       </div>
       <div class="android-container">
         <a href="/more/assets/art" class="mod-button-android" @mouseenter="playHoverSound">
-          <img src="/assets/gui/artbutton.webp" alt="Android Mod" class="button-image" />
+          <img src="/assets/gui/artbutton.webp" alt="Android Mod" class="button-image-assets" />
         </a>
         <p class="button-label">Art</p>
       </div>
@@ -18,13 +18,13 @@
     <div class="container2">
       <div class="standard-container">
         <a href="/more/assets/code" class="mod-button-standard" @mouseenter="playHoverSound">
-          <img src="/assets/gui/codebutton.webp" alt="Standard Mod" class="button-image" />
+          <img src="/assets/gui/codebutton.webp" alt="Standard Mod" class="button-image-assets" />
         </a>
         <p class="button-label">Code</p>
       </div>
         <div class="standard-container">
         <a href="/more/assets/gui" class="mod-button-standard" @mouseenter="playHoverSound">
-          <img src="/assets/gui/guibutton.webp" alt="Standard Mod" class="button-image" />
+          <img src="/assets/gui/guibutton.webp" alt="Standard Mod" class="button-image-assets" />
         </a>
         <p class="button-label">GUI</p>
         </div>
@@ -44,7 +44,7 @@
   }
   </script>
   
-  <style>
+<style>
   .container {
     display: flex;
     justify-content: center;
@@ -61,7 +61,7 @@
     align-items: center;
     max-width: 100%;
     margin: 0 auto;
-    margin-top: 1vh;
+    margin-top: 0vh;
     padding: 0;
   }
   
@@ -89,7 +89,7 @@
     transform: scale(1.05) rotate(0deg);
   }
   
-  .button-image {
+  .button-image-assets {
     width: 100%;
     height: auto;
     border-radius: 30px;

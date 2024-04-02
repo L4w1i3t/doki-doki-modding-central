@@ -49,7 +49,7 @@
     </div>
   </div>
 
-
+  <!-- Forms
   <div class="section redirect-to-form">
     <h2 class="centered" style="font-size: 2em;"><b><i>Want to join the club and post your own content here? You can do so by filling out a submission form here!</i></b></h2>
     
@@ -63,6 +63,7 @@
       </div>
     </div>
   </div>
+  -->
 
   
   <div class="section form-to-social">
