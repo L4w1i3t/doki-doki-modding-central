@@ -2,7 +2,7 @@
 <template>
   <div>
     <div class="preview-image">
-      <img src="/assets/mod_prevs/DDTT.webp" alt="Preview Image">
+      <img src="/assets/mod_prevs/afterimage.webp" alt="Preview Image">
     </div>
     <div class="title-box">
       <h1>{{ title }}</h1>
@@ -26,14 +26,14 @@
 export default {
   data() {
     return {
-      title: 'Doki Doki Triple Trouble Demo',
-      authors: 'By JQilin Gaming, Tune Eternal',
-      contributors: 'Submitted By: JQilin Gaming',
-      description: 'Doki Doki Triple Trouble is the first ever 18+ RomCom that centers around everyone\'s favorite pink-haired heartbreaker: Natsuki! Follow MC\'s year long escapade to try to be the main man in Natsuki\'s life as he competes with a different man... and then a different man... and then a different man. An original story jam packed with action, drama, comedy, romance, an incredible original soundtrack, and enough NSFW to make your head spin! A DDLC mod that will make you laugh, cry, question life, and jam out while doing so. Will MC surrender his common sense to get with Natsuki or will he realize that it\'s not worth the trouble? Find out now in Doki Doki Triple Trouble!',
+      title: 'Afterimage',
+      authors: 'Batebri, RoyAH_M',
+      contributors: 'Submitted By: Tune Eternal',
+      description: 'Afterimage is a mod focuses on discovering the feelings and experiences. It tells a story happened four years after the festival, MC unexpectedly meet his neighbor again, they chat, laugh, pick up the pieces and enjoy the beauty of life. Rest in Peace to Batebri, who has been taken from this world too soon on 06/06/2023. He was a truly talented, humbling, and hopeful individual who blessed the world with a vision only he truly knew. This contribution is in dedication to his passing. May we never forget you.',
       links: [
         {
-          text: 'Demo',
-          url: 'https://www.mediafire.com/file_premium/b7b7frdu6vj502a/DDTT-Renpy7Mod.zip/file'
+          text: 'Standard',
+          url: 'https://www.mediafire.com/file_premium/77efb3zcc5mkqft/DokiDokiAfterimage-1.0.0-Renpy7Mod.zip/file',
         },
       ]
     }
