@@ -186,6 +186,12 @@ export default {
         author: "Batebri, RoyAH_M",
         imageUrl: "/assets/mod_prevs/afterimage.webp",
         route: "afterimage"
+      },
+      {
+        title: "Kindermusical: The Mod",
+        author: "Silver",
+        imageUrl: "/assets/mod_prevs/kinder.webp",
+        route: "kindermusical"
       }
 
 
