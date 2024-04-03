@@ -186,7 +186,51 @@ export default {
         author: "Batebri, RoyAH_M",
         imageUrl: "/assets/mod_prevs/afterimage.webp",
         route: "afterimage"
-      }
+      },
+      {
+        title: "Kindermusical: The Mod",
+        author: "Silver",
+        imageUrl: "/assets/mod_prevs/kinder.webp",
+        route: "kindermusical"
+      },
+      {
+        title: "DDLC: The Struggles of RenPy 6",
+        author: "Silver, Empyre",
+        imageUrl: "/assets/mod_prevs/struggles.webp",
+        route: "renpy"
+      },
+      {
+        title: "Tsundere Ghosts",
+        author: "Silver",
+        imageUrl: "/assets/mod_prevs/ghosts.webp",
+        route: "ghosts"
+      },
+      {
+        title: "Paper Thin Hearts",
+        author: "Silver",
+        imageUrl: "/assets/mod_prevs/paper.webp",
+        route: "paper"
+      },
+      {
+        title: "Story of Dokitalke",
+        author: "Silver",
+        imageUrl: "/assets/mod_prevs/story.webp",
+        route: "storyofdoki"
+      },
+      {
+        title: "Grappling Hook Yuri - The Origin Arc",
+        author: "Empyre, Silver, SpiritH0F",
+        imageUrl: "/assets/mod_prevs/grapplinghookyuri.webp",
+        route: "grapplinghookyuri"
+      },
+      {
+        title: "Everlasting Act 1 Remastered",
+        author: "Team Everlasting",
+        imageUrl: "/assets/mod_prevs/everlasting.webp",
+        route: "everlasting"
+      },
+
+
 
 
 

@@ -56,6 +56,12 @@ export default {
         imageUrl: "/assets/mod_prevs/blueseasdemov2.webp",
         route: "blueseasdemov2"
       },
+      {
+        title: "Everlasting Demo Original",
+        author: "Team Everlasting",
+        imageUrl: "/assets/mod_prevs/everlasting.webp",
+        route: "everlastingdemo"
+      },
 
 
 

@@ -1,6 +1,7 @@
 <template>
   <div id="patch-notes-container">
     <h1>Patch Notes</h1>
+    <h1 style="font-style: italic">This page is primarily for L4w1i3t's bookkeeping.</h1>
     
     <div class="version-section" v-for="version in versions" :key="version.version">
       <h2>Version {{ version.version }}:</h2>
@@ -21,6 +22,7 @@ export default {
           notes: [
             'Added hamburger menu on hotbar for mobile devices',
             'Fixed an issue where Hot Mustard font was not appearing correctly',
+            'Added a separate page for mod demos'
           ]
         },
         {
