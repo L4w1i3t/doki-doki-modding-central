@@ -165,13 +165,13 @@ export default {
       },
       {
         title: "Presents and Poems ",
-        author: "Team Red Mazda",
+        author: "Red Team Mazda",
         imageUrl: "/assets/mod_prevs/presents.webp",
         route: "presents"
       },
       {
         title: "A Date With Yuri",
-        author: "Team Red Mazda",
+        author: "Red Team Mazda",
         imageUrl: "/assets/mod_prevs/datewithyuri.webp",
         route: "datewithyuri"
       },
@@ -212,7 +212,7 @@ export default {
         route: "paper"
       },
       {
-        title: "Story of Dokitale",
+        title: "Story of Dokitalke",
         author: "Silver",
         imageUrl: "/assets/mod_prevs/story.webp",
         route: "storyofdoki"
@@ -229,6 +229,33 @@ export default {
         imageUrl: "/assets/mod_prevs/everlasting.webp",
         route: "everlasting"
       },
+      {
+        title: "Everlasting Solitude",
+        author: "BrunoMula",
+        imageUrl: "/assets/mod_prevs/everlastingsolitude.webp",
+        route: "everlastingsolitude"
+      },
+      {
+        title: "The Haunting of Monika After Story",
+        author: "President JM, DACHero",
+        imageUrl: "/assets/mod_prevs/mashaunt.webp",
+        route: "mashaunt"
+      },
+      {
+        title: "The Doki Doki Literature Club is Dying",
+        author: "SomeDudeNamedAyat",
+        imageUrl: "/assets/mod_prevs/clubisdying.webp",
+        route: "clubisdying"
+      },
+      {
+        title: "Doki Doki Changing Perspectives",
+        author: "SouthrenSystems",
+        imageUrl: "/assets/mod_prevs/ChangingPerspectives.webp",
+        route: "changingperspectives"
+      },
+
+
+
 
 
 
