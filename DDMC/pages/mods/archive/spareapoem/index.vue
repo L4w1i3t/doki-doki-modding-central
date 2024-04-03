@@ -2,7 +2,7 @@
 <template>
   <div>
     <div class="preview-image">
-      <img src="/assets/mod_prevs/DDTT.webp" alt="Preview Image">
+      <img src="/assets/mod_prevs/spareapoem.webp" alt="Preview Image">
     </div>
     <div class="title-box">
       <h1>{{ title }}</h1>
@@ -26,14 +26,14 @@
 export default {
   data() {
     return {
-      title: 'Doki Doki Triple Trouble Demo',
-      authors: 'By JQilin Gaming, Tune Eternal',
-      contributors: 'Submitted By: JQilin Gaming',
-      description: 'Doki Doki Triple Trouble is the first ever 18+ RomCom that centers around everyone\'s favorite pink-haired heartbreaker: Natsuki! Follow MC\'s year long escapade to try to be the main man in Natsuki\'s life as he competes with a different man... and then a different man... and then a different man. An original story jam packed with action, drama, comedy, romance, an incredible original soundtrack, and enough NSFW to make your head spin! A DDLC mod that will make you laugh, cry, question life, and jam out while doing so. Will MC surrender his common sense to get with Natsuki or will he realize that it\'s not worth the trouble? Find out now in Doki Doki Triple Trouble!',
+      title: 'Can You Spare a Poem?',
+      authors: 'SomeDudeNamedAyat',
+      contributors: 'Submitted By: Tune Eternal',
+      description: 'All seems normal and mundane with the Literature Club until Monika realizes that her lucky poem is gone! With Natsuki not liking being caught in the crossfire of suspicion, she leaves the Literature Club in a huff. Sensing that Natsuki is become a broken spirit without a safe place to read her manga when school is done, Sayori suggests that she hangs out with MC after school. Will you be able to help Natsuki get her confidence back? Oh, and Yuri is here too. Can You Spare A Poem?” is a Doki Doki Literature Club fan mod and a parody of the SpongeBob SquarePants Season 3 episode, “Can You Spare A Dime?”. The situation at hand is slightly rewritten so that it can fit within the DDLC universe.',
       links: [
         {
-          text: 'Demo',
-          url: 'https://www.mediafire.com/file_premium/b7b7frdu6vj502a/DDTT-Renpy7Mod.zip/file'
+          text: 'Standard',
+          url: 'https://www.mediafire.com/file_premium/grptferd4dur7xu/CanYouSpareAPoem-1.0-Mod.zip/file'
         },
       ]
     }
