@@ -2,7 +2,7 @@
 <template>
   <div>
     <div class="preview-image">
-      <img src="/assets/mod_prevs/DDTT.webp" alt="Preview Image">
+      <img src="/assets/mod_prevs/presents.webp" alt="Preview Image">
     </div>
     <div class="title-box">
       <h1>{{ title }}</h1>
@@ -26,14 +26,14 @@
 export default {
   data() {
     return {
-      title: 'Doki Doki Triple Trouble Demo',
-      authors: 'By JQilin Gaming, Tune Eternal',
-      contributors: 'Submitted By: JQilin Gaming',
-      description: 'Doki Doki Triple Trouble is the first ever 18+ RomCom that centers around everyone\'s favorite pink-haired heartbreaker: Natsuki! Follow MC\'s year long escapade to try to be the main man in Natsuki\'s life as he competes with a different man... and then a different man... and then a different man. An original story jam packed with action, drama, comedy, romance, an incredible original soundtrack, and enough NSFW to make your head spin! A DDLC mod that will make you laugh, cry, question life, and jam out while doing so. Will MC surrender his common sense to get with Natsuki or will he realize that it\'s not worth the trouble? Find out now in Doki Doki Triple Trouble!',
+      title: 'Presents and Poems (Christmas in July Patch Version)',
+      authors: 'Team Red Mazda',
+      contributors: 'Submitted By: Tune Eternal',
+      description: 'Presents and Poems is a Christmas anthology mod with multiple short stories featuring your favorite therapy needing 2D girls and their emotional support vessel you control. Each story centers around one club member in particular, and each story offers different problems and scenarios related to the character focused on/the Christmas season.',
       links: [
         {
-          text: 'Demo',
-          url: 'https://www.mediafire.com/file_premium/b7b7frdu6vj502a/DDTT-Renpy7Mod.zip/file'
+          text: 'Standard',
+          url: 'https://www.mediafire.com/file_premium/v1xg15o3ghnvfl7/Presents_and_Poems_-_Christmas_In_July_Patch.zip/file'
         },
       ]
     }

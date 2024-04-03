@@ -163,7 +163,30 @@ export default {
         imageUrl: "/assets/mod_prevs/differentstory.jpg",
         route: "differentstory"
       },
- 
+      {
+        title: "Presents and Poems ",
+        author: "Red Team Mazda",
+        imageUrl: "/assets/mod_prevs/presents.webp",
+        route: "presents"
+      },
+      {
+        title: "A Date With Yuri",
+        author: "Red Team Mazda",
+        imageUrl: "/assets/mod_prevs/datewithyuri.webp",
+        route: "datewithyuri"
+      },
+      {
+        title: "Can You Spare A Poem?",
+        author: "SomeDudeNamedAyat",
+        imageUrl: "/assets/mod_prevs/spareapoem.webp",
+        route: "spareapoem"
+      },
+      {
+        title: "Afterimage",
+        author: "Batebri, RoyAH_M",
+        imageUrl: "/assets/mod_prevs/afterimage.webp",
+        route: "afterimage"
+      }
 
 
 
