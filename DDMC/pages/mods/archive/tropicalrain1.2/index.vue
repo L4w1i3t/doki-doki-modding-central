@@ -33,8 +33,8 @@ export default {
       links: [
         {
           text: 'Version 1.2',
-          url: 'https://www.mediafire.com/file/w1teiixexonjcao/Tropical+Rain+-+V1.2.zip/file'
-        },
+          url: 'https://www.mediafire.com/file_premium/etaurflitoxbr2d/Tropical_Rain_-_V1.2.zip/file'
+        }
       ]
     }
   }

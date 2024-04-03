@@ -32,8 +32,8 @@ export default {
       description: 'Doki Doki Triple Trouble is the first ever 18+ RomCom that centers around everyone\'s favorite pink-haired heartbreaker: Natsuki! Follow MC\'s year long escapade to try to be the main man in Natsuki\'s life as he competes with a different man... and then a different man... and then a different man. An original story jam packed with action, drama, comedy, romance, an incredible original soundtrack, and enough NSFW to make your head spin! A DDLC mod that will make you laugh, cry, question life, and jam out while doing so. Will MC surrender his common sense to get with Natsuki or will he realize that it\'s not worth the trouble? Find out now in Doki Doki Triple Trouble!',
       links: [
         {
-          text: '1.1',
-          url: 'https://www.mediafire.com/file/w2j2y3d1kcib9jy/ddtt.full.release-release.apk/file'
+          text: 'Standard',
+          url: 'https://www.mediafire.com/file_premium/lrf0jydtblfjenn/ddtt.full.release-release.apk/file'
         },
       ]
     }

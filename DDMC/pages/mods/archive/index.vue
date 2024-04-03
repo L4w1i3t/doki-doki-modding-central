@@ -122,12 +122,6 @@ export default {
         route: "salvationremake"
       },
       {
-        title: "Doki Doki The Blue Seas: Demo V2",
-        author: "dewallt101",
-        imageUrl: "/assets/mod_prevs/blueseasdemov2.webp",
-        route: "blueseasdemov2"
-      },
-      {
         title: "Doki Doki The Blue Seas: Nightmare of the Yandere Doki",
         author: "dewallt101",
         imageUrl: "/assets/mod_prevs/nightmareoftheyanderedoki.webp",
@@ -151,12 +145,23 @@ export default {
         imageUrl: "/assets/mod_prevs/tropicalrain.webp",
         route: "tropicalrain1.2"
       },
- 
       {
         title: "I Need This Mod Like A Hole In The Head",
         author: "MagmaSlasher",
         imageUrl: "/assets/mod_prevs/holeinthehead.webp",
         route: "holeinthehead"
+      },
+      {
+        title: "The Deepest Mod Ever",
+        author: "MagmaSlasher",
+        imageUrl: "/assets/mod_prevs/deepestmod.png",
+        route: "deepestmod"
+      },
+      {
+        title: "A Different Story: The New Beginning",
+        author: "Nikicha",
+        imageUrl: "/assets/mod_prevs/differentstory.jpg",
+        route: "differentstory"
       },
  
 

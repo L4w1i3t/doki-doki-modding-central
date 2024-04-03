@@ -33,7 +33,7 @@ export default {
       links: [
         {
           text: 'Version 1.1.1',
-          url: 'https://www.mediafire.com/file/9yrvzu54zod7yjd/Zera_Fun_Time_aka_The_Dumb_Stupid_Mod_1.1.5.zip/file'
+          url: 'https://www.mediafire.com/file_premium/8pm2vopue0jfxmx/Zera_Fun_Time_aka_The_Dumb_Stupid_Mod_1.1.5.zip/file'
         },
       ]
     }

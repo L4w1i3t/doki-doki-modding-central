@@ -33,7 +33,7 @@ export default {
       links: [
         {
           text: 'Standard',
-          url: 'https://drive.google.com/file/d/1lZpCEy8ncBRwmBBIzoe4NSnEax5usfjV/view?usp=sharing'
+          url: 'https://www.mediafire.com/file_premium/khggwodilvfok3z/Doki_Doki_Outcast.zip/file'
         },
       ]
     }

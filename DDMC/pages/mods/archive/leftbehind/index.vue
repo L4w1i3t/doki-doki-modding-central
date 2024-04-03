@@ -33,7 +33,7 @@ export default {
       links: [
         {
           text: 'Standard',
-          url: 'https://www.mediafire.com/file/fj15dib2mir6va0/Left_Behind-1.0-Renpy7Mod.rar/file'
+          url: 'https://www.mediafire.com/file_premium/ya2rojhpdx4szam/Left_Behind-1.0-Renpy7Mod.rar/file'
         },
       ]
     }

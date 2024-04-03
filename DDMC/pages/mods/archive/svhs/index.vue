@@ -33,7 +33,7 @@ export default {
       links: [
         {
           text: 'Standard',
-          url: 'https://www.mediafire.com/file/ydmg00x2drzmohy/SVHSTAP05052022-1.0.0.zip/file'
+          url: 'https://www.mediafire.com/file_premium/u9op4xta4lssyjj/SVHSTAP05052022-1.0.0.zip/file'
         },
       ]
     }

@@ -33,7 +33,7 @@ export default {
       links: [
         {
           text: 'Standard',
-          url: 'https://www.mediafire.com/file/uhtc76rp110h91y/SigmaClub2SigmaStigma-3.0.0-Renpy7Mod.zip/file'
+          url: 'https://www.mediafire.com/file_premium/vjpfc0nua4nhdtd/SigmaClub2SigmaStigma-3.0.0-Renpy7Mod.zip/file'
         },
       ]
     }
