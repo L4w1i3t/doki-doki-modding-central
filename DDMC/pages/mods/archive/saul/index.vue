@@ -33,7 +33,7 @@ export default {
       links: [
         {
           text: 'Standard',
-          url: 'https://www.mediafire.com/file/naa1kkxs2m8umvk/SpiltSpaghetti-1.0.0-Renpy7Mod.zip/file'
+          url: 'https://www.mediafire.com/file_premium/gsdulv7tx7fyhdi/SpiltSpaghetti-1.0.0-Renpy7Mod.zip/file'
         },
       ]
     }

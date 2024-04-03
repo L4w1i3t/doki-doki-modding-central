@@ -33,7 +33,7 @@ export default {
       links: [
         {
           text: 'Standard',
-          url: 'https://www.mediafire.com/file/n9dx30u57z0b0e8/S%2Ay%2Ar%2AF%2Acks%2Ap-1.0-Renpy7Mod.zip/file'
+          url: 'https://www.mediafire.com/file_premium/bf8kiq9ywbd6o6x/S%2Ay%2Ar%2AF%2Acks%2Ap-1.0-Renpy7Mod.zip/file'
         },
       ]
     }

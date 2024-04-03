@@ -3,13 +3,13 @@
   <div class="container">
     <div class="standard-container">
       <a href="/mods/standard" class="mod-button-standard" @mouseenter="playHoverSound">
-        <img src="/assets/gui/penguin.webp" alt="Standard Mod" class="button-image" />
+        <img src="/assets/gui/penguin.webp" alt="Standard Mod" class="button-image-mods" />
       </a>
-      <p class="button-label">Mods for PC (Windows, Mac, Linux)</p>
+      <p class="button-label">Mods for PC</p>
     </div>
     <div class="android-container">
       <a href="/mods/android" class="mod-button-android" @mouseenter="playHoverSound">
-        <img src="/assets/gui/android.webp" alt="Android Mod" class="button-image" />
+        <img src="/assets/gui/android.webp" alt="Android Mod" class="button-image-mods" />
       </a>
       <p class="button-label">Mods for Android</p>
     </div>
@@ -17,7 +17,7 @@
   <div class="container2">
     <div class="standard-container">
       <a href="/mods/archive" class="mod-button-standard" @mouseenter="playHoverSound">
-        <img src="/assets/gui/modarchive.webp" alt="Standard Mod" class="button-image" />
+        <img src="/assets/gui/modarchive.webp" alt="Standard Mod" class="button-image-mods" />
       </a>
       <p class="button-label">Mod Archive</p>
       </div>
@@ -42,33 +42,33 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 1000px;
+  max-width: 100%;
   margin: 0 auto;
-  margin-top: 200px;
+  margin-top: 10vh;
   padding: 0;
 }
+
 .container2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 1000px;
+  max-width: 100%;
   margin: 0 auto;
-  margin-top: -100px;
+  margin-top: 0vh;
   padding: 0;
 }
 
-.standard-container,
-.android-container {
+.standard-container, .android-container {
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 10px;
+  margin: 0 1%;
 }
 
-.mod-button-standard,
-.mod-button-android {
-  width: 400px;
+.mod-button-standard, .mod-button-android {
+  max-width: 300px; 
+  width: 80%; 
   height: auto;
   text-decoration: none;
   transition: transform 0.3s ease-in-out;
@@ -77,26 +77,44 @@ export default {
   align-items: center;
 }
 
-.mod-button-standard:hover,
-.mod-button-android:hover {
+.mod-button-standard:hover, .mod-button-android:hover {
   opacity: 0.8;
   transform: scale(1.05) rotate(0deg);
 }
 
-.button-image {
+.button-image-mods {
   width: 100%;
   height: auto;
 }
 
 .button-label {
-  margin-top: 10px;
-  margin-bottom: 150px;
+  margin-top: 1rem; 
+  margin-bottom: 5vh; 
   text-align: center;
   font-style: italic;
-  font-size: 1.8em;
+  font-size: 2rem; 
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
   -webkit-text-stroke: 1px black;
   pointer-events: none;
 }
+
+@media (max-width: 768px) {
+  .mod-button-standard, .mod-button-android {
+    width: 90%; 
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .mod-button-standard, .mod-button-android {
+    width: 70%; 
+  }
+}
+
+@media (min-width: 1025px) {
+  .mod-button-standard, .mod-button-android {
+    width: 50%; 
+  }
+}
+
 </style>

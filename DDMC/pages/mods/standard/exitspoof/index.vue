@@ -33,7 +33,7 @@ export default {
       links: [
         {
           text: 'Standard',
-          url: 'https://www.mediafire.com/file/upwx0c1wm5bnrht/ExitSpoof-6.9-Renpy8-DDLCMod.zip/file'
+          url: 'https://www.mediafire.com/file_premium/35vens6y51iyp81/ExitSpoof-6.9-Renpy8-DDLCMod.zip/file'
         },
        
       ]

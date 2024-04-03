@@ -33,7 +33,7 @@
         links: [
           {
             text: 'Standard',
-            url: 'https://www.mediafire.com/folder/ojlojzxedmeny/Thanksgiving_Edition'
+            url: 'https://www.mediafire.com/file_premium/du5up081klnqqja/DDLC-Blue-Seas-Thanksgiving-4.0.1-Py2-Renpy7Mod.zip/file'
           },
         ]
       }

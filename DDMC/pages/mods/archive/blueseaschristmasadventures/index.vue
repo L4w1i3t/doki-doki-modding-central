@@ -33,7 +33,7 @@
         links: [
           {
             text: 'Standard',
-            url: 'https://www.mediafire.com/folder/z4j6t9ontqv8o/Christmas_Adventures'
+            url: 'https://www.mediafire.com/file_premium/ehh7tc1e8kzm7kd/DokiDokiTheBlueSeas-XMASAdventures-4.1.0-Py2-Renpy7Mod.zip/file'
           },
         ]
       }

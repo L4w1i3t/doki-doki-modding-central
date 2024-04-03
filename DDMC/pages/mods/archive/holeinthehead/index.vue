@@ -33,7 +33,7 @@ export default {
       links: [
         {
           text: 'Standard',
-          url: 'https://www.mediafire.com/file/v7ewewxcoybalux/INeedThisModLikeAHoleInTheHead-1.0.0-Renpy7Mod.zip/file'
+          url: 'https://www.mediafire.com/file_premium/e9ny4i38lykw7lb/INeedThisModLikeAHoleInTheHead-1.0.0-Renpy7Mod.zip/file'
         },
       ]
     }

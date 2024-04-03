@@ -33,11 +33,11 @@ export default {
       links: [
         {
           text: 'Standard',
-          url: 'https://www.mediafire.com/file/stjm93nb0ffmass/EgoDeath-1.0-Renpy7Mod.rar/file'
+          url: 'https://www.mediafire.com/file_premium/8y8q8xxm8fk1je9/EgoDeath-1.0-Renpy7Mod.rar/file'
         },
         {
           text: 'Open-Dyslexic',
-          url: 'https://www.mediafire.com/file/mz7cizqangfsl6f/EgoDeath-OpenDyslexic-Renpy7Mod.zip/file'
+          url: 'https://www.mediafire.com/file_premium/hbo1ezvk145jyzs/EgoDeath-OpenDyslexic-Renpy7Mod.zip/file'
         },
       ]
     }

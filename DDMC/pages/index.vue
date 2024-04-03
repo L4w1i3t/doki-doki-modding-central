@@ -49,7 +49,7 @@
     </div>
   </div>
 
-
+  <!-- Forms
   <div class="section redirect-to-form">
     <h2 class="centered" style="font-size: 2em;"><b><i>Want to join the club and post your own content here? You can do so by filling out a submission form here!</i></b></h2>
     
@@ -63,6 +63,7 @@
       </div>
     </div>
   </div>
+  -->
 
   
   <div class="section form-to-social">
@@ -83,7 +84,7 @@
     data() {
       return {
         socialMediaImages: ['discord.webp', 'reddit.webp', 'evilreddit.webp'],
-        featuredReleases: ['sigmaclub', 'svhsoriginal', 'leftbehind'],
+        featuredReleases: ['salvationremake', 'ocw', 'exitspoof'],
         currentReleaseIndex: 1,
       };
     },
@@ -165,7 +166,7 @@
 
   .centered-title {
     text-align: center;
-    font-size: 3vw;
+    font-size: 4em;
     margin-top: 5vh;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
     animation: pulse 8s linear infinite;

@@ -33,7 +33,7 @@
         links: [
           {
             text: 'Standard',
-            url: 'https://drive.google.com/file/d/1vUeu4xJLR_RoHMhHvRZG1W4k79JBcbXa/view?usp=sharing'
+            url: 'https://www.mediafire.com/file_premium/z2kwpndvfij79bk/OCW_1.1.7.zip/file'
           },
         ]
       }

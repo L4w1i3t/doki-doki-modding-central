@@ -33,7 +33,7 @@ export default {
       links: [
         {
           text: 'Standard',
-          url: 'https://drive.google.com/file/d/1jdzdip-oGcWFmphDtDE08yp_Ya_EdObB/view?usp=sharing'
+          url: 'https://www.mediafire.com/file_premium/u6s75tlbkesebx8/DokiDokiSalvRemakeFINAL-Release1.0-Renpy7Mod.zip/file'
         },
       ]
     }

@@ -33,7 +33,7 @@ export default {
       links: [
         {
           text: 'Standard',
-          url: 'https://www.mediafire.com/file/ivmzl5zcsyzal7j/Sigma_Club.zip/file'
+          url: 'https://www.mediafire.com/file_premium/v3szk5yconi14rn/Sigma_Club.zip/file'
         },
       ]
     }

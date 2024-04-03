@@ -33,7 +33,7 @@
         links: [
           {
             text: 'Standard',
-            url: 'https://www.mediafire.com/file/t8h3yw3futpejpa/OCWAS_1.1.1.zip/file'
+            url: 'https://www.mediafire.com/file_premium/yhais2if0bb5nfu/OCWAS_1.1.1.zip/file',
           },
         ]
       }

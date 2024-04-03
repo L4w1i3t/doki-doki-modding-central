@@ -18,8 +18,12 @@
       <nuxt-link :to="'/mods/archive/' + item.route">
         <div class="stained-glass">
           <img :src="item.imageUrl" alt="Catalog Image">
-          <span class="label-text">{{ item.title }}</span>
-          <span class="label-subtext">By {{ item.author }}</span>
+          <div class="label">
+            <p>
+            <span class="label-text">{{ item.title }}</span>
+            </p>
+            <span class="label-subtext">By {{ item.author }}</span>
+          </div>
         </div>
       </nuxt-link>
     </div>
@@ -118,12 +122,6 @@ export default {
         route: "salvationremake"
       },
       {
-        title: "Doki Doki The Blue Seas: Demo V2",
-        author: "dewallt101",
-        imageUrl: "/assets/mod_prevs/blueseasdemov2.webp",
-        route: "blueseasdemov2"
-      },
-      {
         title: "Doki Doki The Blue Seas: Nightmare of the Yandere Doki",
         author: "dewallt101",
         imageUrl: "/assets/mod_prevs/nightmareoftheyanderedoki.webp",
@@ -147,12 +145,23 @@ export default {
         imageUrl: "/assets/mod_prevs/tropicalrain.webp",
         route: "tropicalrain1.2"
       },
- 
       {
         title: "I Need This Mod Like A Hole In The Head",
         author: "MagmaSlasher",
         imageUrl: "/assets/mod_prevs/holeinthehead.webp",
         route: "holeinthehead"
+      },
+      {
+        title: "The Deepest Mod Ever",
+        author: "MagmaSlasher",
+        imageUrl: "/assets/mod_prevs/deepestmod.png",
+        route: "deepestmod"
+      },
+      {
+        title: "A Different Story: The New Beginning",
+        author: "Nikicha",
+        imageUrl: "/assets/mod_prevs/differentstory.jpg",
+        route: "differentstory"
       },
  
 
@@ -187,65 +196,86 @@ export default {
 <style scoped>
 .catalog {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 1rem;
-  justify-items: center center;
-  padding-top: 200px;
-  padding-bottom: 100px;
-  overflow: hidden;
+  justify-items: center;
+  padding: 20px;
+  margin-top: 150px
 }
 
 .catalog-item {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .catalog-item:hover {
-  transform: scale(1.05) rotate(0deg);
+  transform: translateY(-5px);
+  
 }
 
 .stained-glass {
-  border: 10px solid rgba(255, 255, 255, 0.5);
-  border-radius: 15px;
-  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+  border: 5px solid rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: border 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.stained-glass:hover {
+  border-color: rgba(255, 255, 255, 1);
 }
 
 .stained-glass img {
   width: 100%;
   height: auto;
-}
-
-.label-text,
-.label-subtext {
   display: block;
+  transition: transform 0.3s ease-in-out;
+}
+
+.label {
   text-align: center;
-  margin-top: 0px;
-  font-size: 1.4em;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgba(75, 0, 130, 0.4);
+  padding: 10px 0;
+  width: 100%;
+}
+
+.label-text {
+  text-align: center;
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
   color: #ffffff;
-  background-color: black;
-  padding: 5px 10px;
-  overflow: hidden;
+  padding: 5px 5px;
 }
 
 .label-subtext {
+  text-align: center;
+  font-size: clamp(0.8rem, 2vw, 1em);
+  color: #ffffff;
   font-style: italic;
+  padding: 5px 10px;
 }
 
 .sort-dropdown {
   position: fixed;
-  top: 60px;
-  left: 0px;
-  z-index: 9998;
+  top: 10px;
+  left: 10px;
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 100;
+  margin-top: 70px
 }
 
+.sort-dropdown select,
 .sort-dropdown input[type="text"] {
-  width: 100%;
   padding: 5px;
-  margin-top: 0px;
-  box-sizing: border-box;
-  z-index: 9997;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
 }
 </style>

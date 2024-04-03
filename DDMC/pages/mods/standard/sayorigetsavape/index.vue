@@ -33,7 +33,7 @@ export default {
       links: [
         {
           text: 'Standard',
-          url: 'https://www.mediafire.com/file/5klpsfnxkpd2mjs/SGAV-1.0.0-Renpy7Mod.zip/file'
+          url: 'https://www.mediafire.com/file_premium/n5744vgmq4r0iya/SGAV-1.0.0-Renpy7Mod.zip/file'
         },
        
       ]

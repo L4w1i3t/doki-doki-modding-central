@@ -33,7 +33,7 @@
         links: [
           {
             text: 'Standard',
-            url: 'https://www.mediafire.com/folder/zsjeyre0dii6t/Nightmare_of_the_Yandere_Doki'
+            url: 'https://www.mediafire.com/file_premium/iozf5qbuoovvpva/Nightmare_of_the_Yandere_Doki-4.0.1-Py2-Renpy7Mod.zip/file'
           },
         ]
       }
