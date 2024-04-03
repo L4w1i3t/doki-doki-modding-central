@@ -49,6 +49,12 @@ export default {
         imageUrl: "/assets/mod_prevs/DDTT.webp",
         route: "tripletrouble"
       },
+      {
+        title: "The Haunting of Monika After Story",
+        author: "President JM, DACHero",
+        imageUrl: "/assets/mod_prevs/mashaunt.webp",
+        route: "mashaunt"
+      },
     ];
     this.catalogItems = [...this.originalCatalogItems];
   },
