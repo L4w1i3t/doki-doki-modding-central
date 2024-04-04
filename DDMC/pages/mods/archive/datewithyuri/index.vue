@@ -29,7 +29,7 @@ export default {
       title: 'A Date With Yuri (ver 1.1)',
       authors: 'Team Red Mazda',
       contributors: 'Submitted By: Tune Eternal',
-      description: 'After a major break up in his life, with the help of Sayori, MC and his twin brother Naoto Satō, they help Neo Satō to get his life back together. 2 years later, our new protagonist, begins studying at a new school in his hometown, where in the first school day, interesting things start to happen… What is going to happen next?',
+      description: 'Yuri asked you out on a date, and you said yes. Why? I mean, I have no idea. That was entirely your decision. Now, go on a date with the lovable lavender lass.',
       links: [
         {
           text: 'Standard',
