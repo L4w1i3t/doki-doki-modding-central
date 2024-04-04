@@ -62,6 +62,12 @@ export default {
         imageUrl: "/assets/mod_prevs/everlasting.webp",
         route: "everlastingdemo"
       },
+      {
+        title: "Infinity Pens (The Original Demo)",
+        author: "CaptainOreo, BlueRay",
+        imageUrl: "/assets/mod_prevs/infinitypens.webp",
+        route: "infinitypensdemo"
+      },
 
 
 
