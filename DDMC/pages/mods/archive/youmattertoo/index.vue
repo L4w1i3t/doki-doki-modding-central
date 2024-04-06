@@ -17,6 +17,9 @@
     <div class="description">
       <p>{{ description }}</p>
     </div>
+    <div class="description">
+      <p>{{ description2 }}</p>
+    </div>
   </div>
 </template>
 
@@ -27,7 +30,8 @@ export default {
       title: 'You Matter Too',
       authors: 'By Doki Senate',
       contributors: 'Submitted By: Doki Senate',
-      description: 'The Dokis find out that Jacob has depression and they come up with a plan to help him, but something goes horribly wrong in the process... [Contains copyrighted audio by Yo-Yo Ma;Ennio Morricone, John Williams, London Symphony Orchestra, Nintendo, Alexandre Desplat, Kevin Kiner, Matthew St. Laurent, Nicholas Hooper, North Texas Wind Symphony, Eugene Migliaro Corporon, Sleepy Times, Natural Sound Makers, Nature Recordings (Video was blocked in Russia by Sleepy Times, Natural Sound Makers, Nature Recordings)]',
+      description: 'The Dokis find out that Jacob has depression and they come up with a plan to help him, but something goes horribly wrong in the process...',
+      description2: 'This modification contains materials that are copyrighted by other artists in certain regions of the world, and may cause certain individuals to experience conflictions with copyright content identification when recording footage. Please proceed with caution if this applies to you. Contains audio by Yo-Yo Ma;Ennio Morricone, John Williams, London Symphony Orchestra, Nintendo, Alexandre Desplat, Kevin Kiner, Matthew St. Laurent, Nicholas Hooper, North Texas Wind Symphony, Eugene Migliaro Corporon, Sleepy Times, Natural Sound Makers, Nature Recordings (Video was blocked in Russia by Sleepy Times, Natural Sound Makers, Nature Recordings).',
       links: [
         {
           text: '1.0',

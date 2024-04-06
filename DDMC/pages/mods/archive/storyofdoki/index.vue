@@ -12,6 +12,9 @@
     <div class="description">
       <p>{{ description }}</p>
     </div>
+    <div class="description">
+      <p>{{ description2 }}</p>
+    </div>
     <div class="download-container">
       <img src="/assets/gui/dl.webp" alt="Download Icon">
       <div class="download-label">Download Here!</div>
@@ -30,6 +33,7 @@ export default {
       authors: 'Silver',
       contributors: 'Submitted By: Tune Eternal',
       description: 'Woahhh story of undertale',
+      description2: 'This modification contains materials that are copyrighted by other artists in certain regions of the world, and may cause certain individuals to experience conflictions with copyright content identification when recording footage. Please proceed with caution if this applies to you.',
       links: [
         {
           text: 'Standard',
