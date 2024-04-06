@@ -12,6 +12,16 @@
     <div class="description">
       <p>{{ description }}</p>
     </div>
+
+    <div class="description">
+      <p>{{ description2 }}</p>
+    </div>
+
+    <div class="description">
+      <p>{{ description3 }}</p>
+    </div>
+
+
     <div class="download-container">
       <img src="/assets/gui/dl.webp" alt="Download Icon">
       <div class="download-label">Download Here!</div>
@@ -30,6 +40,8 @@ export default {
       authors: 'CaptainOreo, BlueRay',
       contributors: 'Submitted By: JQilin Gaming, Codex',
       description: 'Infinity Pens is about two girls fighting over six magic pens. June is the blonde girl, but she cannot remember her past, and it hurts her she tries to remember. Hanako is red-haired, and she is the villain. Long story short, Monika traps Hanako in a classroom, and June releases her. But Hanako’s true intention is to kill all Monika in existence(another mod). And to do so, she needs the Infinity Pens. So it is up to June to stop here and find the pens before she does. But it looks like Monika is hidden something, too. - CaptainOreo',
+      description2: 'This modification is not in accordance with Team Salvato IP Guidelines and DDMC.site is not responsible for the inadequacies in following the IP terms and conditions, and do not assume any responsibility for the lack of adherence. Please download at your own discretion.', 
+      description3: 'This modification contains materials that are copyrighted by other artists in certain regions of the world, and may cause certain individuals to experience conflictions with copyright content identification when recording footage. Please proceed with caution if this applies to you.',
       links: [
         {
           text: 'Download Demo',
