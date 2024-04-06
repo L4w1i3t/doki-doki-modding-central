@@ -32,7 +32,8 @@ export default {
       title: 'Story of Dokitale',
       authors: 'Silver',
       contributors: 'Submitted By: Tune Eternal',
-      description: 'This modification contains materials that are copyrighted by other artists in certain regions of the world, and may cause certain individuals to experience conflictions with copyright content identification when recording footage. Please proceed with caution if this applies to you.',
+      description: 'Woahhh story of undertale',
+      description2: 'This modification contains materials that are copyrighted by other artists in certain regions of the world, and may cause certain individuals to experience conflictions with copyright content identification when recording footage. Please proceed with caution if this applies to you.',
       links: [
         {
           text: 'Standard',
