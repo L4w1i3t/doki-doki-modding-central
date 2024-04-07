@@ -2,7 +2,7 @@
 <template>
   <div>
     <div class="preview-image">
-      <img src="/assets/mod_prevs/DDTT.webp" alt="Preview Image">
+      <img src="/assets/mod_prevs/bestfriendisaghost.webp" alt="Preview Image">
     </div>
     <div class="title-box">
       <h1>{{ title }}</h1>
@@ -26,15 +26,23 @@
 export default {
   data() {
     return {
-      title: 'Doki Doki Triple Trouble Demo',
-      authors: 'By JQilin Gaming, Tune Eternal',
+      title: 'My Best Friend is a Ghost (Original)',
+      authors: 'Storm Boss, icouldbecooler',
       contributors: 'Submitted By: JQilin Gaming',
-      description: 'Doki Doki Triple Trouble is the first ever 18+ RomCom that centers around everyone\'s favorite pink-haired heartbreaker: Natsuki! Follow MC\'s year long escapade to try to be the main man in Natsuki\'s life as he competes with a different man... and then a different man... and then a different man. An original story jam packed with action, drama, comedy, romance, an incredible original soundtrack, and enough NSFW to make your head spin! A DDLC mod that will make you laugh, cry, question life, and jam out while doing so. Will MC surrender his common sense to get with Natsuki or will he realize that it\'s not worth the trouble? Find out now in Doki Doki Triple Trouble!',
+      description: 'After Sayori, your childhood best friend, tragically loses her life you fall into a deep depression. You stop going to school, eating, all together become a shell of your former self. Until one day when you start hearing voices, finding cooked meals, seeing objects fly around. It all comes to a stop when one faithful night Sayoris ghost comes to you because of some... "unfinished business".',
       links: [
         {
-          text: 'Download Demo',
-          url: 'https://www.mediafire.com/file_premium/b7b7frdu6vj502a/DDTT-Renpy7Mod.zip/file'
+          text: 'Act 1',
+          url: 'https://www.mediafire.com/file_premium/ugoq2nsogx3birl/MBFIAG_ACT_1.zip/file'
         },
+        {
+          text: 'Act 2',
+          url: 'https://www.mediafire.com/file_premium/sedzjhizr3iwv2m/MBFIAG_ACT_2.zip/file'
+        },
+        {
+          text: 'Act 3',
+          url: 'https://www.mediafire.com/file_premium/swg6cyt1yl7zodt/MBFIAG_ACT_3.zip/file'
+        }
       ]
     }
   }

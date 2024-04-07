@@ -164,7 +164,7 @@ export default {
         route: "differentstory"
       },
       {
-        title: "Presents and Poems ",
+        title: "Presents and Poems",
         author: "Red Team Mazda",
         imageUrl: "/assets/mod_prevs/presents.webp",
         route: "presents"
@@ -253,6 +253,49 @@ export default {
         imageUrl: "/assets/mod_prevs/ChangingPerspectives.webp",
         route: "changingperspectives"
       },
+      {
+        title: "Tripping Backwards",
+        author: "Sven and Wretched Team",
+        imageUrl: "/assets/mod_prevs/trippingbackwards.webp",
+        route: "trippingbackwards"
+      },
+      {
+        title: "Focus On Me",
+        author: "NitrosGaming",
+        imageUrl: "/assets/mod_prevs/focusonme.webp",
+        route: "focusonme"
+      },
+      {
+        title: "Amor Fati",
+        author: "DarkSyner, BootyCrusader",
+        imageUrl: "/assets/mod_prevs/amorfati.webp",
+        route: "amorfati"
+      },
+      {
+        title: "My Best Friend is a Ghost (Original)",
+        author: "Storm Boss, icouldbecooler",
+        imageUrl: "/assets/mod_prevs/bestfriendisaghost.webp",
+        route: "bestfriendisaghost"
+      },
+      {
+        title: "Koi Ga Kirei [KGK]",
+        author: "TeamAI",
+        imageUrl: "/assets/mod_prevs/kgk.webp",
+        route: "kgk"
+      },
+      {
+        title: "Dimensions",
+        author: "ChiffMonkey",
+        imageUrl: "/assets/mod_prevs/dimensions.webp",
+        route: "dimensions"
+      },
+      {
+        title: "The Dokis Explore The Haunted House",
+        author: "MarioDokiFan4ever",
+        imageUrl: "/assets/mod_prevs/hauntedhouse.webp",
+        route: "explorehauntedhouse"
+      },
+
 
 
 

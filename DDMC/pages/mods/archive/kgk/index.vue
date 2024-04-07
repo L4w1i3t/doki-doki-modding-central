@@ -2,7 +2,7 @@
 <template>
   <div>
     <div class="preview-image">
-      <img src="/assets/mod_prevs/DDTT.webp" alt="Preview Image">
+      <img src="/assets/mod_prevs/kgk.webp" alt="Preview Image">
     </div>
     <div class="title-box">
       <h1>{{ title }}</h1>
@@ -11,6 +11,10 @@
     </div>
     <div class="description">
       <p>{{ description }}</p>
+    </div>
+
+    <div class="description">
+      <p>{{ description2 }}</p>
     </div>
     <div class="download-container">
       <img src="/assets/gui/dl.webp" alt="Download Icon">
@@ -26,14 +30,15 @@
 export default {
   data() {
     return {
-      title: 'Doki Doki Triple Trouble Demo',
-      authors: 'By JQilin Gaming, Tune Eternal',
+      title: 'Koi Ga Kirei [KGK]',
+      authors: 'TeamAI',
       contributors: 'Submitted By: JQilin Gaming',
-      description: 'Doki Doki Triple Trouble is the first ever 18+ RomCom that centers around everyone\'s favorite pink-haired heartbreaker: Natsuki! Follow MC\'s year long escapade to try to be the main man in Natsuki\'s life as he competes with a different man... and then a different man... and then a different man. An original story jam packed with action, drama, comedy, romance, an incredible original soundtrack, and enough NSFW to make your head spin! A DDLC mod that will make you laugh, cry, question life, and jam out while doing so. Will MC surrender his common sense to get with Natsuki or will he realize that it\'s not worth the trouble? Find out now in Doki Doki Triple Trouble!',
+      description: 'If you strive hard enough, you could even move the world with your words"; a naïve dream, an ideal that fades away when the dreamer awakens... But is it possible for such a dream be realized in a world that is full of fakes? A story set in a universe much too familiar, a man who was left with nothing but an unrecognized dream, a wanderer who was always in search for answers that he could never find, no matter how hard he looked. A girl behind a wall of books, enveloped in self doubt, wishing to be free from herself. Two paths that you would think would never meet but what if in one, out of infinite realities, their fate intertwined? Watch as how the relationship between the two develops as they try to overcome whatever obstacle that life throws at them and... Will their dreams finally be fulfilled? A slice of life about love, friendship, hardships and unfulfilled dreams.... A story about us.... Koi Ga Kirei (Love is beautiful) What is Koi Ga Kirei?',
+      description2: 'Ko Ga Kirei (KGK for short) is a mod that hopes to give you an experience unlike any other. Putting you in the shoes of a entirely different character, KGK tells a story of a person looking in. Here is a list of what the mod has to offer: A fully custom soundtrack from the Genius mind behind the OSTs of Monika Before Story, and Salvation. Alongside the debut of a rising star who goes by the name Morphonema. Also accompanying the game are almost a Dozen new CGs and custom Backgrounds. A complete overhaul to the UI that makes the game look seamless.',
       links: [
         {
-          text: 'Download Demo',
-          url: 'https://www.mediafire.com/file_premium/b7b7frdu6vj502a/DDTT-Renpy7Mod.zip/file'
+          text: 'Standard',
+          url: 'https://www.mediafire.com/file_premium/82mxodyr9q6exx4/kgk-1.0-Mod.zip/file'
         },
       ]
     }
