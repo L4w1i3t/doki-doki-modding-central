@@ -165,13 +165,13 @@ export default {
       },
       {
         title: "Presents and Poems ",
-        author: "Red Team Mazda",
+        author: "Team Red Mazda",
         imageUrl: "/assets/mod_prevs/presents.webp",
         route: "presents"
       },
       {
         title: "A Date With Yuri",
-        author: "Red Team Mazda",
+        author: "Team Red Mazda",
         imageUrl: "/assets/mod_prevs/datewithyuri.webp",
         route: "datewithyuri"
       },
