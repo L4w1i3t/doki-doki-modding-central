@@ -1,8 +1,13 @@
-
 <template>
   <div>
     <div class="preview-image">
-      <img src="/assets/mod_prevs/DDTT.webp" alt="Preview Image">
+    <iframe 
+      class="video" 
+      src="https://www.youtube.com/embed/ALIwQfCNaXQ?si=rt6m2qwCfP08Z09s" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    </iframe>
     </div>
     <div class="title-box">
       <h1>{{ title }}</h1>
@@ -12,13 +17,6 @@
     <div class="description">
       <p>{{ description }}</p>
     </div>
-    <div class="download-container">
-      <img src="/assets/gui/dl.webp" alt="Download Icon">
-      <div class="download-label">Download Here!</div>
-    </div>
-    <div class="download-links">
-      <a v-for="(link, index) in links" :key="index" :href="link.url" target="_blank" download>{{ link.text }}</a>
-    </div>
   </div>
 </template>
 
@@ -26,14 +24,14 @@
 export default {
   data() {
     return {
-      title: 'Doki Doki Triple Trouble Demo',
-      authors: 'By JQilin Gaming, Tune Eternal',
-      contributors: 'Submitted By: JQilin Gaming',
-      description: 'Doki Doki Triple Trouble is the first ever 18+ RomCom that centers around everyone\'s favorite pink-haired heartbreaker: Natsuki! Follow MC\'s year long escapade to try to be the main man in Natsuki\'s life as he competes with a different man... and then a different man... and then a different man. An original story jam packed with action, drama, comedy, romance, an incredible original soundtrack, and enough NSFW to make your head spin! A DDLC mod that will make you laugh, cry, question life, and jam out while doing so. Will MC surrender his common sense to get with Natsuki or will he realize that it\'s not worth the trouble? Find out now in Doki Doki Triple Trouble!',
+      title: 'The Dokis Explore The Haunted House',
+      authors: 'By MarioDokiFan4ever',
+      contributors: 'Submitted By: MarioDokiFan4ever',
+      description: 'Monika, Sayori, and Natsuki get lost exploring a haunted house and it is up to Yuri to save them from the horrors that await her there.',
       links: [
         {
-          text: 'Download Demo',
-          url: 'https://www.mediafire.com/file_premium/b7b7frdu6vj502a/DDTT-Renpy7Mod.zip/file'
+          text: '1.0',
+          url: 'path/to/download/version-1.0.0'
         },
       ]
     }

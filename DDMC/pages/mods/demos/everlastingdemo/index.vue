@@ -32,7 +32,7 @@ export default {
       description: 'This demo will contain Act 1: Resonance. This demo is meant to serve as an introduction to the world, as well as provide (hopefully) a good story to keep you immersed. Our team has worked really hard on this, and I am pretty proud of this myself.',
       links: [
         {
-          text: 'Demo',
+          text: 'Download Demo',
           url: 'https://www.mediafire.com/file_premium/9q3vxd6u58xzpa5/DDEverlasting_Demo.zip/file'
         },
       ]
