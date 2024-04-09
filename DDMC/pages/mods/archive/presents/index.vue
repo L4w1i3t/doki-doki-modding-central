@@ -26,13 +26,21 @@
 export default {
   data() {
     return {
-      title: 'Presents and Poems (Christmas in July Patch Version)',
+      title: 'Presents and Poems',
       authors: 'Team Red Mazda',
-      contributors: 'Submitted By: Tune Eternal',
+      contributors: 'Submitted By: Tune Eternal, JQilin Gaming',
       description: 'Presents and Poems is a Christmas anthology mod with multiple short stories featuring your favorite therapy needing 2D girls and their emotional support vessel you control. Each story centers around one club member in particular, and each story offers different problems and scenarios related to the character focused on/the Christmas season.',
       links: [
         {
           text: 'Standard',
+          url: 'https://www.mediafire.com/file_premium/dsdmg1exu21f4nh/PresentsAndPoems.zip/file'
+        },
+        {
+          text: 'New Years Patch',
+          url: 'https://www.mediafire.com/file_premium/arbci810czkt4fc/PresentsAndPoems_-_New_Years_Patch.zip/file'
+        },
+        {
+          text: 'Christmas In July Patch',
           url: 'https://www.mediafire.com/file_premium/v1xg15o3ghnvfl7/Presents_and_Poems_-_Christmas_In_July_Patch.zip/file'
         },
       ]

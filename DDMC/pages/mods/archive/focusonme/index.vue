@@ -2,7 +2,7 @@
 <template>
   <div>
     <div class="preview-image">
-      <img src="/assets/mod_prevs/DDTT.webp" alt="Preview Image">
+      <img src="/assets/mod_prevs/focusonme.webp" alt="Preview Image">
     </div>
     <div class="title-box">
       <h1>{{ title }}</h1>
@@ -26,15 +26,19 @@
 export default {
   data() {
     return {
-      title: 'Doki Doki Triple Trouble Demo',
-      authors: 'By JQilin Gaming, Tune Eternal',
+      title: 'Focus On me',
+      authors: 'NitrosGaming',
       contributors: 'Submitted By: JQilin Gaming',
-      description: 'Doki Doki Triple Trouble is the first ever 18+ RomCom that centers around everyone\'s favorite pink-haired heartbreaker: Natsuki! Follow MC\'s year long escapade to try to be the main man in Natsuki\'s life as he competes with a different man... and then a different man... and then a different man. An original story jam packed with action, drama, comedy, romance, an incredible original soundtrack, and enough NSFW to make your head spin! A DDLC mod that will make you laugh, cry, question life, and jam out while doing so. Will MC surrender his common sense to get with Natsuki or will he realize that it\'s not worth the trouble? Find out now in Doki Doki Triple Trouble!',
+      description: 'This is the first mod i have ever made and i hope you like it I do not really know how to describe the game so just play it to find out Also i worked really really hard on this There is multiple endings and routes so please explore them all. I AM UNSURE WHETHER THIS IS FINISHED OR NOT BUT IT PROBABLY IS. THERE IS A SEQUEL AFTER THIS LINK IN THIS POST TO THE SEQUEL',
       links: [
         {
-          text: 'Download Demo',
-          url: 'https://www.mediafire.com/file_premium/b7b7frdu6vj502a/DDTT-Renpy7Mod.zip/file'
+          text: 'Part 1',
+          url: 'https://www.mediafire.com/file_premium/672csk6tu9oxrn2/FOMV1.rar/file'
         },
+        {
+          text: 'Part 2',
+          url: 'https://www.mediafire.com/file_premium/q82vx5qdpk81q8l/FOM2.rar/file'
+        }
       ]
     }
   }

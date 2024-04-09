@@ -2,7 +2,7 @@
 <template>
   <div>
     <div class="preview-image">
-      <img src="/assets/mod_prevs/DDTT.webp" alt="Preview Image">
+      <img src="/assets/mod_prevs/trippingbackwards.webp" alt="Preview Image">
     </div>
     <div class="title-box">
       <h1>{{ title }}</h1>
@@ -26,15 +26,15 @@
 export default {
   data() {
     return {
-      title: 'Doki Doki Triple Trouble Demo',
-      authors: 'By JQilin Gaming, Tune Eternal',
+      title: 'Tripping Backwards',
+      authors: 'Sven and Wretched Team',
       contributors: 'Submitted By: JQilin Gaming',
-      description: 'Doki Doki Triple Trouble is the first ever 18+ RomCom that centers around everyone\'s favorite pink-haired heartbreaker: Natsuki! Follow MC\'s year long escapade to try to be the main man in Natsuki\'s life as he competes with a different man... and then a different man... and then a different man. An original story jam packed with action, drama, comedy, romance, an incredible original soundtrack, and enough NSFW to make your head spin! A DDLC mod that will make you laugh, cry, question life, and jam out while doing so. Will MC surrender his common sense to get with Natsuki or will he realize that it\'s not worth the trouble? Find out now in Doki Doki Triple Trouble!',
+      description: 'First conceived in 2020 by Sven, Tripping Backwards is a psychedelic horror mod that has been in on and off development since the formation of Wretched Team. After so long in development hell, it has since been completely rewritten and redesigned from the ground up into a short but powerful experience. Honestly, it is best to just go in blind for this one. Turn off the lights, put your headphones on, and enjoy. The whole mod should be around 20 to 30 minutes depending on your reading speed.',
       links: [
         {
-          text: 'Download Demo',
-          url: 'https://www.mediafire.com/file_premium/b7b7frdu6vj502a/DDTT-Renpy7Mod.zip/file'
-        },
+          text: 'Standard',
+          url: 'https://www.mediafire.com/file_premium/cfiz4b0paqmlidi/Tripping_Backwards.zip/file'
+        }
       ]
     }
   }
