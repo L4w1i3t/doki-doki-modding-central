@@ -164,11 +164,7 @@ export default {
         route: "differentstory"
       },
       {
-<<<<<<< HEAD
-        title: "Presents and Poems ",
-=======
         title: "Presents and Poems",
->>>>>>> bd313d6a665cf383a0a064b658f95fc9825feb21
         author: "Team Red Mazda",
         imageUrl: "/assets/mod_prevs/presents.webp",
         route: "presents"
@@ -216,7 +212,7 @@ export default {
         route: "paper"
       },
       {
-        title: "Story of Dokitalke",
+        title: "Story of Dokitale",
         author: "Silver",
         imageUrl: "/assets/mod_prevs/story.webp",
         route: "storyofdoki"
