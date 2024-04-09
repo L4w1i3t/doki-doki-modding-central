@@ -73,6 +73,12 @@ export default {
         imageUrl: "/assets/mod_prevs/datewithmonika.webp",
         route: "datewithmonika"
       },
+      {
+        title: "A Date With Natsuki",
+        author: "Various Artists",
+        imageUrl: "/assets/mod_prevs/datewithnatsuki.webp",
+        route: "datewithnatsuki"
+      },
     ];
     this.catalogItems = [...this.originalCatalogItems];
   },

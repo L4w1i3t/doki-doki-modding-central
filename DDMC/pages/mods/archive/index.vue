@@ -337,6 +337,25 @@ export default {
         imageUrl: "/assets/mod_prevs/datewithmonika.webp",
         route: "datewithmonika"
       },
+      {
+        title: "A Date With Natsuki",
+        author: "Various Artists",
+        imageUrl: "/assets/mod_prevs/datewithnatsuki.webp",
+        route: "datewithnatsuki"
+      },
+      {
+        title: "DDLC: Ultimate Combo",
+        author: "ComboDev",
+        imageUrl: "/assets/mod_prevs/ultimatecombo.webp",
+        route: "ultimatecombo"
+      },
+      {
+        title: "One Last Memory",
+        author: "12GizGuy6",
+        imageUrl: "/assets/mod_prevs/onelastmemory.webp",
+        route: "onelastmemory"
+      },
+
 
 
 
