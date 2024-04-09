@@ -16,7 +16,7 @@
       </div>
     </div>
     <div v-for="(item, index) in catalogItems" :key="index" class="catalog-item">
-      <nuxt-link :to="'/mods/demos/' + item.route">
+      <nuxt-link :to="'/mods/videos/' + item.route">
         <div class="stained-glass">
           <img :src="item.imageUrl" alt="Catalog Image">
           <div class="label">

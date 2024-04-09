@@ -18,6 +18,14 @@ export default {
     return {
       versions: [
         {
+          version: 'Alpha 1.1.3',
+          notes: [
+            'Added a separate page for video-only mods',
+            'Overhauled UI buttons on mod hub',
+            'Minor bug fixes'
+          ]
+        },
+        {
           version: 'Alpha 1.1.2',
           notes: [
             'Added hamburger menu on hotbar for mobile devices',
