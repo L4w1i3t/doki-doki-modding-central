@@ -164,11 +164,7 @@ export default {
         route: "differentstory"
       },
       {
-<<<<<<< HEAD
-        title: "Presents and Poems ",
-=======
         title: "Presents and Poems",
->>>>>>> bd313d6a665cf383a0a064b658f95fc9825feb21
         author: "Team Red Mazda",
         imageUrl: "/assets/mod_prevs/presents.webp",
         route: "presents"
@@ -299,6 +295,49 @@ export default {
         imageUrl: "/assets/mod_prevs/hauntedhouse.webp",
         route: "explorehauntedhouse"
       },
+      {
+        title: "Our Hearts United Chapter 1 - When Worlds Collide",
+        author: "Azrathas and Team Nazuko/Skarlet",
+        imageUrl: "/assets/mod_prevs/heartsunited.webp",
+        route: "heartsunited"
+      },
+      {
+        title: "12 Hours",
+        author: "James-Zanny",
+        imageUrl: "/assets/mod_prevs/12hours.webp",
+        route: "12hours"
+      },
+      {
+        title: "2nd Anniversary",
+        author: "James-Zanny",
+        imageUrl: "/assets/mod_prevs/second.webp",
+        route: "secondaniversary"
+      },
+      {
+        title: "The 48 Hour Mod",
+        author: "Wretched Team",
+        imageUrl: "/assets/mod_prevs/48hours.webp",
+        route: "48hours"
+      },
+      {
+        title: "A Brand New Day",
+        author: "Phathom",
+        imageUrl: "/assets/mod_prevs/brandnewday.webp",
+        route: "brandnewday"
+      },
+      {
+        title: "A Burger Gets Sayori",
+        author: "10thMod",
+        imageUrl: "/assets/mod_prevs/burgergetssayori.webp",
+        route: "burgergetssayori"
+      },
+      {
+        title: "A Date With Monika",
+        author: "SlightlySimple",
+        imageUrl: "/assets/mod_prevs/datewithmonika.webp",
+        route: "datewithmonika"
+      },
+
 
 
 

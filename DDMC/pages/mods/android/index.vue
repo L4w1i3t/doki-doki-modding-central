@@ -55,6 +55,24 @@ export default {
         imageUrl: "/assets/mod_prevs/mashaunt.webp",
         route: "mashaunt"
       },
+      {
+        title: "A Brand New Day",
+        author: "Phathom",
+        imageUrl: "/assets/mod_prevs/brandnewday.webp",
+        route: "brandnewday"
+      },
+      {
+        title: "A Burger Gets Sayori",
+        author: "10thMod",
+        imageUrl: "/assets/mod_prevs/burgergetssayori.webp",
+        route: "burgergetssayori"
+      },
+      {
+        title: "A Date With Monika",
+        author: "SlightlySimple",
+        imageUrl: "/assets/mod_prevs/datewithmonika.webp",
+        route: "datewithmonika"
+      },
     ];
     this.catalogItems = [...this.originalCatalogItems];
   },
