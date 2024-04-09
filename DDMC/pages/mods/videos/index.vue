@@ -16,7 +16,7 @@
       </div>
     </div>
     <div v-for="(item, index) in catalogItems" :key="index" class="catalog-item">
-      <nuxt-link :to="'/mods/demos/' + item.route">
+      <nuxt-link :to="'/mods/videos/' + item.route">
         <div class="stained-glass">
           <img :src="item.imageUrl" alt="Catalog Image">
           <div class="label">
@@ -49,6 +49,12 @@ export default {
         author: "Doki Senate",
         imageUrl: "/assets/mod_prevs/ymt.webp",
         route: "youmattertoo"
+      },
+      {
+        title: "The Dokis Explore The Haunted House",
+        author: "MarioDokiFan4ever",
+        imageUrl: "/assets/mod_prevs/hauntedhouse.webp",
+        route: "explorehauntedhouse"
       },
 
 

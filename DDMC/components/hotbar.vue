@@ -24,6 +24,7 @@
             <li><a href="/mods/archive">Archive</a></li>
             <li><a href="/mods/android">Android</a></li>
             <li><a href="/mods/demos">Demos</a></li>
+            <li><a href="/mods/videos">Videos</a></li>
           </ul>
         </li>
         <li><a href="/more/assets">Assets</a></li>

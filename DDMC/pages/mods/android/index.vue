@@ -79,6 +79,18 @@ export default {
         imageUrl: "/assets/mod_prevs/datewithnatsuki.webp",
         route: "datewithnatsuki"
       },
+      {
+        title: "Exit Music",
+        author: "Penny, MalukahMaker, SadBoiJake; Wretched Team (Rerelease)",
+        imageUrl: "/assets/mod_prevs/exitmusic.webp",
+        route: "exitmusic"
+      },
+      {
+        title: "Exit Music: Redux",
+        author: "Wretched Team",
+        imageUrl: "/assets/mod_prevs/exitmusicredux.webp",
+        route: "exitmusicredux"
+      },
     ];
     this.catalogItems = [...this.originalCatalogItems];
   },

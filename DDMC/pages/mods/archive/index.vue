@@ -290,12 +290,6 @@ export default {
         route: "dimensions"
       },
       {
-        title: "The Dokis Explore The Haunted House",
-        author: "MarioDokiFan4ever",
-        imageUrl: "/assets/mod_prevs/hauntedhouse.webp",
-        route: "explorehauntedhouse"
-      },
-      {
         title: "Our Hearts United Chapter 1 - When Worlds Collide",
         author: "Azrathas and Team Nazuko/Skarlet",
         imageUrl: "/assets/mod_prevs/heartsunited.webp",
@@ -355,6 +349,26 @@ export default {
         imageUrl: "/assets/mod_prevs/onelastmemory.webp",
         route: "onelastmemory"
       },
+      {
+        title: "Exit Music",
+        author: "Penny, MalukahMaker, SadBoiJake; Wretched Team (Rerelease)",
+        imageUrl: "/assets/mod_prevs/exitmusic.webp",
+        route: "exitmusic"
+      },
+      {
+        title: "Exit Music: Redux",
+        author: "Wretched Team",
+        imageUrl: "/assets/mod_prevs/exitmusicredux.webp",
+        route: "exitmusicredux"
+      },
+      {
+        title: "Emerald Heart",
+        author: "Emerald Heart Team",
+        imageUrl: "/assets/mod_prevs/emeraldheart.webp",
+        route: "emeraldheart"
+      },
+
+
 
 
 
