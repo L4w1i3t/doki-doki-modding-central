@@ -212,7 +212,7 @@ export default {
         route: "paper"
       },
       {
-        title: "Story of Dokitalke",
+        title: "Story of Dokitale",
         author: "Silver",
         imageUrl: "/assets/mod_prevs/story.webp",
         route: "storyofdoki"
