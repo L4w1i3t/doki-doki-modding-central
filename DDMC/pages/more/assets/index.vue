@@ -1,7 +1,7 @@
 
 
 <template>
-  <title>Assets</title>
+  <title>Assets || Doki Doki Modding Central</title>
     <div class="container">
       <div class="standard-container">
         <a href="/more/assets/music" class="mod-button-standard" @mouseenter="playHoverSound">

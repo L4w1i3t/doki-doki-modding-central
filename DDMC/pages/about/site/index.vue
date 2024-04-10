@@ -1,6 +1,6 @@
 
 <template>
-  <title>About the Site</title>
+  <title>About the Site || Doki Doki Modding Central</title>
   <div class="centered-title" style="color: white; font-family: 'Hot Mustard BTN Regular', monospace; margin-top: 100px;">
     <h2>About DDMC</h2>
   </div>
