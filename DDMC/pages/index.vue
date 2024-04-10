@@ -1,5 +1,6 @@
 
 <template>
+  <title>Welcome to Doki Doki Modding Central!</title>
   <div class="centered-title" style="color: white; font-family: 'Hot Mustard BTN Regular', monospace;">
     <u>Welcome to Doki Doki Modding Central!</u>
   </div>

@@ -1,5 +1,5 @@
 <template>
-  <title>Android</title>
+  <title>Mods - Android || Doki Doki Modding Central</title>
   <div class="catalog">
     <div class="sort-dropdown">
       <select v-model="sortBy" @change="sortCatalog">
@@ -16,7 +16,7 @@
       </div>
     </div>
     <div v-for="(item, index) in catalogItems" :key="index" class="catalog-item">
-      <nuxt-link :to="'/mods/android/' + item.route">
+      <a :href="`/mods/android/${item.route}`" rel="noopener noreferrer">
         <div class="stained-glass">
           <img :src="item.imageUrl" alt="Catalog Image">
           <div class="label">
@@ -26,7 +26,7 @@
             <span class="label-subtext">By {{ item.author }}</span>
           </div>
         </div>
-      </nuxt-link>
+      </a>
     </div>
   </div>
 </template>

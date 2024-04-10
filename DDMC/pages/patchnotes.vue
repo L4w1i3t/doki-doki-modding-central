@@ -19,6 +19,14 @@ export default {
     return {
       versions: [
         {
+          version: 'Alpha 1.1.4',
+          notes: [
+            'Started rolling out tab titles for each page',
+            'Fixed a routing issue where mod pages would not load correctly',
+            'Minor bug fixes'
+          ]
+        },
+        {
           version: 'Alpha 1.1.3',
           notes: [
             'Added a separate page for video-only mods',
