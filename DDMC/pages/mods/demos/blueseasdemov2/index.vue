@@ -1,5 +1,6 @@
 
 <template>
+  <title>Blue Seas Demo: V2</title>
     <div>
       <div class="preview-image">
         <img src="/assets/mod_prevs/blueseasdemov2.webp" alt="Preview Image">

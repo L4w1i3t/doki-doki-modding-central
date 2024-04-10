@@ -1,5 +1,6 @@
 
 <template>
+  <title>FAQ</title>
     <div class="maintenance-notice">
       <h1><b>This site just opened. Do you really expect us to have a complete FAQ?</b></h1>
     </div>

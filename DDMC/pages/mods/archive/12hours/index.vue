@@ -1,5 +1,6 @@
 
 <template>
+  <title>12 Hours</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/12hours.webp" alt="Preview Image">

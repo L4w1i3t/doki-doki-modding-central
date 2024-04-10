@@ -1,5 +1,6 @@
 
 <template>
+  <title>Can You Spare A Poem</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/spareapoem.webp" alt="Preview Image">

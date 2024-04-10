@@ -1,5 +1,6 @@
 
 <template>
+  <title>Hearts United</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/heartsunited.webp" alt="Preview Image">

@@ -1,5 +1,6 @@
 
 <template>
+  <title>The Deepest Mod Ever</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/deepestmod.png" alt="Preview Image">

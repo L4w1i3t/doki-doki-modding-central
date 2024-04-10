@@ -1,5 +1,6 @@
 
 <template>
+  <title>Sayori Fucks Up</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/sayorifucksup.webp" alt="Preview Image">

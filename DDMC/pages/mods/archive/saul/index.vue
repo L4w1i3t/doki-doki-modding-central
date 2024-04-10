@@ -1,5 +1,6 @@
 
 <template>
+  <title>Saul</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/saul.webp" alt="Preview Image">

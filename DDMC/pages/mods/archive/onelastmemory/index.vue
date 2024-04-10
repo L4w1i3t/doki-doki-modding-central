@@ -1,5 +1,6 @@
 
 <template>
+  <title>One Last Memory</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/onelastmemory.webp" alt="Preview Image">

@@ -1,4 +1,5 @@
 <template>
+  <title>Patch Notes</title>
   <div id="patch-notes-container">
     <h1>Patch Notes</h1>
     <h1 style="font-style: italic">This page is primarily for L4w1i3t's bookkeeping.</h1>

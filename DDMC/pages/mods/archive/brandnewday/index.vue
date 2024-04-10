@@ -1,5 +1,6 @@
 
 <template>
+  <title>A brand New Day</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/brandnewday.webp" alt="Preview Image">

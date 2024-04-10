@@ -1,5 +1,6 @@
 
 <template>
+  <title>EGO DEATH</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/egodeath.webp" alt="Preview Image">

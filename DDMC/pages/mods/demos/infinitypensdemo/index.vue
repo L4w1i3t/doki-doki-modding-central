@@ -1,5 +1,6 @@
 
 <template>
+  <title>Infinity Pens Demo</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/infinitypens.webp" alt="Preview Image">

@@ -1,5 +1,6 @@
 
 <template>
+  <title>Ultimate Combo</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/ultimatecombo.webp" alt="Preview Image">

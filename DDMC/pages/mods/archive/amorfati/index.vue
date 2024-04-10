@@ -1,5 +1,6 @@
 
 <template>
+  <title>Amor Fati</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/amorfati.webp" alt="Preview Image">

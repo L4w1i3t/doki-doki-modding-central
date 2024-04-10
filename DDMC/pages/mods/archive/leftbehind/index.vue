@@ -1,5 +1,6 @@
 
 <template>
+  <title>Left Behind</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/leftbehind.webp" alt="Preview Image">

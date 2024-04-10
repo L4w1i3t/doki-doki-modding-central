@@ -1,5 +1,6 @@
 
 <template>
+  <title>SVHS-TAP05052022</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/svhsoriginal.webp" alt="Preview Image">

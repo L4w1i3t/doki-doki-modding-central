@@ -1,5 +1,6 @@
 
 <template>
+  <title>Sayori Gets a Vape</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/sayorigetsavape.webp" alt="Preview Image">

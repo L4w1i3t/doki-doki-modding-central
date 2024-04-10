@@ -1,5 +1,6 @@
 
 <template>
+  <title>Exit Music: Redux</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/exitmusicredux.webp" alt="Preview Image">

@@ -1,4 +1,5 @@
 <template>
+  <title>Archive</title>
   <div class="catalog">
     <div class="sort-dropdown">
       <select v-model="sortBy" @change="sortCatalog">
@@ -78,12 +79,6 @@ export default {
         author: "Team Red Mazda, L4w1i3t",
         imageUrl: "/assets/mod_prevs/svhsoriginal.webp",
         route: "svhs"
-      },
-      {
-        title: "You Matter Too (Part 1)",
-        author: "Doki Senate",
-        imageUrl: "/assets/mod_prevs/ymt.webp",
-        route: "youmattertoo"
       },
       {
         title: "Our Castle Walls",
@@ -366,6 +361,24 @@ export default {
         author: "Emerald Heart Team",
         imageUrl: "/assets/mod_prevs/emeraldheart.webp",
         route: "emeraldheart"
+      },
+      {
+        title: "Wintermute",
+        author: "Wretched Team",
+        imageUrl: "/assets/mod_prevs/wintermute.webp",
+        route: "wintermute"
+      },
+      {
+        title: "Word of Dreams - Act 1",
+        author: "Morbiusgreen",
+        imageUrl: "/assets/mod_prevs/wodact1.webp",
+        route: "wodact1"
+      },
+      {
+        title: "Word of Dreams - Act 2",
+        author: "Morbiusgreen, WoD Team",
+        imageUrl: "/assets/mod_prevs/wodact2.webp",
+        route: "wodact2"
       },
 
 

@@ -1,5 +1,6 @@
 
 <template>
+  <title>Salvation Remake</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/salvationremake.webp" alt="Preview Image">

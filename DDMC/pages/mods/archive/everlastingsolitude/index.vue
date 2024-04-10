@@ -1,5 +1,6 @@
 
 <template>
+  <title>Everlasting Solitude</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/everlastingsolitude.webp" alt="Preview Image">

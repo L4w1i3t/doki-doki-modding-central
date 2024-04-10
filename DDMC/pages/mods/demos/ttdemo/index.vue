@@ -1,5 +1,6 @@
 
 <template>
+  <title>Triple Trouble Demo</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/DDTT.webp" alt="Preview Image">

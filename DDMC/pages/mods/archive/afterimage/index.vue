@@ -1,5 +1,6 @@
 
 <template>
+  <title>Afterimage</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/afterimage.webp" alt="Preview Image">

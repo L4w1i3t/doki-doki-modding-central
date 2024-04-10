@@ -1,4 +1,5 @@
 <template>
+  <title>Dokis Explore Haunted House</title>
   <div>
     <div class="preview-image">
     <iframe 

@@ -1,5 +1,6 @@
 
 <template>
+  <title>Characters</title>
   <div>
     <div class="search-bar-container">
       <input type="text" v-model="searchQuery" placeholder="Search characters..." class="search-bar" />

@@ -1,4 +1,5 @@
 <template>
+  <title>Android</title>
   <div class="catalog">
     <div class="sort-dropdown">
       <select v-model="sortBy" @change="sortCatalog">
@@ -90,6 +91,18 @@ export default {
         author: "Wretched Team",
         imageUrl: "/assets/mod_prevs/exitmusicredux.webp",
         route: "exitmusicredux"
+      },
+      {
+        title: "Word of Dreams - Act 1",
+        author: "Morbiusgreen",
+        imageUrl: "/assets/mod_prevs/wodact1.webp",
+        route: "wodact1"
+      },
+      {
+        title: "Word of Dreams - Act 2",
+        author: "Morbiusgreen, WoD Team",
+        imageUrl: "/assets/mod_prevs/wodact2.webp",
+        route: "wodact2"
       },
     ];
     this.catalogItems = [...this.originalCatalogItems];

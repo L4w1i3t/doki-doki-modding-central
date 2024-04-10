@@ -1,5 +1,6 @@
 
 <template>
+  <title>The Haunting of Monika After Story</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/mashaunt.webp" alt="Preview Image">

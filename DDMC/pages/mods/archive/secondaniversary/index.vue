@@ -1,5 +1,6 @@
 
 <template>
+  <title>Second Anniversary</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/second.webp" alt="Preview Image">

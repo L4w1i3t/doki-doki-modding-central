@@ -1,5 +1,6 @@
 
 <template>
+  <title>Paper Thin Hearts</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/paper.webp" alt="Preview Image">

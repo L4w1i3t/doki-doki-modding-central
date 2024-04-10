@@ -1,5 +1,6 @@
 
 <template>
+  <title>The 48 Hour Mod</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/48hours.webp" alt="Preview Image">

@@ -1,5 +1,6 @@
 
 <template>
+  <title>A Burger Gets Sayori</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/burgergetssayori.webp" alt="Preview Image">

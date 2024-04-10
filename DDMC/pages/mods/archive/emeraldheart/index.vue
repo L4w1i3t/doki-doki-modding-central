@@ -1,5 +1,6 @@
 
 <template>
+  <title>Emerald Heart</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/emeraldheart.webp" alt="Preview Image">

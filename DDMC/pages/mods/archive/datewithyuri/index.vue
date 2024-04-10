@@ -1,5 +1,6 @@
 
 <template>
+  <title>A Date With Yuri</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/datewithyuri.webp" alt="Preview Image">
