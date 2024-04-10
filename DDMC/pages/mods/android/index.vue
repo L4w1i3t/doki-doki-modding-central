@@ -1,4 +1,5 @@
 <template>
+  <title>Android</title>
   <div class="catalog">
     <div class="sort-dropdown">
       <select v-model="sortBy" @change="sortCatalog">
@@ -54,6 +55,54 @@ export default {
         author: "President JM, DACHero",
         imageUrl: "/assets/mod_prevs/mashaunt.webp",
         route: "mashaunt"
+      },
+      {
+        title: "A Brand New Day",
+        author: "Phathom",
+        imageUrl: "/assets/mod_prevs/brandnewday.webp",
+        route: "brandnewday"
+      },
+      {
+        title: "A Burger Gets Sayori",
+        author: "10thMod",
+        imageUrl: "/assets/mod_prevs/burgergetssayori.webp",
+        route: "burgergetssayori"
+      },
+      {
+        title: "A Date With Monika",
+        author: "SlightlySimple",
+        imageUrl: "/assets/mod_prevs/datewithmonika.webp",
+        route: "datewithmonika"
+      },
+      {
+        title: "A Date With Natsuki",
+        author: "Various Artists",
+        imageUrl: "/assets/mod_prevs/datewithnatsuki.webp",
+        route: "datewithnatsuki"
+      },
+      {
+        title: "Exit Music",
+        author: "Penny, MalukahMaker, SadBoiJake; Wretched Team (Rerelease)",
+        imageUrl: "/assets/mod_prevs/exitmusic.webp",
+        route: "exitmusic"
+      },
+      {
+        title: "Exit Music: Redux",
+        author: "Wretched Team",
+        imageUrl: "/assets/mod_prevs/exitmusicredux.webp",
+        route: "exitmusicredux"
+      },
+      {
+        title: "Word of Dreams - Act 1",
+        author: "Morbiusgreen",
+        imageUrl: "/assets/mod_prevs/wodact1.webp",
+        route: "wodact1"
+      },
+      {
+        title: "Word of Dreams - Act 2",
+        author: "Morbiusgreen, WoD Team",
+        imageUrl: "/assets/mod_prevs/wodact2.webp",
+        route: "wodact2"
       },
     ];
     this.catalogItems = [...this.originalCatalogItems];

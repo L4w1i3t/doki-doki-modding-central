@@ -1,5 +1,6 @@
 
 <template>
+  <title>A Different Story</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/differentstory.jpg" alt="Preview Image">

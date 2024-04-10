@@ -1,5 +1,6 @@
 
 <template>
+  <title>Struggles of Renpy</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/struggles.webp" alt="Preview Image">

@@ -1,5 +1,6 @@
 
 <template>
+  <title>Our Castle Walls: After Story</title>
     <div>
       <div class="preview-image">
         <img src="/assets/mod_prevs/ocwas.webp" alt="Preview Image">

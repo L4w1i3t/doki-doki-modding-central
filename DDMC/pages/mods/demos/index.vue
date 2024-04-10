@@ -1,5 +1,6 @@
 
 <template>
+  <title>Demos</title>
   <div class="catalog">
     <div class="sort-dropdown">
       <select v-model="sortBy" @change="sortCatalog">

@@ -1,6 +1,7 @@
 
 
 <template>
+  <title>Assets</title>
     <div class="container">
       <div class="standard-container">
         <a href="/more/assets/music" class="mod-button-standard" @mouseenter="playHoverSound">

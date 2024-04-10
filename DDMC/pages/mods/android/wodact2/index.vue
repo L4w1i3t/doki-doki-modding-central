@@ -1,13 +1,9 @@
+
 <template>
+  <title>World of Dream - Act 2</title>
   <div>
     <div class="preview-image">
-      <iframe
-        class="video"
-        src="https://www.youtube.com/embed/so1ZYMvw8_k"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope;"
-        allowfullscreen>
-      </iframe>
+      <img src="/assets/mod_prevs/wodact2.webp" alt="Preview Image">
     </div>
     <div class="title-box">
       <h1>{{ title }}</h1>
@@ -17,8 +13,12 @@
     <div class="description">
       <p>{{ description }}</p>
     </div>
-    <div class="description">
-      <p>{{ description2 }}</p>
+    <div class="download-container">
+      <img src="/assets/gui/dl.webp" alt="Download Icon">
+      <div class="download-label">Download Here!</div>
+    </div>
+    <div class="download-links">
+      <a v-for="(link, index) in links" :key="index" :href="link.url" target="_blank" download>{{ link.text }}</a>
     </div>
   </div>
 </template>
@@ -27,15 +27,14 @@
 export default {
   data() {
     return {
-      title: 'You Matter Too',
-      authors: 'By Doki Senate',
-      contributors: 'Submitted By: Doki Senate',
-      description: 'The Dokis find out that Jacob has depression and they come up with a plan to help him, but something goes horribly wrong in the process...',
-      description2: 'This modification contains materials that are copyrighted by other artists in certain regions of the world, and may cause certain individuals to experience conflictions with copyright content identification when recording footage. Please proceed with caution if this applies to you. Contains audio by Yo-Yo Ma;Ennio Morricone, John Williams, London Symphony Orchestra, Nintendo, Alexandre Desplat, Kevin Kiner, Matthew St. Laurent, Nicholas Hooper, North Texas Wind Symphony, Eugene Migliaro Corporon, Sleepy Times, Natural Sound Makers, Nature Recordings (Video was blocked in Russia by Sleepy Times, Natural Sound Makers, Nature Recordings).',
+      title: 'Word of Dreams - Act 1',
+      authors: 'Morbiusgreen, WoD Team',
+      contributors: 'Submitted By: Codex',
+      description: 'Despite the events of the first Act, the game continues to push into Act II, and the gang must try to stop the horrors that await them.',
       links: [
         {
-          text: '1.0',
-          url: 'path/to/download/version-1.0.0'
+          text: 'Android Download',
+          url: 'https://www.mediafire.com/file_premium/s2fns2bqhzqjqn5/World_of_Dreams_Act_2_v1.1.apk/file'
         },
       ]
     }

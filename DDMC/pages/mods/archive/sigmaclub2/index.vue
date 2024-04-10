@@ -1,5 +1,6 @@
 
 <template>
+  <title>Sigma Club 2</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/sigmastigma.webp" alt="Preview Image">

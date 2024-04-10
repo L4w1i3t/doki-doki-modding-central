@@ -1,4 +1,5 @@
 <template>
+  <title>Patch Notes</title>
   <div id="patch-notes-container">
     <h1>Patch Notes</h1>
     <h1 style="font-style: italic">This page is primarily for L4w1i3t's bookkeeping.</h1>
@@ -17,6 +18,14 @@ export default {
   data() {
     return {
       versions: [
+        {
+          version: 'Alpha 1.1.3',
+          notes: [
+            'Added a separate page for video-only mods',
+            'Overhauled UI buttons on mod hub',
+            'Minor bug fixes'
+          ]
+        },
         {
           version: 'Alpha 1.1.2',
           notes: [

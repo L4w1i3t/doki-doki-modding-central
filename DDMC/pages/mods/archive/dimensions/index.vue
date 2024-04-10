@@ -1,5 +1,6 @@
 
 <template>
+  <title>Dimensions</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/dimensions.webp" alt="Preview Image">

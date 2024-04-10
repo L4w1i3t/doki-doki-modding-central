@@ -1,5 +1,6 @@
 
 <template>
+  <title>Renpy</title>
   <div>
     <div class="centered-title" style="font-family:'Hot Mustard BTN Regular', monospace; color: white; margin-top: 100px;">
       <h1>Need Help?</h1>

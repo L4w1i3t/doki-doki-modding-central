@@ -1,5 +1,6 @@
 
 <template>
+  <title>Zeras Fun Time</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/zerasfuntime.webp" alt="Preview Image">

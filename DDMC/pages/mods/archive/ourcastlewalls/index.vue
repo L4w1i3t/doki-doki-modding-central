@@ -1,5 +1,6 @@
 
 <template>
+  <title>Our Castle Walls</title>
     <div>
       <div class="preview-image">
         <img src="/assets/mod_prevs/ocw.webp" alt="Preview Image">

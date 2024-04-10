@@ -1,5 +1,6 @@
 
 <template>
+  <title>Exit Spoof</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/exitspoof.webp" alt="Preview Image">

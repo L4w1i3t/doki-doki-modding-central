@@ -1,5 +1,6 @@
 
 <template>
+  <title>Everlasting</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/everlasting.webp" alt="Preview Image">

@@ -1,5 +1,6 @@
 
 <template>
+  <title>The Club Is Dying</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/clubisdying.webp" alt="Preview Image">

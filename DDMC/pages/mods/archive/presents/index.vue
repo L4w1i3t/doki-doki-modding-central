@@ -1,5 +1,6 @@
 
 <template>
+  <title>Presents and Poems</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/presents.webp" alt="Preview Image">

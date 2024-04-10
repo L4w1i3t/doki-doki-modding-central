@@ -1,5 +1,6 @@
 
 <template>
+  <title>A Hole In The Head</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/holeinthehead.webp" alt="Preview Image">

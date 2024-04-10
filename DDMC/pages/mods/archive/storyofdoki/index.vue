@@ -1,5 +1,6 @@
 
 <template>
+  <title>Story Of Dokitale</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/story.webp" alt="Preview Image">

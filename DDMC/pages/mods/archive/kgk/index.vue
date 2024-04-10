@@ -1,5 +1,6 @@
 
 <template>
+  <title>Koi Ga Kirei</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/kgk.webp" alt="Preview Image">

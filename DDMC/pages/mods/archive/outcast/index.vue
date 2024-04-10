@@ -1,5 +1,6 @@
 
 <template>
+  <title>Outcast</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/outcast.webp" alt="Preview Image">

@@ -1,5 +1,6 @@
 
 <template>
+  <title>Tropical Rain</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/tropicalrain.webp" alt="Preview Image">

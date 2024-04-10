@@ -1,5 +1,6 @@
 
 <template>
+  <title>Focus On Me</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/focusonme.webp" alt="Preview Image">

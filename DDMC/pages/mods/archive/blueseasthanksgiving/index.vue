@@ -1,5 +1,6 @@
 
 <template>
+    <title>Thanksgiving Edition</title>
     <div>
       <div class="preview-image">
         <img src="/assets/mod_prevs/blueseasthanksgiving.webp" alt="Preview Image">

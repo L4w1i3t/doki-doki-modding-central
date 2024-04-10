@@ -1,5 +1,6 @@
 
 <template>
+  <title>Changing Perspectives</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/ChangingPerspectives.webp" alt="Preview Image">

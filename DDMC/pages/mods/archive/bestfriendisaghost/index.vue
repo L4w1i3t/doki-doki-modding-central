@@ -1,5 +1,6 @@
 
 <template>
+  <title>My Best Friend is a Ghost</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/bestfriendisaghost.webp" alt="Preview Image">

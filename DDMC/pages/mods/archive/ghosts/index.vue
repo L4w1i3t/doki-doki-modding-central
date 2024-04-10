@@ -1,5 +1,6 @@
 
 <template>
+  <title>Tsundere Ghosts</title>
   <div>
     <div class="preview-image">
       <img src="/assets/mod_prevs/ghosts.webp" alt="Preview Image">
