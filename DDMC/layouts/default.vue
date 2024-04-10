@@ -6,7 +6,7 @@
         <div class="content">
           <Hotbar/>
           <Header v-if="isHomePage" />
-          <slot></slot>
+          <slot/>
         </div>
         <Footer class="footer"/>
       </BackgroundImage>
@@ -15,10 +15,10 @@
 </template>
 
 <script>
-import Footer from '../components/footer.vue'
-import BackgroundImage from '../components/background.vue'
-import Hotbar from '../components/hotbar.vue'
-import Header from '../components/header.vue'
+import Footer from '../components/universal/footer.vue'
+import BackgroundImage from '../components/universal/background.vue'
+import Hotbar from '../components/universal/hotbar.vue'
+import Header from '../components/homepage/header.vue'
 
 export default {
   components: {
@@ -40,6 +40,7 @@ export default {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .background {
@@ -56,3 +57,4 @@ export default {
   flex-shrink: 0;
 }
 </style>
+
