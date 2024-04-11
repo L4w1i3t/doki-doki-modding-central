@@ -6,7 +6,7 @@
     <div class="image-overlay"></div>
     <nav>
         <p class="header-text">
-          DOKI DOKI <br/> MODDING CENTRAL
+          DOKI DOKI <br/>MODDING CENTRAL
         </p>
         
         <img src="/assets/test_folder/monika.png" class="monika-sprite" alt="Monika">
@@ -82,10 +82,10 @@ export default {
       position: fixed;
       width: 100%;
       text-align: center;
-      margin-top: 360px;
+      margin-top: 0px;
       font-size: 16px;
       z-index: 1000;
-      top: 0;
+      top: 40%;
       left: 0;
     }
 
@@ -131,7 +131,7 @@ export default {
         font-family: 'Hot Mustard BTN Regular', monospace;
         color: white;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        top: 12vh;
+        top: 30%;
         text-align: center;
         transform: rotate(-15deg);
         animation: pulse 8s linear infinite;

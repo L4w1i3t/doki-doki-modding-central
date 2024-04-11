@@ -6,6 +6,7 @@
         <div class="content">
           <Hotbar/>
           <Header v-if="isHomePage" />
+          <Socials v-if="isHomePage" />
           <slot/>
         </div>
         <Footer class="footer"/>
@@ -19,6 +20,7 @@ import Footer from '../components/universal/footer.vue'
 import BackgroundImage from '../components/universal/background.vue'
 import Hotbar from '../components/universal/hotbar.vue'
 import Header from '../components/homepage/header.vue'
+import Socials from '../components/homepage/socials.vue'
 
 export default {
   components: {
@@ -26,6 +28,7 @@ export default {
     Footer,
     BackgroundImage,
     Header,
+    Socials,
   },
   computed: {
     isHomePage() {

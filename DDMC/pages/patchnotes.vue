@@ -19,6 +19,15 @@ export default {
     return {
       versions: [
         {
+          version: 'Beta 1.0.0',
+          notes: [
+            'Completely overhauled the home page--starting with splash and socials (more to be added soon)',
+            'Recolored Reddit button',
+            'Restructured the file hierarchy for the home page',
+            'Restructured the file hierarchy for universal layout components',
+          ]
+        },
+        {
           version: 'Alpha 1.1.4',
           notes: [
             'Started rolling out tab titles for each page',
