@@ -93,13 +93,13 @@ export default {
         route: "exitmusicredux"
       },
       {
-        title: "Word of Dreams - Act 1",
+        title: "World of Dreams - Act 1",
         author: "Morbiusgreen",
         imageUrl: "/assets/mod_prevs/wodact1.webp",
         route: "wodact1"
       },
       {
-        title: "Word of Dreams - Act 2",
+        title: "World of Dreams - Act 2",
         author: "Morbiusgreen, WoD Team",
         imageUrl: "/assets/mod_prevs/wodact2.webp",
         route: "wodact2"

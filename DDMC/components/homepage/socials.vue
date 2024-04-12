@@ -2,8 +2,8 @@
     <header class="header" :style="{ backgroundImage: 'url(' + currentImageUrl + ')' }">
       <div class="image-overlay"></div>
       <nav>
-          <p class="header-text">
-            Connect with <br/>us more
+          <p class="socials-text">
+            Connect with <br/>us more!
           </p>
           
           <a :href="redditLink" target="_blank">
@@ -24,7 +24,10 @@
     data() {
       return {
         images: [
-          "/assets/test_folder/10.png",
+          "/assets/gui/10.webp",
+          "/assets/gui/11.webp",
+          "/assets/gui/12.webp",
+          "/assets/gui/13.webp",
         ],
         preloadedImages: [],
         currentImageIndex: 0,
@@ -70,18 +73,6 @@
   
   
   <style scoped>
-    .resolution-warning {
-        display: none;
-        color: #fff;
-        position: fixed;
-        width: 100%;
-        text-align: center;
-        margin-top: 360px;
-        font-size: 16px;
-        z-index: 1000;
-        top: 0;
-        left: 0;
-      }
   
       @media (max-width: 1023px) {
         .resolution-warning {
@@ -120,7 +111,7 @@
           z-index: 2;
         }
   
-        .header-text {
+        .socials-text {
           font-size: 5vw;
           font-family: 'Hot Mustard BTN Regular', monospace;
           color: white;

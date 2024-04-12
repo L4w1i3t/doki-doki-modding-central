@@ -9,10 +9,10 @@
           DOKI DOKI <br/>MODDING CENTRAL
         </p>
         
-        <img src="/assets/test_folder/monika.png" class="monika-sprite" alt="Monika">
-        <img src="/assets/test_folder/sayori.png" class="sayori-sprite" alt="Sayori">
-        <img src="/assets/test_folder/yuri.png" class="yuri-sprite" alt="Yuri">
-        <img src="/assets/test_folder/natsuki.png" class="natsuki-sprite" alt="Natsuki">
+        <img src="/assets/gui/monika.webp" class="monika-sprite" alt="Monika">
+        <img src="/assets/gui/sayori.webp" class="sayori-sprite" alt="Sayori">
+        <img src="/assets/gui/yuri.webp" class="yuri-sprite" alt="Yuri">
+        <img src="/assets/gui/natsuki.webp" class="natsuki-sprite" alt="Natsuki">
     </nav>
   </header>
   <div class="blue-divider"></div>
@@ -170,21 +170,6 @@ export default {
         width: 50vw;
         height: auto;
         z-index: 8;
-      }
-      .site-description {
-        background-color: rgba(0, 0, 0, 0.7); /* Black background */
-        border-radius: 20px;
-        color: #fff;
-        padding: 10px;
-        font-size: 1.5vw;
-        position: absolute;
-        bottom: 2vh;
-        left: 2vw;
-        z-index: 3;
-        max-width: 40%;
-        text-align: center;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        animation: pulse 8s linear infinite;
       }
 
       .blue-divider {

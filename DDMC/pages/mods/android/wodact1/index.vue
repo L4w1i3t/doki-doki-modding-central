@@ -27,7 +27,7 @@
 export default {
   data() {
     return {
-      title: 'Word of Dreams - Act 1',
+      title: 'World of Dreams - Act 1',
       authors: 'Morbiusgreen',
       contributors: 'Submitted By: Codex',
       description: 'The Player awakens to find himself trapped in MCs body, and the game world his own (or so it seems). Alongside falling in love with Monika, he must work with her to prevent the events of DDLC from happening.',

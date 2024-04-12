@@ -6,6 +6,8 @@
         <div class="content">
           <Hotbar/>
           <Header v-if="isHomePage" />
+          <Showcase v-if="isHomePage" />
+          <GetStarted v-if="isHomePage" />
           <Socials v-if="isHomePage" />
           <slot/>
         </div>
@@ -20,6 +22,8 @@ import Footer from '../components/universal/footer.vue'
 import BackgroundImage from '../components/universal/background.vue'
 import Hotbar from '../components/universal/hotbar.vue'
 import Header from '../components/homepage/header.vue'
+import Showcase from '../components/homepage/showcase.vue'
+import GetStarted from '../components/homepage/getstarted.vue'
 import Socials from '../components/homepage/socials.vue'
 
 export default {
@@ -28,6 +32,8 @@ export default {
     Footer,
     BackgroundImage,
     Header,
+    Showcase,
+    GetStarted,
     Socials,
   },
   computed: {
