@@ -380,6 +380,66 @@ export default {
         imageUrl: "/assets/mod_prevs/wodact2.webp",
         route: "wodact2"
       },
+      {
+        title: "Art Club",
+        author: "Aevee_Animations",
+        imageUrl: "/assets/mod_prevs/artclub.webp",
+        route: "artclub"
+      },
+      {
+        title: "Disappearance of the Literature Club",
+        author: "-M!",
+        imageUrl: "/assets/mod_prevs/disapperance.webp",
+        route: "disapperance"
+      },
+      {
+        title: "Don't",
+        author: "-M!",
+        imageUrl: "/assets/mod_prevs/dont.webp",
+        route: "dont"
+      },
+      {
+        title: "Memories of Nothing",
+        author: "-M!",
+        imageUrl: "/assets/mod_prevs/mon.webp",
+        route: "mon"
+      },
+      {
+      title: "Hypnopompic",
+        author: "-M!",
+        imageUrl: "/assets/mod_prevs/hypnopompic.webp",
+        route: "hypnopompic"
+      },
+      {
+        title: "Fleeting Feelings",
+        author: "-M!",
+        imageUrl: "/assets/mod_prevs/fleetingfeelings.webp",
+        route: "fleetingfeelings"
+      },
+      {
+        title: "Just Yuri",
+        author: "Just Yuri Dev Team",
+        imageUrl: "/assets/mod_prevs/justyuri.webp",
+        route: "justyuri"
+      },
+      {
+        title: "Fallen Angel",
+        author: "Noa-AT",
+        imageUrl: "/assets/mod_prevs/fallenangel.webp",
+        route: "fallenangel"
+      },
+      {
+        title: "Meme Club",
+        author: "Pooshscams",
+        imageUrl: "/assets/mod_prevs/memeclub.webp",
+        route: "memeclub"
+      },
+      {
+        title: "Meme Club 2",
+        author: "Tommy3500",
+        imageUrl: "/assets/mod_prevs/memeclub2.webp",
+        route: "memeclub2"
+      },
 
 
 

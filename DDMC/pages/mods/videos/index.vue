@@ -57,6 +57,12 @@ export default {
         imageUrl: "/assets/mod_prevs/hauntedhouse.webp",
         route: "explorehauntedhouse"
       },
+      {
+        title: "The Dokis Play Mario Party 9",
+        author: "MarioDokiFan4ever",
+        imageUrl: "/assets/mod_prevs/dokisplaymarioparty9.webp",
+        route: "dokisplaymarioparty9"
+      },
 
 
 
