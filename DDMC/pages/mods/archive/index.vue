@@ -381,6 +381,12 @@ export default {
         route: "wodact2"
       },
       {
+        title: "Spark Of Hope",
+        author: "Mysticsense11",
+        imageUrl: "/assets/mod_prevs/sparkofhope.webp",
+        route: "sparkofhope"
+      },
+      {
         title: "Art Club",
         author: "Aevee_Animations",
         imageUrl: "/assets/mod_prevs/artclub.webp",
@@ -398,6 +404,13 @@ export default {
         imageUrl: "/assets/mod_prevs/dont.webp",
         route: "dont"
       },
+      {
+        title: "Somnium",
+        author: "-M!",
+        imageUrl: "/assets/mod_prevs/somnium.webp",
+        route: "somnium"
+      },
+
       {
         title: "Memories of Nothing",
         author: "-M!",
@@ -440,6 +453,43 @@ export default {
         imageUrl: "/assets/mod_prevs/memeclub2.webp",
         route: "memeclub2"
       },
+      {
+        title: "Never Ending Tomorrow",
+        author: "KouichiKie35",
+        imageUrl: "/assets/mod_prevs/neverendingtomorrow.webp",
+        route: "neverendingtomorrow"
+      },
+      {
+        title: "Purple Troubles",
+        author: "MyLastWitchout",
+        imageUrl: "/assets/mod_prevs/purpletroubles.webp",
+        route: "purpletroubles"
+      },
+      {
+        title: "summertime",
+        author: "Arianne/Urbanmech360",
+        imageUrl: "/assets/mod_prevs/summertime.webp",
+        route: "summertime"
+      },
+      //{ This keeps redirecting to the homepage. 
+      //  title: "Dokis 'N' The Chief",
+      //  author: "interweb_cat",
+      //  imageUrl: "/assets/mod_prevs/dokisnthechief.webp",
+      //  route: "chief"
+      //},
+      {
+        title: "Blue Skies",
+        author: "Sir Swampert, Kyoryii",
+        imageUrl: "/assets/mod_prevs/blueskies.webp",
+        route: "blueskies"
+      },
+      {
+        title: "Monika Before Story",
+        author: "Team Monika",
+        imageUrl: "/assets/mod_prevs/monikabeforestory.webp",
+        route: "monikabeforestory"
+      },
+
 
 
 
