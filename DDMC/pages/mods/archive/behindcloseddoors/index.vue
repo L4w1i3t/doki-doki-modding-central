@@ -1,9 +1,9 @@
 
 <template>
-  <title>Summertime</title>
+  <title>Behind Closed Doors</title>
   <div>
     <div class="preview-image">
-      <img src="/assets/mod_prevs/summertime.webp" alt="Preview Image">
+      <img src="/assets/mod_prevs/behindcloseddoors.webp" alt="Preview Image">
     </div>
     <div class="title-box">
       <h1>{{ title }}</h1>
@@ -27,19 +27,15 @@
 export default {
   data() {
     return {
-      title: "Summertime",
-      authors: 'Arianne/Urbanmech360',
-      contributors: 'Submitted By: Codex, L4w1i3t',
-      description: "Fun-filled summer adventure and experience a romantic tale from a new perspective!",
+      title: 'Behind Closed Doors',
+      authors: 'FluffyDev',
+      contributors: 'Submitted By: Knuklez',
+      description: "It's always nice to see some good MCSuki romance in a mod. However, in this mod, we show a different side of Nat's life and delve into the dark secrets she wanted to keep behind closed doors.  This project has its own host site at https://dancingoutintospace.itch.io/doki-doki-behind-closed-doors..",
       links: [
         {
           text: 'Standard',
-          url: 'https://www.mediafire.com/file_premium/qbz0err3a9ukoob/DokiDokiSummertime-1.4.0.zip/file'
-        },
-        {
-          text: 'Lost Version',
-          url: 'https://www.mediafire.com/file_premium/85cvxh7y39t9j36/DokiDokiSummertime-1.5.1-Mod.zip/file'
-        },
+          url: 'https://www.mediafire.com/file_premium/2w2f99btnog6n4q/Behind_Closed_Doors_%255Ew%255E.zip/file'
+        }
       ]
     }
   }

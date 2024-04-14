@@ -1,9 +1,14 @@
-
 <template>
-  <title>Summertime</title>
+  <title>Beach Day With Kiyomi</title>
   <div>
     <div class="preview-image">
-      <img src="/assets/mod_prevs/summertime.webp" alt="Preview Image">
+    <iframe 
+      class="video" 
+      src="https://www.youtube.com/embed/hfcId7tv9Ko?si=Myvo9cjKwjpS23os" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    </iframe>
     </div>
     <div class="title-box">
       <h1>{{ title }}</h1>
@@ -13,13 +18,6 @@
     <div class="description">
       <p>{{ description }}</p>
     </div>
-    <div class="download-container">
-      <img src="/assets/gui/dl.webp" alt="Download Icon">
-      <div class="download-label">Download Here!</div>
-    </div>
-    <div class="download-links">
-      <a v-for="(link, index) in links" :key="index" :href="link.url" target="_blank" download>{{ link.text }}</a>
-    </div>
   </div>
 </template>
 
@@ -27,18 +25,14 @@
 export default {
   data() {
     return {
-      title: "Summertime",
-      authors: 'Arianne/Urbanmech360',
-      contributors: 'Submitted By: Codex, L4w1i3t',
-      description: "Fun-filled summer adventure and experience a romantic tale from a new perspective!",
+      title: 'Beach Day With Kiyomi',
+      authors: 'By MarioDokiFan4ever',
+      contributors: 'Submitted By: MarioDokiFan4ever',
+      description: 'Kiyomi wants to spend some quality time with DokiFan at the beach. Wonder what will happen between them.',
       links: [
         {
-          text: 'Standard',
-          url: 'https://www.mediafire.com/file_premium/qbz0err3a9ukoob/DokiDokiSummertime-1.4.0.zip/file'
-        },
-        {
-          text: 'Lost Version',
-          url: 'https://www.mediafire.com/file_premium/85cvxh7y39t9j36/DokiDokiSummertime-1.5.1-Mod.zip/file'
+          text: '1.0',
+          url: 'path/to/download/version-1.0.0'
         },
       ]
     }

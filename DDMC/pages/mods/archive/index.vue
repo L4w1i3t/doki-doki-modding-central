@@ -466,7 +466,7 @@ export default {
         route: "purpletroubles"
       },
       {
-        title: "summertime",
+        title: "Summertime",
         author: "Arianne/Urbanmech360",
         imageUrl: "/assets/mod_prevs/summertime.webp",
         route: "summertime"
@@ -489,6 +489,15 @@ export default {
         imageUrl: "/assets/mod_prevs/monikabeforestory.webp",
         route: "monikabeforestory"
       },
+      {
+        title: "Behind Closed Doors",
+        author: "FluffyDev",
+        imageUrl: "/assets/mod_prevs/behindcloseddoors.webp",
+        route: "behindcloseddoors"
+      },
+
+
+
 
 
 
