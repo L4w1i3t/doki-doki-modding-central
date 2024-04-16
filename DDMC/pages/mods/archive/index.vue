@@ -495,6 +495,12 @@ export default {
         imageUrl: "/assets/mod_prevs/behindcloseddoors.webp",
         route: "behindcloseddoors"
       },
+      {
+        title: "Just Kotonoha!",
+        author: "Rose, Riverr",
+        imageUrl: "/assets/mod_prevs/justkoto.webp",
+        route: "justkoto"
+      },
 
 
 
