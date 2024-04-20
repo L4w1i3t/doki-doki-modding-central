@@ -1,5 +1,5 @@
 <template>
-  <title>Patch Notes</title>
+  <title>Patch Notes || Doki Doki Modding Central</title>
   <div id="patch-notes-container">
     <h1>Patch Notes</h1>
     <h1 style="font-style: italic">This page is primarily for L4w1i3t's bookkeeping.</h1>
@@ -18,6 +18,23 @@ export default {
   data() {
     return {
       versions: [
+        {
+          version: 'Beta 1.0.0',
+          notes: [
+            'Completely overhauled the home page--starting with splash and socials (more to be added soon)',
+            'Recolored Reddit button',
+            'Restructured the file hierarchy for the home page',
+            'Restructured the file hierarchy for universal layout components',
+          ]
+        },
+        {
+          version: 'Alpha 1.1.4',
+          notes: [
+            'Started rolling out tab titles for each page',
+            'Fixed a routing issue where mod pages would not load correctly',
+            'Minor bug fixes'
+          ]
+        },
         {
           version: 'Alpha 1.1.3',
           notes: [

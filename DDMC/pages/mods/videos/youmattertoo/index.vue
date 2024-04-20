@@ -1,5 +1,5 @@
 <template>
-  <title>You Matter To</title>
+  <title>You Matter Too</title>
   <div>
     <div class="preview-image">
       <iframe

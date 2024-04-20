@@ -1,5 +1,6 @@
 
 <template>
+  <title>Mods || Doki Doki Modding Central</title>
   <div class="container">
     <div class="standard-container">
       <a href="/mods/standard" class="mod-button-standard" @mouseenter="playHoverSound">

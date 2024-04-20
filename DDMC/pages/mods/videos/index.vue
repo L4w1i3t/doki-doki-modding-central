@@ -1,6 +1,6 @@
 
 <template>
-  <title>Videos</title>
+  <title>Mods - Videos || Doki Doki Modding Central</title>
   <div class="catalog">
     <div class="sort-dropdown">
       <select v-model="sortBy" @change="sortCatalog">
@@ -17,7 +17,7 @@
       </div>
     </div>
     <div v-for="(item, index) in catalogItems" :key="index" class="catalog-item">
-      <nuxt-link :to="'/mods/videos/' + item.route">
+      <a :href="`/mods/videos/${item.route}`" rel="noopener noreferrer">
         <div class="stained-glass">
           <img :src="item.imageUrl" alt="Catalog Image">
           <div class="label">
@@ -27,7 +27,7 @@
             <span class="label-subtext">By {{ item.author }}</span>
           </div>
         </div>
-      </nuxt-link>
+      </a>
     </div>
   </div>
 </template>
@@ -57,6 +57,31 @@ export default {
         imageUrl: "/assets/mod_prevs/hauntedhouse.webp",
         route: "explorehauntedhouse"
       },
+      {
+        title: "The Dokis Play Mario Party 9",
+        author: "MarioDokiFan4ever",
+        imageUrl: "/assets/mod_prevs/dokisplaymarioparty9.webp",
+        route: "dokisplaymarioparty9"
+      },
+      {
+        title: "Dokiversus",
+        author: "DiverseDokiStories",
+        imageUrl: "/assets/mod_prevs/dokiversus.webp",
+        route: "dokiversus"
+      },
+      {
+        title: "Yuri's Mansion",
+        author: "MarioDokiFan4ever",
+        imageUrl: "/assets/mod_prevs/yurismansion.webp",
+        route: "yurismansion"
+      },
+      {
+        title: "Beach Day With Kiyomi",
+        author: "MarioDokiFan4ever",
+        imageUrl: "/assets/mod_prevs/beachdaywithkiyomi.webp",
+        route: "beachdaywithkiyomi"
+      },
+
 
 
 

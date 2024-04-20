@@ -1,6 +1,6 @@
 
 <template>
-  <title>About the Staff</title>
+  <title>About the Staff || Doki Doki Modding Central</title>
   <div class="centered-title" style="margin-top: 100px;">
     <h1 style="font-family: 'Hot Mustard BTN Regular', monospace; color: white; animation: pulse 8s linear infinite">Meet Our Staff!</h1>
   </div>
