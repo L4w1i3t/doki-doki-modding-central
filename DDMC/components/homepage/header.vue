@@ -15,13 +15,17 @@
         <img src="/assets/gui/natsuki.webp" class="natsuki-sprite" alt="Natsuki">
     </nav>
   </header>
-  <div class="blue-divider"></div>
+  <div class="blue-divider">
+    <!--<button class="luckybutton" onclick="openMods()">I'm Feeling Lucky!</button>-->
+
+  </div>
 </template>
 
 <script>
 export default {
   data() {
     return {
+
       images: [
         "/assets/test_folder/club.png",
         "/assets/test_folder/class.png",
@@ -42,6 +46,18 @@ export default {
       sayori: "/assets/test_folder/sayori.png",
       yuri: "/assets/test_folder/yuri.png",
       natsuki: "/assets/test_folder/natsuki.png",
+
+      script: [
+
+        {
+          src: "assets/feelinglucky.js",
+          body: true
+        },
+      ]
+
+
+     
+
     },
     };
   },
@@ -71,6 +87,9 @@ export default {
   beforeDestroy() {
     clearInterval(this.interval);
   },
+
+
+
 };
 </script>
 
@@ -177,6 +196,25 @@ export default {
         background-color: #5ca1cf; /* This sets the color to blue */
         width: 100%; /* This ensures the divider stretches across the full width */
       }
+
+
+      /*This is the CSS for the I'm feeling Lucky Button.*/
+
+      .luckybutton {
+        background-color: #04AA6D;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+
+
+
     }
 
     @keyframes pulse {

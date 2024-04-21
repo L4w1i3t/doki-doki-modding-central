@@ -57,6 +57,31 @@ export default {
         imageUrl: "/assets/mod_prevs/hauntedhouse.webp",
         route: "explorehauntedhouse"
       },
+      {
+        title: "The Dokis Play Mario Party 9",
+        author: "MarioDokiFan4ever",
+        imageUrl: "/assets/mod_prevs/dokisplaymarioparty9.webp",
+        route: "dokisplaymarioparty9"
+      },
+      {
+        title: "Dokiversus",
+        author: "DiverseDokiStories",
+        imageUrl: "/assets/mod_prevs/dokiversus.webp",
+        route: "dokiversus"
+      },
+      {
+        title: "Yuri's Mansion",
+        author: "MarioDokiFan4ever",
+        imageUrl: "/assets/mod_prevs/yurismansion.webp",
+        route: "yurismansion"
+      },
+      {
+        title: "Beach Day With Kiyomi",
+        author: "MarioDokiFan4ever",
+        imageUrl: "/assets/mod_prevs/beachdaywithkiyomi.webp",
+        route: "beachdaywithkiyomi"
+      },
+
 
 
 

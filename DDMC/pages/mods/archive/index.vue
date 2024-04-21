@@ -380,6 +380,131 @@ export default {
         imageUrl: "/assets/mod_prevs/wodact2.webp",
         route: "wodact2"
       },
+      {
+        title: "Spark Of Hope",
+        author: "Mysticsense11",
+        imageUrl: "/assets/mod_prevs/sparkofhope.webp",
+        route: "sparkofhope"
+      },
+      {
+        title: "Art Club",
+        author: "Aevee_Animations",
+        imageUrl: "/assets/mod_prevs/artclub.webp",
+        route: "artclub"
+      },
+      {
+        title: "Disappearance of the Literature Club",
+        author: "-M!",
+        imageUrl: "/assets/mod_prevs/disapperance.webp",
+        route: "disapperance"
+      },
+      {
+        title: "Don't",
+        author: "-M!",
+        imageUrl: "/assets/mod_prevs/dont.webp",
+        route: "dont"
+      },
+      {
+        title: "Somnium",
+        author: "-M!",
+        imageUrl: "/assets/mod_prevs/somnium.webp",
+        route: "somnium"
+      },
+
+      {
+        title: "Memories of Nothing",
+        author: "-M!",
+        imageUrl: "/assets/mod_prevs/mon.webp",
+        route: "mon"
+      },
+      {
+      title: "Hypnopompic",
+        author: "-M!",
+        imageUrl: "/assets/mod_prevs/hypnopompic.webp",
+        route: "hypnopompic"
+      },
+      {
+        title: "Fleeting Feelings",
+        author: "-M!",
+        imageUrl: "/assets/mod_prevs/fleetingfeelings.webp",
+        route: "fleetingfeelings"
+      },
+      {
+        title: "Just Yuri",
+        author: "Just Yuri Dev Team",
+        imageUrl: "/assets/mod_prevs/justyuri.webp",
+        route: "justyuri"
+      },
+      {
+        title: "Fallen Angel",
+        author: "Noa-AT",
+        imageUrl: "/assets/mod_prevs/fallenangel.webp",
+        route: "fallenangel"
+      },
+      {
+        title: "Meme Club",
+        author: "Pooshscams",
+        imageUrl: "/assets/mod_prevs/memeclub.webp",
+        route: "memeclub"
+      },
+      {
+        title: "Meme Club 2",
+        author: "Tommy3500",
+        imageUrl: "/assets/mod_prevs/memeclub2.webp",
+        route: "memeclub2"
+      },
+      {
+        title: "Never Ending Tomorrow",
+        author: "KouichiKie35",
+        imageUrl: "/assets/mod_prevs/neverendingtomorrow.webp",
+        route: "neverendingtomorrow"
+      },
+      {
+        title: "Purple Troubles",
+        author: "MyLastWitchout",
+        imageUrl: "/assets/mod_prevs/purpletroubles.webp",
+        route: "purpletroubles"
+      },
+      {
+        title: "Summertime",
+        author: "Arianne/Urbanmech360",
+        imageUrl: "/assets/mod_prevs/summertime.webp",
+        route: "summertime"
+      },
+      //{ This keeps redirecting to the homepage. 
+      //  title: "Dokis 'N' The Chief",
+      //  author: "interweb_cat",
+      //  imageUrl: "/assets/mod_prevs/dokisnthechief.webp",
+      //  route: "chief"
+      //},
+      {
+        title: "Blue Skies",
+        author: "Sir Swampert, Kyoryii",
+        imageUrl: "/assets/mod_prevs/blueskies.webp",
+        route: "blueskies"
+      },
+      {
+        title: "Monika Before Story",
+        author: "Team Monika",
+        imageUrl: "/assets/mod_prevs/monikabeforestory.webp",
+        route: "monikabeforestory"
+      },
+      {
+        title: "Behind Closed Doors",
+        author: "FluffyDev",
+        imageUrl: "/assets/mod_prevs/behindcloseddoors.webp",
+        route: "behindcloseddoors"
+      },
+      {
+        title: "Just Kotonoha!",
+        author: "Rose, Riverr",
+        imageUrl: "/assets/mod_prevs/justkoto.webp",
+        route: "justkoto"
+      },
+
+
+
+
 
 
 
