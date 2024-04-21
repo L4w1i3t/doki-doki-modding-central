@@ -1,53 +1,59 @@
 <template>
-    <header class="header" :style="{ backgroundImage: 'url(' + currentImageUrl + ')' }">
-      <div class="image-overlay"></div>
-      <nav>
-          <p class="showcase-text">
-            Get a look at our <br/>showcase! <br/>[coming soon]
-          </p>
-      </nav>
-    </header>
-    <div class="pink-divider"></div>
-  </template>
-  
-  <script>
-  export default {
-    data() {
-      return {
-        images: [
-          "/assets/gui/back2.webp",
-        ],
-        preloadedImages: [],
-        currentImageIndex: 0,
-        interval: null,
-        duration: 5000,
-        characterSprites: {
-        monika: "/assets/test_folder/monika.png",
-        sayori: "/assets/test_folder/sayori.png",
-        yuri: "/assets/test_folder/yuri.png",
-        natsuki: "/assets/test_folder/natsuki.png",
-      },
-      };
+  <header class="header" :style="{ backgroundImage: 'url(' + currentImageUrl + ')' }">
+    
+    <nav>
+      <p class="showcase-text">
+        Discover something new!
+      </p>
+      <button class="lucky-button" @click="randomRedirect">I'm Feeling Lucky</button>
+    </nav>
+  </header>
+  <div class="pink-divider"></div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      images: [
+        "/assets/gui/back2.webp",
+      ],
+      preloadedImages: [],
+      currentImageIndex: 0,
+      interval: null,
+      duration: 5000,
+      mods: [
+        '/mods/standard',
+        '/mods/android',
+        '/mods/archive',
+        '/mods/videos',
+        '/mods/demos'
+      ],
+    };
+  },
+  computed: {
+    currentImageUrl() {
+      return this.images[this.currentImageIndex];
     },
-    computed: {
-      currentImageUrl() {
-        return this.images[this.currentImageIndex];
-      },
+  },
+  methods: {
+    preloadImages() {
+      this.images.forEach((image) => {
+        const img = new Image();
+        img.src = image;
+        this.preloadedImages.push(img);
+      });
     },
-    methods: {
-      preloadImages() {
-        this.images.forEach((image) => {
-          const img = new Image();
-          img.src = image;
-          this.preloadedImages.push(img);
-        });
-      },
-      startImageTransition() {
-        this.interval = setInterval(() => {
-          this.currentImageIndex = (this.currentImageIndex + 1) % this.images.length;
-        }, this.duration);
-      },
+    startImageTransition() {
+      this.interval = setInterval(() => {
+        this.currentImageIndex = (this.currentImageIndex + 1) % this.images.length;
+      }, this.duration);
     },
+    randomRedirect() {
+      const randomMod = this.mods[Math.floor(Math.random() * this.mods.length)];
+      window.location.href = (randomMod);
+    }
+  },
     mounted() {
       this.preloadImages();
       this.startImageTransition();
@@ -55,8 +61,8 @@
     beforeDestroy() {
       clearInterval(this.interval);
     },
-  };
-  </script>
+};
+</script>
   
   
   <style scoped>
@@ -87,15 +93,16 @@
           transition: background-image 2s ease-in-out;
           position: relative;
         }
-  
-        .image-overlay {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          background-color: rgba(0, 0, 0, 0.3);
-          z-index: 2;
+
+        .lucky-button {
+          padding: 10px;
+          background-color: #ff6347; /* Tomato color for visibility */
+          border: none;
+          border-radius: 5px;
+          color: white;
+          font-size: 16px;
+          cursor: pointer;
+          z-index: 3;
         }
   
         .showcase-text {
@@ -104,61 +111,14 @@
           color: white;
           text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
           top: 0%;
-          left: 50%;
+          left: 0%;
           text-align: center;
           transform: rotate(0deg);
           animation: pulse 8s linear infinite;
           position: relative;
           z-index: 4;
         }
-  
-        .monika-sprite {
-          position: absolute;
-          right: 10%;
-          bottom: 0px;
-          width: 50vw;
-          height: auto;
-          z-index: 5;
-        }
-        .sayori-sprite {
-          position: absolute;
-          right: 5%;
-          bottom: 0px;
-          width: 50vw;
-          height: auto;
-          z-index: 6;
-        }
-        .yuri-sprite {
-          position: absolute;
-          right: -5%;
-          bottom: 0px;
-          width: 50vw;
-          height: auto;
-          z-index: 7;
-        }
-        .natsuki-sprite {
-          position: absolute;
-          right: -10%;
-          bottom: 0px;
-          width: 50vw;
-          height: auto;
-          z-index: 8;
-        }
-        .site-description {
-          background-color: rgba(0, 0, 0, 0.7); /* Black background */
-          border-radius: 20px;
-          color: #fff;
-          padding: 10px;
-          font-size: 1.5vw;
-          position: absolute;
-          bottom: 2vh;
-          left: 2vw;
-          z-index: 3;
-          max-width: 40%;
-          text-align: center;
-          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-          animation: pulse 8s linear infinite;
-        }
+
   
         .pink-divider {
           height: 5vh; /* Adjust the thickness of the divider here */
