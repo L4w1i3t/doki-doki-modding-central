@@ -51,18 +51,7 @@ export default {
         imageUrl: "/assets/mod_prevs/DDTT.webp",
         route: "tripletrouble"
       },
-      {
-        title: "Sayori Gets a Vape!",
-        author: "Team Arctic",
-        imageUrl: "/assets/mod_prevs/sayorigetsavape.webp",
-        route: "sayorigetsavape"
-      },
-      {
-        title: "Exit Spoof",
-        author: "Dyinide",
-        imageUrl: "/assets/mod_prevs/exitspoof.webp",
-        route: "exitspoof"
-      },
+      
     ];
     this.catalogItems = [...this.originalCatalogItems];
   },
