@@ -1,9 +1,9 @@
 
 <template>
-  <title>Just Kotonoha! 2</title>
+  <title>Infinity Pens Demo</title>
   <div>
     <div class="preview-image">
-      <img src="/assets/mod_prevs/justkoto2.webp" alt="Preview Image">
+      <img src="/assets/mod_prevs/infinitypens.webp" alt="Preview Image">
     </div>
     <div class="title-box">
       <h1>{{ title }}</h1>
@@ -13,6 +13,11 @@
     <div class="description">
       <p>{{ description }}</p>
     </div>
+
+    <div class="description">
+      <p>{{ description2 }}</p>
+    </div>
+
     <div class="download-container">
       <img src="/assets/gui/dl.webp" alt="Download Icon">
       <div class="download-label">Download Here!</div>
@@ -27,18 +32,15 @@
 export default {
   data() {
     return {
-      title: "Just Kotonoha! 2",
-      authors: 'Single Shot Studios',
-      contributors: 'Submitted By: Codex',
-      description: "The greatest mod sequel of all time.",
+      title: 'Infinity Pens (The Original Demo)',
+      authors: 'CaptainOreo, BlueRay',
+      contributors: 'Submitted By: JQilin Gaming, Codex',
+      description: 'Infinity Pens is about two girls fighting over six magic pens. June is the blonde girl, but she cannot remember her past, and it hurts her she tries to remember. Hanako is red-haired, and she is the villain. Long story short, Monika traps Hanako in a classroom, and June releases her. But Hanako’s true intention is to kill all Monika in existence(another mod). And to do so, she needs the Infinity Pens. So it is up to June to stop here and find the pens before she does. But it looks like Monika is hidden something, too. - CaptainOreo',
+      description2: 'This modification is not in accordance with Team Salvato IP Guidelines and DDMC.site is not responsible for the inadequacies in following the IP terms and conditions, and do not assume any responsibility for the lack of adherence. Please download at your own discretion.', 
       links: [
         {
-          text: 'PC Download',
-          url: 'https://www.mediafire.com/file_premium/l7xnwrxnpgnn4uq/JustKotonoha2-1.0-pc.zip/file'
-        },
-        {
-          text: 'MAC Download',
-          url: 'https://www.mediafire.com/file_premium/fuq78l0j73djo51/JustKotonoha2-1.0-mac.zip/file'
+          text: 'Download Demo',
+          url: 'https://www.mediafire.com/file_premium/fq7ns1yy1c7ctc1/Infinity_Pens_Demo_Package.zip/file'
         },
       ]
     }

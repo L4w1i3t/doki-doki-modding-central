@@ -51,7 +51,18 @@ export default {
         imageUrl: "/assets/mod_prevs/DDTT.webp",
         route: "tripletrouble"
       },
-      
+      {
+        title: "Doki Doki Broken Poet (Act 1)",
+        author: "M3rcurialEquilibrium",
+        imageUrl: "/assets/mod_prevs/brokenpoet.webp",
+        route: "brokenpoet"
+      },
+      {
+        title: "Shattered Cycle",
+        author: "MasterlumaTDK",
+        imageUrl: "/assets/mod_prevs/shatteredcycle.webp",
+        route: "shatteredcycle"
+      },
     ];
     this.catalogItems = [...this.originalCatalogItems];
   },

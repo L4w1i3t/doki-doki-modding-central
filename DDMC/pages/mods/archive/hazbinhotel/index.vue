@@ -1,9 +1,9 @@
 
 <template>
-  <title>Just Kotonoha! 2</title>
+  <title>Doki Doki Hazbin Hotel</title>
   <div>
     <div class="preview-image">
-      <img src="/assets/mod_prevs/justkoto2.webp" alt="Preview Image">
+      <img src="/assets/mod_prevs/hazbin.webp" alt="Preview Image">
     </div>
     <div class="title-box">
       <h1>{{ title }}</h1>
@@ -13,6 +13,10 @@
     <div class="description">
       <p>{{ description }}</p>
     </div>
+    <div class="description">
+      <p>{{ description2 }}</p>
+    </div>
+
     <div class="download-container">
       <img src="/assets/gui/dl.webp" alt="Download Icon">
       <div class="download-label">Download Here!</div>
@@ -27,18 +31,15 @@
 export default {
   data() {
     return {
-      title: "Just Kotonoha! 2",
-      authors: 'Single Shot Studios',
-      contributors: 'Submitted By: Codex',
-      description: "The greatest mod sequel of all time.",
+      title: "Doki Doki Hazbin Hotel",
+      authors: 'Vaunt_Fremont_Tocsin',
+      contributors: 'Submitted By: ACT8113',
+      description: "The bros of the Doki's were just chillin' that day, Later Satori and Elijah decide to perform a spell read from 4chan, only to get shocked when the spell actually works. Now they've entered Hell and go on a heroine adventure. NOTE: This was made pre-show airing, so expect dated info to be used here",
+      description2: "This modification contains materials that are copyrighted by other artists in certain regions of the world, and may cause certain individuals to experience conflictions with copyright content identification when recording footage. Please proceed with caution if this applies to you. Addict (Instrumental Version) by Silva Hound, OG Hazbin Pilot OST by Gooseworx",
       links: [
         {
-          text: 'PC Download',
-          url: 'https://www.mediafire.com/file_premium/l7xnwrxnpgnn4uq/JustKotonoha2-1.0-pc.zip/file'
-        },
-        {
-          text: 'MAC Download',
-          url: 'https://www.mediafire.com/file_premium/fuq78l0j73djo51/JustKotonoha2-1.0-mac.zip/file'
+          text: 'Standard',
+          url: 'https://www.mediafire.com/file_premium/o0d20vwp841dm2g/DDLC_Meets_Hazbin_Hotel-2.2.3-Mod.zip/file'
         },
       ]
     }

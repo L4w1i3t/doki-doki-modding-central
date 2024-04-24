@@ -1,9 +1,9 @@
 
 <template>
-  <title>Just Kotonoha! 2</title>
+  <title>Doki Doki Broken Poet (Act 1)</title>
   <div>
     <div class="preview-image">
-      <img src="/assets/mod_prevs/justkoto2.webp" alt="Preview Image">
+      <img src="/assets/mod_prevs/brokenpoet.webp" alt="Preview Image">
     </div>
     <div class="title-box">
       <h1>{{ title }}</h1>
@@ -27,18 +27,14 @@
 export default {
   data() {
     return {
-      title: "Just Kotonoha! 2",
-      authors: 'Single Shot Studios',
-      contributors: 'Submitted By: Codex',
-      description: "The greatest mod sequel of all time.",
+      title: 'Doki Doki Broken Poet (Act 1)',
+      authors: 'M3rcurialEquilibrium',
+      contributors: 'Submitted By: Tune Eternal',
+      description: "The festival has passed. All 4 girls read their poems, but no one really cared. At least at the end of the day, everyone seems proud they kept to their vision of what the club should be. Sayori is happy you joined the club, but despite that, you haven't really connected with anyone new. Her puppy eyes are too much to bear, and you reluctantly promise to try and get to know the other members of the club better. Natsuki in particular is puzzling. You can't really put a finger on why she continues to come to club despite seemingly not really getting along with anyone, and that is somewhat intriguing. Maybe you can break the ice with her... Maybe you can be her friend. Maybe something more.",
       links: [
         {
-          text: 'PC Download',
-          url: 'https://www.mediafire.com/file_premium/l7xnwrxnpgnn4uq/JustKotonoha2-1.0-pc.zip/file'
-        },
-        {
-          text: 'MAC Download',
-          url: 'https://www.mediafire.com/file_premium/fuq78l0j73djo51/JustKotonoha2-1.0-mac.zip/file'
+          text: 'Standard',
+          url: 'https://www.mediafire.com/file_premium/1wjyyudkwhryt8b/DDLCBrokenPoet-1.0-Renpy7Mod.zip/file'
         },
       ]
     }

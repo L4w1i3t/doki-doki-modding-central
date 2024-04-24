@@ -525,7 +525,12 @@ export default {
         imageUrl: "/assets/mod_prevs/purist.webp",
         route: "purist"
       },
-
+      {
+        title: "Doki Doki Hazbin Hotel",
+        author: "Vaunt_Fremont_Tocsin",
+        imageUrl: "/assets/mod_prevs/hazbin.webp",
+        route: "hazbinhotel"
+      },
 
 
 

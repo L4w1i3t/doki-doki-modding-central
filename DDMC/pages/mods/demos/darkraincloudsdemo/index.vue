@@ -1,9 +1,9 @@
 
 <template>
-  <title>Just Kotonoha! 2</title>
+  <title>Doki Doki The Dark Rainclouds (Demo)</title>
   <div>
     <div class="preview-image">
-      <img src="/assets/mod_prevs/justkoto2.webp" alt="Preview Image">
+      <img src="/assets/mod_prevs/darkrainclouds.webp" alt="Preview Image">
     </div>
     <div class="title-box">
       <h1>{{ title }}</h1>
@@ -27,18 +27,14 @@
 export default {
   data() {
     return {
-      title: "Just Kotonoha! 2",
-      authors: 'Single Shot Studios',
-      contributors: 'Submitted By: Codex',
-      description: "The greatest mod sequel of all time.",
+      title: 'Doki Doki The Dark Rainclouds (Demo)',
+      authors: 'u/dark-rainclouds',
+      contributors: 'Submitted By: Tune Eternal',
+      description: 'The tragedy before the festival happened but luck (and life) smiles at you this time with a second chance, a smile that slowly becomes almost macabre, In this new story where will your decisions take you? If dark clouds cloud your life slowly all you have left is Expect the best',
       links: [
         {
-          text: 'PC Download',
-          url: 'https://www.mediafire.com/file_premium/l7xnwrxnpgnn4uq/JustKotonoha2-1.0-pc.zip/file'
-        },
-        {
-          text: 'MAC Download',
-          url: 'https://www.mediafire.com/file_premium/fuq78l0j73djo51/JustKotonoha2-1.0-mac.zip/file'
+          text: 'Download Demo',
+          url: 'https://www.mediafire.com/file_premium/kspvggh5gjpxdxe/DokiDokiDarkRainclouds-Py2-4.2.2-Py2-Renpy7Mod.zip/file'
         },
       ]
     }

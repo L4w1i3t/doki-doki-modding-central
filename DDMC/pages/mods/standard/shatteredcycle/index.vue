@@ -1,9 +1,9 @@
 
 <template>
-  <title>Just Kotonoha! 2</title>
+  <title>Shattered Cycle)</title>
   <div>
     <div class="preview-image">
-      <img src="/assets/mod_prevs/justkoto2.webp" alt="Preview Image">
+      <img src="/assets/mod_prevs/shatteredcycle.webp" alt="Preview Image">
     </div>
     <div class="title-box">
       <h1>{{ title }}</h1>
@@ -27,18 +27,14 @@
 export default {
   data() {
     return {
-      title: "Just Kotonoha! 2",
-      authors: 'Single Shot Studios',
-      contributors: 'Submitted By: Codex',
-      description: "The greatest mod sequel of all time.",
+      title: 'Shattered Cycle',
+      authors: 'MasterlumaTDK',
+      contributors: 'Submitted By: Tune Eternal',
+      description: "Yeah, Luma's description was a bunch of rambling. Just know it is like half-baked Mob of the Dead from CoD Zombies. Just visit reddit link: https://www.reddit.com/r/DDLCMods/comments/1bj4nhk/shattered_cycle_full_release/ ",
       links: [
         {
-          text: 'PC Download',
-          url: 'https://www.mediafire.com/file_premium/l7xnwrxnpgnn4uq/JustKotonoha2-1.0-pc.zip/file'
-        },
-        {
-          text: 'MAC Download',
-          url: 'https://www.mediafire.com/file_premium/fuq78l0j73djo51/JustKotonoha2-1.0-mac.zip/file'
+          text: 'Standard',
+          url: 'https://www.mediafire.com/file_premium/d056oqlr8ewu6db/ShatteredCycle-1.0-Renpy7Mod.zip/file'
         },
       ]
     }

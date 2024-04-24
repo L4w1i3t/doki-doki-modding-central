@@ -69,6 +69,12 @@ export default {
         imageUrl: "/assets/mod_prevs/infinitypens.webp",
         route: "infinitypensdemo"
       },
+      {
+        title: "Doki Doki The Dark Rainclouds (Demo)",
+        author: "u/dark-rainclouds",
+        imageUrl: "/assets/mod_prevs/darkrainclouds.webp",
+        route: "darkraincloudsdemo"
+      },
 
 
 

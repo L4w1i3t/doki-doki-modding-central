@@ -104,6 +104,12 @@ export default {
         imageUrl: "/assets/mod_prevs/wodact2.webp",
         route: "wodact2"
       },
+      {
+        title: "Doki Doki Broken Poet (Act 1)",
+        author: "M3rcurialEquilibrium",
+        imageUrl: "/assets/mod_prevs/brokenpoet.webp",
+        route: "brokenpoet"
+      },
     ];
     this.catalogItems = [...this.originalCatalogItems];
   },
