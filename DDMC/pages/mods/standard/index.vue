@@ -63,6 +63,18 @@ export default {
         imageUrl: "/assets/mod_prevs/shatteredcycle.webp",
         route: "shatteredcycle"
       },
+      {
+        title: "Neuro-sama joins the Literature Club! ",
+        author: "JimenezLi",
+        imageUrl: "/assets/mod_prevs/neurosama.webp",
+        route: "neurosama"
+      },
+      {
+        title: "Doki Doki: NIGHT RAIN",
+        author: "Rimscar",
+        imageUrl: "/assets/mod_prevs/nightrain.webp",
+        route: "nightrain"
+      },
     ];
     this.catalogItems = [...this.originalCatalogItems];
   },

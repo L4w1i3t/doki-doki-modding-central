@@ -110,6 +110,12 @@ export default {
         imageUrl: "/assets/mod_prevs/brokenpoet.webp",
         route: "brokenpoet"
       },
+      {
+        title: "True Story Demo",
+        author: "u/dark-rainclouds",
+        imageUrl: "/assets/mod_prevs/truestory.webp",
+        route: "truestorydemo"
+      },
     ];
     this.catalogItems = [...this.originalCatalogItems];
   },

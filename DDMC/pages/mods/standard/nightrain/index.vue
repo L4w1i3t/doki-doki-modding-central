@@ -1,9 +1,9 @@
 
 <template>
-  <title>Infinity Pens Demo</title>
+  <title>Doki Doki: NIGHT RAIN</title>
   <div>
     <div class="preview-image">
-      <img src="/assets/mod_prevs/infinitypens.webp" alt="Preview Image">
+      <img src="/assets/mod_prevs/nightrain.webp" alt="Preview Image">
     </div>
     <div class="title-box">
       <h1>{{ title }}</h1>
@@ -13,11 +13,6 @@
     <div class="description">
       <p>{{ description }}</p>
     </div>
-
-    <div class="description">
-      <p>{{ description2 }}</p>
-    </div>
-
     <div class="download-container">
       <img src="/assets/gui/dl.webp" alt="Download Icon">
       <div class="download-label">Download Here!</div>
@@ -32,15 +27,14 @@
 export default {
   data() {
     return {
-      title: 'Infinity Pens (The Original Demo)',
-      authors: 'CaptainOreo, BlueRay',
-      contributors: 'Submitted By: JQilin Gaming, Codex',
-      description: 'Infinity Pens is about two girls fighting over six magic pens. June is the blonde girl, but she cannot remember her past, and it hurts her she tries to remember. Hanako is red-haired, and she is the villain. Long story short, Monika traps Hanako in a classroom, and June releases her. But Hanako’s true intention is to kill all Monika in existence(another mod). And to do so, she needs the Infinity Pens. So it is up to June to stop here and find the pens before she does. But it looks like Monika is hidden something, too. - CaptainOreo',
-      description2: 'This modification is not in accordance with Team Salvato IP Guidelines and DDMC.site is not responsible for the inadequacies in following the IP terms and conditions, and do not assume any responsibility for the lack of adherence. Please download at your own discretion.', 
+      title: 'Doki Doki: NIGHT RAIN',
+      authors: 'Rimscar',
+      contributors: 'Submitted By: Tune Eternal',
+      description: "The year is 2007. It's a quiet evening in Okayama. A boy tugs at his jacket, his breath loses warmth in the frigid air. A sound― that of a vehicle cutting through the silence. Thoughts flood his mind, those of anxiety, anticipation― and regret. Another moment. The car passes... Still waiting. It's been years since the boy left his hometown, He wonders if his friends will remember him― he wonders if he still has friends. Perhaps he shouldn't have these thoughts, perhaps― Another moment passes, and the black tires come to a screeching halt. The boy steps inside.",
       links: [
         {
-          text: 'Download Demo',
-          url: 'https://www.mediafire.com/file_premium/fq7ns1yy1c7ctc1/Infinity_Pens_Demo_Package.zip/file'
+          text: 'Standard',
+          url: 'https://www.mediafire.com/file_premium/fxwaotia2yxzyex/NIGHT-RAIN-1.0.6.zip/file'
         },
       ]
     }
