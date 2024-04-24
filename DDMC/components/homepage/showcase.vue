@@ -65,16 +65,16 @@ export default {
 </script>
   
   
-  <style scoped>
+<style scoped>
   
-      @media (max-width: 1023px) {
-        .resolution-warning {
-          display: block;
-        }
-        .header {
-          display: none;
-        }
-      }
+/* ------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*dedicated mobile view*/
+  @media (max-width: 1023px) {
+   .header {
+     display: none;
+   }
+ }
+/* ------------------------------------------------------------------------------------------------------------------------------------------------- */
   
       @font-face {
         font-family: 'Hot Mustard BTN Regular';
