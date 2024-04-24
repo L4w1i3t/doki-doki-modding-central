@@ -19,7 +19,6 @@
     <div class="green-divider"></div>
   </template>
   
-  
   <script>
   export default {
     data() {
@@ -84,14 +83,15 @@
   </script>
   
   <style scoped>
+  
+/* ------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*dedicated mobile view*/
   @media (max-width: 1023px) {
-    .resolution-warning {
-      display: block;
-    }
-    .header {
-      display: none;
-    }
-  }
+   .header {
+     display: none;
+   }
+ }
+/* ------------------------------------------------------------------------------------------------------------------------------------------------- */
 
   @font-face {
     font-family: 'Hot Mustard BTN Regular';

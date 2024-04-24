@@ -1,0 +1,20 @@
+{
+  "main": [
+    { "id": 0, "name": "Monika", "image": "/assets/images/characters/m.png", "url": "/more/characters/monika" },
+    { "id": 1, "name": "Sayori", "image": "/assets/images/characters/s.png", "url": "/more/characters/sayori"},
+    { "id": 2, "name": "Yuri", "image": "/assets/images/characters/y.png", "url": "/more/characters/yuri"},
+    { "id": 3, "name": "Natsuki", "image": "/assets/images/characters/n.png", "url": "/more/characters/natsuki"}
+  ],
+  "original": [
+    { "id": 4, "name": "DUMMY", "image": "/assets/images/characters/place.png" },
+    { "id": 5, "name": "DUMMY", "image": "/assets/images/characters/place.png" },
+    { "id": 6, "name": "DUMMY", "image": "/assets/images/characters/place.png" },
+    { "id": 7, "name": "DUMMY", "image": "/assets/images/characters/place.png" }
+  ],
+  "crossover": [
+    { "id": 1000, "name": "DUMMY", "image": "/assets/images/characters/place.png" },
+    { "id": 1001, "name": "DUMMY", "image": "/assets/images/characters/place.png" },
+    { "id": 1002, "name": "DUMMY", "image": "/assets/images/characters/place.png" },
+    { "id": 1003, "name": "DUMMY", "image": "/assets/images/characters/place.png" }
+  ]
+}

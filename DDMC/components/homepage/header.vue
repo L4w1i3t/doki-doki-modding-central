@@ -95,6 +95,12 @@ export default {
 
 
 <style scoped>
+  @font-face {
+      font-family: 'Hot Mustard BTN Regular';
+      src: url('/assets/fonts/HotMustardBTNRegular.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
   .resolution-warning {
       display: none;
       color: #fff;
@@ -107,7 +113,8 @@ export default {
       top: 40%;
       left: 0;
     }
-
+/* ------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*dedicated mobile view*/
     @media (max-width: 1023px) {
       .resolution-warning {
         display: block;
@@ -116,14 +123,7 @@ export default {
         display: none;
       }
     }
-
-    @font-face {
-      font-family: 'Hot Mustard BTN Regular';
-      src: url('/assets/fonts/HotMustardBTNRegular.ttf') format('truetype');
-      font-weight: normal;
-      font-style: normal;
-    }
-
+/* ------------------------------------------------------------------------------------------------------------------------------------------------- */
     @media (min-width: 1024px) {
       .header {
         width: 100vw;
@@ -192,9 +192,9 @@ export default {
       }
 
       .blue-divider {
-        height: 5vh; /* Adjust the thickness of the divider here */
-        background-color: #5ca1cf; /* This sets the color to blue */
-        width: 100%; /* This ensures the divider stretches across the full width */
+        height: 5vh;
+        background-color: #5ca1cf;
+        width: 100%;
       }
 
 
