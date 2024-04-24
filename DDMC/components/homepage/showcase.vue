@@ -5,7 +5,7 @@
       <p class="showcase-text">
         Discover something new!
       </p>
-      <button class="lucky-button" @click="randomRedirect">I'm Feeling Lucky</button>
+      <!--<button class="lucky-button" @click="randomRedirect">I'm Feeling Lucky</button>-->
     </nav>
   </header>
   <div class="pink-divider"></div>

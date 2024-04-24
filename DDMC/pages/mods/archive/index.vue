@@ -503,7 +503,7 @@ export default {
       },
       {
         title: "Just Kotonoha! 2",
-        author: "Rose, Riverr",
+        author: "Single Shot Studios",
         imageUrl: "/assets/mod_prevs/justkoto2.webp",
         route: "justkoto2"
       },
