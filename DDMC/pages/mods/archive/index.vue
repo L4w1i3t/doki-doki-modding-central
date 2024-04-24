@@ -501,6 +501,56 @@ export default {
         imageUrl: "/assets/mod_prevs/justkoto.webp",
         route: "justkoto"
       },
+      {
+        title: "Just Kotonoha! 2",
+        author: "Single Shot Studios",
+        imageUrl: "/assets/mod_prevs/justkoto2.webp",
+        route: "justkoto2"
+      },
+      {
+        title: "Doki Doki Capitalist Radio",
+        author: "Vaunt_Fremont_Tocsin",
+        imageUrl: "/assets/mod_prevs/capitalistradio.webp",
+        route: "capitalistradio"
+      },
+      {
+        title: "Me and You",
+        author: "FitMarshmallow, Various Artists",
+        imageUrl: "/assets/mod_prevs/meandyou.webp",
+        route: "me_and_you"
+      },
+      {
+        title: "Purist Mod",
+        author: "Tabuukilla, Syzygy",
+        imageUrl: "/assets/mod_prevs/purist.webp",
+        route: "purist"
+      },
+      {
+        title: "Doki Doki Hazbin Hotel",
+        author: "Vaunt_Fremont_Tocsin",
+        imageUrl: "/assets/mod_prevs/hazbin.webp",
+        route: "hazbinhotel"
+      },
+
+
+
+
+
+
+
+
+      {
+        title: "Sayori Gets a Vape!",
+        author: "Team Arctic",
+        imageUrl: "/assets/mod_prevs/sayorigetsavape.webp",
+        route: "sayorigetsavape"
+      },
+      {
+        title: "Exit Spoof",
+        author: "Dyinide",
+        imageUrl: "/assets/mod_prevs/exitspoof.webp",
+        route: "exitspoof"
+      },
 
 
 

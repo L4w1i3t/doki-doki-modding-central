@@ -64,10 +64,22 @@ export default {
         route: "everlastingdemo"
       },
       {
-        title: "Infinity Pens (The Original Demo)",
+        title: "Infinity Pens The Original Demo",
         author: "CaptainOreo, BlueRay",
         imageUrl: "/assets/mod_prevs/infinitypens.webp",
         route: "infinitypensdemo"
+      },
+      {
+        title: "Doki Doki The Dark Rainclouds Demo",
+        author: "u/dark-rainclouds",
+        imageUrl: "/assets/mod_prevs/darkrainclouds.webp",
+        route: "darkraincloudsdemo"
+      },
+      {
+        title: "True Story Demo",
+        author: "u/dark-rainclouds",
+        imageUrl: "/assets/mod_prevs/truestory.webp",
+        route: "truestorydemo"
       },
 
 

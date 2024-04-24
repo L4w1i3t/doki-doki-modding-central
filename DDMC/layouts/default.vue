@@ -1,7 +1,6 @@
 
 <template>
   <div class="full-height">
-    <transition name="page-dissolve" mode="out-in">
       <BackgroundImage class="background">
         <div class="content">
           <Hotbar/>
@@ -9,11 +8,13 @@
           <Showcase v-if="isHomePage" />
           <GetStarted v-if="isHomePage" />
           <Socials v-if="isHomePage" />
+          <Maincast v-if="isCharactersPage" />
+          <Occharacters v-if="isCharactersPage" />
+          <Crossover v-if="isCharactersPage" />
           <slot/>
         </div>
         <Footer class="footer"/>
       </BackgroundImage>
-    </transition>
   </div>
 </template>
 
@@ -25,6 +26,9 @@ import Header from '../components/homepage/header.vue'
 import Showcase from '../components/homepage/showcase.vue'
 import GetStarted from '../components/homepage/getstarted.vue'
 import Socials from '../components/homepage/socials.vue'
+import Maincast from '../components/characters/maincast.vue'
+import Occharacters from '../components/characters/occharacters.vue'
+import Crossover from '../components/characters/crossover.vue'
 
 export default {
   components: {
@@ -35,10 +39,16 @@ export default {
     Showcase,
     GetStarted,
     Socials,
+    Maincast,
+    Occharacters,
+    Crossover
   },
   computed: {
     isHomePage() {
       return this.$route.path === '/'
+    },
+    isCharactersPage() {
+      return this.$route.path === '/more/characters'
     }
   }
 }
