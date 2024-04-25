@@ -19,6 +19,14 @@ export default {
     return {
       versions: [
         {
+          version: 'Beta 1.1.0',
+          notes: [
+            'Overhauled characters page layout',
+            'Changed data retrieval on the characters page to a json file instead of hardcoding',
+            'Quality of Life improvements'
+          ]
+        },
+        {
           version: 'Beta 1.0.0',
           notes: [
             'Completely overhauled the home page--starting with splash and socials (more to be added soon)',

@@ -33,6 +33,8 @@
 </template>
 
 <script>
+import axios from 'axios';
+
 export default {
   data() {
     return {
@@ -44,42 +46,20 @@ export default {
     };
   },
   created() {
-    this.originalCatalogItems = [
-      {
-        title: "Doki Doki Triple Trouble",
-        author: "JayQilin",
-        imageUrl: "/assets/mod_prevs/DDTT.webp",
-        route: "tripletrouble"
-      },
-      {
-        title: "Doki Doki Broken Poet (Act 1)",
-        author: "M3rcurialEquilibrium",
-        imageUrl: "/assets/mod_prevs/brokenpoet.webp",
-        route: "brokenpoet"
-      },
-      {
-        title: "Shattered Cycle",
-        author: "MasterlumaTDK",
-        imageUrl: "/assets/mod_prevs/shatteredcycle.webp",
-        route: "shatteredcycle"
-      },
-      {
-        title: "Neuro-sama joins the Literature Club! ",
-        author: "JimenezLi",
-        imageUrl: "/assets/mod_prevs/neurosama.webp",
-        route: "neurosama"
-      },
-      {
-        title: "Doki Doki: NIGHT RAIN",
-        author: "Rimscar",
-        imageUrl: "/assets/mod_prevs/nightrain.webp",
-        route: "nightrain"
-      },
-    ];
-    this.catalogItems = [...this.originalCatalogItems];
+    this.fetchCatalogItems();
   },
   methods: {
+    async fetchCatalogItems() {
+      try {
+        const response = await axios.get('/data/mods.json');
+        this.originalCatalogItems = response.data.standard;
+        this.catalogItems = [...this.originalCatalogItems];
+      } catch (error) {
+        console.error("Failed to fetch catalog items:", error);
+      }
+    },
     sortCatalog() {
+      // dead code
     },
     filterByTitle() {
       const query = this.titleSearch.toLowerCase();
@@ -100,6 +80,7 @@ export default {
   }
 };
 </script>
+
 
 <style scoped>
 .catalog {

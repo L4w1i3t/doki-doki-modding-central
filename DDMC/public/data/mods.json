@@ -1,0 +1,624 @@
+{
+    "standard": [
+      {
+        "id": 0,
+        "title": "Doki Doki Triple Trouble",
+        "author": "JayQilin",
+        "imageUrl": "/assets/mod_prevs/DDTT.webp",
+        "route": "tripletrouble"
+      },
+      {
+        "id": 1,
+        "title": "Doki Doki Broken Poet (Act 1)",
+        "author": "M3rcurialEquilibrium",
+        "imageUrl": "/assets/mod_prevs/brokenpoet.webp",
+        "route": "brokenpoet"
+      },
+      {
+        "id": 2,
+        "title": "Shattered Cycle",
+        "author": "MasterlumaTDK",
+        "imageUrl": "/assets/mod_prevs/shatteredcycle.webp",
+        "route": "shatteredcycle"
+      },
+      {
+        "id": 3,
+        "title": "Neuro-sama joins the Literature Club!",
+        "author": "JimenezLi",
+        "imageUrl": "/assets/mod_prevs/neurosama.webp",
+        "route": "neurosama"
+      },
+      {
+        "id": 4,
+        "title": "Doki Doki: NIGHT RAIN",
+        "author": "Rimscar",
+        "imageUrl": "/assets/mod_prevs/nightrain.webp",
+        "route": "nightrain"
+      }
+    ],
+
+    "archive": [
+          {
+            "id": 1000,
+            "title": "EGO DEATH",
+            "author": "Tune Eternal",
+            "imageUrl": "/assets/mod_prevs/egodeath.webp",
+            "route": "egodeath"
+          },
+          {
+            "id": 1001,
+            "title": "Left Behind",
+            "author": "Tune Eternal",
+            "imageUrl": "/assets/mod_prevs/leftbehind.webp",
+            "route": "leftbehind"
+          },
+          {
+            "id": 1002,
+            "title": "Better Call Saul: Defense Attorney in Spilt Spaghetti",
+            "author": "Tune Eternal",
+            "imageUrl": "/assets/mod_prevs/saul.webp",
+            "route": "saul"
+          },
+          {
+            "id": 1003,
+            "title": "Sigma Club",
+            "author": "Kennedy Productions, Team Red Mazda",
+            "imageUrl": "/assets/mod_prevs/sigmaclub.webp",
+            "route": "sigmaclub"
+          },
+          {
+            "id": 1004,
+            "title": "Sigma Club 2: Sigma Stigma",
+            "author": "Kennedy Productions, Tune Eternal",
+            "imageUrl": "/assets/mod_prevs/sigmastigma.webp",
+            "route": "sigmaclub2"
+          },
+          {
+            "id": 1005,
+            "title": "SVHS-TAP05052022",
+            "author": "Team Red Mazda, L4w1i3t",
+            "imageUrl": "/assets/mod_prevs/svhsoriginal.webp",
+            "route": "svhs"
+          },
+          {
+            "id": 1006,
+            "title": "Our Castle Walls",
+            "author": "Mr. ZeraTheMant",
+            "imageUrl": "/assets/mod_prevs/ocw.webp",
+            "route": "ourcastlewalls"
+          },
+          {
+            "id": 1007,
+            "title": "Our Castle Walls: After Stories",
+            "author": "Mr. ZeraTheMant",
+            "imageUrl": "/assets/mod_prevs/ocwas.webp",
+            "route": "ourcastlewallsafterstory"
+          },
+          {
+            "id": 1008,
+            "title": "Zera's Fun Time",
+            "author": "Mr. ZeraTheMant",
+            "imageUrl": "/assets/mod_prevs/zerasfuntime.webp",
+            "route": "zerasfuntime"
+          },
+          {
+            "id": 1009,
+            "title": "Sayori Fucks Up",
+            "author": "MagmaSlasher",
+            "imageUrl": "/assets/mod_prevs/sayorifucksup.webp",
+            "route": "sayorifucksup"
+          },
+          {
+            "id": 1010,
+            "title": "Doki Doki Outcast",
+            "author": "Fjord",
+            "imageUrl": "/assets/mod_prevs/outcast.webp",
+            "route": "outcast"
+          },
+          {
+            "id": 1011,
+            "title": "Salvation! Remake",
+            "author": "12GizGuy6",
+            "imageUrl": "/assets/mod_prevs/salvationremake.webp",
+            "route": "salvationremake"
+          },
+          {
+            "id": 1012,
+            "title": "Doki Doki The Blue Seas: Nightmare of the Yandere Doki",
+            "author": "dewallt101",
+            "imageUrl": "/assets/mod_prevs/nightmareoftheyanderedoki.webp",
+            "route": "nightmareoftheyanderedoki"
+          },
+          {
+            "id": 1013,
+            "title": "Doki Doki The Blue Seas: Thanksgiving Edition",
+            "author": "dewallt101",
+            "imageUrl": "/assets/mod_prevs/blueseasthanksgiving.webp",
+            "route": "blueseasthanksgiving"
+          },
+          {
+            "id": 1014,
+            "title": "Doki Doki The Blue Seas: Christmas Adventures",
+            "author": "dewallt101",
+            "imageUrl": "/assets/mod_prevs/blueseaschristmasadventures.webp",
+            "route": "blueseaschristmasadventures"
+          },
+          {
+            "id": 1015,
+            "title": "Tropical Rain",
+            "author": "PumpkinbrainUS",
+            "imageUrl": "/assets/mod_prevs/tropicalrain.webp",
+            "route": "tropicalrain1.2"
+          },
+          {
+            "id": 1016,
+            "title": "I Need This Mod Like A Hole In The Head",
+            "author": "MagmaSlasher",
+            "imageUrl": "/assets/mod_prevs/holeinthehead.webp",
+            "route": "holeinthehead"
+          },
+          {
+            "id": 1017,
+            "title": "The Deepest Mod Ever",
+            "author": "MagmaSlasher",
+            "imageUrl": "/assets/mod_prevs/deepestmod.png",
+            "route": "deepestmod"
+          },
+          {
+            "id": 1018,
+            "title": "A Different Story: The New Beginning",
+            "author": "Nikicha",
+            "imageUrl": "/assets/mod_prevs/differentstory.jpg",
+            "route": "differentstory"
+          },
+          {
+            "id": 1019,
+            "title": "Presents and Poems",
+            "author": "Team Red Mazda",
+            "imageUrl": "/assets/mod_prevs/presents.webp",
+            "route": "presents"
+          },
+          {
+            "id": 1020,
+            "title": "A Date With Yuri",
+            "author": "Team Red Mazda",
+            "imageUrl": "/assets/mod_prevs/datewithyuri.webp",
+            "route": "datewithyuri"
+          },
+          {
+            "id": 1021,
+            "title": "Can You Spare A Poem?",
+            "author": "SomeDudeNamedAyat",
+            "imageUrl": "/assets/mod_prevs/spareapoem.webp",
+            "route": "spareapoem"
+          },
+          {
+            "id": 1022,
+            "title": "Afterimage",
+            "author": "Batebri, RoyAH_M",
+            "imageUrl": "/assets/mod_prevs/afterimage.webp",
+            "route": "afterimage"
+          },
+          {
+            "id": 1023,
+            "title": "Kindermusical: The Mod",
+            "author": "Silver",
+            "imageUrl": "/assets/mod_prevs/kinder.webp",
+            "route": "kindermusical"
+          },
+          {
+            "id": 1024,
+            "title": "DDLC: The Struggles of RenPy 6",
+            "author": "Silver, Empyre",
+            "imageUrl": "/assets/mod_prevs/struggles.webp",
+            "route": "renpy"
+          },
+          {
+            "id": 1025,
+            "title": "Tsundere Ghosts",
+            "author": "Silver",
+            "imageUrl": "/assets/mod_prevs/ghosts.webp",
+            "route": "ghosts"
+          },
+          {
+            "id": 1026,
+            "title": "Paper Thin Hearts",
+            "author": "Silver",
+            "imageUrl": "/assets/mod_prevs/paper.webp",
+            "route": "paper"
+          },
+          {
+            "id": 1027,
+            "title": "Story of Dokitale",
+            "author": "Silver",
+            "imageUrl": "/assets/mod_prevs/story.webp",
+            "route": "storyofdoki"
+          },
+          {
+            "id": 1028,
+            "title": "Grappling Hook Yuri - The Origin Arc",
+            "author": "Empyre, Silver, SpiritH0F",
+            "imageUrl": "/assets/mod_prevs/grapplinghookyuri.webp",
+            "route": "grapplinghookyuri"
+          },
+          {
+            "id": 1029,
+            "title": "Everlasting Act 1 Remastered",
+            "author": "Team Everlasting",
+            "imageUrl": "/assets/mod_prevs/everlasting.webp",
+            "route": "everlasting"
+          },
+          {
+            "id": 1030,
+            "title": "Everlasting Solitude",
+            "author": "BrunoMula",
+            "imageUrl": "/assets/mod_prevs/everlastingsolitude.webp",
+            "route": "everlastingsolitude"
+          },
+          {
+            "id": 1031,
+            "title": "The Haunting of Monika After Story",
+            "author": "President JM, DACHero",
+            "imageUrl": "/assets/mod_prevs/mashaunt.webp",
+            "route": "mashaunt"
+          },
+          {
+            "id": 1032,
+            "title": "The Doki Doki Literature Club is Dying",
+            "author": "SomeDudeNamedAyat",
+            "imageUrl": "/assets/mod_prevs/clubisdying.webp",
+            "route": "clubisdying"
+          },
+          {
+            "id": 1033,
+            "title": "Doki Doki Changing Perspectives",
+            "author": "SouthrenSystems",
+            "imageUrl": "/assets/mod_prevs/ChangingPerspectives.webp",
+            "route": "changingperspectives"
+          },
+          {
+            "id": 1034,
+            "title": "Tripping Backwards",
+            "author": "Sven and Wretched Team",
+            "imageUrl": "/assets/mod_prevs/trippingbackwards.webp",
+            "route": "trippingbackwards"
+          },
+          {
+            "id": 1035,
+            "title": "Focus On Me",
+            "author": "NitrosGaming",
+            "imageUrl": "/assets/mod_prevs/focusonme.webp",
+            "route": "focusonme"
+          },
+          {
+            "id": 1036,
+            "title": "Amor Fati",
+            "author": "DarkSyner, BootyCrusader",
+            "imageUrl": "/assets/mod_prevs/amorfati.webp",
+            "route": "amorfati"
+          },
+          {
+            "id": 1037,
+            "title": "My Best Friend is a Ghost (Original)",
+            "author": "Storm Boss, icouldbecooler",
+            "imageUrl": "/assets/mod_prevs/bestfriendisaghost.webp",
+            "route": "bestfriendisaghost"
+          },
+          {
+            "id": 1038,
+            "title": "Koi Ga Kirei [KGK]",
+            "author": "TeamAI",
+            "imageUrl": "/assets/mod_prevs/kgk.webp",
+            "route": "kgk"
+          },
+          {
+            "id": 1039,
+            "title": "Dimensions",
+            "author": "ChiffMonkey",
+            "imageUrl": "/assets/mod_prevs/dimensions.webp",
+            "route": "dimensions"
+          },
+          {
+            "id": 1040,
+            "title": "Our Hearts United Chapter 1 - When Worlds Collide",
+            "author": "Azrathas and Team Nazuko/Skarlet",
+            "imageUrl": "/assets/mod_prevs/heartsunited.webp",
+            "route": "heartsunited"
+          },
+          {
+            "id": 1041,
+            "title": "12 Hours",
+            "author": "James-Zanny",
+            "imageUrl": "/assets/mod_prevs/12hours.webp",
+            "route": "12hours"
+          },
+          {
+            "id": 1042,
+            "title": "2nd Anniversary",
+            "author": "James-Zanny",
+            "imageUrl": "/assets/mod_prevs/second.webp",
+            "route": "secondaniversary"
+          },
+          {
+            "id": 1043,
+            "title": "The 48 Hour Mod",
+            "author": "Wretched Team",
+            "imageUrl": "/assets/mod_prevs/48hours.webp",
+            "route": "48hours"
+          },
+          {
+            "id": 1044,
+            "title": "A Brand New Day",
+            "author": "Phathom",
+            "imageUrl": "/assets/mod_prevs/brandnewday.webp",
+            "route": "brandnewday"
+          },
+          {
+            "id": 1045,
+            "title": "A Burger Gets Sayori",
+            "author": "10thMod",
+            "imageUrl": "/assets/mod_prevs/burgergetssayori.webp",
+            "route": "burgergetssayori"
+          },
+          {
+            "id": 1046,
+            "title": "A Date With Monika",
+            "author": "SlightlySimple",
+            "imageUrl": "/assets/mod_prevs/datewithmonika.webp",
+            "route": "datewithmonika"
+          },
+          {
+            "id": 1047,
+            "title": "A Date With Natsuki",
+            "author": "Various Artists",
+            "imageUrl": "/assets/mod_prevs/datewithnatsuki.webp",
+            "route": "datewithnatsuki"
+          },
+          {
+            "id": 1048,
+            "title": "DDLC: Ultimate Combo",
+            "author": "ComboDev",
+            "imageUrl": "/assets/mod_prevs/ultimatecombo.webp",
+            "route": "ultimatecombo"
+          },
+          {
+            "id": 1049,
+            "title": "One Last Memory",
+            "author": "12GizGuy6",
+            "imageUrl": "/assets/mod_prevs/onelastmemory.webp",
+            "route": "onelastmemory"
+          },
+          {
+            "id": 1050,
+            "title": "Exit Music",
+            "author": "Penny, MalukahMaker, SadBoiJake; Wretched Team (Rerelease)",
+            "imageUrl": "/assets/mod_prevs/exitmusic.webp",
+            "route": "exitmusic"
+          },
+          {
+            "id": 1051,
+            "title": "Exit Music: Redux",
+            "author": "Wretched Team",
+            "imageUrl": "/assets/mod_prevs/exitmusicredux.webp",
+            "route": "exitmusicredux"
+          },
+          {
+            "id": 1052,
+            "title": "Emerald Heart",
+            "author": "Emerald Heart Team",
+            "imageUrl": "/assets/mod_prevs/emeraldheart.webp",
+            "route": "emeraldheart"
+          },
+          {
+            "id": 1053,
+            "title": "Wintermute",
+            "author": "Wretched Team",
+            "imageUrl": "/assets/mod_prevs/wintermute.webp",
+            "route": "wintermute"
+          },
+          {
+            "id": 1054,
+            "title": "World of Dreams - Act 1",
+            "author": "Morbiusgreen",
+            "imageUrl": "/assets/mod_prevs/wodact1.webp",
+            "route": "wodact1"
+          },
+          {
+            "id": 1055,
+            "title": "World of Dreams - Act 2",
+            "author": "Morbiusgreen, WoD Team",
+            "imageUrl": "/assets/mod_prevs/wodact2.webp",
+            "route": "wodact2"
+          },
+          {
+            "id": 1056,
+            "title": "Spark Of Hope",
+            "author": "Mysticsense11",
+            "imageUrl": "/assets/mod_prevs/sparkofhope.webp",
+            "route": "sparkofhope"
+          },
+          {
+            "id": 1057,
+            "title": "Art Club",
+            "author": "Aevee_Animations",
+            "imageUrl": "/assets/mod_prevs/artclub.webp",
+            "route": "artclub"
+          },
+          {
+            "id": 1058,
+            "title": "Disappearance of the Literature Club",
+            "author": "-M!",
+            "imageUrl": "/assets/mod_prevs/disapperance.webp",
+            "route": "disapperance"
+          },
+          {
+            "id": 1059,
+            "title": "Don't",
+            "author": "-M!",
+            "imageUrl": "/assets/mod_prevs/dont.webp",
+            "route": "dont"
+          },
+          {
+            "id": 1060,
+            "title": "Somnium",
+            "author": "-M!",
+            "imageUrl": "/assets/mod_prevs/somnium.webp",
+            "route": "somnium"
+          },
+          {
+            "id": 1061,
+            "title": "Memories of Nothing",
+            "author": "-M!",
+            "imageUrl": "/assets/mod_prevs/mon.webp",
+            "route": "mon"
+          },
+          {
+            "id": 1062,
+            "title": "Hypnopompic",
+            "author": "-M!",
+            "imageUrl": "/assets/mod_prevs/hypnopompic.webp",
+            "route": "hypnopompic"
+          },
+          {
+            "id": 1063,
+            "title": "Fleeting Feelings",
+            "author": "-M!",
+            "imageUrl": "/assets/mod_prevs/fleetingfeelings.webp",
+            "route": "fleetingfeelings"
+          },
+          {
+            "id": 1064,
+            "title": "Just Yuri",
+            "author": "Just Yuri Dev Team",
+            "imageUrl": "/assets/mod_prevs/justyuri.webp",
+            "route": "justyuri"
+          },
+          {
+            "id": 1065,
+            "title": "Fallen Angel",
+            "author": "Noa-AT",
+            "imageUrl": "/assets/mod_prevs/fallenangel.webp",
+            "route": "fallenangel"
+          },
+          {
+            "id": 1066,
+            "title": "Meme Club",
+            "author": "Pooshscams",
+            "imageUrl": "/assets/mod_prevs/memeclub.webp",
+            "route": "memeclub"
+          },
+          {
+            "id": 1067,
+            "title": "Meme Club 2",
+            "author": "Tommy3500",
+            "imageUrl": "/assets/mod_prevs/memeclub2.webp",
+            "route": "memeclub2"
+          },
+          {
+            "id": 1068,
+            "title": "Never Ending Tomorrow",
+            "author": "KouichiKie35",
+            "imageUrl": "/assets/mod_prevs/neverendingtomorrow.webp",
+            "route": "neverendingtomorrow"
+          },
+          {
+            "id": 1069,
+            "title": "Purple Troubles",
+            "author": "MyLastWitchout",
+            "imageUrl": "/assets/mod_prevs/purpletroubles.webp",
+            "route": "purpletroubles"
+          },
+          {
+            "id": 1070,
+            "title": "Summertime",
+            "author": "Arianne/Urbanmech360",
+            "imageUrl": "/assets/mod_prevs/summertime.webp",
+            "route": "summertime"
+          },
+          { 
+            "id": 1071,
+            "title": "Dokis 'N' The Chief",
+            "author": "interweb_cat",
+            "imageUrl": "/assets/mod_prevs/dokisnthechief.webp",
+            "route": "chief"
+          },
+          {
+            "id": 1072,
+            "title": "Blue Skies",
+            "author": "Sir Swampert, Kyoryii",
+            "imageUrl": "/assets/mod_prevs/blueskies.webp",
+            "route": "blueskies"
+          },
+          {
+            "id": 1073,
+            "title": "Monika Before Story",
+            "author": "Team Monika",
+            "imageUrl": "/assets/mod_prevs/monikabeforestory.webp",
+            "route": "monikabeforestory"
+          },
+          {
+            "id": 1074,
+            "title": "Behind Closed Doors",
+            "author": "FluffyDev",
+            "imageUrl": "/assets/mod_prevs/behindcloseddoors.webp",
+            "route": "behindcloseddoors"
+          },
+          {
+            "id": 1075,
+            "title": "Just Kotonoha!",
+            "author": "Rose, Riverr",
+            "imageUrl": "/assets/mod_prevs/justkoto.webp",
+            "route": "justkoto"
+          },
+          {
+            "id": 1076,
+            "title": "Just Kotonoha! 2",
+            "author": "Single Shot Studios",
+            "imageUrl": "/assets/mod_prevs/justkoto2.webp",
+            "route": "justkoto2"
+          },
+          {
+            "id": 1077,
+            "title": "Doki Doki Capitalist Radio",
+            "author": "Vaunt_Fremont_Tocsin",
+            "imageUrl": "/assets/mod_prevs/capitalistradio.webp",
+            "route": "capitalistradio"
+          },
+          {
+            "id": 1078,
+            "title": "Me and You",
+            "author": "FitMarshmallow, Various Artists",
+            "imageUrl": "/assets/mod_prevs/meandyou.webp",
+            "route": "me_and_you"
+          },
+          {
+            "id": 1079,
+            "title": "Purist Mod",
+            "author": "Tabuukilla, Syzygy",
+            "imageUrl": "/assets/mod_prevs/purist.webp",
+            "route": "purist"
+          },
+          {
+            "id": 1080,
+            "title": "Doki Doki Hazbin Hotel",
+            "author": "Vaunt_Fremont_Tocsin",
+            "imageUrl": "/assets/mod_prevs/hazbin.webp",
+            "route": "hazbinhotel"
+          },
+          {
+            "id": 1081,
+            "title": "Sayori Gets a Vape!",
+            "author": "Team Arctic",
+            "imageUrl": "/assets/mod_prevs/sayorigetsavape.webp",
+            "route": "sayorigetsavape"
+          },
+          {
+            "id": 1082,
+            "title": "Exit Spoof",
+            "author": "Dyinide",
+            "imageUrl": "/assets/mod_prevs/exitspoof.webp",
+            "route": "exitspoof"
+          }
+    ]
+  }
+  
