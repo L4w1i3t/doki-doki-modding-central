@@ -619,6 +619,183 @@
             "imageUrl": "/assets/mod_prevs/exitspoof.webp",
             "route": "exitspoof"
           }
+    ],
+
+    "android": [
+      {
+        "id": 10000,
+        "title": "Doki Doki Triple Trouble",
+        "author": "JayQilin",
+        "imageUrl": "/assets/mod_prevs/DDTT.webp",
+        "route": "tripletrouble"
+      },
+      {
+        "id": 10001,
+        "title": "The Haunting of Monika After Story",
+        "author": "President JM, DACHero",
+        "imageUrl": "/assets/mod_prevs/mashaunt.webp",
+        "route": "mashaunt"
+      },
+      {
+        "id": 10002,
+        "title": "A Brand New Day",
+        "author": "Phathom",
+        "imageUrl": "/assets/mod_prevs/brandnewday.webp",
+        "route": "brandnewday"
+      },
+      {
+        "id": 10003,
+        "title": "A Burger Gets Sayori",
+        "author": "10thMod",
+        "imageUrl": "/assets/mod_prevs/burgergetssayori.webp",
+        "route": "burgergetssayori"
+      },
+      {
+        "id": 10004,
+        "title": "A Date With Monika",
+        "author": "SlightlySimple",
+        "imageUrl": "/assets/mod_prevs/datewithmonika.webp",
+        "route": "datewithmonika"
+      },
+      {
+        "id": 10005,
+        "title": "A Date With Natsuki",
+        "author": "Various Artists",
+        "imageUrl": "/assets/mod_prevs/datewithnatsuki.webp",
+        "route": "datewithnatsuki"
+      },
+      {
+        "id": 10006,
+        "title": "Exit Music",
+        "author": "Penny, MalukahMaker, SadBoiJake; Wretched Team (Rerelease)",
+        "imageUrl": "/assets/mod_prevs/exitmusic.webp",
+        "route": "exitmusic"
+      },
+      {
+        "id": 10007,
+        "title": "Exit Music: Redux",
+        "author": "Wretched Team",
+        "imageUrl": "/assets/mod_prevs/exitmusicredux.webp",
+        "route": "exitmusicredux"
+      },
+      {
+        "id": 10008,
+        "title": "World of Dreams - Act 1",
+        "author": "Morbiusgreen",
+        "imageUrl": "/assets/mod_prevs/wodact1.webp",
+        "route": "wodact1"
+      },
+      {
+        "id": 10009,
+        "title": "World of Dreams - Act 2",
+        "author": "Morbiusgreen, WoD Team",
+        "imageUrl": "/assets/mod_prevs/wodact2.webp",
+        "route": "wodact2"
+      },
+      {
+        "id": 10010,
+        "title": "Doki Doki Broken Poet (Act 1)",
+        "author": "M3rcurialEquilibrium",
+        "imageUrl": "/assets/mod_prevs/brokenpoet.webp",
+        "route": "brokenpoet"
+      },
+      {
+        "id": 10011,
+        "title": "True Story Demo",
+        "author": "u/dark-rainclouds",
+        "imageUrl": "/assets/mod_prevs/truestory.webp",
+        "route": "truestorydemo"
+      }
+    ],
+
+    "demos": [
+      {
+        "id": 20000,
+        "title": "Doki Doki Triple Trouble Demo",
+        "author": "JQilin Gaming, Tune Eternal",
+        "imageUrl": "/assets/mod_prevs/DDTT.webp",
+        "route": "ttdemo"
+      },
+      {
+        "id": 20001,
+        "title": "Doki Doki The Blue Seas: Demo V2",
+        "author": "dewallt101",
+        "imageUrl": "/assets/mod_prevs/blueseasdemov2.webp",
+        "route": "blueseasdemov2"
+      },
+      {
+        "id": 20002,
+        "title": "Everlasting Demo Original",
+        "author": "Team Everlasting",
+        "imageUrl": "/assets/mod_prevs/everlasting.webp",
+        "route": "everlastingdemo"
+      },
+      {
+        "id": 20003,
+        "title": "Infinity Pens The Original Demo",
+        "author": "CaptainOreo, BlueRay",
+        "imageUrl": "/assets/mod_prevs/infinitypens.webp",
+        "route": "infinitypensdemo"
+      },
+      {
+        "id": 20004,
+        "title": "Doki Doki The Dark Rainclouds Demo",
+        "author": "u/dark-rainclouds",
+        "imageUrl": "/assets/mod_prevs/darkrainclouds.webp",
+        "route": "darkraincloudsdemo"
+      },
+      {
+        "id": 20005,
+        "title": "True Story Demo",
+        "author": "u/dark-rainclouds",
+        "imageUrl": "/assets/mod_prevs/truestory.webp",
+        "route": "truestorydemo"
+      }
+    ],
+
+    "videos": [
+      {
+        "id": 30000,
+        "title": "You Matter Too (Part 1)",
+        "author": "Doki Senate",
+        "imageUrl": "/assets/mod_prevs/ymt.webp",
+        "route": "youmattertoo"
+      },
+      {
+        "id": 30001,
+        "title": "The Dokis Explore The Haunted House",
+        "author": "MarioDokiFan4ever",
+        "imageUrl": "/assets/mod_prevs/hauntedhouse.webp",
+        "route": "explorehauntedhouse"
+      },
+      {
+        "id": 30002,
+        "title": "The Dokis Play Mario Party 9",
+        "author": "MarioDokiFan4ever",
+        "imageUrl": "/assets/mod_prevs/dokisplaymarioparty9.webp",
+        "route": "dokisplaymarioparty9"
+      },
+      {
+        "id": 30003,
+        "title": "Dokiversus",
+        "author": "DiverseDokiStories",
+        "imageUrl": "/assets/mod_prevs/dokiversus.webp",
+        "route": "dokiversus"
+      },
+      {
+        "id": 30004,
+        "title": "Yuri's Mansion",
+        "author": "MarioDokiFan4ever",
+        "imageUrl": "/assets/mod_prevs/yurismansion.webp",
+        "route": "yurismansion"
+      },
+      {
+        "id": 30005,
+        "title": "Beach Day With Kiyomi",
+        "author": "MarioDokiFan4ever",
+        "imageUrl": "/assets/mod_prevs/beachdaywithkiyomi.webp",
+        "route": "beachdaywithkiyomi"
+      }
     ]
   }
   

@@ -32,6 +32,8 @@
 </template>
 
 <script>
+import axios from 'axios';
+
 export default {
   data() {
     return {
@@ -43,84 +45,20 @@ export default {
     };
   },
   created() {
-    this.originalCatalogItems = [
-      {
-        title: "Doki Doki Triple Trouble",
-        author: "JayQilin",
-        imageUrl: "/assets/mod_prevs/DDTT.webp",
-        route: "tripletrouble"
-      },
-      {
-        title: "The Haunting of Monika After Story",
-        author: "President JM, DACHero",
-        imageUrl: "/assets/mod_prevs/mashaunt.webp",
-        route: "mashaunt"
-      },
-      {
-        title: "A Brand New Day",
-        author: "Phathom",
-        imageUrl: "/assets/mod_prevs/brandnewday.webp",
-        route: "brandnewday"
-      },
-      {
-        title: "A Burger Gets Sayori",
-        author: "10thMod",
-        imageUrl: "/assets/mod_prevs/burgergetssayori.webp",
-        route: "burgergetssayori"
-      },
-      {
-        title: "A Date With Monika",
-        author: "SlightlySimple",
-        imageUrl: "/assets/mod_prevs/datewithmonika.webp",
-        route: "datewithmonika"
-      },
-      {
-        title: "A Date With Natsuki",
-        author: "Various Artists",
-        imageUrl: "/assets/mod_prevs/datewithnatsuki.webp",
-        route: "datewithnatsuki"
-      },
-      {
-        title: "Exit Music",
-        author: "Penny, MalukahMaker, SadBoiJake; Wretched Team (Rerelease)",
-        imageUrl: "/assets/mod_prevs/exitmusic.webp",
-        route: "exitmusic"
-      },
-      {
-        title: "Exit Music: Redux",
-        author: "Wretched Team",
-        imageUrl: "/assets/mod_prevs/exitmusicredux.webp",
-        route: "exitmusicredux"
-      },
-      {
-        title: "World of Dreams - Act 1",
-        author: "Morbiusgreen",
-        imageUrl: "/assets/mod_prevs/wodact1.webp",
-        route: "wodact1"
-      },
-      {
-        title: "World of Dreams - Act 2",
-        author: "Morbiusgreen, WoD Team",
-        imageUrl: "/assets/mod_prevs/wodact2.webp",
-        route: "wodact2"
-      },
-      {
-        title: "Doki Doki Broken Poet (Act 1)",
-        author: "M3rcurialEquilibrium",
-        imageUrl: "/assets/mod_prevs/brokenpoet.webp",
-        route: "brokenpoet"
-      },
-      {
-        title: "True Story Demo",
-        author: "u/dark-rainclouds",
-        imageUrl: "/assets/mod_prevs/truestory.webp",
-        route: "truestorydemo"
-      },
-    ];
-    this.catalogItems = [...this.originalCatalogItems];
+    this.fetchCatalogItems();
   },
   methods: {
+    async fetchCatalogItems() {
+      try {
+        const response = await axios.get('/data/mods.json');
+        this.originalCatalogItems = response.data.android;
+        this.catalogItems = [...this.originalCatalogItems];
+      } catch (error) {
+        console.error("Failed to fetch catalog items:", error);
+      }
+    },
     sortCatalog() {
+      // dead code
     },
     filterByTitle() {
       const query = this.titleSearch.toLowerCase();

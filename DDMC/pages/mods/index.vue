@@ -6,7 +6,7 @@
       <a href="/mods/standard" class="mod-button-standard" @mouseenter="playHoverSound">
         <img src="/assets/gui/penguin.webp" alt="Standard Mod" class="button-image-mods" />
       </a>
-      <p class="button-label">Mods for PC</p>
+      <p class="button-label">New PC Mods</p>
     </div>
     <div class="android-container">
       <a href="/mods/android" class="mod-button-android" @mouseenter="playHoverSound">
@@ -20,7 +20,7 @@
       <a href="/mods/archive" class="mod-button-standard" @mouseenter="playHoverSound">
         <img src="/assets/gui/modarchive.webp" alt="Archive Mod" class="button-image-mods" />
       </a>
-      <p class="button-label">Mod Archive</p>
+      <p class="button-label">PC Mod Archive</p>
       </div>
     <div class="android-container">
       <a href="/mods/demos" class="mod-button-android" @mouseenter="playHoverSound">

@@ -21,9 +21,11 @@ export default {
         {
           version: 'Beta 1.1.0',
           notes: [
-            'Overhauled characters page layout',
+            'Overhauled characters page layout (STILL WIP)',
             'Changed data retrieval on the characters page to a json file instead of hardcoding',
-            'Quality of Life improvements'
+            'Added an "I\'m Feeling Lucky" button to the home page',
+            'Quality of Life improvements',
+            'UNDER MAINTENANCE: "Get Started" component on home page, randomized showcase on home page, character database'
           ]
         },
         {
