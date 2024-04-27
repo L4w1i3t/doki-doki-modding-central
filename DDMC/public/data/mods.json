@@ -537,10 +537,10 @@
           },
           { 
             "id": 1071,
-            "title": "Dokis 'N' The Chief",
+            "title": "Dokis And The Chief",
             "author": "interweb_cat",
-            "imageUrl": "/assets/mod_prevs/dokisnthechief.webp",
-            "route": "chief"
+            "imageUrl": "/assets/mod_prevs/chief.webp",
+            "route": "dokisandchief"
           },
           {
             "id": 1072,

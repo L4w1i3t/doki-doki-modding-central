@@ -1,9 +1,9 @@
 
 <template>
-  <title>The Club Is Dying</title>
+  <title>Dokis And The Chief</title>
   <div>
     <div class="preview-image">
-      <img src="/assets/mod_prevs/clubisdying.webp" alt="Preview Image">
+      <img src="/assets/mod_prevs/chief.webp" alt="Preview Image">
     </div>
     <div class="title-box">
       <h1>{{ title }}</h1>
@@ -27,14 +27,14 @@
 export default {
   data() {
     return {
-      title: 'The Doki Doki Literature Club is Dying',
-      authors: 'SomeDudeNamedAyat',
+      title: 'Dokis and The Chief',
+      authors: 'interweb_cat',
       contributors: 'Submitted By: Tune Eternal',
-      description: 'Graduation is soon, and the Literature Club has not grown one bit since MC joined. This leads to Monika calling for a very important meeting, one that may determine the very fate of this friend group as they know it.',
+      description: 'Okay here me out, what if... Master Chief had power armor that could protect from the most elite of Covenant armor, and enjoyed literature?',
       links: [
         {
           text: 'Standard',
-          url: 'https://www.mediafire.com/file_premium/e6vpiwtomudps0s/The_Doki_Doki_Literature_Club_Is_Dying.zip/file'
+          url: 'https://www.mediafire.com/file_premium/vrgymwd2u7262xf/DokisntheChief-1.1.2-Mod.zip/file'
         },
       ]
     }
