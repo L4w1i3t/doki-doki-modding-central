@@ -30,7 +30,7 @@ export default {
       title: 'Salvation! Remake',
       authors: '12GizGuy6',
       contributors: 'Submitted By: Beelzebruv',
-      description: 'Remake of Salvation. Formerly lost to time due the creator 12GizGuy6 taking it down due to critical feedback.',
+      description: 'Formerly lost to time due to the creator 12GizGuy6 taking it down over critical feedback.',
       links: [
         {
           text: 'Standard',
