@@ -34,6 +34,20 @@
         "author": "Rimscar",
         "imageUrl": "/assets/mod_prevs/nightrain.webp",
         "route": "nightrain"
+      },
+      {
+        "id": 5,
+        "title": "Before the Needle Lifts",
+        "author": "UNOwen1",
+        "imageUrl": "/assets/mod_prevs/beforetheneedlelifts.webp",
+        "route": "beforetheneedlelifts"
+      },
+      {
+        "id": 6,
+        "title": "100 Club Members (Season 1)",
+        "author": "JustTensuraEdogawa",
+        "imageUrl": "/assets/mod_prevs/100clubmembers.webp",
+        "route": "100clubmembers"
       }
     ],
 
@@ -618,6 +632,20 @@
             "author": "Dyinide",
             "imageUrl": "/assets/mod_prevs/exitspoof.webp",
             "route": "exitspoof"
+          },
+          {
+            "id": 1083,
+            "title": "Doki Doki Impossible (Episode 1) ",
+            "author": "MaksonJolt",
+            "imageUrl": "/assets/mod_prevs/doki_doki_impossible_episode1.webp",
+            "route": "doki_doki_impossible_episode1"
+          },
+          {
+            "id": 1084,
+            "title": "Doki Doki Impossible (Episode 2) ",
+            "author": "MaksonJolt",
+            "imageUrl": "/assets/mod_prevs/doki_doki_impossible_episode2.webp",
+            "route": "doki_doki_impossible_episode2"
           }
     ],
 
@@ -705,6 +733,13 @@
         "author": "u/dark-rainclouds",
         "imageUrl": "/assets/mod_prevs/truestory.webp",
         "route": "truestorydemo"
+      },
+      {
+        "id": 10012,
+        "title": "Before the Needle Lifts",
+        "author": "UNOwen1",
+        "imageUrl": "/assets/mod_prevs/beforetheneedlelifts.webp",
+        "route": "beforetheneedlelifts"
       }
     ],
 
@@ -750,6 +785,13 @@
         "author": "u/dark-rainclouds",
         "imageUrl": "/assets/mod_prevs/truestory.webp",
         "route": "truestorydemo"
+      },
+      {
+        "id": 20006,
+        "title": "Doki Doki Undercurrents ",
+        "author": "Studio Silver",
+        "imageUrl": "/assets/mod_prevs/undercurrents.webp",
+        "route": "undercurrents_demo"
       }
     ],
 
