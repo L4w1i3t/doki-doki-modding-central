@@ -48,6 +48,20 @@
         "author": "JustTensuraEdogawa",
         "imageUrl": "/assets/mod_prevs/100clubmembers.webp",
         "route": "100clubmembers"
+      },
+      {
+        "id": 7,
+        "title": "Doki Doki Brainrot Club",
+        "author": "Team Brainrot",
+        "imageUrl": "/assets/mod_prevs/brainrotclub.jpg",
+        "route": "brainrotclub"
+      },
+      {
+        "id": 8,
+        "title": "The Machine Stops",
+        "author": "Codex",
+        "imageUrl": "/assets/mod_prevs/themachinestops.webp",
+        "route": "themachinestops"
       }
     ],
 
@@ -646,6 +660,41 @@
             "author": "MaksonJolt",
             "imageUrl": "/assets/mod_prevs/doki_doki_impossible_episode2.webp",
             "route": "doki_doki_impossible_episode2"
+          }, 
+          {
+            "id": 1085,
+            "title": "TMIWNHANDANHHTHTYVM",
+            "author": "MousePotatoDoesStuff",
+            "imageUrl": "/assets/mod_prevs/TMIWNHANDANHHTHTYVM.webp",
+            "route": "TMIWNHANDANHHTHTYVM"
+          }, 
+          {
+            "id": 1086,
+            "title": "Remembering",
+            "author": "GanstakingofSA",
+            "imageUrl": "/assets/mod_prevs/remembering.webp",
+            "route": "remembering"
+          },
+          {
+            "id": 1087,
+            "title": "Special Days",
+            "author": "Wyrmcast",
+            "imageUrl": "/assets/mod_prevs/specialdays.webp",
+            "route": "specialdays"
+          },
+          {
+            "id": 1088,
+            "title": "Escape From Home",
+            "author": "Abyssal949 (Syntholation/TwoColours)",
+            "imageUrl": "/assets/mod_prevs/escapefromhome.png",
+            "route": "escapefromhome"
+          },
+          {
+            "id": 1089,
+            "title": "Doki Doki Salvation",
+            "author": "12Gizguy6",
+            "imageUrl": "/assets/mod_prevs/salvation.webp",
+            "route": "salvation"
           }
     ],
 
@@ -740,6 +789,13 @@
         "author": "UNOwen1",
         "imageUrl": "/assets/mod_prevs/beforetheneedlelifts.webp",
         "route": "beforetheneedlelifts"
+      }, 
+      {
+        "id": 10013,
+        "title": "Remembering",
+        "author": "GanstakingofSA",
+        "imageUrl": "/assets/mod_prevs/remembering.webp",
+        "route": "remembering"
       }
     ],
 
@@ -792,6 +848,13 @@
         "author": "Studio Silver",
         "imageUrl": "/assets/mod_prevs/undercurrents.webp",
         "route": "undercurrents_demo"
+      }, 
+      {
+        "id": 20007,
+        "title": "A Deal With Alastor Demo v2.0",
+        "author": "TheNumbahSeven",
+        "imageUrl": "/assets/mod_prevs/adealwithalastor.webp",
+        "route": "adealwithalastordemo"
       }
     ],
 
@@ -837,6 +900,28 @@
         "author": "MarioDokiFan4ever",
         "imageUrl": "/assets/mod_prevs/beachdaywithkiyomi.webp",
         "route": "beachdaywithkiyomi"
+      },
+
+      {
+        "id": 30006,
+        "title": "Hang Out with Kotonoha",
+        "author": "DiverseDokiStories",
+        "imageUrl": "/assets/mod_prevs/hangoutwithkoto.webp",
+        "route": "hangoutwithkoto"
+      },
+      {
+        "id": 30007,
+        "title": "Kiyomi’s Big Date",
+        "author": "MarioDokiFan4ever",
+        "imageUrl": "/assets/mod_prevs/kiyomisbigdate.webp",
+        "route": "kiyomisbigdate"
+      },
+      {
+        "id": 30008,
+        "title": "Sayori’s Mistletoe Surprise ",
+        "author": "MarioDokiFan4ever",
+        "imageUrl": "/assets/mod_prevs/sayorismistletoesurprise.webp",
+        "route": "sayorismistletoesurprise"
       }
     ]
   }

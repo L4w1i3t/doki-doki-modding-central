@@ -1,9 +1,9 @@
 
 <template>
-  <title>Summertime</title>
+  <title>A Deal With Alastor (Demo)</title>
   <div>
     <div class="preview-image">
-      <img src="/assets/mod_prevs/summertime.webp" alt="Preview Image">
+      <img src="/assets/mod_prevs/adealwithalastor.webp" alt="Preview Image">
     </div>
     <div class="title-box">
       <h1>{{ title }}</h1>
@@ -27,22 +27,14 @@
 export default {
   data() {
     return {
-      title: "Summertime",
-      authors: 'Arianne/Urbanmech360',
-      contributors: 'Submitted By: Codex, L4w1i3t',
-      description: "Fun-filled summer adventure and experience a romantic tale from a new perspective!",
+      title: 'A Deal With Alastor (Demo)',
+      authors: 'TheNumbahSeven',
+      contributors: 'Submitted By: Tune Eternal',
+      description: 'And then Charlie said, "our true friends were the Hazbin Hotel we made along the way.',
       links: [
         {
-          text: 'Version 1.0',
-          url: 'https://www.mediafire.com/file_premium/vhp1hqp4h3hrvxo/DokiDokiSummertime-1.0-Mod.zip/file'
-        },
-        {
-          text: 'Version 1.4.0',
-          url: 'https://www.mediafire.com/file_premium/qbz0err3a9ukoob/DokiDokiSummertime-1.4.0.zip/file'
-        },
-        {
-          text: 'Version 1.5.1',
-          url: 'https://www.mediafire.com/file_premium/85cvxh7y39t9j36/DokiDokiSummertime-1.5.1-Mod.zip/file'
+          text: 'Download Demo',
+          url: 'https://www.mediafire.com/file_premium/nvud12e1jv8bqxl/ADealWithAlastor_Demo_2.0.zip/file'
         },
       ]
     }

@@ -1,9 +1,9 @@
 
 <template>
-  <title>Summertime</title>
+  <title>Doki Doki Brainrot Club</title>
   <div>
     <div class="preview-image">
-      <img src="/assets/mod_prevs/summertime.webp" alt="Preview Image">
+      <img src="/assets/mod_prevs/brainrotclub.jpg" alt="Preview Image">
     </div>
     <div class="title-box">
       <h1>{{ title }}</h1>
@@ -27,22 +27,14 @@
 export default {
   data() {
     return {
-      title: "Summertime",
-      authors: 'Arianne/Urbanmech360',
-      contributors: 'Submitted By: Codex, L4w1i3t',
-      description: "Fun-filled summer adventure and experience a romantic tale from a new perspective!",
+      title: 'Doki Doki Brainrot Club',
+      authors: 'Team Brainrot',
+      contributors: 'Submitted By: Team Brainrot',
+      description: "When one Alpha boy joins one skibtastic girl in her ultra sigma club, where ultra goontastic things happen.",
       links: [
         {
-          text: 'Version 1.0',
-          url: 'https://www.mediafire.com/file_premium/vhp1hqp4h3hrvxo/DokiDokiSummertime-1.0-Mod.zip/file'
-        },
-        {
-          text: 'Version 1.4.0',
-          url: 'https://www.mediafire.com/file_premium/qbz0err3a9ukoob/DokiDokiSummertime-1.4.0.zip/file'
-        },
-        {
-          text: 'Version 1.5.1',
-          url: 'https://www.mediafire.com/file_premium/85cvxh7y39t9j36/DokiDokiSummertime-1.5.1-Mod.zip/file'
+          text: 'Standard',
+          url: 'https://www.mediafire.com/file_premium/gaaxr1e8bzhygi9/brainrotclub-4.2.3-Py2-Renpy7Mod.zip/file'
         },
       ]
     }

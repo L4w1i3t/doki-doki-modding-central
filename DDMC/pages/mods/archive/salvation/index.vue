@@ -1,9 +1,9 @@
 
 <template>
-  <title>Summertime</title>
+  <title>Doki Doki Salvation</title>
   <div>
     <div class="preview-image">
-      <img src="/assets/mod_prevs/summertime.webp" alt="Preview Image">
+      <img src="/assets/mod_prevs/salvation.webp" alt="Preview Image">
     </div>
     <div class="title-box">
       <h1>{{ title }}</h1>
@@ -27,22 +27,14 @@
 export default {
   data() {
     return {
-      title: "Summertime",
-      authors: 'Arianne/Urbanmech360',
-      contributors: 'Submitted By: Codex, L4w1i3t',
-      description: "Fun-filled summer adventure and experience a romantic tale from a new perspective!",
+      title: 'Doki Doki Salvation',
+      authors: '12GizGuy6',
+      contributors: 'Submitted By: 64BitBob',
+      description: 'What if things could be different? What if you could save her? This question plagued the minds of most people after finishing the first act of DDLC. Salvation goes on to answer this question. After narrowly avoiding one tragedy, the members of the club get into an accident. Monika is forced to stay at the hospital and Sayori has to take up the mantle of club president in her absence. However, as you grow closer to the other girls Monika has to realize a dark truth. How far are you willing to go to save them? Do you have what it takes to be her Salvation?',
       links: [
         {
-          text: 'Version 1.0',
-          url: 'https://www.mediafire.com/file_premium/vhp1hqp4h3hrvxo/DokiDokiSummertime-1.0-Mod.zip/file'
-        },
-        {
-          text: 'Version 1.4.0',
-          url: 'https://www.mediafire.com/file_premium/qbz0err3a9ukoob/DokiDokiSummertime-1.4.0.zip/file'
-        },
-        {
-          text: 'Version 1.5.1',
-          url: 'https://www.mediafire.com/file_premium/85cvxh7y39t9j36/DokiDokiSummertime-1.5.1-Mod.zip/file'
+          text: 'Standard',
+          url: 'https://www.mediafire.com/file_premium/bvy658m50uunfmt/Doki_Doki_Salvation_1.1.zip/file'
         },
       ]
     }

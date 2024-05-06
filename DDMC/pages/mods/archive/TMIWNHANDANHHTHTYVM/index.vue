@@ -1,9 +1,8 @@
-
 <template>
-  <title>Summertime</title>
+  <title>TMIWNHANDANHHTHTYVM</title>
   <div>
     <div class="preview-image">
-      <img src="/assets/mod_prevs/summertime.webp" alt="Preview Image">
+      <img src="/assets/mod_prevs/TMIWNHANDANHHTHTYVM.webp" alt="Preview Image">
     </div>
     <div class="title-box">
       <h1>{{ title }}</h1>
@@ -27,23 +26,15 @@
 export default {
   data() {
     return {
-      title: "Summertime",
-      authors: 'Arianne/Urbanmech360',
-      contributors: 'Submitted By: Codex, L4w1i3t',
-      description: "Fun-filled summer adventure and experience a romantic tale from a new perspective!",
+      title: 'TMIWNHANDANHHTHTYVM',
+      authors: 'MousePotatoDoesStuff',
+      contributors: 'Submitted By: MousePotatoDoesStuff',
+      description: "Natsuki: Listen up, dummy! The Mod In Which Natsuki Has A Nice Day And Nothing Horrible Happens To Her, Thank You Very Much is a short mod in which I finally get to catch a break. This isn't a trick, either. We're not going to pull a Pink Eyes on you. Here's a trailer if you're not convinced: https://www.reddit.com/r/DDLCMods/comments/pw2hy0/tmiwnhandanhhthtyvm_release_announcement_captions/ See you in the mod!",
       links: [
         {
-          text: 'Version 1.0',
-          url: 'https://www.mediafire.com/file_premium/vhp1hqp4h3hrvxo/DokiDokiSummertime-1.0-Mod.zip/file'
-        },
-        {
-          text: 'Version 1.4.0',
-          url: 'https://www.mediafire.com/file_premium/qbz0err3a9ukoob/DokiDokiSummertime-1.4.0.zip/file'
-        },
-        {
-          text: 'Version 1.5.1',
-          url: 'https://www.mediafire.com/file_premium/85cvxh7y39t9j36/DokiDokiSummertime-1.5.1-Mod.zip/file'
-        },
+          text: 'Standard',
+          url: 'https://www.mediafire.com/file_premium/i119ox7i3tgsrhg/TMIWNHANDANHHTHTYVM-main.zip/file'
+        }
       ]
     }
   }

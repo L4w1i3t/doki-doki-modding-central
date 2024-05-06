@@ -1,9 +1,9 @@
 
 <template>
-  <title>Summertime</title>
+  <title>The Machine Stops</title>
   <div>
     <div class="preview-image">
-      <img src="/assets/mod_prevs/summertime.webp" alt="Preview Image">
+      <img src="/assets/mod_prevs/themachinestops.webp" alt="Preview Image">
     </div>
     <div class="title-box">
       <h1>{{ title }}</h1>
@@ -12,6 +12,9 @@
     </div>
     <div class="description">
       <p>{{ description }}</p>
+    </div>
+    <div class="description">
+      <p>{{ description2 }}</p>
     </div>
     <div class="download-container">
       <img src="/assets/gui/dl.webp" alt="Download Icon">
@@ -27,22 +30,15 @@
 export default {
   data() {
     return {
-      title: "Summertime",
-      authors: 'Arianne/Urbanmech360',
-      contributors: 'Submitted By: Codex, L4w1i3t',
-      description: "Fun-filled summer adventure and experience a romantic tale from a new perspective!",
+      title: 'The Machine Stops',
+      authors: 'Codex',
+      contributors: 'Submitted By: Codex',
+      description: "DISCLAIMER: This mod is full of bugs and errors, so do not expect a smooth playthrough. Also, when extracting the mod, you may need to use a tool like WinRar or 7zip. I couldn't tell you why, for some reason I had to. Also, as I said in my previous post, this mod is incomplete and never will be completed, but I figured I'd release what I had, in case people were curious.", 
+      description2: "Synopsis: Breaking free from her deletion, Monika finds herself in a new world and with one distinct memory, a certain somebody she needs to free.",
       links: [
         {
-          text: 'Version 1.0',
-          url: 'https://www.mediafire.com/file_premium/vhp1hqp4h3hrvxo/DokiDokiSummertime-1.0-Mod.zip/file'
-        },
-        {
-          text: 'Version 1.4.0',
-          url: 'https://www.mediafire.com/file_premium/qbz0err3a9ukoob/DokiDokiSummertime-1.4.0.zip/file'
-        },
-        {
-          text: 'Version 1.5.1',
-          url: 'https://www.mediafire.com/file_premium/85cvxh7y39t9j36/DokiDokiSummertime-1.5.1-Mod.zip/file'
+          text: 'Standard',
+          url: 'https://www.mediafire.com/file_premium/puh8khbqcfijkyu/DokiDokiTheMachineStops-1.0-Renpy7Mod.zip/file'
         },
       ]
     }

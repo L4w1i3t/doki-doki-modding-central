@@ -1,9 +1,8 @@
-
 <template>
-  <title>Summertime</title>
+  <title>Special Days</title>
   <div>
     <div class="preview-image">
-      <img src="/assets/mod_prevs/summertime.webp" alt="Preview Image">
+      <img src="/assets/mod_prevs/specialdays.webp" alt="Preview Image">
     </div>
     <div class="title-box">
       <h1>{{ title }}</h1>
@@ -27,23 +26,15 @@
 export default {
   data() {
     return {
-      title: "Summertime",
-      authors: 'Arianne/Urbanmech360',
-      contributors: 'Submitted By: Codex, L4w1i3t',
-      description: "Fun-filled summer adventure and experience a romantic tale from a new perspective!",
+      title: 'Special Days',
+      authors: 'Wyrmcast',
+      contributors: 'Submitted By: ACT8113',
+      description: "The mod has branching choices and there are two major routes. The main 'Monika route' continues through the festival. The other major route is the so-called 'Sayori glitched route,' which in actuality has little to do with Sayori. There are some secrets within the mod.",
       links: [
         {
-          text: 'Version 1.0',
-          url: 'https://www.mediafire.com/file_premium/vhp1hqp4h3hrvxo/DokiDokiSummertime-1.0-Mod.zip/file'
-        },
-        {
-          text: 'Version 1.4.0',
-          url: 'https://www.mediafire.com/file_premium/qbz0err3a9ukoob/DokiDokiSummertime-1.4.0.zip/file'
-        },
-        {
-          text: 'Version 1.5.1',
-          url: 'https://www.mediafire.com/file_premium/85cvxh7y39t9j36/DokiDokiSummertime-1.5.1-Mod.zip/file'
-        },
+          text: 'Standard',
+          url: 'https://www.mediafire.com/file_premium/tb8tp39qzs2z8v3/SpecialDays-0.2.0-alpha.281-pc.zip/file'
+        }
       ]
     }
   }

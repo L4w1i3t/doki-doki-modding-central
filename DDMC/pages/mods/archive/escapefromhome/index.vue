@@ -1,9 +1,8 @@
-
 <template>
-  <title>Summertime</title>
+  <title>Escape From Home</title>
   <div>
     <div class="preview-image">
-      <img src="/assets/mod_prevs/summertime.webp" alt="Preview Image">
+      <img src="/assets/mod_prevs/escapefromhome.png" alt="Preview Image">
     </div>
     <div class="title-box">
       <h1>{{ title }}</h1>
@@ -12,6 +11,9 @@
     </div>
     <div class="description">
       <p>{{ description }}</p>
+    </div>
+    <div class="description">
+      <p>{{ description2 }}</p>
     </div>
     <div class="download-container">
       <img src="/assets/gui/dl.webp" alt="Download Icon">
@@ -27,22 +29,15 @@
 export default {
   data() {
     return {
-      title: "Summertime",
-      authors: 'Arianne/Urbanmech360',
-      contributors: 'Submitted By: Codex, L4w1i3t',
-      description: "Fun-filled summer adventure and experience a romantic tale from a new perspective!",
+      title: 'Escape From Home',
+      authors: 'Abyssal949 (Syntholation/TwoColours)',
+      contributors: 'Submitted By: Savage Sentral',
+      description: "Natsuki is being abused by her father once again and decides that this time enough is enough, it's time to run away and Escape From Home (*boom* *boom* *tssk*). This 20 minute demo by the one and only Abyssal949 was for years thought to be lost media but now is available for download here on ddmc.site.", 
+      description2: "*Important Notice*: Abyssal949 (aka Syntholation) is officially banned from DDMC for engaging in disturbing ERP's the full contents of which are not to be disclosed to the public. For more information go watch Savage Sentral's 3 part docu-series, 'The 949 Story' on the topic. Let it be known that DDMC publishing this mod to the site is not an endorsement of the individual or individuals that created said mod and that said mod being posted here is only to preserve DDLC modding history and to accomplish our goal of 'archiving everything.' - DDMC",
       links: [
         {
-          text: 'Version 1.0',
-          url: 'https://www.mediafire.com/file_premium/vhp1hqp4h3hrvxo/DokiDokiSummertime-1.0-Mod.zip/file'
-        },
-        {
-          text: 'Version 1.4.0',
-          url: 'https://www.mediafire.com/file_premium/qbz0err3a9ukoob/DokiDokiSummertime-1.4.0.zip/file'
-        },
-        {
-          text: 'Version 1.5.1',
-          url: 'https://www.mediafire.com/file_premium/85cvxh7y39t9j36/DokiDokiSummertime-1.5.1-Mod.zip/file'
+          text: 'Standard',
+          url: 'https://www.mediafire.com/file_premium/ifoscba3j90tg4b/Doki_Doki_Escape_From_Home.zip/file'
         },
       ]
     }
