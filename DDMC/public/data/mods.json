@@ -823,6 +823,48 @@
             "author": "UNOwen1",
             "imageUrl": "/assets/mod_prevs/claygod.webp",
             "route": "claygod"
+          }, 
+          { 
+            "id": 1099,
+            "title": "Natsuki Rants About Mods & Community",
+            "author": "Tiny Waffle Studios",
+            "imageUrl": "/assets/mod_prevs/natsukirants.webp",
+            "route": "natsukirants"
+          }, 
+          { 
+            "id": 1100,
+            "title": "Monika Gets An Anal Probe",
+            "author": "dfwk",
+            "imageUrl": "/assets/mod_prevs/monika_anal_probe.webp",
+            "route": "monika_anal_probe"
+          }, 
+          { 
+            "id": 1101,
+            "title": "My Cloudy Reality!",
+            "author": "MsMod Studios",
+            "imageUrl": "/assets/mod_prevs/cloudyreality.webp",
+            "route": "mycloudyreality"
+          },
+          { 
+            "id": 1102,
+            "title": "Natsuki Becomes The President Of The United States",
+            "author": "Frost",
+            "imageUrl": "/assets/mod_prevs/presidentnat.webp",
+            "route": "presidentnat"
+          }, 
+          { 
+            "id": 1103,
+            "title": "Doki Doki I'm Alive",
+            "author": "Ruthi, ZetaBeta",
+            "imageUrl": "/assets/mod_prevs/imalive.webp",
+            "route": "doki_doki_im_alive"
+          }, 
+          { 
+            "id": 1104,
+            "title": "My Doki Doki SNAFU",
+            "author": "GuyBread",
+            "imageUrl": "/assets/mod_prevs/snafu.webp",
+            "route": "snafu"
           }
     ],
 
@@ -952,6 +994,20 @@
         "author": "UNOwen1",
         "imageUrl": "/assets/mod_prevs/claygod.webp",
         "route": "claygod"
+      }, 
+      { 
+        "id": 10018,
+        "title": "Doki Doki I'm Alive",
+        "author": "Ruthi, ZetaBeta",
+        "imageUrl": "/assets/mod_prevs/imalive.webp",
+        "route": "doki_doki_im_alive"
+      }, 
+      { 
+        "id": 10019,
+        "title": "My Doki Doki SNAFU",
+        "author": "GuyBread",
+        "imageUrl": "/assets/mod_prevs/snafu.webp",
+        "route": "snafu"
       }
     ],
 
@@ -1025,6 +1081,13 @@
         "author": "CraftedBrother05",
         "imageUrl": "/assets/mod_prevs/hibernation.webp",
         "route": "hibernation_demo"
+      }, 
+      { 
+        "id": 20009,
+        "title": "Doki Doki After School (Original Wretched Team Demo)",
+        "author": "Wretched Team",
+        "imageUrl": "/assets/mod_prevs/afterschool.webp",
+        "route": "afterschool"
       }
     ],
 
