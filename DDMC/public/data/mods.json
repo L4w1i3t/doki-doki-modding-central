@@ -111,6 +111,20 @@
         "author": "Understone",
         "imageUrl": "/assets/mod_prevs/brainrotclub2.jpg",
         "route": "brainrotclub2"
+      }, 
+      {
+        "id": 16,
+        "title": "Turquoise",
+        "author": "Tormuse",
+        "imageUrl": "/assets/mod_prevs/turquoise.webp",
+        "route": "turquoise"
+      },
+      {
+        "id": 17,
+        "title": "The Dark Rainclouds",
+        "author": "Tormuse",
+        "imageUrl": "/assets/mod_prevs/thedarkrainclouds.webp",
+        "route": "thedarkrainclouds"
       }
     ],
 
@@ -744,7 +758,50 @@
             "author": "12Gizguy6",
             "imageUrl": "/assets/mod_prevs/salvation.webp",
             "route": "salvation"
+          },
+          {
+            "id": 1090,
+            "title": "Sayori Says No To Suicide, a PSA",
+            "author": "Tormuse",
+            "imageUrl": "/assets/mod_prevs/sayorisaysno.webp",
+            "route": "sayorisaysno"
+          }, 
+          {
+            "id": 1091,
+            "title": "End of the Literature Club",
+            "author": "Tormuse",
+            "imageUrl": "/assets/mod_prevs/endoftheliteratureclub.webp",
+            "route": "endoftheliteratureclub"
+          }, 
+          {
+            "id": 1092,
+            "title": "Yuri's New Toy",
+            "author": "Tormuse",
+            "imageUrl": "/assets/mod_prevs/yurisnewtoy.webp",
+            "route": "yurisnewtoy"
+          }, 
+          {
+            "id": 1093,
+            "title": "Doki Doki Storm!",
+            "author": "Tormuse",
+            "imageUrl": "/assets/mod_prevs/dokidokistorm.webp",
+            "route": "dokidokistorm"
+          }, 
+          {
+            "id": 1094,
+            "title": "Silver & Emerald",
+            "author": "Tiny Waffle Studios",
+            "imageUrl": "/assets/mod_prevs/silverandemerald.webp",
+            "route": "silverandemerald"
+          }, 
+          {
+            "id": 1095,
+            "title": "Doki Doki Ordo Literato",
+            "author": "Last Remembrancer Team",
+            "imageUrl": "/assets/mod_prevs/dokidokiordoliterato.webp",
+            "route": "dokidokiordoliterato"
           }
+
     ],
 
     "android": [
@@ -852,6 +909,20 @@
         "author": "Codex, iiTzWolfyy",
         "imageUrl": "/assets/mod_prevs/deceptivehearts.webp",
         "route": "deceptivehearts"
+      }, 
+      {
+        "id": 10015,
+        "title": "Turquoise",
+        "author": "Tormuse",
+        "imageUrl": "/assets/mod_prevs/turquoise.webp",
+        "route": "turquoise"
+      }, 
+      {
+        "id": 10016,
+        "title": "Silver & Emerald",
+        "author": "Tiny Waffle Studios",
+        "imageUrl": "/assets/mod_prevs/silverandemerald.webp",
+        "route": "silverandemerald"
       }
     ],
 
@@ -911,6 +982,13 @@
         "author": "TheNumbahSeven",
         "imageUrl": "/assets/mod_prevs/adealwithalastor.webp",
         "route": "adealwithalastordemo"
+      }, 
+      {
+        "id": 20008,
+        "title": "Turquoise Demo",
+        "author": "Tormuse",
+        "imageUrl": "/assets/mod_prevs/turquoise.webp",
+        "route": "turquoise_demo"
       }
     ],
 
