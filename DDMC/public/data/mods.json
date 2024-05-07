@@ -800,8 +800,30 @@
             "author": "Last Remembrancer Team",
             "imageUrl": "/assets/mod_prevs/dokidokiordoliterato.webp",
             "route": "dokidokiordoliterato"
+          },
+          { 
+          
+            "id": 1096,
+            "title": "Happy Thoughts",
+            "author": "Riverr",
+            "imageUrl": "/assets/mod_prevs/happythoughts.webp",
+            "route": "happythoughts"
+          }, 
+          { 
+          
+            "id": 1097,
+            "title": "Doki Doki SOS Brigade",
+            "author": "NightmareNinja",
+            "imageUrl": "/assets/mod_prevs/sosbrigade.webp",
+            "route": "sosbrigade"
+          }, 
+          { 
+            "id": 1098,
+            "title": "Clay God",
+            "author": "UNOwen1",
+            "imageUrl": "/assets/mod_prevs/claygod.webp",
+            "route": "claygod"
           }
-
     ],
 
     "android": [
@@ -923,6 +945,13 @@
         "author": "Tiny Waffle Studios",
         "imageUrl": "/assets/mod_prevs/silverandemerald.webp",
         "route": "silverandemerald"
+      },
+      { 
+        "id": 10017,
+        "title": "Clay God",
+        "author": "UNOwen1",
+        "imageUrl": "/assets/mod_prevs/claygod.webp",
+        "route": "claygod"
       }
     ],
 
@@ -989,6 +1018,13 @@
         "author": "Tormuse",
         "imageUrl": "/assets/mod_prevs/turquoise.webp",
         "route": "turquoise_demo"
+      }, 
+      { 
+        "id": 20008,
+        "title": "Hibernation Demo",
+        "author": "CraftedBrother05",
+        "imageUrl": "/assets/mod_prevs/hibernation.webp",
+        "route": "hibernation_demo"
       }
     ],
 
