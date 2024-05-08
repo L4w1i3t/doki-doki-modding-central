@@ -21,13 +21,7 @@
         "imageUrl": "/assets/mod_prevs/shatteredcycle.webp",
         "route": "shatteredcycle"
       },
-      {
-        "id": 3,
-        "title": "Neuro-sama joins the Literature Club!",
-        "author": "JimenezLi",
-        "imageUrl": "/assets/mod_prevs/neurosama.webp",
-        "route": "neurosama"
-      },
+      
       {
         "id": 4,
         "title": "Doki Doki: NIGHT RAIN",
@@ -1088,6 +1082,13 @@
         "author": "Wretched Team",
         "imageUrl": "/assets/mod_prevs/afterschool.webp",
         "route": "afterschool"
+      }, 
+      {
+        "id": 20010,
+        "title": "Neuro-sama joins the Literature Club!",
+        "author": "JimenezLi",
+        "imageUrl": "/assets/mod_prevs/neurosama.webp",
+        "route": "neurosama"
       }
     ],
 
