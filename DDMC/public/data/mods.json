@@ -859,6 +859,69 @@
             "author": "GuyBread",
             "imageUrl": "/assets/mod_prevs/snafu.webp",
             "route": "snafu"
+          }, 
+          { 
+            "id": 1105,
+            "title": "Pages of Life",
+            "author": "Donkeyhotay",
+            "imageUrl": "/assets/mod_prevs/pagesoflife.webp",
+            "route": "pagesoflife"
+          }, 
+          { 
+            "id": 1106,
+            "title": "World Of Dreams: Thanksgiving Special",
+            "author": "Morbiusgreen",
+            "imageUrl": "/assets/mod_prevs/wodthanksgiving.png",
+            "route": "wodthanksgiving"
+          }, 
+          { 
+            "id": 1107,
+            "title": "Total Fold",
+            "author": "Vaunt_Fremont_Tocsin, chiffmonkey",
+            "imageUrl": "/assets/mod_prevs/totalfold.webp",
+            "route": "totalfold"
+          }, 
+          { 
+            "id": 1108,
+            "title": "MC Laments His Existence",
+            "author": "Vaunt_Fremont_Tocsin",
+            "imageUrl": "/assets/mod_prevs/mclaments.webp",
+            "route": "mclamentshisexistence"
+          }, 
+          { 
+            "id": 1109,
+            "title": "The First DDLC+ Mod",
+            "author": "Wretched Team",
+            "imageUrl": "/assets/mod_prevs/firstddlcplusmod.webp",
+            "route": "firstddlcplusmod"
+          }, 
+          { 
+            "id": 1110,
+            "title": "Starry Night",
+            "author": "Team Final Stand",
+            "imageUrl": "/assets/mod_prevs/starrynight.jpg",
+            "route": "starrynight"
+          }, 
+          { 
+            "id": 1111,
+            "title": "Keeper of Reality (Act One)",
+            "author": "Asahir Bloodfall",
+            "imageUrl": "/assets/mod_prevs/keeperofreality.webp",
+            "route": "keeperofreality"
+          }, 
+          { 
+            "id": 1112,
+            "title": "Club Meetings (Season 1)",
+            "author": "DokiDokiClubMeetings",
+            "imageUrl": "/assets/mod_prevs/club_meetings_season1.webp",
+            "route": "club_meetings_s1"
+          }, 
+          { 
+            "id": 1113,
+            "title": "Club Meetings (Season 2)",
+            "author": "DokiDokiClubMeetings",
+            "imageUrl": "/assets/mod_prevs/club_meetings_season2.webp",
+            "route": "club_meetings_s2"
           }
     ],
 
@@ -1163,6 +1226,13 @@
         "author": "MarioDokiFan4ever",
         "imageUrl": "/assets/mod_prevs/dokifansbirthdaysurprise.jpeg",
         "route": "dokifansbirthdaysurprise"
+      }, 
+      {
+        "id": 30010,
+        "title": "A Month With Natsuki",
+        "author": "TheBike",
+        "imageUrl": "/assets/mod_prevs/amonthwithnatsuki.jpg",
+        "route": "amonthwithnatsuki"
       }
     ]
   }
