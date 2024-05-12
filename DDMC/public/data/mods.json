@@ -119,6 +119,13 @@
         "author": "Tormuse",
         "imageUrl": "/assets/mod_prevs/thedarkrainclouds.webp",
         "route": "thedarkrainclouds"
+      }, 
+      {
+        "id": 18,
+        "title": "Her Story",
+        "author": "Tiny Waffle Studios",
+        "imageUrl": "/assets/mod_prevs/herstory.png",
+        "route": "herstory"
       }
     ],
 
@@ -922,6 +929,41 @@
             "author": "DokiDokiClubMeetings",
             "imageUrl": "/assets/mod_prevs/club_meetings_season2.webp",
             "route": "club_meetings_s2"
+          }, 
+          { 
+            "id": 1114,
+            "title": "Club Meetings (Season 3)",
+            "author": "DokiDokiClubMeetings",
+            "imageUrl": "/assets/mod_prevs/club_meetings_season3.webp",
+            "route": "club_meetings_s3"
+          }, 
+          { 
+            "id": 1115,
+            "title": "Midnight Date",
+            "author": "Team Elevate",
+            "imageUrl": "/assets/mod_prevs/midnight_date.webp",
+            "route": "midnight_date"
+          }, 
+          { 
+            "id": 1116,
+            "title": "Doki Doki Christmas Time",
+            "author": "Team Elevate",
+            "imageUrl": "/assets/mod_prevs/christmastime.webp",
+            "route": "dokidokichristmastime"
+          }, 
+          { 
+            "id": 1117,
+            "title": "Doki Doki: Your Girlfriend Really Loves You!",
+            "author": "Team Elevate",
+            "imageUrl": "/assets/mod_prevs/girl_really_loves_you.webp",
+            "route": "yourgirlfriendreallylovesyou"
+          }, 
+          { 
+            "id": 1118,
+            "title": "Just Another Day",
+            "author": "Team Elevate",
+            "imageUrl": "/assets/mod_prevs/justanotherday.webp",
+            "route": "justanotherday"
           }
     ],
 
@@ -1152,6 +1194,27 @@
         "author": "JimenezLi",
         "imageUrl": "/assets/mod_prevs/neurosama.webp",
         "route": "neurosama"
+      }, 
+      {
+        "id": 20011,
+        "title": "A New View",
+        "author": "Team Elevate",
+        "imageUrl": "/assets/mod_prevs/new_view.png",
+        "route": "anewviewdemo"
+      }, 
+      {
+        "id": 20012,
+        "title": "Doki Doki Love Torn",
+        "author": "Team Elevate",
+        "imageUrl": "/assets/mod_prevs/love_torn.webp",
+        "route": "lovetorndemo"
+      }, 
+      {
+        "id": 20013,
+        "title": "Natsuki's Expanded Story",
+        "author": "Specsuki",
+        "imageUrl": "/assets/mod_prevs/natsukis_expanded_story.webp",
+        "route": "natsukisexpandedstory"
       }
     ],
 
