@@ -102,7 +102,7 @@
       {
         "id": 15,
         "title": "Doki Doki Brainrot Club 2: Redux/Remaster",
-        "author": "Understone",
+        "author": "Team Brainrot",
         "imageUrl": "/assets/mod_prevs/brainrotclub2.jpg",
         "route": "brainrotclub2"
       }, 
@@ -116,7 +116,7 @@
       {
         "id": 17,
         "title": "The Dark Rainclouds",
-        "author": "Tormuse",
+        "author": "Team Dark Rainclouds",
         "imageUrl": "/assets/mod_prevs/thedarkrainclouds.webp",
         "route": "thedarkrainclouds"
       }, 
@@ -1149,7 +1149,7 @@
       {
         "id": 20004,
         "title": "Doki Doki The Dark Rainclouds Demo",
-        "author": "u/dark-rainclouds",
+        "author": "The Dark Rainclouds",
         "imageUrl": "/assets/mod_prevs/darkrainclouds.webp",
         "route": "darkraincloudsdemo"
       },
@@ -1265,7 +1265,7 @@
       {
         "id": 30006,
         "title": "Hang Out with Kotonoha",
-        "author": "DiverseDokiStories",
+        "author": "MarioDokiFan4ever",
         "imageUrl": "/assets/mod_prevs/hangoutwithkoto.webp",
         "route": "hangoutwithkoto"
       },
