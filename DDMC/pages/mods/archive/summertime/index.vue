@@ -33,11 +33,15 @@ export default {
       description: "Fun-filled summer adventure and experience a romantic tale from a new perspective!",
       links: [
         {
-          text: 'Standard',
+          text: 'Version 1.0',
+          url: 'https://www.mediafire.com/file_premium/vhp1hqp4h3hrvxo/DokiDokiSummertime-1.0-Mod.zip/file'
+        },
+        {
+          text: 'Version 1.4.0',
           url: 'https://www.mediafire.com/file_premium/qbz0err3a9ukoob/DokiDokiSummertime-1.4.0.zip/file'
         },
         {
-          text: 'Lost Version',
+          text: 'Version 1.5.1',
           url: 'https://www.mediafire.com/file_premium/85cvxh7y39t9j36/DokiDokiSummertime-1.5.1-Mod.zip/file'
         },
       ]

@@ -33,6 +33,8 @@
 </template>
 
 <script>
+import axios from 'axios';
+
 export default {
   data() {
     return {
@@ -44,57 +46,20 @@ export default {
     };
   },
   created() {
-    this.originalCatalogItems = [
-      {
-        title: "You Matter Too (Part 1)",
-        author: "Doki Senate",
-        imageUrl: "/assets/mod_prevs/ymt.webp",
-        route: "youmattertoo"
-      },
-      {
-        title: "The Dokis Explore The Haunted House",
-        author: "MarioDokiFan4ever",
-        imageUrl: "/assets/mod_prevs/hauntedhouse.webp",
-        route: "explorehauntedhouse"
-      },
-      {
-        title: "The Dokis Play Mario Party 9",
-        author: "MarioDokiFan4ever",
-        imageUrl: "/assets/mod_prevs/dokisplaymarioparty9.webp",
-        route: "dokisplaymarioparty9"
-      },
-      {
-        title: "Dokiversus",
-        author: "DiverseDokiStories",
-        imageUrl: "/assets/mod_prevs/dokiversus.webp",
-        route: "dokiversus"
-      },
-      {
-        title: "Yuri's Mansion",
-        author: "MarioDokiFan4ever",
-        imageUrl: "/assets/mod_prevs/yurismansion.webp",
-        route: "yurismansion"
-      },
-      {
-        title: "Beach Day With Kiyomi",
-        author: "MarioDokiFan4ever",
-        imageUrl: "/assets/mod_prevs/beachdaywithkiyomi.webp",
-        route: "beachdaywithkiyomi"
-      },
-
-
-
-
-
-
-
-
-
-    ];
-    this.catalogItems = [...this.originalCatalogItems];
+    this.fetchCatalogItems();
   },
   methods: {
+    async fetchCatalogItems() {
+      try {
+        const response = await axios.get('/data/mods.json');
+        this.originalCatalogItems = response.data.videos;
+        this.catalogItems = [...this.originalCatalogItems];
+      } catch (error) {
+        console.error("Failed to fetch catalog items:", error);
+      }
+    },
     sortCatalog() {
+      // dead code
     },
     filterByTitle() {
       const query = this.titleSearch.toLowerCase();

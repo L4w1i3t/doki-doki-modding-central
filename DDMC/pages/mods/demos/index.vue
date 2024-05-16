@@ -33,6 +33,8 @@
 </template>
 
 <script>
+import axios from 'axios';
+
 export default {
   data() {
     return {
@@ -44,56 +46,20 @@ export default {
     };
   },
   created() {
-    this.originalCatalogItems = [
-      {
-        title: "Doki Doki Triple Trouble Demo",
-        author: "JQilin Gaming, Tune Eternal",
-        imageUrl: "/assets/mod_prevs/DDTT.webp",
-        route: "ttdemo"
-      },
-      {
-        title: "Doki Doki The Blue Seas: Demo V2",
-        author: "dewallt101",
-        imageUrl: "/assets/mod_prevs/blueseasdemov2.webp",
-        route: "blueseasdemov2"
-      },
-      {
-        title: "Everlasting Demo Original",
-        author: "Team Everlasting",
-        imageUrl: "/assets/mod_prevs/everlasting.webp",
-        route: "everlastingdemo"
-      },
-      {
-        title: "Infinity Pens The Original Demo",
-        author: "CaptainOreo, BlueRay",
-        imageUrl: "/assets/mod_prevs/infinitypens.webp",
-        route: "infinitypensdemo"
-      },
-      {
-        title: "Doki Doki The Dark Rainclouds Demo",
-        author: "u/dark-rainclouds",
-        imageUrl: "/assets/mod_prevs/darkrainclouds.webp",
-        route: "darkraincloudsdemo"
-      },
-      {
-        title: "True Story Demo",
-        author: "u/dark-rainclouds",
-        imageUrl: "/assets/mod_prevs/truestory.webp",
-        route: "truestorydemo"
-      },
-
-
-
-
-
-
-
-
-    ];
-    this.catalogItems = [...this.originalCatalogItems];
+    this.fetchCatalogItems();
   },
   methods: {
+    async fetchCatalogItems() {
+      try {
+        const response = await axios.get('/data/mods.json');
+        this.originalCatalogItems = response.data.demos;
+        this.catalogItems = [...this.originalCatalogItems];
+      } catch (error) {
+        console.error("Failed to fetch catalog items:", error);
+      }
+    },
     sortCatalog() {
+      // dead code
     },
     filterByTitle() {
       const query = this.titleSearch.toLowerCase();

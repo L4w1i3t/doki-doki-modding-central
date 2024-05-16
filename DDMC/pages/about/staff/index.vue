@@ -88,14 +88,6 @@
             image: '/assets/images/finn.webp',
             youtube: 'https://www.youtube.com/@OfficialFinnTDK'
           },
-          {
-            id: 7,
-            name: 'MagmaSlasher',
-            position: 'Web Staff, Quality Assurance',
-            bio: 'The one, the only, MagmaSlasher. Bogeyman to those who shall not be named, but good enough at my job to warrant having around. Member of the late Team Red Mazda RX-7 (STOCK), God rest that team\'s collective soul, and creator of several mods, such as The Deepest Mod Ever, and Sayori Fucks Up, the latter of which you can play here! Proficient in Python, C#, JS, and a whole host of other programming languages that I picked up during my time spent on developing various projects, and I can\'t  wait to use those skills to help out here.',
-            image: '/assets/images/magma.webp',
-            youtube: 'https://www.youtube.com/channel/UChXVIt0z0Mkx7QlA_eQ5FMg'
-          },
         ]
       };
     }

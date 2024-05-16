@@ -1,88 +1,86 @@
 <template>
     <header class="header" :style="{ backgroundImage: 'url(' + currentImageUrl + ')' }">
       <div class="image-overlay"></div>
-      <nav>
-        <p class="playmod-text">
-          Wanna play a mod?
-          <a href="/mods">
-          <img src="/assets/gui/playamod.webp" class="button-image-mods" @mouseenter="playHoverSound">
-          </a>
-        </p>
-        <p class="mod-text">
-            <a href="/more/assets">
-          <img src="/assets/gui/makeamod.webp" class="button-image-make" @mouseenter="playHoverSound">
-          </a>
-          Wanna make a mod?
-        </p>
-      </nav>
     </header>
     <div class="green-divider"></div>
   </template>
   
-  <script>
-  export default {
-    data() {
-      return {
-        images: [
-          "/assets/mod_prevs/DDTT.webp",
-          "/assets/mod_prevs/svhsoriginal.webp",
-          "/assets/mod_prevs/wodact1.webp",
-          "/assets/mod_prevs/salvationremake.webp",
-          "/assets/mod_prevs/outcast.webp",
-          "/assets/mod_prevs/presents.webp",
-          "/assets/mod_prevs/exitspoof.webp",
-          "/assets/mod_prevs/ocw.webp",
-          "/assets/mod_prevs/exitmusic.webp",
-          "/assets/mod_prevs/exitmusicredux.webp",
-          "/assets/mod_prevs/amorfati.webp",
-          "/assets/mod_prevs/12hours.webp",
-          "/assets/mod_prevs/blueseasdemov2.webp",
-          "/assets/mod_prevs/clubisdying.webp",
-        ],
-        preloadedImages: [],
-        currentImageIndex: 0,
-        interval: null,
-        duration: 6000,
-        characterSprites: {},
-      };
+<script>
+import axios from 'axios';
+
+export default {
+  data() {
+    return {
+      images: [],
+      preloadedImages: [],
+      currentImageIndex: 0,
+      interval: null,
+      duration: 6000,
+      characterSprites: {},
+      allImagesLoaded: false,
+    };
+  },
+  computed: {
+    currentImageUrl() {
+      return this.images.length > 0 ? this.images[this.currentImageIndex] : '';
     },
-    computed: {
-      currentImageUrl() {
-        return this.images[this.currentImageIndex];
-      },
+  },
+  methods: {
+    navigateToMods() {
+      this.$router.push('/mods');
     },
-    methods: {
-      navigateToMods() {
-        this.$router.push('/mods');
-      },
-      playHoverSound(event) {
-        const hoverSound = new Audio('/assets/sfx/hover.wav');
-        hoverSound.play();
-      },
-      preloadImages() {
-        this.images.forEach((image) => {
-          const img = new Image();
-          img.src = image;
-          this.preloadedImages.push(img);
-        });
-      },
-      startImageTransition() {
+    playHoverSound() {
+    const hoverSound = new Audio('/assets/sfx/hover.wav');
+    hoverSound.play();
+  },
+    preloadImages() {
+      let loadedCount = 0;
+      this.images.forEach((image) => {
+        const img = new Image();
+        img.onload = () => {
+          loadedCount++;
+          if (loadedCount === this.images.length) {
+            this.allImagesLoaded = true;
+            this.startImageTransition();
+          }
+        };
+        img.src = image;
+        this.preloadedImages.push(img);
+      });
+    },
+    startImageTransition() {
+      if (this.allImagesLoaded) {
         this.interval = setInterval(() => {
-          this.currentImageIndex = (this.currentImageIndex + 1) % this.images.length;
+          let nextImageIndex;
+          do {
+            nextImageIndex = Math.floor(Math.random() * this.images.length);
+          } while (nextImageIndex === this.currentImageIndex);
+          this.currentImageIndex = nextImageIndex;
         }, this.duration);
-      },
+      }
     },
-    mounted() {
-      this.preloadImages();
-      this.startImageTransition();
-    },
-    beforeDestroy() {
-      clearInterval(this.interval);
-    },
-  };
-  </script>
+    fetchModImages() {
+      axios.get('/data/mods.json')
+        .then(response => {
+          const mods = response.data;
+          this.images = Object.values(mods).reduce((acc, category) => acc.concat(category.map(mod => mod.imageUrl)), []);
+          this.preloadImages();
+        })
+        .catch(error => {
+          console.error('Error fetching mod images:', error);
+        });
+    }
+  },
+  mounted() {
+    this.fetchModImages();
+  },
+  beforeDestroy() {
+    clearInterval(this.interval);
+  },
+};
+</script>
   
-  <style scoped>
+<style scoped>
   
 /* ------------------------------------------------------------------------------------------------------------------------------------------------- */
 /*dedicated mobile view*/
@@ -120,52 +118,21 @@
       z-index: 2;
     }
     .playmod-text {
-      font-size: 4vw;
-      font-family: 'Hot Mustard BTN Regular', monospace;
-      color: white;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-      top: 5%;
-      left: 5%;
-      text-align: center;
-      transform: rotate(0deg);
-      animation: pulse 8s linear infinite;
-      position: relative;
-      z-index: 15;
-      display: inline-block;
+  
     }
     .button-image-mods {
-      display: block; 
-      cursor: pointer;
-      width: 20vw;
-      margin-left: 25%;
-      margin-top: 5vh;
+      /* button for a href to /mods. image to be used is /assets/gui/playamod.webp */
       transition: transform 0.3s ease-in-out;
     }
     .button-image-mods:hover {
         opacity: 0.8;
         transform: scale(1.05) rotate(0deg);
     }
-    .mod-text {
-        font-size: 4vw;
-        font-family: 'Hot Mustard BTN Regular', monospace;
-        color: white;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        bottom: 5%;
-        right: 5%;
-        text-align: center;
-        transform: rotate(0deg);
-        animation: pulse 8s linear infinite;
-        position: absolute;
-        z-index: 4;
-        display: inline-block;
+    .makemod-text {
+      /* should say "Want to make a mod?" */
     }
     .button-image-make {
-      display: flex; 
-      cursor: pointer;
-      width: 20vw;
-      margin-left: 30%;
-      margin-bottom: 5vh;
-      bottom: 30%;
+      /* button for a href to /more/assets. image to be used is /assets/gui/makeamod.webp */
       transition: transform 0.3s ease-in-out;
     }
     .button-image-make:hover {
