@@ -33,8 +33,12 @@
         description: 'Our Castle Walls: After Stories is the post-game story sequel to the hit legacy modification, Our Castle Walls by Mr. ZeraTheMant, which follows the life of MC and Yuri after high school with their daughter Ellie in a slice-of-life homestyle daily adventure!',
         links: [
           {
-            text: 'Standard',
+            text: 'Version 1.1.1',
             url: 'https://www.mediafire.com/file_premium/yhais2if0bb5nfu/OCWAS_1.1.1.zip/file',
+          },
+          {
+            text: 'Version 1.1.2',
+            url: 'https://www.mediafire.com/file_premium/2vf7w7rsx5fla0h/OCWAS_1.1.2.zip/file',
           },
         ]
       }

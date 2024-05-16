@@ -21,19 +21,118 @@
         "imageUrl": "/assets/mod_prevs/shatteredcycle.webp",
         "route": "shatteredcycle"
       },
-      {
-        "id": 3,
-        "title": "Neuro-sama joins the Literature Club!",
-        "author": "JimenezLi",
-        "imageUrl": "/assets/mod_prevs/neurosama.webp",
-        "route": "neurosama"
-      },
+      
       {
         "id": 4,
         "title": "Doki Doki: NIGHT RAIN",
         "author": "Rimscar",
         "imageUrl": "/assets/mod_prevs/nightrain.webp",
         "route": "nightrain"
+      },
+      {
+        "id": 5,
+        "title": "Before the Needle Lifts",
+        "author": "UNOwen1",
+        "imageUrl": "/assets/mod_prevs/beforetheneedlelifts.webp",
+        "route": "beforetheneedlelifts"
+      },
+      {
+        "id": 6,
+        "title": "100 Club Members (Season 1)",
+        "author": "JustTensuraEdogawa",
+        "imageUrl": "/assets/mod_prevs/100clubmembers.webp",
+        "route": "100clubmembers"
+      },
+      {
+        "id": 7,
+        "title": "Doki Doki Brainrot Club",
+        "author": "Team Brainrot",
+        "imageUrl": "/assets/mod_prevs/brainrotclub.jpg",
+        "route": "brainrotclub"
+      },
+      {
+        "id": 8,
+        "title": "The Machine Stops",
+        "author": "Codex",
+        "imageUrl": "/assets/mod_prevs/themachinestops.webp",
+        "route": "themachinestops"
+      }, 
+      {
+        "id": 9,
+        "title": "Canon Quiz",
+        "author": "halibabica",
+        "imageUrl": "/assets/mod_prevs/cannonquiz.webp",
+        "route": "cannonquiz"
+      }, 
+      {
+        "id": 10,
+        "title": "A Weathered World (Remake)",
+        "author": "BioActive",
+        "imageUrl": "/assets/mod_prevs/aweatheredworld.webp",
+        "route": "aweatheredworld"
+      }, 
+      {
+        "id": 11,
+        "title": "Deceptive Hearts",
+        "author": "Codex, iiTzWolfyy",
+        "imageUrl": "/assets/mod_prevs/deceptivehearts.webp",
+        "route": "deceptivehearts"
+      },
+      {
+        "id": 12,
+        "title": "Deceptive Hearts 1.5",
+        "author": "Codex",
+        "imageUrl": "/assets/mod_prevs/deceptivehearts15.webp",
+        "route": "deceptivehearts1.5"
+      }, 
+      {
+        "id": 13,
+        "title": "Monika Enters the Real World",
+        "author": "Codex",
+        "imageUrl": "/assets/mod_prevs/monikaenterstherealworld.webp",
+        "route": "monikaenterstherealworld"
+      }, 
+      {
+        "id": 14,
+        "title": "Chad Joins the Literature Club",
+        "author": "Understone",
+        "imageUrl": "/assets/mod_prevs/chadjoinstheliteratueclub.webp",
+        "route": "chadjoinstheliteratureclub"
+      }, 
+      {
+        "id": 15,
+        "title": "Doki Doki Brainrot Club 2: Redux/Remaster",
+        "author": "Team Brainrot",
+        "imageUrl": "/assets/mod_prevs/brainrotclub2.jpg",
+        "route": "brainrotclub2"
+      }, 
+      {
+        "id": 16,
+        "title": "Turquoise",
+        "author": "Tormuse",
+        "imageUrl": "/assets/mod_prevs/turquoise.webp",
+        "route": "turquoise"
+      },
+      {
+        "id": 17,
+        "title": "The Dark Rainclouds",
+        "author": "Team Dark Rainclouds",
+        "imageUrl": "/assets/mod_prevs/thedarkrainclouds.webp",
+        "route": "thedarkrainclouds"
+      }, 
+      {
+        "id": 18,
+        "title": "Her Story",
+        "author": "Tiny Waffle Studios",
+        "imageUrl": "/assets/mod_prevs/herstory.png",
+        "route": "herstory"
+      }, 
+      {
+        "id": 19,
+        "title": "Neuro-sama joins the Literature Club!",
+        "author": "JimenezLi",
+        "imageUrl": "/assets/mod_prevs/neurosama.webp",
+        "route": "neurosama"
       }
     ],
 
@@ -111,7 +210,7 @@
           {
             "id": 1010,
             "title": "Doki Doki Outcast",
-            "author": "Fjord",
+            "author": "Matter Crafter",
             "imageUrl": "/assets/mod_prevs/outcast.webp",
             "route": "outcast"
           },
@@ -618,6 +717,260 @@
             "author": "Dyinide",
             "imageUrl": "/assets/mod_prevs/exitspoof.webp",
             "route": "exitspoof"
+          },
+          {
+            "id": 1083,
+            "title": "Doki Doki Impossible (Episode 1) ",
+            "author": "MaksonJolt",
+            "imageUrl": "/assets/mod_prevs/doki_doki_impossible_episode1.webp",
+            "route": "doki_doki_impossible_episode1"
+          },
+          {
+            "id": 1084,
+            "title": "Doki Doki Impossible (Episode 2) ",
+            "author": "MaksonJolt",
+            "imageUrl": "/assets/mod_prevs/doki_doki_impossible_episode2.webp",
+            "route": "doki_doki_impossible_episode2"
+          }, 
+          {
+            "id": 1085,
+            "title": "TMIWNHANDANHHTHTYVM",
+            "author": "MousePotatoDoesStuff",
+            "imageUrl": "/assets/mod_prevs/TMIWNHANDANHHTHTYVM.webp",
+            "route": "TMIWNHANDANHHTHTYVM"
+          }, 
+          {
+            "id": 1086,
+            "title": "Remembering",
+            "author": "GanstakingofSA",
+            "imageUrl": "/assets/mod_prevs/remembering.webp",
+            "route": "remembering"
+          },
+          {
+            "id": 1087,
+            "title": "Special Days",
+            "author": "Wyrmcast",
+            "imageUrl": "/assets/mod_prevs/specialdays.webp",
+            "route": "specialdays"
+          },
+          {
+            "id": 1088,
+            "title": "Escape From Home",
+            "author": "Abyssal949 (Syntholation/TwoColours)",
+            "imageUrl": "/assets/mod_prevs/escapefromhome.png",
+            "route": "escapefromhome"
+          },
+          {
+            "id": 1089,
+            "title": "Doki Doki Salvation",
+            "author": "12Gizguy6",
+            "imageUrl": "/assets/mod_prevs/salvation.webp",
+            "route": "salvation"
+          },
+          {
+            "id": 1090,
+            "title": "Sayori Says No To Suicide, a PSA",
+            "author": "Tormuse",
+            "imageUrl": "/assets/mod_prevs/sayorisaysno.webp",
+            "route": "sayorisaysno"
+          }, 
+          {
+            "id": 1091,
+            "title": "End of the Literature Club",
+            "author": "Tormuse",
+            "imageUrl": "/assets/mod_prevs/endoftheliteratureclub.webp",
+            "route": "endoftheliteratureclub"
+          }, 
+          {
+            "id": 1092,
+            "title": "Yuri's New Toy",
+            "author": "Tormuse",
+            "imageUrl": "/assets/mod_prevs/yurisnewtoy.webp",
+            "route": "yurisnewtoy"
+          }, 
+          {
+            "id": 1093,
+            "title": "Doki Doki Storm!",
+            "author": "Tormuse",
+            "imageUrl": "/assets/mod_prevs/dokidokistorm.webp",
+            "route": "dokidokistorm"
+          }, 
+          {
+            "id": 1094,
+            "title": "Silver & Emerald",
+            "author": "Tiny Waffle Studios",
+            "imageUrl": "/assets/mod_prevs/silverandemerald.webp",
+            "route": "silverandemerald"
+          }, 
+          {
+            "id": 1095,
+            "title": "Doki Doki Ordo Literato",
+            "author": "Last Remembrancer Team",
+            "imageUrl": "/assets/mod_prevs/dokidokiordoliterato.webp",
+            "route": "dokidokiordoliterato"
+          },
+          { 
+          
+            "id": 1096,
+            "title": "Happy Thoughts",
+            "author": "Riverr",
+            "imageUrl": "/assets/mod_prevs/happythoughts.webp",
+            "route": "happythoughts"
+          }, 
+          { 
+          
+            "id": 1097,
+            "title": "Doki Doki SOS Brigade",
+            "author": "NightmareNinja",
+            "imageUrl": "/assets/mod_prevs/sosbrigade.webp",
+            "route": "sosbrigade"
+          }, 
+          { 
+            "id": 1098,
+            "title": "Clay God",
+            "author": "UNOwen1",
+            "imageUrl": "/assets/mod_prevs/claygod.webp",
+            "route": "claygod"
+          }, 
+          { 
+            "id": 1099,
+            "title": "Natsuki Rants About Mods & Community",
+            "author": "Tiny Waffle Studios",
+            "imageUrl": "/assets/mod_prevs/natsukirants.webp",
+            "route": "natsukirants"
+          }, 
+          { 
+            "id": 1100,
+            "title": "Monika Gets An Anal Probe",
+            "author": "dfwk",
+            "imageUrl": "/assets/mod_prevs/monika_anal_probe.webp",
+            "route": "monika_anal_probe"
+          }, 
+          { 
+            "id": 1101,
+            "title": "My Cloudy Reality!",
+            "author": "MsMod Studios",
+            "imageUrl": "/assets/mod_prevs/cloudyreality.webp",
+            "route": "mycloudyreality"
+          },
+          { 
+            "id": 1102,
+            "title": "Natsuki Becomes The President Of The United States",
+            "author": "Frost",
+            "imageUrl": "/assets/mod_prevs/presidentnat.webp",
+            "route": "presidentnat"
+          }, 
+          { 
+            "id": 1103,
+            "title": "Doki Doki I'm Alive",
+            "author": "Ruthi, ZetaBeta",
+            "imageUrl": "/assets/mod_prevs/imalive.webp",
+            "route": "doki_doki_im_alive"
+          }, 
+          { 
+            "id": 1104,
+            "title": "My Doki Doki SNAFU",
+            "author": "GuyBread",
+            "imageUrl": "/assets/mod_prevs/snafu.webp",
+            "route": "snafu"
+          }, 
+          { 
+            "id": 1105,
+            "title": "Pages of Life",
+            "author": "Donkeyhotay",
+            "imageUrl": "/assets/mod_prevs/pagesoflife.webp",
+            "route": "pagesoflife"
+          }, 
+          { 
+            "id": 1106,
+            "title": "World Of Dreams: Thanksgiving Special",
+            "author": "Morbiusgreen",
+            "imageUrl": "/assets/mod_prevs/wodthanksgiving.png",
+            "route": "wodthanksgiving"
+          }, 
+          { 
+            "id": 1107,
+            "title": "Total Fold",
+            "author": "Vaunt_Fremont_Tocsin, chiffmonkey",
+            "imageUrl": "/assets/mod_prevs/totalfold.webp",
+            "route": "totalfold"
+          }, 
+          { 
+            "id": 1108,
+            "title": "MC Laments His Existence",
+            "author": "Vaunt_Fremont_Tocsin",
+            "imageUrl": "/assets/mod_prevs/mclaments.webp",
+            "route": "mclamentshisexistence"
+          }, 
+          { 
+            "id": 1109,
+            "title": "The First DDLC+ Mod",
+            "author": "Wretched Team",
+            "imageUrl": "/assets/mod_prevs/firstddlcplusmod.webp",
+            "route": "firstddlcplusmod"
+          }, 
+          { 
+            "id": 1110,
+            "title": "Starry Night",
+            "author": "Team Final Stand",
+            "imageUrl": "/assets/mod_prevs/starrynight.jpg",
+            "route": "starrynight"
+          }, 
+          { 
+            "id": 1111,
+            "title": "Keeper of Reality (Act One)",
+            "author": "Asahir Bloodfall",
+            "imageUrl": "/assets/mod_prevs/keeperofreality.webp",
+            "route": "keeperofreality"
+          }, 
+          { 
+            "id": 1112,
+            "title": "Club Meetings (Season 1)",
+            "author": "DokiDokiClubMeetings",
+            "imageUrl": "/assets/mod_prevs/club_meetings_season1.webp",
+            "route": "club_meetings_s1"
+          }, 
+          { 
+            "id": 1113,
+            "title": "Club Meetings (Season 2)",
+            "author": "DokiDokiClubMeetings",
+            "imageUrl": "/assets/mod_prevs/club_meetings_season2.webp",
+            "route": "club_meetings_s2"
+          }, 
+          { 
+            "id": 1114,
+            "title": "Club Meetings (Season 3)",
+            "author": "DokiDokiClubMeetings",
+            "imageUrl": "/assets/mod_prevs/club_meetings_season3.webp",
+            "route": "club_meetings_s3"
+          }, 
+          { 
+            "id": 1115,
+            "title": "Midnight Date",
+            "author": "Team Elevate",
+            "imageUrl": "/assets/mod_prevs/midnight_date.webp",
+            "route": "midnight_date"
+          }, 
+          { 
+            "id": 1116,
+            "title": "Doki Doki Christmas Time",
+            "author": "Team Elevate",
+            "imageUrl": "/assets/mod_prevs/christmastime.webp",
+            "route": "dokidokichristmastime"
+          }, 
+          { 
+            "id": 1117,
+            "title": "Doki Doki: Your Girlfriend Really Loves You!",
+            "author": "Team Elevate",
+            "imageUrl": "/assets/mod_prevs/girl_really_loves_you.webp",
+            "route": "yourgirlfriendreallylovesyou"
+          }, 
+          { 
+            "id": 1118,
+            "title": "Just Another Day",
+            "author": "Team Elevate",
+            "imageUrl": "/assets/mod_prevs/justanotherday.webp",
+            "route": "justanotherday"
           }
     ],
 
@@ -705,6 +1058,62 @@
         "author": "u/dark-rainclouds",
         "imageUrl": "/assets/mod_prevs/truestory.webp",
         "route": "truestorydemo"
+      },
+      {
+        "id": 10012,
+        "title": "Before the Needle Lifts",
+        "author": "UNOwen1",
+        "imageUrl": "/assets/mod_prevs/beforetheneedlelifts.webp",
+        "route": "beforetheneedlelifts"
+      }, 
+      {
+        "id": 10013,
+        "title": "Remembering",
+        "author": "GanstakingofSA",
+        "imageUrl": "/assets/mod_prevs/remembering.webp",
+        "route": "remembering"
+      }, 
+      {
+        "id": 10014,
+        "title": "Deceptive Hearts",
+        "author": "Codex, iiTzWolfyy",
+        "imageUrl": "/assets/mod_prevs/deceptivehearts.webp",
+        "route": "deceptivehearts"
+      }, 
+      {
+        "id": 10015,
+        "title": "Turquoise",
+        "author": "Tormuse",
+        "imageUrl": "/assets/mod_prevs/turquoise.webp",
+        "route": "turquoise"
+      }, 
+      {
+        "id": 10016,
+        "title": "Silver & Emerald",
+        "author": "Tiny Waffle Studios",
+        "imageUrl": "/assets/mod_prevs/silverandemerald.webp",
+        "route": "silverandemerald"
+      },
+      { 
+        "id": 10017,
+        "title": "Clay God",
+        "author": "UNOwen1",
+        "imageUrl": "/assets/mod_prevs/claygod.webp",
+        "route": "claygod"
+      }, 
+      { 
+        "id": 10018,
+        "title": "Doki Doki I'm Alive",
+        "author": "Ruthi, ZetaBeta",
+        "imageUrl": "/assets/mod_prevs/imalive.webp",
+        "route": "doki_doki_im_alive"
+      }, 
+      { 
+        "id": 10019,
+        "title": "My Doki Doki SNAFU",
+        "author": "GuyBread",
+        "imageUrl": "/assets/mod_prevs/snafu.webp",
+        "route": "snafu"
       }
     ],
 
@@ -740,7 +1149,7 @@
       {
         "id": 20004,
         "title": "Doki Doki The Dark Rainclouds Demo",
-        "author": "u/dark-rainclouds",
+        "author": "The Dark Rainclouds",
         "imageUrl": "/assets/mod_prevs/darkrainclouds.webp",
         "route": "darkraincloudsdemo"
       },
@@ -750,6 +1159,62 @@
         "author": "u/dark-rainclouds",
         "imageUrl": "/assets/mod_prevs/truestory.webp",
         "route": "truestorydemo"
+      },
+      {
+        "id": 20006,
+        "title": "Doki Doki Undercurrents ",
+        "author": "Studio Silver",
+        "imageUrl": "/assets/mod_prevs/undercurrents.webp",
+        "route": "undercurrents_demo"
+      }, 
+      {
+        "id": 20007,
+        "title": "A Deal With Alastor Demo v2.0",
+        "author": "TheNumbahSeven",
+        "imageUrl": "/assets/mod_prevs/adealwithalastor.webp",
+        "route": "adealwithalastordemo"
+      }, 
+      {
+        "id": 20008,
+        "title": "Turquoise Demo",
+        "author": "Tormuse",
+        "imageUrl": "/assets/mod_prevs/turquoise.webp",
+        "route": "turquoise_demo"
+      }, 
+      { 
+        "id": 20008,
+        "title": "Hibernation Demo",
+        "author": "CraftedBrother05",
+        "imageUrl": "/assets/mod_prevs/hibernation.webp",
+        "route": "hibernation_demo"
+      }, 
+      { 
+        "id": 20009,
+        "title": "Doki Doki After School (Original Wretched Team Demo)",
+        "author": "Wretched Team",
+        "imageUrl": "/assets/mod_prevs/afterschool.webp",
+        "route": "afterschool"
+      }, 
+      {
+        "id": 20010,
+        "title": "A New View",
+        "author": "Team Elevate",
+        "imageUrl": "/assets/mod_prevs/new_view.png",
+        "route": "anewviewdemo"
+      }, 
+      {
+        "id": 20011,
+        "title": "Doki Doki Love Torn",
+        "author": "Team Elevate",
+        "imageUrl": "/assets/mod_prevs/love_torn.webp",
+        "route": "lovetorndemo"
+      }, 
+      {
+        "id": 20012,
+        "title": "Natsuki's Expanded Story",
+        "author": "Specsuki",
+        "imageUrl": "/assets/mod_prevs/natsukis_expanded_story.webp",
+        "route": "natsukisexpandedstory"
       }
     ],
 
@@ -795,6 +1260,42 @@
         "author": "MarioDokiFan4ever",
         "imageUrl": "/assets/mod_prevs/beachdaywithkiyomi.webp",
         "route": "beachdaywithkiyomi"
+      },
+
+      {
+        "id": 30006,
+        "title": "Hang Out with Kotonoha",
+        "author": "MarioDokiFan4ever",
+        "imageUrl": "/assets/mod_prevs/hangoutwithkoto.webp",
+        "route": "hangoutwithkoto"
+      },
+      {
+        "id": 30007,
+        "title": "Kiyomi’s Big Date",
+        "author": "MarioDokiFan4ever",
+        "imageUrl": "/assets/mod_prevs/kiyomisbigdate.webp",
+        "route": "kiyomisbigdate"
+      },
+      {
+        "id": 30008,
+        "title": "Sayori’s Mistletoe Surprise ",
+        "author": "MarioDokiFan4ever",
+        "imageUrl": "/assets/mod_prevs/sayorismistletoesurprise.webp",
+        "route": "sayorismistletoesurprise"
+      },
+      {
+        "id": 30009,
+        "title": "DokiFan’s Birthday Surprise",
+        "author": "MarioDokiFan4ever",
+        "imageUrl": "/assets/mod_prevs/dokifansbirthdaysurprise.jpg",
+        "route": "dokifansbirthdaysurprise"
+      }, 
+      {
+        "id": 30010,
+        "title": "A Month With Natsuki",
+        "author": "TheBike",
+        "imageUrl": "/assets/mod_prevs/amonthwithnatsuki.jpg",
+        "route": "amonthwithnatsuki"
       }
     ]
   }
