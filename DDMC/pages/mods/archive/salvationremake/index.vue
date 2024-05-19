@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Salvation! Remake',
-      authors: '12GizGuy6',
+      authors: 'By 12GizGuy6',
       contributors: 'Submitted By: Beelzebruv',
       description: 'Formerly lost to time due to the creator 12GizGuy6 taking it down over critical feedback.',
       links: [

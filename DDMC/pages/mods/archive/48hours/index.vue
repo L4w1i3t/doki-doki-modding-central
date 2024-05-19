@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'The 48 Hour Mod',
-      authors: 'Wretched Team',
+      authors: 'By Wretched Team',
       contributors: 'Submitted By: Codex',
       description: 'A gloomy, bite-sized DDLC mod written by someone running on three hours of sleep. This mod was made in under 48 hours. (Technically in like 30)',
       links: [

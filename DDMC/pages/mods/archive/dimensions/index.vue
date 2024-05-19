@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Dimensions',
-      authors: 'ChiffMonkey',
+      authors: 'By ChiffMonkey',
       contributors: 'Submitted By: JQilin Gaming, Codex',
       description: 'Dimensions is a genre-shift modification for Doki Doki Literature Club. Despite the sci-fi tone, it is written as a sequel to the original DDLC. All Dokis have routes. No forced romance. Swearing. No jump scares, but... some death.',
       links: [

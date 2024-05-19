@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Doki Doki: NIGHT RAIN',
-      authors: 'Rimscar',
+      authors: 'By Rimscar',
       contributors: 'Submitted By: Tune Eternal',
       description: "The year is 2007. It's a quiet evening in Okayama. A boy tugs at his jacket, his breath loses warmth in the frigid air. A sound― that of a vehicle cutting through the silence. Thoughts flood his mind, those of anxiety, anticipation― and regret. Another moment. The car passes... Still waiting. It's been years since the boy left his hometown, He wonders if his friends will remember him― he wonders if he still has friends. Perhaps he shouldn't have these thoughts, perhaps― Another moment passes, and the black tires come to a screeching halt. The boy steps inside.",
       links: [

@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Deceptive Hearts 1.5',
-      authors: 'Codex',
+      authors: 'By Codex',
       contributors: 'Submitted By: Tune Eternal',
       description: "Well, just one month after the full release of Deceptive Hearts, I'm proud to announce the next installment in the series! With a much more immersive plot then the original, you're in for a wild ride. Based on cringe in r/ddlcmods",
       links: [

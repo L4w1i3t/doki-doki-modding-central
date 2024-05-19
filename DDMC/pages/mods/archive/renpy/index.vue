@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'DDLC: The Struggles of RenPy 6',
-      authors: 'Silver, Empyre',
+      authors: 'By Silver, Empyre',
       contributors: 'Submitted By: Tune Eternal',
       description: 'This mod exists solely to tell you not to use renpy 6. I really hope its funny enough for people who already use renpy 7 made in one day with my man u/deadempyre.',
       links: [

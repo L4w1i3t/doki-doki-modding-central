@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'A Date With Monika',
-      authors: 'SlightlySimple',
+      authors: 'By SlightlySimple',
       contributors: 'Submitted By: Codex',
       description: 'Inspired by the YouTube series "A Date With Markiplier", go on a date with Monika! Your choices will impact what happens, so choose carefully!',
       links: [

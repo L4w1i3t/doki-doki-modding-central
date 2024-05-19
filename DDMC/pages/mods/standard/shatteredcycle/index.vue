@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Shattered Cycle',
-      authors: 'MasterlumaTDK',
+      authors: 'By MasterlumaTDK',
       contributors: 'Submitted By: Tune Eternal',
       description: "Yeah, Luma's description was a bunch of rambling. Just know it is like half-baked Mob of the Dead from CoD Zombies. Just visit reddit link: https://www.reddit.com/r/DDLCMods/comments/1bj4nhk/shattered_cycle_full_release/ ",
       links: [

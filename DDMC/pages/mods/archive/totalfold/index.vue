@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Total Fold',
-      authors: 'Vaunt_Fremont_Tocsin, chiffmonkey',
+      authors: 'By Vaunt_Fremont_Tocsin, chiffmonkey',
       contributors: 'Submitted By: ACT8113',
       description: "This mod was made as part of a short mod challenge hosted by u/chiffmonkey, where the point was to make a mod using only the assets available in a supplied folder with specific assets. And of course, to make a story that made sense. While a few things were added majority of the assets came from chiffmonkey's folder. Enjoy our protagonist's reminiscence over his high school years.",
       links: [

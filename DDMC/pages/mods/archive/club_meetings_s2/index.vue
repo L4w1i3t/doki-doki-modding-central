@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Club Meetings (Season 2)',
-      authors: 'DokiDokiClubMeetings',
+      authors: 'By DokiDokiClubMeetings',
       contributors: 'Submitted By: 64BitBob',
       description: "The club members are meeting for a summer birthday party! In the meantime, Monika's bundled together all the Season Two happenings for you in one convenient download!",
       links: [

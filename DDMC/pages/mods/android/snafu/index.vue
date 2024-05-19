@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: "My Doki Doki SNAFU",
-      authors: 'GuyBread',
+      authors: 'By GuyBread',
       contributors: 'Submitted By: 128BitBob',
       description: "My Doki Doki SNAFU follows a re-envisioned MC as he joins the Literature Club and spends the semester learning more about its members while trying not to get caught up in their antics. Joy, sorrow, empathy... feel these and much more while playing through the routes of all your favorite Dokis!",
       links: [

@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Her Story',
-      authors: 'Tiny Waffle Studios',
+      authors: 'By Tiny Waffle Studios',
       contributors: 'Submitted By: cpcantimark',
       description: "A short mod about Kotonoha’s life and her relationship with her cousin Yuri. Not much else to say here without spoiling the mod, but you might want to bring some determination before playing.",
       links: [

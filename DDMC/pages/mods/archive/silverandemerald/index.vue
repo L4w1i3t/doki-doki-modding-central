@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: "Silver & Emerald",
-      authors: 'Tiny Waffle Studios',
+      authors: 'By Tiny Waffle Studios',
       contributors: 'Submitted By: Tune Eternal',
       description: "Monika and Kotonoha make a bet to see who can get the best grade on an exam next class period. Koto gets a lil quirky aka pissed off and, well... you'll see lol. (Side note: If you want any sort of closure to what Natsuki was saying at the very end of Natsuki Rants About DDLC Mods and Community, this is probably the best you're gonna get lol.)",
       links: [

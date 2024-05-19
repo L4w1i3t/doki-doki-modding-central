@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Chad Joins the Literature Club',
-      authors: 'Understone',
+      authors: 'By Understone',
       contributors: 'Submitted By: Tune Eternal',
       description: "Yo. You should, like, download this mod. I spent WAY too much time making this as realistic as possible. Ever wondered if, like, MC was a Chad and only cared about grinding? This is that. (Loosely based on Sigma Club).",
       links: [

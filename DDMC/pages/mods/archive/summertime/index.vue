@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: "Summertime",
-      authors: 'Arianne/Urbanmech360',
+      authors: 'By Arianne/Urbanmech360',
       contributors: 'Submitted By: Codex, L4w1i3t',
       description: "Fun-filled summer adventure and experience a romantic tale from a new perspective!",
       links: [

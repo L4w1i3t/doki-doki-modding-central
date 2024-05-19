@@ -30,7 +30,7 @@ export default {
   data() {
     return {
       title: 'Escape From Home',
-      authors: 'Abyssal949 (Syntholation/TwoColours)',
+      authors: 'By Abyssal949 (Syntholation/TwoColours)',
       contributors: 'Submitted By: Savage Sentral',
       description: "Natsuki is being abused by her father once again and decides that this time enough is enough, it's time to run away and Escape From Home (*boom* *boom* *tssk*). This 20 minute demo by the one and only Abyssal949 was for years thought to be lost media but now is available for download here on ddmc.site.", 
       description2: "*Important Notice*: Abyssal949 (aka Syntholation) is officially banned from DDMC for engaging in disturbing ERP's the full contents of which are not to be disclosed to the public. For more information go watch Savage Sentral's 3 part docu-series, 'The 949 Story' on the topic. Let it be known that DDMC publishing this mod to the site is not an endorsement of the individual or individuals that created said mod and that said mod being posted here is only to preserve DDLC modding history and to accomplish our goal of 'archiving everything.' - DDMC",

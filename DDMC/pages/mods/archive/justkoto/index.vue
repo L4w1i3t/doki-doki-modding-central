@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: "Just Kotonoha!",
-      authors: 'Rose, Riverr',
+      authors: 'By Rose, Riverr',
       contributors: 'Submitted By: Codex',
       description: "After all the controversies Just Kotonoha is finally here! This is the greatest moment of my entire life! Even better than the birth of my first son!",
       links: [

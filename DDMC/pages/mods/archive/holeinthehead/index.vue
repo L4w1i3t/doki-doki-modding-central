@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'I Need This Mod Like A Hole In The Head',
-      authors: 'MagmaSlasher',
+      authors: 'By MagmaSlasher',
       contributors: 'Submitted By: Finn TDK',
       description: 'The Club gets two new members! John F. Kennedy, and Abraham Lincoln! Also, Sayori fucking dies.',
       links: [

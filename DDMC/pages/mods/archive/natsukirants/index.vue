@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: "Natsuki Rants About Mods & Community",
-      authors: 'Tiny Waffle Studios',
+      authors: 'By Tiny Waffle Studios',
       contributors: 'Submitted By: Tune Eternal',
       description: "The plot of this mod is essentially described in the title. This is a very short mod (with mid jokes) that was thrown together in 80 minutes.",
       links: [

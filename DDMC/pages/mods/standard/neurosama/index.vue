@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Neuro-sama joins the Literature Club! ',
-      authors: 'JimenezLi',
+      authors: 'By JimenezLi',
       contributors: 'Submitted By: Tune Eternal',
       description: "Neuro-sama is a famous AI VTuber. One day, her younger twin sister, Evil, runs away to DDLC by accident. So Neuro goes to bring her back home before their parents, Vedal and Anny, come back from their date. Along the way, the twins decide to find some fun in the DDLC world... ",
       links: [

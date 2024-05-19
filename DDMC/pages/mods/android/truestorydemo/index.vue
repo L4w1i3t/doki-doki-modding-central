@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'True Story Demo',
-      authors: 'Neljas',
+      authors: 'By Neljas',
       contributors: 'Submitted By: Tune Eternal',
       description: "True Story is Monika's POV mod, heavily inspired by Everlasting Summer (especially Semyon's route) and Seven Summer Days. This, among other things, applies to the menu, gui, and the music (in this mod there are even more OST's from ES than DDLC OST's), even the saving method (unlike regular DDLC mods, in this mod you first need to point at selected slot, and then again additionally click on the corresponding “Save/Load” button, in general, just like in ES)",
       links: [

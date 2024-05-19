@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Keeper of Reality (Act One)',
-      authors: 'Asahir Bloodfall',
+      authors: 'By Asahir Bloodfall',
       contributors: 'Submitted By: 64BitBob',
       description: "Monika has entered an endless loop in the game. Always killing and distorting her friends without reaching an end. How many times has she done that? How much of her mind has been corrupted? She doesn't know and she doesn't care. Monika only has one objective. But her actions will attract undesirable attention...",
       links: [

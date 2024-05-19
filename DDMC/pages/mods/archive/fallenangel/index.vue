@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Fallen Angel',
-      authors: 'Noa-AT',
+      authors: 'By Noa-AT',
       contributors: 'Submitted By: Norbol',
       description: 'In an alternate universe where Monika is not self aware, MC finds himself growing closer to Yuri. Soon however, he discovers what this girl is hiding from the outside world. The other girls problems start to appear as well, as they progress within the overarching narrative of Yuri and MCs relationship. Fallen Angel is a story that is meant to tug and pull on many different emotions. It will allow you to help Yuri overcome her self harm, anxiety, and insecurities. The story will swing from wholesome and heartfelt, to soul crushing sadness. With new artworks and music to help you lose yourself in the story and help create an experience you will not soon forget. Do you have what it takes to save... a Fallen Angel?',
       links: [

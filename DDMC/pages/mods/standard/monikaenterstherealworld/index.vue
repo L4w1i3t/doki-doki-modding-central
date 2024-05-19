@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Monika Enters the Real World',
-      authors: 'aahilj',
+      authors: 'By aahilj',
       contributors: 'Submitted By: Tune Eternal',
       description: "Monika has found a way to enter the real world. But this would mean she will have to leave her club behind.",
       links: [

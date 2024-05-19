@@ -28,7 +28,7 @@
     data() {
       return {
         title: 'Doki Doki Love Torn (Demo)',
-        authors: 'Team Elevate',
+        authors: 'By Team Elevate',
         contributors: 'Submitted By: 64BitBob',
         description: "In this mod, you live in a re-imagined world of Doki Doki Literature Club. No craziness, just DDLC with a normal life! When your best friend Sayori convinces you to join her club, a chance reunion with your childhood friend Kotonoha sends you down a spiral path of choices, where you enjoy the good, while attempting to handle the bad. Can you handle everything life's about to send your way?",
         links: [

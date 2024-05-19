@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'The Haunting of Monika After Story',
-      authors: 'President JM, DACHero',
+      authors: 'By President JM, DACHero',
       contributors: 'Submitted By: Tune Eternal',
       description: 'Kinda like a parody of I Gently Open The Door, but perhaps even more deranged. Play as an adolescent broke male who is a chronic Monika After Story player. However, his life turns upside down when he installs an unreleased mod. TW: There is slight NSFW (Gore/Graphic) content.',
       links: [

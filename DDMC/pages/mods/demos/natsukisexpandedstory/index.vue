@@ -31,7 +31,7 @@
     data() {
       return {
         title: "Natsuki's Expanded Story",
-        authors: 'Specsuki',
+        authors: 'By Specsuki',
         contributors: 'Submitted By: Knuklez',
         description: "A discontinued demo where in this story, the MC is best friends with Natsuki.",
         description2: "This modification contains materials that are copyrighted by other artists in certain regions of the world, and may cause certain individuals to experience conflictions with copyright content identification when recording footage. Please proceed with caution if this applies to you. It was on the list 'Removed Mods due to Copyright' If I had to guess it was probably be the only 2 non ddlc background.",

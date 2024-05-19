@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Exit Music: Redux',
-      authors: 'Wretched Team',
+      authors: 'By Wretched Team',
       contributors: 'Submitted By: Codex',
       description: 'A total rewrite and overhaul of the 2018 DDLC mod, Exit Music, with improvements to the mod on every front. A fresh take on the emotional, romantic & heart-wrenching story.',
       links: [

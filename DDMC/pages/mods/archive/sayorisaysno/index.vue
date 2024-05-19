@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Sayori Says No To Suicide, a PSA',
-      authors: 'Tormuse',
+      authors: 'By Tormuse',
       contributors: 'Submitted By: Tune Eternal',
       description: "This mod is a short Public Service Announcement (~30 minutes) hosted by Sayori herself (and a little help from her friends) all about dealing with depression and suicidal thoughts, including tips for approaching someone who is suicidal. Intended to be entertaining as well as educational, but this mod still may very well save someone's life some day. (Or so I hope; I think that would be pretty cool!) :)",
       links: [

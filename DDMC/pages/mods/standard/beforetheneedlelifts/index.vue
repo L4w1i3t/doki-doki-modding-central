@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Before the Needle Lifts',
-      authors: 'UNOwen1',
+      authors: 'By UNOwen1',
       contributors: 'Submitted By: Tune Eternal',
       description: "You and your girlfriend Sayori investigate a series of strange disappearances around your town.",
       links: [

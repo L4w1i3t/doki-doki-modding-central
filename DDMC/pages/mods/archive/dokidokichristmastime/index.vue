@@ -27,7 +27,7 @@ export default {
   data() {
     return {
       title: 'Doki Doki: Christmas Time',
-      authors: 'Team Elevate',
+      authors: 'By Team Elevate',
       contributors: 'Submitted By: 64BitBob',
       description: "This festive mod follows the MC, Monika and their adorable daughter Miyuki throughout the week leading up to Christmas. That's it. Enjoy Christmas in January.",
       links: [

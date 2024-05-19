@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Turquoise',
-      authors: 'Tormuse',
+      authors: 'By Tormuse',
       contributors: 'Submitted By: Tune Eternal, Yumi',
       description: "After three years of work, at long last, I'm pleased to present Turquoise! :D This is a Sayonika mod, featuring a romantic relationship between Sayori and Monika, told from Sayori's point of view. It features roughly ten hours of new content over 13 in-game days. It can be considered to be an alternate timeline from the original game, so don't assume you know everything about the story and/or characters.",
       links: [

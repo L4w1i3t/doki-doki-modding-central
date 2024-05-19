@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Dokis and The Chief',
-      authors: 'interweb_cat',
+      authors: 'By interweb_cat',
       contributors: 'Submitted By: Tune Eternal',
       description: 'Okay here me out, what if... Master Chief had power armor that could protect from the most elite of Covenant armor, and enjoyed literature?',
       links: [

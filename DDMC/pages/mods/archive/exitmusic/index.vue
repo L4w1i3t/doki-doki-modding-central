@@ -31,7 +31,7 @@ export default {
   data() {
     return {
       title: 'Exit Music',
-      authors: 'Penny, MalukahMaker, SadBoiJake; Wretched Team (Rerelease)',
+      authors: 'By Penny, MalukahMaker, SadBoiJake; Wretched Team (Rerelease)',
       contributors: 'Submitted By: Codex',
       description: 'A modern interpretation of Romeo & Juliet, follow MC and Natsuki as they find themselves attached in love alongside struggling to deal with the many problems that threaten their relationship.',
       description2: 'This modification contains materials that are copyrighted by other artists in certain regions of the world, and may cause certain individuals to experience conflictions with copyright content identification when recording footage. Please proceed with caution if this applies to you. Has Radio Head Covers',

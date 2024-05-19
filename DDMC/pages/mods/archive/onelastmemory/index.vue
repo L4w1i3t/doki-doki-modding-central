@@ -31,7 +31,7 @@ export default {
   data() {
     return {
       title: 'One Last Memory',
-      authors: '12GizGuy6',
+      authors: 'By 12GizGuy6',
       contributors: 'Submitted By: Knuklez',
       description: 'Imagine if the events of Salvation never happened, then you would get One Last Memory. A half sequel to Salvation where Sayori went through with her suicide and how it affected both the MC and the club.',
       description2: 'This modification contains materials that are copyrighted by other artists in certain regions of the world, and may cause certain individuals to experience conflictions with copyright content identification when recording footage. Please proceed with caution if this applies to you. The music in the credits are from Evangelion and girls last tour',

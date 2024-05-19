@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'A Burger Gets Sayori',
-      authors: '10thMod',
+      authors: 'By 10thMod',
       contributors: 'Submitted By: Codex',
       description: 'Irritated from the events of Sayori Gets a Burger, the titular Food Guy goes through a wacky day filled with all sorts of colorful characters to exact his revenge on the bubbly bun.',
       links: [

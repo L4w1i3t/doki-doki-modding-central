@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Everlasting Act 1 Remastered',
-      authors: 'Team Everlasting',
+      authors: 'By Team Everlasting',
       contributors: 'Submitted By: Tune Eternal',
       description: 'After a sudden incident regarding his parents that caused him to move with his grandparents, MC moves back into his childhood home with his aunt. Reconnecting with Sayori, he meets the Literature Club, where he starts to develop feelings for a certain club president. However, Monika has a secret behind closed doors, and MC has one goal: make Monika happy.',
       links: [
