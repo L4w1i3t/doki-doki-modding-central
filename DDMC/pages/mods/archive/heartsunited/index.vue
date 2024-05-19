@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Our Hearts United Chapter 1 - When Worlds Collide',
-      authors: 'Azrathas and Team Nazuko/Skarlet',
+      authors: 'By Azrathas and Team Nazuko/Skarlet',
       contributors: 'Submitted By: Azrathas ',
       description: 'An indirect sequel to Shattered World and the Blood Moon Chapters, the timeline rebooted itself after certain events, allowing certain people to remember what had transpired while leaving some unaware. Trust is questionable, and secrets lay hidden in this new yet familiar reality. Who do you truly go to for such answers? What was the reason why the timeline reset had happened?.',
       links: [

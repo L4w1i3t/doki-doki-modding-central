@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: "Monika Before Story",
-      authors: 'Team Monika',
+      authors: 'By Team Monika',
       contributors: 'Submitted By: Codex',
       description: "A lot of the writing tried to mimic the original DDLC theme to it, from the humor all the way to character. Most of the challenges include fleshing out Monika, doing the writing for Just Sayori, as well as re-writes of the base game to turn MC into the president. We knew audience was split into those who wanted a canon feel, and those who were searching for feels whatever they may be.",
       links: [

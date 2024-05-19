@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: "Hypnopompic",
-      authors: '-M!',
+      authors: 'By -M!',
       contributors: 'Submitted By: Codex',
       description: "5th mod in the fleeting feelings universe.",
       links: [

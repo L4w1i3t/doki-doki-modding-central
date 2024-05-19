@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Everlasting Solitude',
-      authors: 'BrunoMula',
+      authors: 'By BrunoMula',
       contributors: 'Submitted By: Tune Eternal',
       description: 'Life has thrown you a major turnabout, everything was going fine until *that* happened and now you need help... one month later and you fell that you have a life again, even if you still have some fears. But even if you are fine, she is not, now that you have recovered from this major trauma, it is finally time to help her out...',
       links: [

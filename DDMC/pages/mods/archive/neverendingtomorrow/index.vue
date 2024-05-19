@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: "Never Ending Tomorrow",
-      authors: 'KouichiKie35',
+      authors: 'By KouichiKie35',
       contributors: 'Submitted By: Codex',
       description: "You, as the protagonist of this story will have to face difficult decisions. A former entity speaks to you, warning you of future events. It's not who you think it is. As mystery fills the air you will have to choose one, or lose all..",
       links: [

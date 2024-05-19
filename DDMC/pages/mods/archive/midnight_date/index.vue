@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: "Midnight Date",
-      authors: 'Team Elevate',
+      authors: 'By Team Elevate',
       contributors: 'Submitted By: 64BitBob',
       description: "Formerly known as Queen of the Night. It is date night with Yuri, but not all is what it seems.",
       links: [

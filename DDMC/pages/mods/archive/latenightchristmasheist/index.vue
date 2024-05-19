@@ -1,9 +1,9 @@
 
 <template>
-  <title>Just Another Day</title>
+  <title>Late Night Christmas Heist</title>
   <div>
     <div class="preview-image">
-      <img src="/assets/mod_prevs/justanotherday.webp" alt="Preview Image">
+      <img src="/assets/mod_prevs/christmasheist.webp" alt="Preview Image">
     </div>
     <div class="title-box">
       <h1>{{ title }}</h1>
@@ -27,14 +27,14 @@
 export default {
   data() {
     return {
-      title: "Just Another Day",
-      authors: 'By Team Elevate',
-      contributors: 'Submitted By: 64BitBob',
-      description: "There's nothing special, exciting, or even happy going on, it's just another day. This mod has heavy topics of depression and suicide, play at your own risk. Side note, the settings menu is a bit janky, but that's about it.",
+      title: 'Late Night Christmas Heist',
+      authors: 'By Team Relations',
+      contributors: 'Submitted By: Tune Eternal',
+      description: "It's Christmas Eve, and Sayori is really excited for season festivities. She even got presents for everyone! Monika, Yuri, Natsuki, and... wait a second. She forgot to get a gift for you! She doesn't want you feeling sad, so what do we do? Time to cook up a Late Night Christmas Heist!",
       links: [
         {
           text: 'Standard',
-          url: 'https://www.mediafire.com/file_premium/hmejcy1kfl26q5b/DDJAD-3.0.1-Renpy7Mod.zip/file'
+          url: 'https://www.mediafire.com/file_premium/688xbrhe6i4vll6/Late_Night_Christmas_Heist_-_Ver_1.0_-_PC.rar/file'
         },
       ]
     }

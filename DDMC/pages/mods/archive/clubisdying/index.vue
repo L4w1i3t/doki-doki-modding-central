@@ -1,9 +1,9 @@
 
 <template>
-  <title>Just Another Day</title>
+  <title>The Doki Doki Literature Club is Dying</title>
   <div>
     <div class="preview-image">
-      <img src="/assets/mod_prevs/justanotherday.webp" alt="Preview Image">
+      <img src="/assets/mod_prevs/clubisdying.webp" alt="Preview Image">
     </div>
     <div class="title-box">
       <h1>{{ title }}</h1>
@@ -27,14 +27,14 @@
 export default {
   data() {
     return {
-      title: "Just Another Day",
-      authors: 'By Team Elevate',
-      contributors: 'Submitted By: 64BitBob',
-      description: "There's nothing special, exciting, or even happy going on, it's just another day. This mod has heavy topics of depression and suicide, play at your own risk. Side note, the settings menu is a bit janky, but that's about it.",
+      title: 'The Doki Doki Literature Club is Dying',
+      authors: 'By SomeDudeNamedAyat',
+      contributors: 'Submitted By: Tune Eternal',
+      description: "Graduation is soon, and the Literature Club has not grown one bit since MC joined. This leads to Monika calling for a very important meeting, one that may determine the very fate of this friend group as they know it.",
       links: [
         {
           text: 'Standard',
-          url: 'https://www.mediafire.com/file_premium/hmejcy1kfl26q5b/DDJAD-3.0.1-Renpy7Mod.zip/file'
+          url: 'https://www.mediafire.com/file_premium/e6vpiwtomudps0s/The_Doki_Doki_Literature_Club_Is_Dying.zip/file'
         },
       ]
     }

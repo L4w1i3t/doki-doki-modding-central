@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: "Monika Gets An Anal Probe",
-      authors: 'dfwk',
+      authors: 'By dfwk',
       contributors: 'Submitted By: Tune Eternal',
       description: "Monika can't resist Chocolate Impossible Chicken Pot Pie. This is literally just a faithful recreation of South Park S1E1, “Cartman Gets An Anal Probe.",
       links: [

@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Focus On me',
-      authors: 'NitrosGaming',
+      authors: 'By NitrosGaming',
       contributors: 'Submitted By: JQilin Gaming',
       description: 'This is the first mod i have ever made and i hope you like it I do not really know how to describe the game so just play it to find out Also i worked really really hard on this There is multiple endings and routes so please explore them all. I AM UNSURE WHETHER THIS IS FINISHED OR NOT BUT IT PROBABLY IS. THERE IS A SEQUEL AFTER THIS LINK IN THIS POST TO THE SEQUEL',
       links: [

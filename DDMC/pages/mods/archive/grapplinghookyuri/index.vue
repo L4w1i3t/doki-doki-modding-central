@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Grappling Hook Yuri - The Origin Arc',
-      authors: 'Empyre, Silver, SpiritH0F',
+      authors: 'By Empyre, Silver, SpiritH0F',
       contributors: 'Submitted By: Tune Eternal',
       description: 'Welcome to inside joke hell! This mods concept was formulated over 5 months ago but we didnt make it because it was too specific... but then we said fuck it. This was supposed to be for the 5th anniversary mod jam but we spent like, an entire extra month making it for some reason. So I hope you enjoy it, I guess? Have fun, fuckers ~ silver (yes empyre didnt write this description lmao) This mod contains graphic scenes of violence and is definitely not for the easily disturbed.',
       links: [

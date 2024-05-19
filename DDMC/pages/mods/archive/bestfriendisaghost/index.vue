@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'My Best Friend is a Ghost (Original)',
-      authors: 'Storm Boss, icouldbecooler',
+      authors: 'By Storm Boss, icouldbecooler',
       contributors: 'Submitted By: JQilin Gaming',
       description: 'After Sayori, your childhood best friend, tragically loses her life you fall into a deep depression. You stop going to school, eating, all together become a shell of your former self. Until one day when you start hearing voices, finding cooked meals, seeing objects fly around. It all comes to a stop when one faithful night Sayoris ghost comes to you because of some... "unfinished business".',
       links: [

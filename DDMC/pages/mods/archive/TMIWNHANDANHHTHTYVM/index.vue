@@ -27,7 +27,7 @@ export default {
   data() {
     return {
       title: 'TMIWNHANDANHHTHTYVM',
-      authors: 'MousePotatoDoesStuff',
+      authors: 'By MousePotatoDoesStuff',
       contributors: 'Submitted By: MousePotatoDoesStuff',
       description: "Natsuki: Listen up, dummy! The Mod In Which Natsuki Has A Nice Day And Nothing Horrible Happens To Her, Thank You Very Much is a short mod in which I finally get to catch a break. This isn't a trick, either. We're not going to pull a Pink Eyes on you. Here's a trailer if you're not convinced: https://www.reddit.com/r/DDLCMods/comments/pw2hy0/tmiwnhandanhhthtyvm_release_announcement_captions/ See you in the mod!",
       links: [

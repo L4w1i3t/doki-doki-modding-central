@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'A Date With Yuri (ver 1.1)',
-      authors: 'Team Red Mazda',
+      authors: 'By Team Red Mazda',
       contributors: 'Submitted By: Tune Eternal',
       description: 'Yuri asked you out on a date, and you said yes. Why? I mean, I have no idea. That was entirely your decision. Now, go on a date with the lovable lavender lass.',
       links: [

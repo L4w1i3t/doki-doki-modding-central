@@ -27,7 +27,7 @@ export default {
   data() {
     return {
       title: 'Doki Doki Storm',
-      authors: 'Tormuse',
+      authors: 'By Tormuse',
       contributors: 'Submitted By: Tune Eternal, Knuklez',
       description: "Holy moly, I started writing this over two and a half years ago! :o (Feb. 26, 2018, to be exact) This has been a very long time coming, but it's finally here! Doki Doki Storm! :D",
       links: [

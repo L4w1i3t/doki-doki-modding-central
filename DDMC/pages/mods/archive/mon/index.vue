@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: "Memories of Nothing",
-      authors: '-M!',
+      authors: 'By -M!',
       contributors: 'Submitted By: Codex',
       description: "Fourth mod in the fleeting feelings universe.",
       links: [

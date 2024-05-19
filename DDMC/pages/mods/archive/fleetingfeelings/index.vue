@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: "Fleeting Feelings",
-      authors: '-M!',
+      authors: 'By -M!',
       contributors: 'Submitted By: Codex',
       description: "The final mod in the fleeting feelings universe, where everyone's personalities are different.",
       links: [

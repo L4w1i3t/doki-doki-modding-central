@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Club Meetings (Season 1)',
-      authors: 'DokiDokiClubMeetings',
+      authors: 'By DokiDokiClubMeetings',
       contributors: 'Submitted By: 64BitBob',
       description: "Ever wondered what the literature club would do if THEY could make their own DDLC mods? Wonder no more, as the four Season 1 mods are all here, again with character commentary on their mods. Club Meetings is the only mod that gives you mods inside your mod! You get - Doki Doki Ship Club, by Monika - Shadows Over the Literature Club, by Yuri - Baking with Natsuki, by Natsuki - Doki Doki Wine Club, by MC",
       links: [

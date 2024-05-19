@@ -88,7 +88,7 @@
       {
         "id": 13,
         "title": "Monika Enters the Real World",
-        "author": "Codex",
+        "author": "aahilj",
         "imageUrl": "/assets/mod_prevs/monikaenterstherealworld.webp",
         "route": "monikaenterstherealworld"
       }, 
@@ -971,6 +971,13 @@
             "author": "Team Elevate",
             "imageUrl": "/assets/mod_prevs/justanotherday.webp",
             "route": "justanotherday"
+          }, 
+          { 
+            "id": 1119,
+            "title": "Late Night Christmas Heist",
+            "author": "Team Elevate",
+            "imageUrl": "/assets/mod_prevs/christmasheist.webp",
+            "route": "latenightchristmasheist"
           }
     ],
 

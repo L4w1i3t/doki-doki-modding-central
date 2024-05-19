@@ -31,7 +31,7 @@ export default {
   data() {
     return {
       title: 'Starry Night',
-      authors: 'Team Final Stand',
+      authors: 'By Team Final Stand',
       contributors: 'Submitted By: Knuklez',
       description: "After a late night of reading and the background noise of the News you soon find out that tomorrow night, a clear and beautiful sky will show itself with the stars glowing like they never have, and with Yuri by your side, it'll be even better.",
       links: [

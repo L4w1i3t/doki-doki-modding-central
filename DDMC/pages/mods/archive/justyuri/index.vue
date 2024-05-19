@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: "Just Yuri",
-      authors: 'Just Yuri Dev Team',
+      authors: 'By Just Yuri Dev Team',
       contributors: 'Submitted By: Codex',
       description: "Spend your time with Yuri and grow a relationship with her. If you don't treat her well, there will be consequences...",
       links: [

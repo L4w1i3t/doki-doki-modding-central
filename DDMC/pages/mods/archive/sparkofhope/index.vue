@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: "Spark Of Hope",
-      authors: 'Mysticsense11',
+      authors: 'By Mysticsense11',
       contributors: 'Submitted By: Yumi',
       description: "The MC finds himself in a void where he realizes there can be happiness in this world, however he can't do it without the girls. He finds away to bring back Monika and convinces her to restore the game, but at a cost. The others remember exactly what happened in the past, it's up to you to make things right again. Will you be able to rebuild the friendship they had before or will it all go horrible like the past?",
       links: [

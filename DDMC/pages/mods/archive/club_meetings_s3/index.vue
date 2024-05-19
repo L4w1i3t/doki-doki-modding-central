@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Club Meetings (Season 3)',
-      authors: 'DokiDokiClubMeetings',
+      authors: 'By DokiDokiClubMeetings',
       contributors: 'Submitted By: 64BitBob',
       description: "We're back! As their new lives in college approach, the club (and Ms. Ida) travel to a city vacation together. The hijinks will doubtless be unending once they arrive. Get all those hijinks, as well as everything else from Season Three, in this convenient single download!",
       links: [

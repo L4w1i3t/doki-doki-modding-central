@@ -27,7 +27,7 @@ export default {
   data() {
     return {
       title: 'End of the Literature Club',
-      authors: 'Tormuse',
+      authors: 'By Tormuse',
       contributors: 'Submitted By: Tune Eternal',
       description: "As the title says, I've just released a short, horrific Hallowe'en mod called 'End of the Literature Club.'",
       links: [

@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Amor Fati',
-      authors: 'DarkSyner, BootyCrusader',
+      authors: 'By DarkSyner, BootyCrusader',
       contributors: 'Submitted By: JQilin Gaming, Knuklez',
       description: 'After 12 pain painstakingly months the mod is finally ready to be played for the world to enjoy. Follow MC a he witnesses Sayoris death. He blacks out and when he comes to he finds himself a week in the past. He makes it his mission to save Sayori. Will you be able to find the way to save the Cinnabun? You just have to play to find out.',
       links: [

@@ -32,7 +32,7 @@ export default {
   data() {
     return {
       title: "Doki Doki Hazbin Hotel",
-      authors: 'Vaunt_Fremont_Tocsin',
+      authors: 'By Vaunt_Fremont_Tocsin',
       contributors: 'Submitted By: ACT8113',
       description: "The bros of the Doki's were just chillin' that day, Later Satori and Elijah decide to perform a spell read from 4chan, only to get shocked when the spell actually works. Now they've entered Hell and go on a heroine adventure. NOTE: This was made pre-show airing, so expect dated info to be used here",
       description2: "This modification contains materials that are copyrighted by other artists in certain regions of the world, and may cause certain individuals to experience conflictions with copyright content identification when recording footage. Please proceed with caution if this applies to you. Addict (Instrumental Version) by Silva Hound, OG Hazbin Pilot OST by Gooseworx",

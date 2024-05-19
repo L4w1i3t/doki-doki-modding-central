@@ -31,7 +31,7 @@ export default {
   data() {
     return {
       title: 'Emerald Heart',
-      authors: 'Emerald Heart Team',
+      authors: 'By Emerald Heart Team',
       contributors: 'Submitted By: Codex',
       description: 'Doki Doki Emerald Heart is a Monika focused mod where you will start in Misakis perspective just before Sayoris suicide. She will help you recover the corrupted world they used to live in. Bringing Monika back will be the most urgent task she will need to get done. From now on everything will be the same. Well... Mostly. When they thought that bringing the world back will be the hardest thing to do, they will have to face a new problem: Get everyone in the club to trust Monika again. Not to mention a completely new girl who has joined the Literature Club, and she clearly knows more than Monika and the protagonist would have expected.....With a target in common, write the story our beloved Monika deserves..',
       links: [

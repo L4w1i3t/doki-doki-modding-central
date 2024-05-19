@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: "Meme Club 2",
-      authors: 'Tommy3500',
+      authors: 'By Tommy3500',
       contributors: 'Submitted By: Codex',
       description: "The adventure of the Meme Club continues. But this time, they're danker than ever. If you've gotten sick of the endless assault of Natsuki-routes and Save Them All stories, then Meme Club 2 is the mod for you.",
       links: [

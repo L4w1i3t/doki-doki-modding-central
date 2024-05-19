@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: "Don't",
-      authors: '-M!',
+      authors: 'By -M!',
       contributors: 'Submitted By: Codex',
       description: 'Second mod in the fleeting feelings universe.',
       links: [

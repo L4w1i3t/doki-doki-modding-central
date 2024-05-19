@@ -31,7 +31,7 @@ export default {
   data() {
     return {
       title: "Purist Mod",
-      authors: 'Tabuukilla, Syzygy',
+      authors: 'By Tabuukilla, Syzygy',
       contributors: 'Submitted By: Finn TDK',
       description: "Since it began development in September 2017, the aim of the Purist Mod is to turn DDLC into a more traditional dating sim, and give each girl their own route as if it were a “normal” visual novel, like Act 1 of base DDLC. Several hundreds of hours of time and effort have been put into making this mod a high quality experience, and we hope you enjoy the 11+ hours of new content featured.",
       description2: "This is not a “DDLC Act 1 but with some changes mod”--it’s full, individual routes that start from where Act 1 would usually end in the base game!",

@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Disappearance of the Literature Club',
-      authors: '-M!',
+      authors: 'By -M!',
       contributors: 'Submitted By: Codex',
       description: 'Nothing... Also the first mod in the fleeting feelings universe.',
       links: [

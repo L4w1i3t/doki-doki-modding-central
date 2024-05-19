@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Doki Doki Salvation',
-      authors: '12GizGuy6',
+      authors: 'By 12GizGuy6',
       contributors: 'Submitted By: 64BitBob',
       description: 'What if things could be different? What if you could save her? This question plagued the minds of most people after finishing the first act of DDLC. Salvation goes on to answer this question. After narrowly avoiding one tragedy, the members of the club get into an accident. Monika is forced to stay at the hospital and Sayori has to take up the mantle of club president in her absence. However, as you grow closer to the other girls Monika has to realize a dark truth. How far are you willing to go to save them? Do you have what it takes to be her Salvation?',
       links: [

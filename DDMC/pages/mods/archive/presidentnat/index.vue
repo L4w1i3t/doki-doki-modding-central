@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Natsuki Becomes The President Of The United States',
-      authors: 'Frost',
+      authors: 'By Frost',
       contributors: 'Submitted By: Tune Eternal',
       description: 'After an eventful flight to the USA, Natsuki becomes the president against her will.',
       links: [
