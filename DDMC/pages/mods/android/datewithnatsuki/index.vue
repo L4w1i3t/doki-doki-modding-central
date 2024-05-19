@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'A Date With Natsuki',
-      authors: 'Various Artists',
+      authors: 'By Various Artists',
       contributors: 'Submitted By: Codex',
       description: 'Go on A Date With Natsuki and uncover the secrets of her and her household, discovering that her dad is pretty cringe.',
       links: [

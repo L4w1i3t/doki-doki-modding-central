@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Canon Quiz',
-      authors: 'halibabica',
+      authors: 'By halibabica',
       contributors: 'Submitted By: 64BitBob',
       description: "A mod where you can test your knowledge of DDLC! Answer 20 questions, discuss the answers with the girls, and try not to fail!",
       links: [

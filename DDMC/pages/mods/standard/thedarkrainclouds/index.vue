@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'The Dark Rainclouds',
-      authors: 'Team Dark Rainclouds',
+      authors: 'By Team Dark Rainclouds',
       contributors: 'Submitted By: Tune Eternal',
       description: "The tragedy before the festival happened but luck (and life) smiles at you this time with a second chance, a smile that slowly becomes almost macabre, In this new story where will your decisions take you? If dark clouds cloud your life slowly all you have left is expect the best.",
       links: [

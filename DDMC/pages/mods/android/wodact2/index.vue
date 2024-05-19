@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'World of Dreams - Act 2',
-      authors: 'Morbiusgreen, WoD Team',
+      authors: 'By Morbiusgreen, WoD Team',
       contributors: 'Submitted By: Codex',
       description: 'Despite the events of the first Act, the game continues to push into Act II, and the gang must try to stop the horrors that await them.',
       links: [

@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'A Weathered World (Remake)',
-      authors: 'BioActive',
+      authors: 'By BioActive',
       contributors: 'Submitted By: Tune Eternal',
       description: "Based off of my 2018 mod “Weatheard World“ and “Weatheard World: Director's Cut“, A Weathered World takes you on a journey through Monika's conjuration of the old script. After spending what feels like eons in the void, Monika decides she was wrong and gives a shot at restoring the game to its former state. However, the script isn't as stable as she might have thought, giving birth to horror and grief for our beloved MC, leaving him to traipse through a weathered world where colors fade and flowers wilt. Will you ever have the chance to return to the Literature Club as it was before? Only time will tell...",
       links: [

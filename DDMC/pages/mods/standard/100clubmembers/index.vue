@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: '100 Club Members (Season 1)',
-      authors: 'JustTensuraEdogawa',
+      authors: 'By JustTensuraEdogawa',
       contributors: 'Submitted By: Tune Eternal',
       description: "MC was given 100 Girlfriends by the all-powerful Renpy Twins. Can he keep up with all of them? No deaths. No drama. Just Monika. And Sayori. And Yuri. And Natsuki.",
       links: [
