@@ -128,7 +128,7 @@
         .reddit-sprite {
           position: absolute;
           left: 27%;
-          bottom: 37%;
+          bottom: 38.5%;
           width: 10vw;
           height: auto;
           z-index: 5;

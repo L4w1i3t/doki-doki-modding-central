@@ -23,7 +23,10 @@ export default {
           notes: [
             'Overhauled universal background',
             'Reformatted the archive and database structures for mod storage',
-            ''
+            'Added a static randomized showcase--mod images change upon reload',
+            'Readded buttons to get started',
+            'Incredibly minor bug fixes',
+            'Removed a staff card'
           ]
         },
         {

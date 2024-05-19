@@ -3,9 +3,8 @@
     <div class="content-container">
       <p class="showcase-text">Discover something new!</p>
       <div class="slideshow-container">
-        <div class="slideshow">
-          <img v-for="(mod, index) in visibleMods" :key="mod.id" :src="mod.imageUrl" :alt="mod.title" class="slide-img"/>
-          <img v-for="(mod, index) in visibleMods" :key="'duplicate-' + mod.id" :src="mod.imageUrl" :alt="mod.title" class="slide-img"/>
+        <div class="slideshow" ref="slideshow">
+          <img v-for="mod in visibleMods" :key="mod.id" :src="mod.imageUrl" :alt="mod.title" class="slide-img" @click="redirectToMod(mod)"/>
         </div>
       </div>
       <button class="lucky-button" @click="randomRedirect">I'm Feeling Lucky</button>
@@ -25,8 +24,9 @@ export default {
       duration: 5000,
       mods: {},
       visibleMods: [],
-      modInterval: null,
-      modDuration: 3000
+      modDuration: 3000,
+      slideInterval: null,
+      scrollAmount: 0,
     };
   },
   computed: {
@@ -68,12 +68,35 @@ export default {
     setupSlideshow() {
       const allMods = Object.values(this.mods).flat();
       this.shuffleMods(allMods);
-      this.visibleMods = allMods.slice(0, 10);  // We need enough images to create a seamless loop
+      this.visibleMods = [...allMods, ...allMods];
+      this.startSlideshow();
     },
     shuffleMods(mods) {
       for (let i = mods.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [mods[i], mods[j]] = [mods[j], mods[i]];
+      }
+    },
+    startSlideshow() {
+      const slideshowElement = this.$refs.slideshow;
+      const totalWidth = slideshowElement.scrollWidth / 2;
+      
+      this.slideInterval = setInterval(() => {
+        this.scrollAmount += 1;
+        slideshowElement.scrollLeft = this.scrollAmount;
+        
+        if (this.scrollAmount >= totalWidth) {
+          this.scrollAmount = 0;
+          slideshowElement.scrollLeft = this.scrollAmount;
+        }
+      }, this.modDuration / totalWidth);
+    },
+    redirectToMod(mod) {
+      const category = Object.keys(this.mods).find(category =>
+        this.mods[category].some(categoryMod => categoryMod.id === mod.id)
+      );
+      if (category) {
+        window.location.href = `/mods/${category}/${mod.route}`;
       }
     }
   },
@@ -84,6 +107,7 @@ export default {
   },
   beforeDestroy() {
     clearInterval(this.interval);
+    clearInterval(this.slideInterval);
   },
 };
 </script>
@@ -139,13 +163,13 @@ export default {
     align-items: center;
     position: absolute;
     white-space: nowrap;
-    animation: scroll 20s linear infinite;
   }
 
   .slide-img {
     width: 20%;
     height: auto;
     flex-shrink: 0;
+    cursor: pointer;
   }
 
   .lucky-button {
@@ -191,10 +215,5 @@ export default {
   0% { box-shadow: 0 0 10px rgba(255, 99, 71, 0.8); }
   50% { box-shadow: 0 0 20px rgba(255, 69, 0, 1); }
   100% { box-shadow: 0 0 10px rgba(255, 99, 71, 0.8); }
-}
-
-@keyframes scroll {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
 }
 </style>
