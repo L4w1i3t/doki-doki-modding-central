@@ -18,6 +18,14 @@ export default {
   data() {
     return {
       versions: [
+      {
+          version: 'Beta 1.2.0',
+          notes: [
+            'Overhauled universal background',
+            'Reformatted the archive and database structures for mod storage',
+            ''
+          ]
+        },
         {
           version: 'Beta 1.1.0',
           notes: [
