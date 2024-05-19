@@ -27,7 +27,7 @@ export default {
   data() {
     return {
       title: 'Doki Doki Impossible (Episode 1)',
-      authors: 'MaksonJolt',
+      authors: 'By MaksonJolt',
       contributors: 'Submitted By: Tune Eternal',
       description: 'Good day to you, agent. This message will self-destruct in [DELETED] seconds. Good luck, agent. ',
       links: [

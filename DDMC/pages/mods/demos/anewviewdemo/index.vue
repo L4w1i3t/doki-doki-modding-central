@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'A New  View (Demo)',
-      authors: 'Team Elevate',
+      authors: 'By Team Elevate',
       contributors: 'Submitted By: 64BitBob',
       description: 'Haruna is a Kuudere, and in this mod, you get a crush on her, now, you must break through her exterior to see the sweet and caring girl that lies within.',
       links: [

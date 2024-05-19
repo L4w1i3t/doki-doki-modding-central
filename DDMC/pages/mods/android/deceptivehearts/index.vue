@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Deceptive Hearts',
-      authors: 'Codex, iiTzWolfyy',
+      authors: 'By Codex, iiTzWolfyy',
       contributors: 'Submitted By: Tune Eternal',
       description: "When u/KryoGenic03 makes Monika real, he unknowingly sets off a chain reaction of love and lies. When u/H34DL0CK3R and u/DeadEmpyre get a whiff of what Kryo is up to, they decide they must put an end to his relationship with Monika. However, they end up causing more bad then good... Based on cringe in r/ddlcmods.",
       links: [

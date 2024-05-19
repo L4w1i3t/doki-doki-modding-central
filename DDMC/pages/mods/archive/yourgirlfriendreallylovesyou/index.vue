@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Doki Doki: Your Girlfriend Really Loves You! ',
-      authors: 'Team Elevate',
+      authors: 'By Team Elevate',
       contributors: 'Submitted By: 64BitBob',
       description: "You're on a date with your girlfriend Kotonoha. That's really it, it's wholesome fun, so check it out here!",
       links: [

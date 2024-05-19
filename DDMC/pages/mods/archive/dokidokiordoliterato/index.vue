@@ -27,7 +27,7 @@ export default {
   data() {
     return {
       title: 'Doki Doki Ordo Literato',
-      authors: 'Last Remembrancer Team',
+      authors: 'By Last Remembrancer Team',
       contributors: 'Submitted By: Tune Eternal',
       description: "The Dokis have arrived in the Warhammer 40k universe. A hostile environment where hopes for progress and tolerance have been decimated by fanaticism and a constant state of war. In the midst of a bloody battle that will decide the fate of the galaxy, one of them may have found a way to save the Imperium.",
       links: [

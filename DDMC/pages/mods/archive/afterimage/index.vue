@@ -27,7 +27,7 @@
 export default {
   data() {
     return {
-      title: 'Afterimage',
+      title: 'By Afterimage',
       authors: 'Batebri, RoyAH_M',
       contributors: 'Submitted By: Tune Eternal',
       description: 'Afterimage is a mod focuses on discovering the feelings and experiences. It tells a story happened four years after the festival, MC unexpectedly meet his neighbor again, they chat, laugh, pick up the pieces and enjoy the beauty of life. Rest in Peace to Batebri, who has been taken from this world too soon on 06/06/2023. He was a truly talented, humbling, and hopeful individual who blessed the world with a vision only he truly knew. This contribution is in dedication to his passing. May we never forget you.',

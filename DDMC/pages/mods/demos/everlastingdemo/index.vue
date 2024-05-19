@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Everlasting Demo Original',
-      authors: 'Team Everlasting',
+      authors: 'By Team Everlasting',
       contributors: 'Submitted By: Tune Eternal',
       description: 'This demo will contain Act 1: Resonance. This demo is meant to serve as an introduction to the world, as well as provide (hopefully) a good story to keep you immersed. Our team has worked really hard on this, and I am pretty proud of this myself.',
       links: [

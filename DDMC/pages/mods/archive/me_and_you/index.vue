@@ -31,7 +31,7 @@ export default {
   data() {
     return {
       title: "Me and You",
-      authors: 'FITMarshmallow, Various Artists',
+      authors: 'By FITMarshmallow, Various Artists',
       contributors: 'Submitted By: Finn TDK',
       description: "After years of self-doubt, you are finally ready to confess to Sayori. All the feelings you harbor, all the pain you feel… With a few words they become both of your burdens. Are you ready to connect to Sayori in ways deeper than you can imagine? Are you ready to truly love someone? Are you ready to accept every flaw and burden that comes with that? Well if you do, play this mod and get some nice sex scenes along with it.",
       description2: "This modification contains materials that are copyrighted by other artists in certain regions of the world, and may cause certain individuals to experience conflictions with copyright content identification when recording footage. Please proceed with caution if this applies to you. The copyrighted material used is 'Here With You' by leo. However, they were able to get permission from said artist to be used in this mod.",

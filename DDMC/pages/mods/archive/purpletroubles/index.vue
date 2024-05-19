@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: "Purple Troubles",
-      authors: 'MyLastWitchout',
+      authors: 'By MyLastWitchout',
       contributors: 'Submitted By: Knuklez',
       description: "Play the mod where Yuri is a prostitute and bullied by an unlikable Monika and MC.",
       links: [

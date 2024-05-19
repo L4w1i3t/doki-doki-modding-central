@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: "Somnium",
-      authors: '-M!',
+      authors: 'By -M!',
       contributors: 'Submitted By: Codex',
       description: "Third mod in the fleeting feelings universe.",
       links: [

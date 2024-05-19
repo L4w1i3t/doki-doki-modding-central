@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'DDLC: Ultimate Combo',
-      authors: 'ComboDev',
+      authors: 'By ComboDev',
       contributors: 'Submitted By: GOMa',
       description: 'An anthology of combodevs mods ',
       links: [

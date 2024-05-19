@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Doki Doki The Dark Rainclouds (Demo)',
-      authors: 'u/dark-rainclouds',
+      authors: 'By u/dark-rainclouds',
       contributors: 'Submitted By: Tune Eternal',
       description: 'The tragedy before the festival happened but luck (and life) smiles at you this time with a second chance, a smile that slowly becomes almost macabre, In this new story where will your decisions take you? If dark clouds cloud your life slowly all you have left is Expect the best',
       links: [

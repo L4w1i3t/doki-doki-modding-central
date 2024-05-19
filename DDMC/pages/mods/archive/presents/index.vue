@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Presents and Poems',
-      authors: 'Team Red Mazda',
+      authors: 'By Team Red Mazda',
       contributors: 'Submitted By: Tune Eternal, JQilin Gaming',
       description: 'Presents and Poems is a Christmas anthology mod with multiple short stories featuring your favorite therapy needing 2D girls and their emotional support vessel you control. Each story centers around one club member in particular, and each story offers different problems and scenarios related to the character focused on/the Christmas season.',
       links: [

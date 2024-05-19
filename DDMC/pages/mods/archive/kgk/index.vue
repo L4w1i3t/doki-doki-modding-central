@@ -32,7 +32,7 @@ export default {
   data() {
     return {
       title: 'Koi Ga Kirei [KGK]',
-      authors: 'TeamAI',
+      authors: 'By TeamAI',
       contributors: 'Submitted By: JQilin Gaming',
       description: 'If you strive hard enough, you could even move the world with your words"; a naïve dream, an ideal that fades away when the dreamer awakens... But is it possible for such a dream be realized in a world that is full of fakes? A story set in a universe much too familiar, a man who was left with nothing but an unrecognized dream, a wanderer who was always in search for answers that he could never find, no matter how hard he looked. A girl behind a wall of books, enveloped in self doubt, wishing to be free from herself. Two paths that you would think would never meet but what if in one, out of infinite realities, their fate intertwined? Watch as how the relationship between the two develops as they try to overcome whatever obstacle that life throws at them and... Will their dreams finally be fulfilled? A slice of life about love, friendship, hardships and unfulfilled dreams.... A story about us.... Koi Ga Kirei (Love is beautiful) What is Koi Ga Kirei?',
       description2: 'Ko Ga Kirei (KGK for short) is a mod that hopes to give you an experience unlike any other. Putting you in the shoes of a entirely different character, KGK tells a story of a person looking in. Here is a list of what the mod has to offer: A fully custom soundtrack from the Genius mind behind the OSTs of Monika Before Story, and Salvation. Alongside the debut of a rising star who goes by the name Morphonema. Also accompanying the game are almost a Dozen new CGs and custom Backgrounds. A complete overhaul to the UI that makes the game look seamless.',

@@ -27,7 +27,7 @@ export default {
   data() {
     return {
       title: 'Special Days',
-      authors: 'Wyrmcast',
+      authors: 'By Wyrmcast',
       contributors: 'Submitted By: ACT8113',
       description: "The mod has branching choices and there are two major routes. The main 'Monika route' continues through the festival. The other major route is the so-called 'Sayori glitched route,' which in actuality has little to do with Sayori. There are some secrets within the mod.",
       links: [

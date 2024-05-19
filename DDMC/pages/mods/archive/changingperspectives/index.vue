@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Doki Doki Changing Perspectives',
-      authors: 'SouthrenSystems',
+      authors: 'By SouthrenSystems',
       contributors: 'Submitted By: JQilin Gaming',
       description: 'Synapse: you look through the eyes of monika and your choices lead to different events.',
       links: [

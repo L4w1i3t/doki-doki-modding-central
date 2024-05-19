@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Clay God',
-      authors: 'UNOwen1',
+      authors: 'By UNOwen1',
       contributors: 'Submitted By: Tune Eternal',
       description: "You're back here again. A lone classroom. A desk. Her. Something's not right. You deleted her. You ended this. Yet, here she is. She tells you she's recently gotten a hobby -- fortune telling. She offers to give you a tarot reading. The cards are laid out on the table. You're asked to choose. Each one holds a piece of the puzzle: What is this world? What's different about it? Why is she here? Why are you here? A cursed book. A ritual. A burial in the middle of nowhere. Sooner or later, all cards will be turned. You will know the truth. Trouble is, it might already be too late...",
       links: [

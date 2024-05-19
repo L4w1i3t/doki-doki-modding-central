@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'A Brand New Day',
-      authors: 'Phathom',
+      authors: 'By Phathom',
       contributors: 'Submitted By: Codex',
       description: 'MC discovers the girls secret problems, and like the helpful person he is, heroically saves them all from whatever issues they have. They are grateful and he gains their affection, but there is something happening behind the scenes!',
       links: [

@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Kindermusical: The Mod',
-      authors: 'Silver',
+      authors: 'By Silver',
       contributors: 'Submitted By: Tune Eternal',
       description: 'This mod solely exists because i wanted to parody that video. its better if you go in blind, but if you need to, heres the link: https://www.youtube.com/watch?v=2ik2B6raCjY also, i have to add a severe cringe and mild violence warning.',
       links: [

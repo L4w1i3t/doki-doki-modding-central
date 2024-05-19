@@ -31,7 +31,7 @@ export default {
   data() {
     return {
       title: 'The Machine Stops',
-      authors: 'Codex',
+      authors: 'By Codex',
       contributors: 'Submitted By: Codex',
       description: "DISCLAIMER: This mod is full of bugs and errors, so do not expect a smooth playthrough. Also, when extracting the mod, you may need to use a tool like WinRar or 7zip. I couldn't tell you why, for some reason I had to. Also, as I said in my previous post, this mod is incomplete and never will be completed, but I figured I'd release what I had, in case people were curious.", 
       description2: "Synopsis: Breaking free from her deletion, Monika finds herself in a new world and with one distinct memory, a certain somebody she needs to free.",

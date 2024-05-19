@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: "The First DDLC+ Mod",
-      authors: 'Wretched Team',
+      authors: 'By Wretched Team',
       contributors: 'Submitted By: Codex',
       description: "Presenting...the first DDLC+ mod!!!",
       links: [

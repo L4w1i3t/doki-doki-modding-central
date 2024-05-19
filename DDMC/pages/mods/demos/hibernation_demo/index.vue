@@ -31,7 +31,7 @@ export default {
   data() {
     return {
       title: 'Hibernation',
-      authors: 'CraftedBrother05',
+      authors: 'By CraftedBrother05',
       contributors: 'Submitted By: Tune Eternal',
       description: 'In an intoxicated world, the dreams beyond are endless, and the eyes of the gods are dawning upon them. Filled with a lifetime of suffering, misconceptions, and traumas, the girls have to wade through their way with each excruciating day as you play through the heart-wrenching and true-to-life story. Immerse yourself, believe in ascension, and be ready for wonder as you descend...into the IRIS. (Based on the IRIS music project by DAGames.)',
       description2: 'This modification contains materials that are copyrighted by other artists in certain regions of the world, and may cause certain individuals to experience conflictions with copyright content identification when recording footage. Please proceed with caution if this applies to you. Contains covers of Iris music by DAGames.', 

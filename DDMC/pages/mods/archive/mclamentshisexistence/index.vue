@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'MC Laments His Existence',
-      authors: 'Vaunt_Fremont_Tocsin',
+      authors: 'By Vaunt_Fremont_Tocsin',
       contributors: 'Submitted By: ACT8113',
       description: 'MC discovers his "purpose" after overhearing what the club members said what Dan coded them for, He just wants something he can never have.',
       links: [

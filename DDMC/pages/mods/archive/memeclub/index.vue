@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: "Meme Club",
-      authors: 'Pooshscams',
+      authors: 'By Pooshscams',
       contributors: 'Submitted By: Codex',
       description: "The club members delve into the wonderful world of memes rather than literature, yet still have their own quirky problems to deal with.",
       links: [

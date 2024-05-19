@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: "Just Another Day",
-      authors: 'Team Elevate',
+      authors: 'By Team Elevate',
       contributors: 'Submitted By: 64BitBob',
       description: "There's nothing special, exciting, or even happy going on, it's just another day. This mod has heavy topics of depression and suicide, play at your own risk. Side note, the settings menu is a bit janky, but that's about it.",
       links: [

@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: '2nd Anniversary',
-      authors: 'Enderslayer197',
+      authors: 'By Enderslayer197',
       contributors: 'Submitted By: Codex',
       description: 'The protagonist and Sayori arrive at the club as usual. However, today is special because it is the clubs 2nd anniversary! They go over to the clubroom to find it all decorated. Then, the tide turns when some unexpected visitors show up...',
       links: [

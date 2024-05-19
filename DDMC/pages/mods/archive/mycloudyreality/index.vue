@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: "My Cloudy Reality!",
-      authors: 'MsMod Studios',
+      authors: 'By MsMod Studios',
       contributors: 'Submitted By: Tune Eternal',
       description: "We're giving the chance to give Sayori a reason to live, but other choices are trying to get in the way of that, are you going to make the right choices to keep your childhood friend? Or are you ready to let her go and move on to someone else? Well, that's all up to you and every choice you make along the way so choose wisely :)",
       links: [

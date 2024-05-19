@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Tripping Backwards',
-      authors: 'Sven and Wretched Team',
+      authors: 'By Sven and Wretched Team',
       contributors: 'Submitted By: JQilin Gaming',
       description: 'First conceived in 2020 by Sven, Tripping Backwards is a psychedelic horror mod that has been in on and off development since the formation of Wretched Team. After so long in development hell, it has since been completely rewritten and redesigned from the ground up into a short but powerful experience. Honestly, it is best to just go in blind for this one. Turn off the lights, put your headphones on, and enjoy. The whole mod should be around 20 to 30 minutes depending on your reading speed.',
       links: [

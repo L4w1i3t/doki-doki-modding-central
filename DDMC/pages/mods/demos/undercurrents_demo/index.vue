@@ -29,7 +29,7 @@ export default {
   data() {
     return {
       title: 'Doki Doki Undercurrents',
-      authors: 'Studio Silver',
+      authors: 'By Studio Silver',
       contributors: 'Submitted By: Tune Eternal',
       description: "Come to shore with this extraordinary fan-made sequel to the critically acclaimed Doki Doki Literature Club! Get to know the lives of your favorite Dokis, both in and out of school, and meet new people along the way. Doki Doki Undercurrents, or DDU for short, is a sequel following the events of the original Doki Doki Literature Club (DDLC). It takes what DDLC has done and builds on its foundations, adding more to the lore and the grim psychological horror. One of the main themes of DDLC was the surreal nature of the unexpected, usually in the form of jumpscares - This mod, however, looks into what truly makes a tale unnerving. Through the eyes of Melody, you'll explore the expanded world of Doki Doki Undercurrents, learning about a multitude of characters and their lives, both in and out of school. You'll watch her grow and learn, and be the hand to guide her when things are at their most unforgiving. This is a story centred around the many challenges life brings, the desire to rise to the occasion, and the consequences that come with hubris. Will you be the one to master the waves, or will you, too, be swept into the undercurrents?",
       links: [

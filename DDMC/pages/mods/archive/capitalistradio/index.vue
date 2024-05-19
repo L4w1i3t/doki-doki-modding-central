@@ -37,7 +37,7 @@ export default {
   data() {
     return {
       title: 'Doki Doki Capitalist Radio',
-      authors: 'Vaunt_Fremont_Tocsin',
+      authors: 'By Vaunt_Fremont_Tocsin',
       contributors: 'Submitted By: ACT8113',
       description: 'Based off of the endlessly trolled Ghost Of True Capitalist Radio. This mod sees Ghost as Monikaren and her over reactions to the trolls',
       description2: "DISCLAIMER FOR THOSE PLAYING THE UNCENCORED VERSION!!!: It is NOT recommended to play this version on either YouTube or Twitch, doing so may result in a community guideline strike for racism possibly, if you wish to play this mod on YouTube or Twitch play the Censored version instead.", 

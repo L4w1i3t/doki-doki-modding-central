@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Doki Doki Brainrot Club 2: Redux/Remaster',
-      authors: 'Brainrot_Club',
+      authors: 'By Brainrot_Club',
       contributors: 'Submitted By: Tune Eternal',
       description: "The Highly-Anticipated sequel of the most Critically-Acclaimed mod is here! After the events of the first brainrot club, our protagonist is sure to be in some trouble! But just when he thinks it’s over, his friends Rhonald and Chudkins save the day! See what rizzful antics ensue in the best mod of all time! Play time- 20-30 Minutes depending on reading speed. Genre- comedy WARNING: DO NOT PLAY THIS MOD IF YOU HAVE EPILEPSY.",
       links: [

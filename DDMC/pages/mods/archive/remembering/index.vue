@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Remembering',
-      authors: 'GanstakingofSA',
+      authors: 'By GanstakingofSA',
       contributors: 'Submitted By: Nikicha ',
       description: 'Remember Player. Remember. Remember the past and what led up to the present. Remember the good memories and improve on the bad ones.',
       links: [

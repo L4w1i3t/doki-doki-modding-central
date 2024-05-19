@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Blue Skies',
-      authors: 'Sir Swampert, kyoryii',
+      authors: 'By Sir Swampert, kyoryii',
       contributors: 'Submitted By: Norbol',
       description: "This is essentially a psychological, realistic, choice heavy take on the world of DDLC, with an emphasis on worldbuilding. Characters such as MC's mother and teacher - the suave Mr Sakurai - have been added, all to actually make DDLC feel like a proper, realistic world. With a heavy emphasis from fellow visual novel Katawa Shoujo, be expected to be taken on a huge rollercoaster of events with your favourite Doki! Except Monika - sorry about that.",
 

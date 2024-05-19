@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: '12 Hours',
-      authors: 'James-Zanny',
+      authors: 'By James-Zanny',
       contributors: 'Submitted By: Codex',
       description: 'MC discovers he has only 12 hours left to live, and must make the most of it.',
       links: [

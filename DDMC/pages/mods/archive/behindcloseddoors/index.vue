@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Behind Closed Doors',
-      authors: 'FluffyDev',
+      authors: 'By FluffyDev',
       contributors: 'Submitted By: Knuklez',
       description: "It's always nice to see some good MCSuki romance in a mod. However, in this mod, we show a different side of Nat's life and delve into the dark secrets she wanted to keep behind closed doors.  This project has its own host site at https://dancingoutintospace.itch.io/doki-doki-behind-closed-doors..",
       links: [

@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Turquoise',
-      authors: 'Tormuse',
+      authors: 'By Tormuse',
       contributors: 'Submitted By: Tune Eternal',
       description: "I just finished making a demo for Turquoise, my upcoming Sayonika mod, featuring a romantic relationship between Sayori and Monika. :)",
       links: [

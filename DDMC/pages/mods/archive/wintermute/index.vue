@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Wintermute',
-      authors: 'Wretched Team',
+      authors: 'By Wretched Team',
       contributors: 'Submitted By: Codex',
       description: 'Find out the secret that Turnell Technologies is hiding in their new project from the perspective of a new employee that is testing their AI virtual girlfriends.',
       links: [

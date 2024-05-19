@@ -31,7 +31,7 @@ export default {
   data() {
     return {
       title: "Yuri's New Toy",
-      authors: 'Tormuse',
+      authors: 'By Tormuse',
       contributors: 'Submitted By: Tune Eternal',
       description: "Hi everyone! :) Here's a short (~15 minutes) joke mod I made in between other modding projects. :D (Content warning for some dark humour)",
       links: [

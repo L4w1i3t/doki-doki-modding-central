@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Art Club',
-      authors: 'Aevee_Animations',
+      authors: 'By Aevee_Animations',
       contributors: 'Submitted By: Codex',
       description: 'It is when you think you know something, that everything changes all at once. Monika started another club, the art club, and almost everyone is exclusively in love with Anime. Their skill is un-matched, and their beauty is above and beyond!! But, what to choose?.',
       links: [

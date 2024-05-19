@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Happy Thoughts',
-      authors: 'Riverr',
+      authors: 'By Riverr',
       contributors: 'Submitted By: Tune Eternal',
       description: "As Sayori sits down to write her poem, she realizes that to be honest to the page, she has to be honest with herself. Sifting through her happy thoughts, she'll also have to peer into the depths of her own despair if she is to write true to her heart. Immerse yourself into her mind through this visually enticing and viscerally written mod that is surely going to leave its mark.",
       links: [

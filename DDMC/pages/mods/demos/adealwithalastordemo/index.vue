@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'A Deal With Alastor (Demo)',
-      authors: 'TheNumbahSeven',
+      authors: 'By TheNumbahSeven',
       contributors: 'Submitted By: Tune Eternal',
       description: 'And then Charlie said, "our true friends were the Hazbin Hotel we made along the way.',
       links: [

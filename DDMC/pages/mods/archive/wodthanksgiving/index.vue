@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'World of Dreams: Thanksgiving Special ',
-      authors: 'Morbiusgreen',
+      authors: 'By Morbiusgreen',
       contributors: 'Submitted By: 64BitBob',
       description: 'Brief story written over a few hours.',
       links: [

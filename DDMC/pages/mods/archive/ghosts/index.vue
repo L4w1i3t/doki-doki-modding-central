@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Tsundere Ghosts',
-      authors: 'Silver',
+      authors: 'By Silver',
       contributors: 'Submitted By: Tune Eternal',
       description: 'This mods premise is, well...I put some keywords into a shitty ai, and it gave me a script. the ai was like, reverse mad libs? you put a few words in and it makes a story with those words. site is on the logo anyways, the script is not very good, but it is funny as fuck. I am being blunt so I do not trick you with the quality of the teaser.',
       links: [

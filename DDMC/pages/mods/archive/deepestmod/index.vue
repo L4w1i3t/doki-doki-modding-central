@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'The Deepest Mod Ever',
-      authors: 'MagmaSlasher',
+      authors: 'By MagmaSlasher',
       contributors: 'Submitted By: Knuklez',
       description: 'After a major break up in his life, with the help of Sayori, MC and his twin brother Naoto Satō, they help Neo Satō to get his life back together. 2 years later, our new protagonist, begins studying at a new school in his hometown, where in the first school day, interesting things start to happen… What is going to happen next?',
       links: [

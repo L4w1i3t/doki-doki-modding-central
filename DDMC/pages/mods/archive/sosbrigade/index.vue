@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Doki Doki SOS Brigade',
-      authors: 'NightmareNinja',
+      authors: 'By NightmareNinja',
       contributors: 'Submitted By: Tune Eternal',
       description: 'The basic plot is that Monika will have to deal with another girl that has the power to manipulate reality. (Based on the Anime: The Melancholy of Haruhi Suzumiya)',
       links: [

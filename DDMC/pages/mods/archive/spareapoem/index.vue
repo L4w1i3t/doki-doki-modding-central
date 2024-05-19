@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Can You Spare a Poem?',
-      authors: 'SomeDudeNamedAyat',
+      authors: 'By SomeDudeNamedAyat',
       contributors: 'Submitted By: Tune Eternal',
       description: 'All seems normal and mundane with the Literature Club until Monika realizes that her lucky poem is gone! With Natsuki not liking being caught in the crossfire of suspicion, she leaves the Literature Club in a huff. Sensing that Natsuki is become a broken spirit without a safe place to read her manga when school is done, Sayori suggests that she hangs out with MC after school. Will you be able to help Natsuki get her confidence back? Oh, and Yuri is here too. Can You Spare A Poem?” is a Doki Doki Literature Club fan mod and a parody of the SpongeBob SquarePants Season 3 episode, “Can You Spare A Dime?”. The situation at hand is slightly rewritten so that it can fit within the DDLC universe.',
       links: [

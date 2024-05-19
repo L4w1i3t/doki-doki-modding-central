@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: 'Paper Thin Hearts',
-      authors: 'Silver',
+      authors: 'By Silver',
       contributors: 'Submitted By: Tune Eternal',
       description: 'Just going to say this, I would spoil you on what this is about, but if I did, it would ruin its only joke. So instead, I will ask this question, do you fancy a lead pipe?',
       links: [

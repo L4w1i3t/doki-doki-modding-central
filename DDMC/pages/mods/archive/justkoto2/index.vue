@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       title: "Just Kotonoha! 2",
-      authors: 'Single Shot Studios',
+      authors: 'By Single Shot Studios',
       contributors: 'Submitted By: Codex',
       description: "The greatest mod sequel of all time.",
       links: [
