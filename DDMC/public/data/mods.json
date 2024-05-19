@@ -134,6 +134,7 @@
         "imageUrl": "/assets/mod_prevs/neurosama.webp",
         "route": "neurosama"
       }
+     
     ],
 
     "archive": [
@@ -978,6 +979,20 @@
             "author": "Team Elevate",
             "imageUrl": "/assets/mod_prevs/christmasheist.webp",
             "route": "latenightchristmasheist"
+          },
+          { 
+            "id": 1120,
+            "title": " Let This Dream Be Forever",
+            "author": "EigHtHCAT",
+            "imageUrl": "/assets/mod_prevs/dream_be_forever.webp",
+            "route": "let_this_dream_be_forever"
+          }, 
+          { 
+            "id": 1121,
+            "title": "Downpour",
+            "author": "Gubbey",
+            "imageUrl": "/assets/mod_prevs/downpour.webp",
+            "route": "downpour"
           }
     ],
 
@@ -1222,6 +1237,13 @@
         "author": "Specsuki",
         "imageUrl": "/assets/mod_prevs/natsukis_expanded_story.webp",
         "route": "natsukisexpandedstory"
+      }, 
+      {
+        "id": 20013,
+        "title": "Afternoon",
+        "author": "Süleyman Aydın",
+        "imageUrl": "/assets/mod_prevs/afternoon.webp",
+        "route": "afternoon"
       }
     ],
 
