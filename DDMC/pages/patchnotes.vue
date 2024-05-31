@@ -18,7 +18,13 @@ export default {
   data() {
     return {
       versions: [
-      {
+        {
+          version: 'Beta 1.2.5',
+          notes: [
+            'Added a small Easter egg'
+          ]
+        },
+        {
           version: 'Beta 1.2.0',
           notes: [
             'Overhauled universal background',

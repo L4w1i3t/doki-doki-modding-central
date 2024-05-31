@@ -9,7 +9,7 @@
     { "id": 50000, "name": "DUMMY", "image": "/assets/images/characters/place.png" },
     { "id": 50001, "name": "DUMMY", "image": "/assets/images/characters/place.png" },
     { "id": 50002, "name": "DUMMY", "image": "/assets/images/characters/place.png" },
-    { "id": 50003, "name": "DUMMY", "image": "/assets/images/characters/place.png" }
+    { "id": 50003, "name": "DUMMY", "image": "/assets/images/characters/place.png", "url": "/easter_eggs/k" }
   ],
   "crossover": [
     { "id": 60000, "name": "DUMMY", "image": "/assets/images/characters/place.png" },

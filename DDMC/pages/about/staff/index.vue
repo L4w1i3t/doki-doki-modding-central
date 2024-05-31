@@ -35,7 +35,7 @@
             id: 0,
             name: 'L4w1i3t',
             position: 'Site Developer, Founder, Site Admin',
-            bio: 'Front-end and back-end programmer/designer with an intended double major in Cognitive Science and Computer Science (so, like, CS^2). I know the languages of RenPy, Python, Java, JavaScript, CSS, HTML, C(++/#), and Assembly. I typically like to create random projects in my free time, ranging from DDLC mods to console hardware modification to YouTube videos to Soulsborne builds, but otherwise I am a bored-most-of-the-time university student.',
+            bio: 'Front-end and back-end programmer/designer with an intended double major in Cognitive Science and Computer Science (so, like, CS^2). I typically like to create random projects in my free time, ranging from DDLC mods to console hardware modification to YouTube videos to Soulsborne builds, but otherwise I am a bored-most-of-the-time university student.',
             image: '/assets/images/lawliet.webp',
             youtube: 'https://www.youtube.com/channel/UCj18pgOsq9bXGddHoSdGWDw',
             kofi: 'https://ko-fi.com/l4w1i3t'
@@ -44,7 +44,7 @@
             id: 1,
             name: 'Matsuda Akai',
             position: 'Teacher, Site Manager',
-            bio: 'Hi, hi! Matsuda here, entering stage right, ready to spice things up in your life a little! I\'m something of an actor and idol, always trying to make things a little more interesting in my life! I have hobbies like dancing and fitness, but believe it or not, I love me some gaming as well. People may call me overbearing or even somewhat weird, but y\'know what, it\'s hard for most to go full throttle all the time. Vroom vroom, baby!',
+            bio: 'Hi, hi! Matsuda here, entering stage right, ready to spice things up in your life a little! People may call me overbearing or even somewhat weird, but y\'know what, it\'s hard for most to go full throttle all the time. Vroom vroom, baby!',
             image: '/assets/images/red.webp',
             youtube: 'https://www.youtube.com/channel/UCj18pgOsq9bXGddHoSdGWDw'
           },
@@ -68,7 +68,7 @@
           {
             id: 4,
             name: 'Savage Sentral',
-            position: 'Founder, Database Manager',
+            position: 'Founder, Host Funder',
             bio: 'I don\'t care how many people you send my way, Exit Music: Redux is still the worst mod ever made! Now let me goon to Luka Doncic highlights in peace.',
             image: '/assets/images/savage.webp',
             youtube: 'https://www.youtube.com/@SavageSentral'

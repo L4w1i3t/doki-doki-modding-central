@@ -44,7 +44,7 @@
 
   .character-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Set four columns */
+    grid-template-columns: repeat(4, 1fr);
     gap: 16px;
     margin-top: 5vh
   }

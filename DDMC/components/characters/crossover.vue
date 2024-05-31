@@ -1,12 +1,13 @@
 <template>
   <div class="title-container">CROSSOVER CHARACTERS</div>
-    <div class="character-grid">
-      <div v-for="character in characters" :key="character.id" class="character-card">
-        <img :src="character.image" alt="character image">
-        <h3>{{ character.name }}</h3>
-      </div>
-    </div>
-  </template>
+  <div class="character-grid">
+    <a v-for="character in characters" :key="character.id" :href="character.url" class="character-card">
+      <img :src="character.image" :alt="character.name">
+      <h3>{{ character.name }}</h3>
+    </a>
+  </div>
+</template>
+
   
 <script>
   import axios from 'axios';
@@ -27,34 +28,39 @@
   
   
 <style scoped>
-  
+
   .title-container {
     display: flex;
     text-align: center;
     justify-content: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
-    margin-top: 5vh;
+    margin-top: 10vh;
     font-size: 5vw;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
     position: relative;
     width: 100%;
   }
+
   .character-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Set four columns */
+    grid-template-columns: repeat(4, 1fr);
     gap: 16px;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+    margin-top: 5vh
   }
   .character-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     padding: 8px;
-    background: #333; /* Optional: added background for better visibility of white text */
+    background: rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease-in-out;
+  }
+  .character-card:hover {
+    opacity: 0.8;
+    transform: scale(1.05) rotate(0deg);
   }
   .character-card img {
     width: 100%;
@@ -62,5 +68,8 @@
   .character-card h3 {
     color: white; /* Set the text color to white */
     text-align: center; /* Ensure the text is centered horizontally */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vw;
   }
 </style>
