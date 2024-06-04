@@ -1007,6 +1007,20 @@
             "author": "regal-begal",
             "imageUrl": "/assets/mod_prevs/little_literature_club.jpg",
             "route": "little_literature_club"
+          }, 
+          { 
+            "id": 1123,
+            "title": "The Doki's Blow Up the White House",
+            "author": "Teravolt Productions",
+            "imageUrl": "/assets/mod_prevs/dokisblowupwhitehouse.jpg",
+            "route": "The_Doki's_Blow_Up_The_White_House"
+          }, 
+          { 
+            "id": 1124,
+            "title": "Falsely Accused of Criminal Activity Club!",
+            "author": "dfwk",
+            "imageUrl": "/assets/mod_prevs/Falsely_Accused.jpg",
+            "route": "Falsely_Accused"
           }
     ],
 
