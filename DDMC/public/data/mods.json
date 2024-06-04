@@ -993,6 +993,20 @@
             "author": "Gubbey",
             "imageUrl": "/assets/mod_prevs/downpour.webp",
             "route": "downpour"
+          },
+          { 
+            "id": 1121,
+            "title": "Celebration!",
+            "author": "Tiny Waffle Studios",
+            "imageUrl": "/assets/mod_prevs/celebration.jpg",
+            "route": "celebration"
+          }, 
+          { 
+            "id": 1122,
+            "title": "Little Literature Club",
+            "author": "regal-begal",
+            "imageUrl": "/assets/mod_prevs/little_literature_club.jpg",
+            "route": "little_literature_club"
           }
     ],
 
@@ -1136,6 +1150,20 @@
         "author": "GuyBread",
         "imageUrl": "/assets/mod_prevs/snafu.webp",
         "route": "snafu"
+      }, 
+      { 
+        "id": 10020,
+        "title": "Celebration!",
+        "author": "Tiny Waffle Studios",
+        "imageUrl": "/assets/mod_prevs/celebration.jpg",
+        "route": "celebration"
+      }, 
+      { 
+        "id": 10021,
+        "title": "Little Literature Club",
+        "author": "regal-begal",
+        "imageUrl": "/assets/mod_prevs/little_literature_club.jpg",
+        "route": "little_literature_club"
       }
     ],
 
