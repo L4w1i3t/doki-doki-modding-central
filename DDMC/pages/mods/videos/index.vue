@@ -1,6 +1,5 @@
-
 <template>
-  <title>Mods - Videos || Doki Doki Modding Central</title>
+  <title>Mods - Standard || Doki Doki Modding Central</title>
   <div class="catalog">
     <div class="sort-dropdown">
       <select v-model="sortBy" @change="sortCatalog">
@@ -16,7 +15,7 @@
         <input type="text" v-model="authorSearch" placeholder="Search by author..." @input="filterByAuthor">
       </div>
     </div>
-    <div v-for="(item, index) in catalogItems" :key="index" class="catalog-item">
+    <div v-for="(item, index) in paginatedItems" :key="index" class="catalog-item">
       <a :href="`/mods/videos/${item.route}`" rel="noopener noreferrer">
         <div class="stained-glass">
           <img :src="item.imageUrl" alt="Catalog Image">
@@ -28,6 +27,10 @@
           </div>
         </div>
       </a>
+    </div>
+    <div class="pagination">
+      <button @click="prevPage" :disabled="currentPage === 1">Previous</button>
+      <button @click="nextPage" :disabled="currentPage === totalPages">Next</button>
     </div>
   </div>
 </template>
@@ -42,8 +45,20 @@ export default {
       titleSearch: '',
       authorSearch: '',
       originalCatalogItems: [],
-      catalogItems: []
+      catalogItems: [],
+      currentPage: 1,
+      itemsPerPage: 18, // Display 18 items at a time
     };
+  },
+  computed: {
+    paginatedItems() {
+      const start = (this.currentPage - 1) * this.itemsPerPage;
+      const end = start + this.itemsPerPage;
+      return this.catalogItems.slice(start, end);
+    },
+    totalPages() {
+      return Math.ceil(this.catalogItems.length / this.itemsPerPage);
+    }
   },
   created() {
     this.fetchCatalogItems();
@@ -68,6 +83,7 @@ export default {
       } else {
         this.catalogItems = this.originalCatalogItems.filter(item => item.title.toLowerCase().includes(query));
       }
+      this.currentPage = 1; // Reset to first page after filtering
     },
     filterByAuthor() {
       const query = this.authorSearch.toLowerCase();
@@ -75,6 +91,17 @@ export default {
         this.catalogItems = [...this.originalCatalogItems];
       } else {
         this.catalogItems = this.originalCatalogItems.filter(item => item.author.toLowerCase().includes(query));
+      }
+      this.currentPage = 1; // Reset to first page after filtering
+    },
+    nextPage() {
+      if (this.currentPage < this.totalPages) {
+        this.currentPage++;
+      }
+    },
+    prevPage() {
+      if (this.currentPage > 1) {
+        this.currentPage--;
       }
     }
   }
@@ -88,7 +115,7 @@ export default {
   gap: 1rem;
   justify-items: center;
   padding: 20px;
-  margin-top: 150px
+  margin-top: 150px;
 }
 
 .catalog-item {
@@ -100,7 +127,6 @@ export default {
 
 .catalog-item:hover {
   transform: translateY(-5px);
-  
 }
 
 .stained-glass {
@@ -155,7 +181,7 @@ export default {
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
   z-index: 100;
-  margin-top: 70px
+  margin-top: 70px;
 }
 
 .sort-dropdown select,
@@ -165,5 +191,31 @@ export default {
   border: 1px solid #ccc;
   border-radius: 5px;
   width: 100%;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: none;
+  background-color: #4b0082;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.pagination button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.pagination button:not(:disabled):hover {
+  background-color: #36006b;
 }
 </style>

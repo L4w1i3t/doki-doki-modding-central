@@ -26,7 +26,6 @@
   }
 </script>
   
-  
 <style scoped>
 
   .title-container {
