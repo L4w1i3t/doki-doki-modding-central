@@ -29,7 +29,7 @@
         </li>
         <li><a href="/more/assets">Assets</a></li>
         <li><a href="/more/characters">Characters</a></li>
-        <li><a href="/more/renpy">RenPy</a></li>
+        <li><a href="/more/renpy">Classroom</a></li>
         <li><a href="https://forms.gle/joFU8UqMna8WaqJF7" target="_blank">Mod Form</a></li>
         <li><a href="https://forms.gle/TQe9eUgHQUSMgeJaA" target="_blank">Asset Form</a></li>
         <li><a href="/patchnotes">Patch Notes</a></li>

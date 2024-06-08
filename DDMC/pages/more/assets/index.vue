@@ -1,5 +1,3 @@
-
-
 <template>
   <title>Assets || Doki Doki Modding Central</title>
     <div class="container">
