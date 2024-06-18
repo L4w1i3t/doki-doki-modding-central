@@ -26,7 +26,6 @@
   }
 </script>
   
-  
 <style scoped>
 
   .title-container {
@@ -66,8 +65,8 @@
     width: 100%;
   }
   .character-card h3 {
-    color: white; /* Set the text color to white */
-    text-align: center; /* Ensure the text is centered horizontally */
+    color: white;
+    text-align: center;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2vw;

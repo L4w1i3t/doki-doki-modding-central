@@ -19,7 +19,17 @@ export default {
     return {
       versions: [
         {
-          version: 'Beta 1.2.5',
+          version: 'Beta 1.3.0',
+          notes: [
+            'Added pagination logic to mod catalogs',
+            'Added redirect buttons to ddlc.moe and ddlc.plus on the home page',
+            'Changed \'RenPy\' to \'Classroom\' on the navbar to include modding tutorials',
+            'Added a music catalog--nothing available yet',
+            'Added data sheets for music, code, art, and gui'
+          ]
+        },
+        {
+          version: 'Beta 1.2.0.5',
           notes: [
             'Added a small Easter egg'
           ]
