@@ -45,7 +45,8 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 16px;
-    margin-top: 5vh
+    margin-top: 5vh;
+    margin-bottom: 2em
   }
   .character-card {
     display: flex;

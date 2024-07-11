@@ -1,4 +1,5 @@
 
+<!--layouts/default.vue-->
 <template>
   <div class="full-height">
       <BackgroundImage class="background">

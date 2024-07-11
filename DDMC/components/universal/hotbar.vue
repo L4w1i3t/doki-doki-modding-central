@@ -1,3 +1,5 @@
+
+<!--hotbar.vue-->
 <template>
   <div class="hotbar">
     <a href="/">
