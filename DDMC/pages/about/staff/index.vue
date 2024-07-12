@@ -34,7 +34,7 @@
           {
             id: 0,
             name: 'L4w1i3t',
-            position: 'Site Developer, Founder, Site Admin',
+            position: 'Site Developer, Founder, Site Admin, Site Owner',
             bio: 'Front-end and back-end programmer/designer with an intended double major in Cognitive Science and Computer Science (so, like, CS^2). I typically like to create random projects in my free time, ranging from DDLC mods to console hardware modification to YouTube videos to Soulsborne builds, but otherwise I am a bored-most-of-the-time university student.',
             image: '/assets/images/lawliet.webp',
             youtube: 'https://www.youtube.com/channel/UCj18pgOsq9bXGddHoSdGWDw',
@@ -43,7 +43,7 @@
           {
             id: 1,
             name: 'Matsuda Akai',
-            position: 'Teacher, Site Manager',
+            position: 'Teacher, Site Manager, Discord Mod',
             bio: 'Hi, hi! Matsuda here, entering stage right, ready to spice things up in your life a little! People may call me overbearing or even somewhat weird, but y\'know what, it\'s hard for most to go full throttle all the time. Vroom vroom, baby!',
             image: '/assets/images/red.webp',
             youtube: 'https://www.youtube.com/channel/UCj18pgOsq9bXGddHoSdGWDw'
@@ -51,7 +51,7 @@
           {
             id: 2,
             name: 'Tune Eternal',
-            position: 'Founder, Head Discord Admin',
+            position: 'Founder, Head Discord Admin, Discord Server Owner',
             bio: 'Musician foremost and multimedia artist second. I landed in the DDLC community with commission work for Tropical Rain by PumpkinbrainUS, eventually making ranks with former Team Red Mazda RX-7, making and working on projects such as EGO DEATH, Left Behind, Presents and Poems, SVHS-TAP, Spilt Spaghetti, Sigma Club 2, Triple Trouble, and much more. I have always had the community\'s wellbeing in the forefront of my mind and was kicked out for it. I stand for the equal and moderate treatment of creators and the gifts they wish to present to the world.',
             image: '/assets/images/xavier.webp',
             youtube: 'https://www.youtube.com/@tuneeternal',
@@ -68,20 +68,13 @@
           {
             id: 4,
             name: 'Savage Sentral',
-            position: 'Founder, Host Funder',
+            position: 'Founder, Host Funder, Content Creator',
             bio: 'I don\'t care how many people you send my way, Exit Music: Redux is still the worst mod ever made! Now let me goon to Luka Doncic highlights in peace.',
             image: '/assets/images/savage.webp',
             youtube: 'https://www.youtube.com/@SavageSentral'
           },
           {
             id: 5,
-            name: 'IrisCandy',
-            position: 'Artist',
-            bio: 'My name\'s Iris. Artist for three years and is still going strong. I\'ve been part of the DDLC community for less, and I am considering contributing more to the place, but we\'ll see. Art is a passion, and it is what drives me to keep going, and over time, in many ways, I can see how much I have improved. Consider me next time you have a project!',
-            image: '/assets/images/iris.webp'
-          },
-          {
-            id: 6,
             name: 'Finn TDK',
             position: 'Reddit Moderator',
             bio: 'Greetings! My name is Finn the Diamond Knight, but you can call me Finn or Finn TDK for short. Been a DDLC fan since 2018 and a DokiTuber/content creator since 2021 as my newfound appreciation of the series. Poetry, stories, history, you name it! It\'s like an empty page for your imagination to take over and run wild, or a new adventure! I stand by to those whom I\'m loyal with to help out in any way I can for a good cause on equal ground. Most importantly, stay awesome and have fun!',
@@ -196,43 +189,37 @@
   .staff-member:nth-child(2) {
     border: 4px solid rgba(0, 0, 0, 0.4);
     border-top: 30px solid black;
-    background-color: rgba(34, 139, 34, 0.2);
+    background: linear-gradient(90deg, rgba(255, 0, 0, 0.4), rgba(73, 219, 255, 0.4));
   }
 
   .staff-member:nth-child(3) {
     border: 4px solid rgba(0, 0, 0, 0.4);
     border-top: 30px solid black;
-    background-color: rgba(255, 105, 180, 0.2);
+    background-color: rgba(34, 139, 34, 0.2);
   }
 
   .staff-member:nth-child(4) {
     border: 4px solid rgba(0, 0, 0, 0.4);
     border-top: 30px solid black;
-    background-color: rgba(0, 119, 255, 0.2);
+    background-color: rgba(255, 105, 180, 0.2);
   }
 
   .staff-member:nth-child(5) {
     border: 4px solid rgba(0, 0, 0, 0.4);
     border-top: 30px solid black;
-    background: linear-gradient(270deg, rgba(255, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    background-color: rgba(0, 119, 255, 0.2);
   }
 
   .staff-member:nth-child(6) {
     border: 4px solid rgba(0, 0, 0, 0.4);
     border-top: 30px solid black;
-    background: linear-gradient(90deg, rgba(255, 0, 0, 0.4), rgba(73, 219, 255, 0.4));
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(73, 219, 255, 0.4));
   }
 
   .staff-member:nth-child(7) {
     border: 4px solid rgba(0, 0, 0, 0.4);
     border-top: 30px solid black;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(73, 219, 255, 0.4));
-  }
-
-  .staff-member:nth-child(8) {
-    border: 4px solid rgba(0, 0, 0, 0.4);
-    border-top: 30px solid black;
-    background: linear-gradient(45deg, rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.4));
   }
 
   .centered-title {

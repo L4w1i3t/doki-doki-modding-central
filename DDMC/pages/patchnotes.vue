@@ -18,6 +18,14 @@ export default {
   data() {
     return {
       versions: [
+      {
+          version: 'Beta 1.4.0',
+          notes: [
+            'Added character pages for the main cast',
+            'Changed the dummy image',
+            'Minor UI changes',
+          ]
+        },
         {
           version: 'Beta 1.3.0',
           notes: [
@@ -171,7 +179,7 @@ export default {
 <style>
 #patch-notes-container {
   color: #e0e6f1;
-  background-color: #1e3a8a;
+  background-color: #000000;
   padding: 20px;
   border-radius: 10px;
   margin: 50px auto;
@@ -187,7 +195,7 @@ export default {
 }
 
 .version-section {
-  background: #2b6cb0;
+  background: #262626;
   padding: 15px;
   margin-bottom: 20px;
   border-radius: 8px;
@@ -209,7 +217,7 @@ export default {
 }
 
 .version-section li {
-  background: #3182ce;
+  background: #414141;
   margin-top: 5px;
   padding: 10px;
   border-radius: 5px;

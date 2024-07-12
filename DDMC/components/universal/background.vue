@@ -1,4 +1,5 @@
 
+<!--background.vue-->
 <template>
     <div class="background-image-container">
       <slot></slot>

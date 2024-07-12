@@ -1,33 +1,16 @@
 <template>
   <div>
-    <title>Characters: Monika || Doki Doki Modding Central</title>
+    <title>Characters: Kiyomi || Doki Doki Modding Central</title>
     <div class="page-container">
       <div class="thumbnail-container">
-        <img src="/assets/images/characters/m.png" alt="Monika Thumbnail" />
+        <img src="/assets/images/characters/kiyomi.png" alt="Kiyomi Thumbnail" />
       </div>
-      <div class="monika-label-text">MONIKA</div>
+      <div class="monika-label-text">KIYOMI</div>
     </div>
     <div class="description-container">
       <div class="notebook-paper">
-        <div class="quote">
-          <h2>"Here's Monika's Writing Tip of the Day!
-          Sometimes you'll find yourself facing a difficult decision...
-          When that happens, don't forget to save your game!
-          You never know when you might change your mind...
-          Or when something unexpected may happen!
-          Wait... is this tip even about writing?
-          What am I even talking about?
-          Ahaha...
-          ...That's my advice for today!
-          Thanks for listening!"
-          </h2>
-        </div>
         <div class="description">
-          <p style="padding: 0 20px">Monika, the literature club president, is an intelligent and thoughtful girl 
-            who excels in her studies and extracurricular activities. Her leadership is marked by a peculiar sense of 
-            wisdom, as if she possesses an uncanny insight into the workings of the world around her. With an almost 
-            preternatural ability to understand the thoughts and feelings of those she interacts with, she guides her 
-            friends with a gentle yet inexplicably profound hand. Can you write the way into her heart? [TEMPORARY DESCRIPTION PROVIDED BY CHATGPT]</p>
+          <p style="padding: 0 20px">DESCRIPTION COMING SOON.</p>
         </div>
         <!--<div class="button-container">
           <a href="/path/to/sprites.zip" class="download-button">Download Sprites Here!</a>
