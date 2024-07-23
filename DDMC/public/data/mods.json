@@ -1013,7 +1013,7 @@
             "title": "The Doki's Blow Up the White House",
             "author": "Teravolt Productions",
             "imageUrl": "/assets/mod_prevs/dokisblowupwhitehouse.jpg",
-            "route": "The_Doki's_Blow_Up_The_White_House"
+            "route": "whitehouse"
           }, 
           { 
             "id": 1124,
@@ -1105,7 +1105,7 @@
       {
         "id": 10011,
         "title": "True Story Demo",
-        "author": "u/dark-rainclouds",
+        "author": "Neljas",
         "imageUrl": "/assets/mod_prevs/truestory.webp",
         "route": "truestorydemo"
       },
@@ -1220,7 +1220,7 @@
       {
         "id": 20005,
         "title": "True Story Demo",
-        "author": "u/dark-rainclouds",
+        "author": "Neljas",
         "imageUrl": "/assets/mod_prevs/truestory.webp",
         "route": "truestorydemo"
       },
