@@ -135,7 +135,7 @@
   margin-bottom: 24px;
   line-height: 24px; /* Set line height to match background lines */
   font-family: 'Monika Journal', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 1.8em;
+  font-size: 2.5em;
 }
 
 .description {

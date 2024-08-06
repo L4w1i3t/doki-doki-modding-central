@@ -9,19 +9,33 @@
         <option value="author">Author</option>
       </select>
       <div v-if="sortBy === 'title'">
-        <input type="text" v-model="titleSearch" placeholder="Search by title..." @input="filterByTitle">
+        <input
+          type="text"
+          v-model="titleSearch"
+          placeholder="Search by title..."
+          @input="filterByTitle"
+        />
       </div>
       <div v-else-if="sortBy === 'author'">
-        <input type="text" v-model="authorSearch" placeholder="Search by author..." @input="filterByAuthor">
+        <input
+          type="text"
+          v-model="authorSearch"
+          placeholder="Search by author..."
+          @input="filterByAuthor"
+        />
       </div>
     </div>
-    <div v-for="(item, index) in paginatedItems" :key="index" class="catalog-item">
+    <div
+      v-for="(item, index) in paginatedItems"
+      :key="index"
+      class="catalog-item"
+    >
       <a :href="`/mods/archive/${item.route}`" rel="noopener noreferrer">
         <div class="stained-glass">
-          <img :src="item.imageUrl" alt="Catalog Image">
+          <img :src="item.imageUrl" alt="Catalog Image" />
           <div class="label">
             <p>
-            <span class="label-text">{{ item.title }}</span>
+              <span class="label-text">{{ item.title }}</span>
             </p>
             <span class="label-subtext">By {{ item.author }}</span>
           </div>
@@ -30,24 +44,26 @@
     </div>
     <div class="pagination">
       <button @click="prevPage" :disabled="currentPage === 1">Previous</button>
-      <button @click="nextPage" :disabled="currentPage === totalPages">Next</button>
+      <button @click="nextPage" :disabled="currentPage === totalPages">
+        Next
+      </button>
     </div>
   </div>
 </template>
 
 <script>
-import axios from 'axios';
+import axios from "axios";
 
 export default {
   data() {
     return {
-      sortBy: 'default',
-      titleSearch: '',
-      authorSearch: '',
+      sortBy: "default",
+      titleSearch: "",
+      authorSearch: "",
       originalCatalogItems: [],
       catalogItems: [],
       currentPage: 1,
-      itemsPerPage: 18, // Display 18 items at a time
+      itemsPerPage: 18, // Default to desktop itemsPerPage
     };
   },
   computed: {
@@ -58,64 +74,98 @@ export default {
     },
     totalPages() {
       return Math.ceil(this.catalogItems.length / this.itemsPerPage);
-    }
+    },
   },
   created() {
     this.fetchCatalogItems();
   },
+  mounted() {
+    this.handleResize(); // Set itemsPerPage on mount
+    window.addEventListener("resize", this.handleResize);
+  },
+  beforeDestroy() {
+    window.removeEventListener("resize", this.handleResize);
+  },
   methods: {
     async fetchCatalogItems() {
       try {
-        const response = await axios.get('/data/mods.json');
+        const response = await axios.get("/data/mods.json");
         this.originalCatalogItems = response.data.archive;
         this.catalogItems = [...this.originalCatalogItems];
       } catch (error) {
         console.error("Failed to fetch catalog items:", error);
       }
     },
+    handleResize() {
+      // Adjust items per page based on screen width
+      this.itemsPerPage = window.innerWidth <= 768 ? 10 : 18;
+      this.currentPage = 1; // Reset to first page after resizing
+    },
     sortCatalog() {
-      // dead code
+      // Dead
     },
     filterByTitle() {
       const query = this.titleSearch.toLowerCase();
-      if (query === '') {
+      if (query === "") {
         this.catalogItems = [...this.originalCatalogItems];
       } else {
-        this.catalogItems = this.originalCatalogItems.filter(item => item.title.toLowerCase().includes(query));
+        this.catalogItems = this.originalCatalogItems.filter((item) =>
+          item.title.toLowerCase().includes(query)
+        );
       }
       this.currentPage = 1; // Reset to first page after filtering
+      this.scrollToTop(); // Scroll to top after filtering
     },
     filterByAuthor() {
       const query = this.authorSearch.toLowerCase();
-      if (query === '') {
+      if (query === "") {
         this.catalogItems = [...this.originalCatalogItems];
       } else {
-        this.catalogItems = this.originalCatalogItems.filter(item => item.author.toLowerCase().includes(query));
+        this.catalogItems = this.originalCatalogItems.filter((item) =>
+          item.author.toLowerCase().includes(query)
+        );
       }
       this.currentPage = 1; // Reset to first page after filtering
+      this.scrollToTop(); // Scroll to top after filtering
     },
     nextPage() {
       if (this.currentPage < this.totalPages) {
         this.currentPage++;
+        this.scrollToTop(); // Scroll to top after changing page
       }
     },
     prevPage() {
       if (this.currentPage > 1) {
         this.currentPage--;
+        this.scrollToTop(); // Scroll to top after changing page
       }
-    }
-  }
+    },
+    scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    },
+  },
 };
 </script>
 
 <style scoped>
 .catalog {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(6, 1fr); /* 6 items per row */
   gap: 1rem;
   justify-items: center;
-  padding: 20px;
   margin-top: 150px;
+  margin-bottom: 100px;
+  position: relative;
+  min-height: calc(100vh - 200px);
+}
+
+@media (max-width: 768px) {
+  .catalog {
+    grid-template-columns: repeat(1, 1fr); /* 1 item per row on mobile */
+  }
 }
 
 .catalog-item {
@@ -123,6 +173,7 @@ export default {
   justify-content: center;
   align-items: center;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  width: 100%;
 }
 
 .catalog-item:hover {
@@ -137,6 +188,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 100%;
 }
 
 .stained-glass:hover {
@@ -179,7 +231,7 @@ export default {
   background: white;
   padding: 10px;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   z-index: 100;
   margin-top: 70px;
 }
@@ -194,9 +246,12 @@ export default {
 }
 
 .pagination {
+  position: absolute;
+  bottom: -70px;
+  left: 10px;
   display: flex;
-  justify-content: center;
-  margin-top: 20px;
+  justify-content: center; /* Align buttons to center */
+  width: 100%;
 }
 
 .pagination button {

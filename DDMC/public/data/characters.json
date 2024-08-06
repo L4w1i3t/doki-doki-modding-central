@@ -12,9 +12,9 @@
     { "id": 50003, "name": "Kiyomi", "image": "/assets/images/characters/kiyomi.png", "url": "/more/characters/kiyomi" }
   ],
   "crossover": [
-    { "id": 60000, "name": "COMING SOON", "image": "/assets/images/characters/place.png" },
-    { "id": 60001, "name": "COMING SOON", "image": "/assets/images/characters/place.png" },
-    { "id": 60002, "name": "COMING SOON", "image": "/assets/images/characters/place.png" },
-    { "id": 60003, "name": "COMING SOON", "image": "/assets/images/characters/place.png" }
+    { "id": 60000, "name": "???", "image": "/assets/images/characters/place.png" },
+    { "id": 60001, "name": "???", "image": "/assets/images/characters/place.png" },
+    { "id": 60002, "name": "???", "image": "/assets/images/characters/place.png" },
+    { "id": 60003, "name": "???", "image": "/assets/images/characters/place.png" }
   ]
 }

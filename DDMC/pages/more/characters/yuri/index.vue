@@ -128,7 +128,7 @@
   margin-bottom: 24px;
   line-height: 24px; /* Set line height to match background lines */
   font-family: 'Yuri Journal', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 2em;
+  font-size: 3em;
 }
 
 .description {
