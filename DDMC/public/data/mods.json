@@ -993,6 +993,34 @@
             "author": "Gubbey",
             "imageUrl": "/assets/mod_prevs/downpour.webp",
             "route": "downpour"
+          },
+          { 
+            "id": 1121,
+            "title": "Celebration!",
+            "author": "Tiny Waffle Studios",
+            "imageUrl": "/assets/mod_prevs/celebration.jpg",
+            "route": "celebration"
+          }, 
+          { 
+            "id": 1122,
+            "title": "Little Literature Club",
+            "author": "regal-begal",
+            "imageUrl": "/assets/mod_prevs/little_literature_club.jpg",
+            "route": "little_literature_club"
+          }, 
+          { 
+            "id": 1123,
+            "title": "The Doki's Blow Up the White House",
+            "author": "Teravolt Productions",
+            "imageUrl": "/assets/mod_prevs/dokisblowupwhitehouse.jpg",
+            "route": "whitehouse"
+          }, 
+          { 
+            "id": 1124,
+            "title": "Falsely Accused of Criminal Activity Club!",
+            "author": "dfwk",
+            "imageUrl": "/assets/mod_prevs/Falsely_Accused.jpg",
+            "route": "Falsely_Accused"
           }
     ],
 
@@ -1077,7 +1105,7 @@
       {
         "id": 10011,
         "title": "True Story Demo",
-        "author": "u/dark-rainclouds",
+        "author": "Neljas",
         "imageUrl": "/assets/mod_prevs/truestory.webp",
         "route": "truestorydemo"
       },
@@ -1136,6 +1164,20 @@
         "author": "GuyBread",
         "imageUrl": "/assets/mod_prevs/snafu.webp",
         "route": "snafu"
+      }, 
+      { 
+        "id": 10020,
+        "title": "Celebration!",
+        "author": "Tiny Waffle Studios",
+        "imageUrl": "/assets/mod_prevs/celebration.jpg",
+        "route": "celebration"
+      }, 
+      { 
+        "id": 10021,
+        "title": "Little Literature Club",
+        "author": "regal-begal",
+        "imageUrl": "/assets/mod_prevs/little_literature_club.jpg",
+        "route": "little_literature_club"
       }
     ],
 
@@ -1178,7 +1220,7 @@
       {
         "id": 20005,
         "title": "True Story Demo",
-        "author": "u/dark-rainclouds",
+        "author": "Neljas",
         "imageUrl": "/assets/mod_prevs/truestory.webp",
         "route": "truestorydemo"
       },
