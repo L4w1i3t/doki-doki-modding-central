@@ -2,28 +2,18 @@
   <title>Mods - Standard || Doki Doki Modding Central</title>
   <div class="catalog">
     <div class="sort-dropdown">
-      <select v-model="sortBy" @change="sortCatalog">
+      <select v-model="sortBy">
         <option value="default">Search by...</option>
-        <option value="default">Default</option>
         <option value="title">Title</option>
         <option value="author">Author</option>
       </select>
-      <div v-if="sortBy === 'title'">
-        <input
-          type="text"
-          v-model="titleSearch"
-          placeholder="Search by title..."
-          @input="filterByTitle"
-        />
-      </div>
-      <div v-else-if="sortBy === 'author'">
-        <input
-          type="text"
-          v-model="authorSearch"
-          placeholder="Search by author..."
-          @input="filterByAuthor"
-        />
-      </div>
+      <input
+        type="text"
+        v-model="searchQuery"
+        :placeholder="`Search by ${sortBy}...`"
+        @input="debouncedFilterCatalog"
+        v-if="sortBy !== 'default'"
+      />
     </div>
     <div
       v-for="(item, index) in paginatedItems"
@@ -31,19 +21,22 @@
       class="catalog-item"
     >
       <a :href="`/mods/archive/${item.route}`" rel="noopener noreferrer">
-        <div class="stained-glass">
-          <img :src="item.imageUrl" alt="Catalog Image" />
+        <div class="mods-stained-glass">
+          <img :src="item.imageUrl" alt="Catalog Image" loading="lazy" />
           <div class="label">
             <p>
               <span class="label-text">{{ item.title }}</span>
             </p>
+            <p>
             <span class="label-subtext">By {{ item.author }}</span>
+            </p>
           </div>
         </div>
       </a>
     </div>
     <div class="pagination">
       <button @click="prevPage" :disabled="currentPage === 1">Previous</button>
+      <span>{{ currentPage }} / {{ totalPages }}</span>
       <button @click="nextPage" :disabled="currentPage === totalPages">
         Next
       </button>
@@ -53,35 +46,42 @@
 
 <script>
 import axios from "axios";
+import _ from "lodash";
 
 export default {
   data() {
     return {
       sortBy: "default",
-      titleSearch: "",
-      authorSearch: "",
+      searchQuery: "",
       originalCatalogItems: [],
-      catalogItems: [],
       currentPage: 1,
-      itemsPerPage: 18, // Default to desktop itemsPerPage
+      itemsPerPage: 18,
     };
   },
   computed: {
+    filteredItems() {
+      if (this.sortBy === "default") return this.originalCatalogItems;
+
+      const query = this.searchQuery.toLowerCase();
+      return this.originalCatalogItems.filter((item) =>
+        item[this.sortBy].toLowerCase().includes(query)
+      );
+    },
     paginatedItems() {
       const start = (this.currentPage - 1) * this.itemsPerPage;
       const end = start + this.itemsPerPage;
-      return this.catalogItems.slice(start, end);
+      return this.filteredItems.slice(start, end);
     },
     totalPages() {
-      return Math.ceil(this.catalogItems.length / this.itemsPerPage);
+      return Math.ceil(this.filteredItems.length / this.itemsPerPage);
     },
   },
   created() {
     this.fetchCatalogItems();
   },
   mounted() {
-    this.handleResize(); // Set itemsPerPage on mount
-    window.addEventListener("resize", this.handleResize);
+    this.handleResize();
+    window.addEventListener("resize", _.throttle(this.handleResize, 200));
   },
   beforeDestroy() {
     window.removeEventListener("resize", this.handleResize);
@@ -91,60 +91,32 @@ export default {
       try {
         const response = await axios.get("/data/mods.json");
         this.originalCatalogItems = response.data.archive;
-        this.catalogItems = [...this.originalCatalogItems];
       } catch (error) {
         console.error("Failed to fetch catalog items:", error);
       }
     },
     handleResize() {
-      // Adjust items per page based on screen width
       this.itemsPerPage = window.innerWidth <= 768 ? 10 : 18;
-      this.currentPage = 1; // Reset to first page after resizing
+      this.currentPage = 1;
     },
-    sortCatalog() {
-      // Dead
-    },
-    filterByTitle() {
-      const query = this.titleSearch.toLowerCase();
-      if (query === "") {
-        this.catalogItems = [...this.originalCatalogItems];
-      } else {
-        this.catalogItems = this.originalCatalogItems.filter((item) =>
-          item.title.toLowerCase().includes(query)
-        );
-      }
-      this.currentPage = 1; // Reset to first page after filtering
-      this.scrollToTop(); // Scroll to top after filtering
-    },
-    filterByAuthor() {
-      const query = this.authorSearch.toLowerCase();
-      if (query === "") {
-        this.catalogItems = [...this.originalCatalogItems];
-      } else {
-        this.catalogItems = this.originalCatalogItems.filter((item) =>
-          item.author.toLowerCase().includes(query)
-        );
-      }
-      this.currentPage = 1; // Reset to first page after filtering
-      this.scrollToTop(); // Scroll to top after filtering
-    },
+    debouncedFilterCatalog: _.debounce(function () {
+      this.currentPage = 1;
+      this.scrollToTop();
+    }, 300),
     nextPage() {
       if (this.currentPage < this.totalPages) {
         this.currentPage++;
-        this.scrollToTop(); // Scroll to top after changing page
+        this.scrollToTop();
       }
     },
     prevPage() {
       if (this.currentPage > 1) {
         this.currentPage--;
-        this.scrollToTop(); // Scroll to top after changing page
+        this.scrollToTop();
       }
     },
     scrollToTop() {
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth",
-      });
+      window.scrollTo({ top: 0, behavior: "smooth" });
     },
   },
 };
@@ -153,20 +125,39 @@ export default {
 <style scoped>
 .catalog {
   display: grid;
-  grid-template-columns: repeat(6, 1fr); /* 6 items per row */
+  grid-template-columns: repeat(6, 1fr);
   gap: 1rem;
   justify-items: center;
   margin-top: 150px;
   margin-bottom: 100px;
   position: relative;
   min-height: calc(100vh - 200px);
+  width: 100%;
 }
 
 @media (max-width: 768px) {
   .catalog {
-    grid-template-columns: repeat(1, 1fr); /* 1 item per row on mobile */
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .label-text,
+  .label-subtext {
+    text-align: center;
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    color: #ffffff;
+    padding: 5px 5px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .label-subtext {
+    font-size: clamp(1.2rem, 3.5vw, 1.5rem);
+    font-style: italic;
+    padding: 5px 10px;
   }
 }
+
 
 .catalog-item {
   display: flex;
@@ -180,7 +171,7 @@ export default {
   transform: translateY(-5px);
 }
 
-.stained-glass {
+.mods-stained-glass {
   border: 5px solid rgba(255, 255, 255, 0.8);
   border-radius: 10px;
   overflow: hidden;
@@ -191,15 +182,16 @@ export default {
   width: 100%;
 }
 
-.stained-glass:hover {
+.mods-stained-glass:hover {
   border-color: rgba(255, 255, 255, 1);
 }
 
-.stained-glass img {
+.mods-stained-glass img {
   width: 100%;
   height: auto;
   display: block;
   transition: transform 0.3s ease-in-out;
+  aspect-ratio: 16 / 9; /*isnt detected by vscode for some reason */
 }
 
 .label {
@@ -207,19 +199,23 @@ export default {
   background-color: rgba(75, 0, 130, 0.4);
   padding: 10px 0;
   width: 100%;
+  position: relative;
 }
 
-.label-text {
+.label-text,
+.label-subtext {
   text-align: center;
   font-size: clamp(1rem, 2.5vw, 1.2rem);
   color: #ffffff;
   padding: 5px 5px;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* white-space: nowrap; */
 }
 
 .label-subtext {
-  text-align: center;
   font-size: clamp(0.8rem, 2vw, 1em);
-  color: #ffffff;
   font-style: italic;
   padding: 5px 10px;
 }
@@ -250,7 +246,7 @@ export default {
   bottom: -70px;
   left: 10px;
   display: flex;
-  justify-content: center; /* Align buttons to center */
+  justify-content: center;
   width: 100%;
 }
 
@@ -258,7 +254,7 @@ export default {
   padding: 10px 20px;
   margin: 0 5px;
   border: none;
-  background-color: #4b0082;
+  background-color: #79057c;
   color: white;
   cursor: pointer;
   border-radius: 5px;

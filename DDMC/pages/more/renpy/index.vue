@@ -13,7 +13,7 @@
     <div class="sprite-container">
       <img src="/assets/sprites/cutout.webp" alt="Character Sprite" class="character-sprite" />
       <div class="speech-bubble">
-        <p class="speech-text">I'll also have some advanced tutorials here, so stay tuned for that!</p>
+        <p class="speech-text">Damn, L4w1i3t is slow as hell! I should have had those tutorials posted by now!</p>
       </div>
     </div>
   </div>
