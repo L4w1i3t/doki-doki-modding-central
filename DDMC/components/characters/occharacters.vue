@@ -32,7 +32,7 @@
     display: flex;
     text-align: center;
     justify-content: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Hot Mustard BTN', 'Arial Narrow', Arial, sans-serif;
     color: white;
     margin-top: 10vh;
     font-size: 5vw;

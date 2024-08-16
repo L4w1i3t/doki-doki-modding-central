@@ -3,7 +3,7 @@
 <template>
     <footer class="footer">
       <div class="footer-content">
-        <p>&copy; Doki Doki Modding Central, ver. Beta 1.4.0.</p>
+        <p>&copy; Doki Doki Modding Central, ver. Beta 1.5.0.</p>
         <p>This website is not affiliated with Team Salvato.</p>
       </div>
     </footer>

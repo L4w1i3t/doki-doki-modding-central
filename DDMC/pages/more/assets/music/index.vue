@@ -1,135 +1,82 @@
 <template>
-  <div>
-    <title>Music Catalog || Doki Doki Modding Central</title>
-    <div class="search-container">
-      <input v-model="searchQuery" type="text" placeholder="Search by genre" class="genre-and-length-search" />
-      <input v-model="lengthQuery" type="number" placeholder="Search by length" class="genre-and-length-search" />
-    </div>
-    <div class="music-catalog-container">
-      <div v-for="item in filteredItems" :key="item.id" class="music-catalog-item">
-        <div :style="getStainedGlassStyle(item.id)" class="music-stained-glass"></div>
-        <p class="item-title">{{ item.name }}</p>
-        <p class="item-author">{{ item.author }}</p>
-        <p class="item-genre">{{ item.genre }}</p>
-        <p class="item-length">{{ item.lengthNearestMinute }} min</p>
-      </div>
+  <title>Assets - Music || Doki Doki Modding Central</title>
+  <div class="title-container">MUSIC CATALOG</div>
+  <div class="music-grid">
+    <div v-for="track in music" :key="track.id" class="music-card">
+      <h3>{{ track.name }}</h3>
+      <p>Author: {{ track.author }}</p>
+      <p>Genre: {{ track.genre }}</p>
+      <p>Approximate Length: {{ track['length-nearest-minute'] }} min</p>
     </div>
   </div>
 </template>
 
 <script>
-import axios from 'axios';
+  import axios from 'axios';
 
-export default {
-  data() {
-    return {
-      searchQuery: '',
-      lengthQuery: '',
-      items: [],
-    };
-  },
-  computed: {
-    filteredItems() {
-      return this.items.filter(item => {
-        const matchesGenre = this.searchQuery ? item.genre.toLowerCase().includes(this.searchQuery.toLowerCase()) : true;
-        const matchesLength = this.lengthQuery ? Math.abs(item.lengthNearestMinute - this.lengthQuery) <= 1 : true;
-        return matchesGenre && matchesLength;
-      });
-    },
-  },
-  methods: {
-    async fetchData() {
-      try {
-        const response = await axios.get('/data/music.json');
-        this.items = response.data.music.map(item => ({
-          id: item.id,
-          name: item.name,
-          author: item.author,
-          genre: item.genre,
-          lengthNearestMinute: item['length-nearest-minute']
-        }));
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      }
-    },
-    getRandomColor() {
-      const letters = '0123456789ABCDEF';
-      let color = '#';
-      for (let i = 0; i < 6; i++) {
-        color += letters[Math.floor(Math.random() * 16)];
-      }
-      return color;
-    },
-    getStainedGlassStyle(id) {
-      const colors = Array.from({ length: 18 }, () => this.getRandomColor());
+  export default {
+    data() {
       return {
-        background: `conic-gradient(${colors.join(', ')})`,
-        backgroundSize: 'cover',
-      };
+        music: []
+      }
     },
-  },
-  mounted() {
-    this.fetchData();
-  },
-};
+    created() {
+      axios.get('/data/music.json').then(response => {
+        this.music = response.data.music;
+      }).catch(error => console.error('Error fetching music:', error));
+    }
+  }
 </script>
 
-<style>
-body {
-  background-color: #f5f5f5;
-  font-family: 'Arial', sans-serif;
-}
+<style scoped>
+  .title-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Hot Mustard BTN', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-top: 10vh;
+    font-size: 5vw;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    position: relative;
+    width: 100%;
+  }
 
-.search-container {
-  display: flex;
-  justify-content: center;
-  margin: 2rem 0;
-}
+  .music-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-top: 5vh;
+  }
 
-.genre-and-length-search {
-  margin: 100px 1rem;
-  padding: 0.5rem;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
+  .music-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ccc;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+  }
 
-.music-catalog-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+  .music-card:hover {
+    opacity: 0.8;
+    transform: scale(1.05) rotate(0deg);
+  }
 
-.music-catalog-item {
-  background-color: white;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin: 1rem;
-  padding: 1rem;
-  text-align: center;
-  width: 200px;
-}
+  .music-card h3 {
+    color: white;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vw;
+  }
 
-.music-stained-glass {
-  width: 100%;
-  height: 150px;
-  border-radius: 10px;
-  margin-bottom: 1rem;
-}
-
-.item-title {
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin: 0.5rem 0;
-}
-
-.item-author {
-  font-size: 1rem;
-  color: #888;
-  margin: 0.5rem 0;
-}
-
-.item-genre, .item-length {
-  color: #666;
-}
+  .music-card p {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+    margin: 8px 0;
+  }
 </style>

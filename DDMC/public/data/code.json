@@ -1,0 +1,9 @@
+{
+    "code": [
+      { "id": 90000, "name": "Placeholder 1", "author": "N/A", "type": "ATL"},
+      { "id": 90001, "name": "Placeholder 2", "author": "N/A", "type": "Meta"},
+      { "id": 90002, "name": "Placerholder 3", "author": "N/A", "type": "Effects"},
+      { "id": 90003, "name": "Placeholder 4", "author": "N/A", "type": "Misc."},
+      { "id": 90004, "name": "Placeholder 5", "author": "N/A", "type": "UX"}
+    ]
+}

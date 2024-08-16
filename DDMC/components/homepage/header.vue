@@ -1,14 +1,13 @@
 <template>
-  <div class="resolution-warning">
-    The new home page does not support screen resolutions below a width of 1024px yet; please be patient. That being said, welcome to DDMC.
-  </div>
   <header class="header" :style="{ backgroundImage: 'url(' + currentImageUrl + ')' }">
     <div class="image-overlay"></div>
     <nav>
         <p class="header-text">
           DOKI DOKI <br/>MODDING CENTRAL
         </p>
-        
+        <p class="header-subtext-lememe">
+          (Sayori ate the homepage)
+        </p>
         <img src="/assets/gui/monika.webp" class="monika-sprite" alt="Monika">
         <img src="/assets/gui/sayori.webp" class="sayori-sprite" alt="Sayori">
         <img src="/assets/gui/yuri.webp" class="yuri-sprite" alt="Yuri">
@@ -120,6 +119,59 @@ export default {
         display: block;
       }
       .header {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        transition: background-image 2s ease-in-out;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .image-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        z-index: 2;
+      }
+
+      .header-text {
+        font-size: 6vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Hot Mustard BTN Regular', monospace;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        text-align: center;
+        animation: pulse 8s linear infinite;
+        position: relative;
+        z-index: 4;
+      }
+
+      .header-subtext-lememe {
+        font-size: 2vh;
+        display: flex;
+        font-family: monospace;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        text-align: center;
+        animation: pulse 8s linear infinite;
+        position: relative;
+        z-index: 5;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .monika-sprite,
+      .sayori-sprite,
+      .yuri-sprite,
+      .natsuki-sprite {
         display: none;
       }
     }
@@ -156,6 +208,10 @@ export default {
         animation: pulse 8s linear infinite;
         position: relative;
         z-index: 4;
+      }
+
+      .header-subtext-lememe {
+        display: none;
       }
 
       .monika-sprite {

@@ -1,0 +1,8 @@
+{
+    "art": [
+      { "id": 80000, "name": "Placeholder 1", "author": "N/A", "genre": "Rock/Pop", "length-nearest-minute": "1"},
+      { "id": 80001, "name": "Placeholder 2", "author": "N/A", "genre": "Acid Jazz/Pop", "length-nearest-minute": "10"},
+      { "id": 80002, "name": "Placerholder 3", "author": "N/A", "genre": "Rock", "length-nearest-minute": "6"},
+      { "id": 80003, "name": "Placeholder 4", "author": "N/A", "genre": "Pop", "length-nearest-minute": "4"}
+    ]
+}

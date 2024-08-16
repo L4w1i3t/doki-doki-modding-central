@@ -18,12 +18,25 @@ export default {
   data() {
     return {
       versions: [
-      {
+        {
+          version: 'Beta 1.5.0',
+          notes: [
+            'Revamped the catalog page for mods (a bit jank, but bear with me)',
+            'Added catalog for code',
+            'Revamped catalog for music',
+            'Security updates',
+            'Added Easter eggs',
+          ]
+        },
+        {
           version: 'Beta 1.4.0',
           notes: [
             'Added character pages for the main cast',
             'Changed the dummy image',
+            'Finally started a dedicated mobile view on the homescreen',
+            'Modified the archive catalog as a testing ground',
             'Minor UI changes',
+            'Small bug fixes',
           ]
         },
         {
@@ -70,6 +83,7 @@ export default {
             'Recolored Reddit button',
             'Restructured the file hierarchy for the home page',
             'Restructured the file hierarchy for universal layout components',
+            'Entered beta stage',
           ]
         },
         {

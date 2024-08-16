@@ -1,221 +1,156 @@
 <template>
-  <title>Mods - Standard || Doki Doki Modding Central</title>
-  <div class="catalog">
-    <div class="sort-dropdown">
-      <select v-model="sortBy" @change="sortCatalog">
-        <option value="default">Search by...</option>
-        <option value="default">Default</option>
-        <option value="title">Title</option>
-        <option value="author">Author</option>
-      </select>
-      <div v-if="sortBy === 'title'">
-        <input type="text" v-model="titleSearch" placeholder="Search by title..." @input="filterByTitle">
-      </div>
-      <div v-else-if="sortBy === 'author'">
-        <input type="text" v-model="authorSearch" placeholder="Search by author..." @input="filterByAuthor">
-      </div>
-    </div>
-    <div v-for="(item, index) in paginatedItems" :key="index" class="catalog-item">
-      <a :href="`/mods/android/${item.route}`" rel="noopener noreferrer">
-        <div class="stained-glass">
-          <img :src="item.imageUrl" alt="Catalog Image">
-          <div class="label">
-            <p>
-            <span class="label-text">{{ item.title }}</span>
-            </p>
-            <span class="label-subtext">By {{ item.author }}</span>
-          </div>
-        </div>
-      </a>
-    </div>
-    <div class="pagination">
-      <button @click="prevPage" :disabled="currentPage === 1">Previous</button>
-      <button @click="nextPage" :disabled="currentPage === totalPages">Next</button>
-    </div>
+  <title>Mods - Android || Doki Doki Modding Central</title>
+  <div class="title-container">MODS FOR ANDROID</div>
+  <div class="character-grid">
+    <a v-for="mod in paginatedMods" :key="mod.id" :href="`/mods/android/${mod.route}`" class="character-card">
+      <img :src="mod.imageUrl" :alt="mod.title">
+      <h3>{{ mod.title }}</h3>
+      <p style="font-style: italic">By {{ mod.author }}</p>
+    </a>
+  </div>
+  <div class="pagination">
+    <button @click="prevPage" :disabled="currentPage === 1">Previous</button>
+    <span>Page {{ currentPage }} of {{ totalPages }}</span>
+    <button @click="nextPage" :disabled="currentPage === totalPages">Next</button>
   </div>
 </template>
 
 <script>
-import axios from 'axios';
+  import axios from 'axios';
 
-export default {
-  data() {
-    return {
-      sortBy: 'default',
-      titleSearch: '',
-      authorSearch: '',
-      originalCatalogItems: [],
-      catalogItems: [],
-      currentPage: 1,
-      itemsPerPage: 18, // Display 18 items at a time
-    };
-  },
-  computed: {
-    paginatedItems() {
-      const start = (this.currentPage - 1) * this.itemsPerPage;
-      const end = start + this.itemsPerPage;
-      return this.catalogItems.slice(start, end);
+  export default {
+    data() {
+      return {
+        mods: [],
+        currentPage: 1,
+        itemsPerPage: 24
+      };
     },
-    totalPages() {
-      return Math.ceil(this.catalogItems.length / this.itemsPerPage);
+    computed: {
+      // Calculate the mods to display on the current page
+      paginatedMods() {
+        const start = (this.currentPage - 1) * this.itemsPerPage;
+        const end = start + this.itemsPerPage;
+        return this.mods.slice(start, end);
+      },
+      totalPages() {
+        return Math.ceil(this.mods.length / this.itemsPerPage);
+      }
+    },
+    methods: {
+      nextPage() {
+        if (this.currentPage < this.totalPages) {
+          this.currentPage += 1;
+          this.scrollToTop();
+        }
+      },
+      prevPage() {
+        if (this.currentPage > 1) {
+          this.currentPage -= 1;
+          this.scrollToTop();
+        }
+      },
+      scrollToTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      }
+    },
+    created() {
+      axios.get('/data/mods.json').then(response => {
+        this.mods = response.data.android;
+      }).catch(error => console.error('Error fetching mods:', error));
     }
-  },
-  created() {
-    this.fetchCatalogItems();
-  },
-  methods: {
-    async fetchCatalogItems() {
-      try {
-        const response = await axios.get('/data/mods.json');
-        this.originalCatalogItems = response.data.android;
-        this.catalogItems = [...this.originalCatalogItems];
-      } catch (error) {
-        console.error("Failed to fetch catalog items:", error);
-      }
-    },
-    sortCatalog() {
-      // dead code
-    },
-    filterByTitle() {
-      const query = this.titleSearch.toLowerCase();
-      if (query === '') {
-        this.catalogItems = [...this.originalCatalogItems];
-      } else {
-        this.catalogItems = this.originalCatalogItems.filter(item => item.title.toLowerCase().includes(query));
-      }
-      this.currentPage = 1; // Reset to first page after filtering
-    },
-    filterByAuthor() {
-      const query = this.authorSearch.toLowerCase();
-      if (query === '') {
-        this.catalogItems = [...this.originalCatalogItems];
-      } else {
-        this.catalogItems = this.originalCatalogItems.filter(item => item.author.toLowerCase().includes(query));
-      }
-      this.currentPage = 1; // Reset to first page after filtering
-    },
-    nextPage() {
-      if (this.currentPage < this.totalPages) {
-        this.currentPage++;
-      }
-    },
-    prevPage() {
-      if (this.currentPage > 1) {
-        this.currentPage--;
-      }
-    }
-  }
-};
+  };
 </script>
 
 <style scoped>
-.catalog {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 1rem;
-  justify-items: center;
-  padding: 20px;
-  margin-top: 150px;
-}
+  .title-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Hot Mustard BTN', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-top: 10vh;
+    font-size: 5vw;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    position: relative;
+    width: 100%;
+  }
 
-.catalog-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-}
+  .character-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-top: 5vh;
+  }
 
-.catalog-item:hover {
-  transform: translateY(-5px);
-}
+  .character-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ccc;
+    padding: 8px;
+    background: rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease-in-out;
+    background-color: #000;
+  }
 
-.stained-glass {
-  border: 5px solid rgba(255, 255, 255, 0.8);
-  border-radius: 10px;
-  overflow: hidden;
-  transition: border 0.3s ease-in-out;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
+  .character-card:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
 
-.stained-glass:hover {
-  border-color: rgba(255, 255, 255, 1);
-}
+  .character-card img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+  }
 
-.stained-glass img {
-  width: 100%;
-  height: auto;
-  display: block;
-  transition: transform 0.3s ease-in-out;
-}
+  .character-card h3 {
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vw;
+  }
 
-.label {
-  text-align: center;
-  background-color: rgba(75, 0, 130, 0.4);
-  padding: 10px 0;
-  width: 100%;
-}
+  .character-card p {
+    color: #ccc;
+    font-size: 1.2vw;
+    margin-top: 4px;
+  }
 
-.label-text {
-  text-align: center;
-  font-size: clamp(1rem, 2.5vw, 1.2rem);
-  color: #ffffff;
-  padding: 5px 5px;
-}
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
 
-.label-subtext {
-  text-align: center;
-  font-size: clamp(0.8rem, 2vw, 1em);
-  color: #ffffff;
-  font-style: italic;
-  padding: 5px 10px;
-}
+  .pagination button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.5vw;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
 
-.sort-dropdown {
-  position: fixed;
-  top: 10px;
-  left: 10px;
-  background: white;
-  padding: 10px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-  z-index: 100;
-  margin-top: 70px;
-}
+  .pagination button:disabled {
+    background-color: #666;
+    cursor: not-allowed;
+  }
 
-.sort-dropdown select,
-.sort-dropdown input[type="text"] {
-  padding: 5px;
-  margin: 5px 0;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  width: 100%;
-}
+  .pagination span {
+    margin: 0 20px;
+    font-size: 1.5vw;
+    color: white;
+  }
 
-.pagination {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.pagination button {
-  padding: 10px 20px;
-  margin: 0 5px;
-  border: none;
-  background-color: #4b0082;
-  color: white;
-  cursor: pointer;
-  border-radius: 5px;
-  transition: background-color 0.3s ease-in-out;
-}
-
-.pagination button:disabled {
-  background-color: #cccccc;
-  cursor: not-allowed;
-}
-
-.pagination button:not(:disabled):hover {
-  background-color: #36006b;
-}
+  .pagination button:hover:not(:disabled) {
+    background-color: #555;
+  }
 </style>

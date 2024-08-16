@@ -1,0 +1,8 @@
+{
+    "gui": [
+      { "id": 100000, "name": "Placeholder 1", "author": "N/A", "genre": "Rock/Pop", "length-nearest-minute": "1"},
+      { "id": 100001, "name": "Placeholder 2", "author": "N/A", "genre": "Acid Jazz/Pop", "length-nearest-minute": "10"},
+      { "id": 100002, "name": "Placerholder 3", "author": "N/A", "genre": "Rock", "length-nearest-minute": "6"},
+      { "id": 100003, "name": "Placeholder 4", "author": "N/A", "genre": "Pop", "length-nearest-minute": "4"}
+    ]
+}
