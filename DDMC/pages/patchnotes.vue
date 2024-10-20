@@ -19,6 +19,13 @@ export default {
     return {
       versions: [
         {
+          version: 'Beta 1.5.5',
+          notes: [
+            'Added a button on the staff page for a staff interest form',
+            'Removed Reiko'
+          ]
+        },
+        {
           version: 'Beta 1.5.0',
           notes: [
             'Revamped the catalog page for mods (a bit jank, but bear with me)',

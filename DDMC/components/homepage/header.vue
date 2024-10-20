@@ -15,8 +15,6 @@
     </nav>
   </header>
   <div class="blue-divider">
-    <!--<button class="luckybutton" onclick="openMods()">I'm Feeling Lucky!</button>-->
-
   </div>
 </template>
 
@@ -52,11 +50,7 @@ export default {
           src: "assets/feelinglucky.js",
           body: true
         },
-      ]
-
-
-     
-
+      ]     
     },
     };
   },
@@ -86,9 +80,6 @@ export default {
   beforeDestroy() {
     clearInterval(this.interval);
   },
-
-
-
 };
 </script>
 

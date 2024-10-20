@@ -85,7 +85,7 @@ export default {
 <style scoped>
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------- */
-/*dedicated mobile view*/
+/*dedicated mobile view coming soon*/
 @media (max-width: 1023px) {
   .header {
     display: none;

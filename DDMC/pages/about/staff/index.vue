@@ -1,4 +1,3 @@
-
 <template>
   <title>About the Staff || Doki Doki Modding Central</title>
   <div class="centered-title" style="margin-top: 100px;">
@@ -23,6 +22,9 @@
         </div>
       </div>
     </div>
+    <button class="join-team-button" @click="joinTeam">
+      Want to join the team?
+    </button>
   </div>
 </template>
   
@@ -83,6 +85,11 @@
           },
         ]
       };
+    },
+    methods: {
+      joinTeam() {
+        window.open("https://forms.gle/1HLCkaCR2taV28oP9", "_blank");
+      }
     }
   };
 </script>
@@ -390,5 +397,25 @@
     width: 40px;
   }
 }
-  
+
+  .join-team-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-family: 'Hot Mustard BTN Regular', monospace;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+    transition: transform 0.3s ease-in-out, background-color 0.3s;
+  }
+
+  .join-team-button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    transform: scale(1.1);
+  }
 </style>
